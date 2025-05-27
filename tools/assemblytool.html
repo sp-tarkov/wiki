@@ -1,0 +1,75 @@
+<!--
+title: Assembly Tool
+description: This tool is used for de-obfuscating the Assembly-CSharp.dll shipped with the game.
+published: true
+date: 2025-05-27T01:59:25.111Z
+tags: tool tools assembly obfuscation
+editor: ckeditor
+dateCreated: 2025-05-27T01:59:25.111Z
+-->
+
+<h1>About (WIP)</h1>
+<p>&nbsp; &nbsp; The assembly tool has a variety of functionality available to the user. The primary use for it is to de-obfuscate the `Assembly-CSharp.dll` that is obfuscated in the live game. It also includes a way to generate a dump lib for use in dumping live game data, including, but not limited to; Items, quests, and assorts. This page will go through some of the more technical aspects of what the tool does, without going too much in depth to how it accomplishes it. Let me preface this with obfuscation is pointless as it can be undone, anyone who thinks this will hinder any experienced developer is just lying to themselves.&nbsp;That said, lets go over some basic terminology that will be important for understanding how this tool works.</p>
+<p>&nbsp;</p>
+<hr>
+<ul>
+  <li><i><u>Obfuscation</u></i> is the process in which you mutate data in a way that makes it harder to follow.&nbsp;</li>
+</ul>
+<p>This is the same method before and after the process has been applied.</p>
+<p>Before:</p>
+<pre><code class="language-plaintext">	public void SetBoss(int followersCount)
+	{
+		this.\uE000();
+		this._followers.SetTargetFollowersCount(followersCount);
+		this.IamBoss = true;
+		this._followers.UpdateFollowers();
+		this.\uE001();
+		Action&lt;BotOwner&gt; onBecomeBoss = this.OnBecomeBoss;
+		if (onBecomeBoss == null)
+		{
+			return;
+		}
+		onBecomeBoss(this.\uE07F);
+	}</code></pre>
+<p>After:</p>
+<pre><code class="language-plaintext">public void SetBoss(int followersCount)
+{
+	this.method_0();
+	this.Followers_1.SetTargetFollowersCount(followersCount);
+	this.IamBoss = true;
+	this.Followers_1.UpdateFollowers();
+	this.method_1();
+	Action&lt;BotOwner&gt; onBecomeBoss = this.OnBecomeBoss;
+	if (onBecomeBoss == null)
+	{
+		return;
+	}
+	onBecomeBoss(this.BotOwner_0);
+}</code></pre>
+<p>&nbsp; &nbsp; As you can see, many classes and methods are name mangled into Unicode characters that IDE's can't understand, this is done to prevent direct references of these objects mainly because of cheat developers. The first pass over the assembly by this tool takes these Unicode characters and renames them to human readable generic names. In this example <code>\uE000()</code> became <code>method_0()</code>. More observant people would also notice that not everything here is obfuscated, why is that? To put it simply, anything referenced by a serialized unity object cannot be obfuscated or unity wouldn't be able to find it either. This is why some classes are much more intact than others. The reason for this is because when Unity builds the project, scripts that are attached to game objects get built twice. The first is in the primary Assembly-CSharp.dll, the second copy gets serialized in the bundle with things like models, textures etc. These must match or unity will crash. The reason I mention this now is because this also plays a role during the publication that happens later on in the process, which will be described later on.</p>
+<p>&nbsp;</p>
+<hr>
+<ul>
+  <li><i><u>Remap or mapping</u></i> is an internal phrase we came up to describe the process of building a type <i>signature</i> for an obfuscated class in order for it to be renamed to what we want it to be.&nbsp;</li>
+</ul>
+<p>&nbsp; &nbsp; &nbsp;Well first off, what is a <i>signature</i>? The easiest way to explain it is think of your own personal signature you use to sign checks, legal documents, etc. Its unique to you as an identifier. The same is true here, all code has a signature, is a signature, or is apart of a signature. The difference in code is signatures are not always unique for our use case, this is because we cannot use the name of the class as an identifier. this is where it starts getting somewhat complicated and convoluted. For the sake of argument lets take the two following classes. We will used de-obfuscated classes in order to follow along easier.</p>
+<p>&nbsp;</p>
+<pre><code class="language-plaintext">public class JewelryItemClass : BarterItemItemClass
+{
+	public JewelryItemClass(string id, JewelryTemplateClass template)
+		: base(id, template)
+	{
+	}
+}</code></pre>
+<p>and<br>&nbsp;</p>
+<pre><code class="language-plaintext">public class LubricantItemClass : BarterItemItemClass
+{
+	public LubricantItemClass(string id, LubricantTemplateClass template)
+		: base(id, template)
+	{
+	}
+}</code></pre>
+<p>&nbsp; &nbsp; This is where the issue begins, you as a human can look at these two classes and immediately notice that they are different. You know that because the name is different. However, like mentioned above, we cannot use the name as apart of the signature. This is due to the first step of the process assigning generic class names to obfuscated names. This means that these names (their obfuscated versions) will shift around from version to version. In one version <code>LubricantItemClass</code> may be <code>GClass1201</code> but in the next version it may be <code>GClass1205</code>. This is an inconsistent data point that we cannot use as apart of the signature. While it is unique because it has to be, it has no static data points, static in this not referring to C# verbiage, but its English verbiage. Both classes here have a constructor, inherit from the same base class, and have no members. This is a bad candidate for mapping because we have nothing to use to lock this name to this object. As <code>GClass</code> drift occurs our signature we originally created would no longer be valid. The tool does provide a way to do direct renaming of objects, however its reserved for internal use. A good candidate for mapping would be a class that has many members and unique identifiers, that being method names, property names, etc. The more the better.&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>
