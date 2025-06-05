@@ -2,7 +2,7 @@
 title: Quest Value References
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: false
-date: 2025-06-05T23:19:45.591Z
+date: 2025-06-05T23:29:42.222Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -14,21 +14,21 @@ This page contains various values used during quest creation or modification. Pl
 
 ## Quick Links
 
--   [Trader IDs *Vanilla Trader IDs.*](/quest-value-references#trader-ids)
-{.links-list}
--   [Location IDs *Location Names, IDs, and Case-sensitive coded names.*](/quest-value-references#location-ids)
--   [Quest Types *Available quest types.*](/quest-value-references#quest-types)
--   [Quest Sides *Available quest sides.*](/quest-value-references#quest-sides)
+-   [Trader IDs](/quest-value-references#trader-ids)
+{.grid-list}
+-   [Location IDs](/quest-value-references#location-ids)
+-   [Quest Types](/quest-value-references#quest-types)
+-   [Quest Sides](/quest-value-references#quest-sides)
 -   Available For Finish Conditions
-    -   [Handover Item *Require player to hand over specific or various items to a trader.*](https://wiki.sp-tarkov.com/en/quest-value-references#handover-item-available-for-finish)
-    -   [Find Item *Require player to find specific or various items or item classifications.*](https://wiki.sp-tarkov.com/en/quest-value-references#find-item-available-for-finish)
-    -   [Skill Requirement *Require player to have specific levels in specific skills.*](https://wiki.sp-tarkov.com/en/quest-value-references#skill-requirement-available-for-finish)
-    -   [Leave Item *Require player to leave a specific item at a specific location.*](https://wiki.sp-tarkov.com/en/quest-value-references#leave-item-available-for-finish)
-    -   [Place Beacon *Require player to mark specific locations with a marker.*](https://wiki.sp-tarkov.com/en/quest-value-references#place-beacon-available-for-finish)
-    -   [Visit Place *Require player to visit a specific location.*](https://wiki.sp-tarkov.com/en/quest-value-references#visit-place-available-for-finish)
-    -   [Weapon Assembly *Require player to assemble and handover a weapon based on specifications (a la Gunsmith).*](https://wiki.sp-tarkov.com/en/quest-value-references#weapon-assembly-available-for-finish)
-    -   [Kill *Require player to kill specific enemies, various enemies, and the conditions for those kills.*](https://wiki.sp-tarkov.com/en/quest-value-references#kill-available-for-finish)
-    -   [Exit Status *Require player to complete a raid with a specific status*](https://wiki.sp-tarkov.com/en/quest-value-references#exit-status-available-for-finish)
+    -   [Handover Item](/quest-value-references#handover-item-available-for-finish)
+    -   [Find Item](/quest-value-references#find-item-available-for-finish)
+    -   [Skill Requirement](/quest-value-references#skill-requirement-available-for-finish)
+    -   [Leave Item](/quest-value-references#leave-item-available-for-finish)
+    -   [Place Beacon](/quest-value-references#place-beacon-available-for-finish)
+    -   [Visit Place](/quest-value-references#visit-place-available-for-finish)
+    -   [Weapon Assembly](/quest-value-references#weapon-assembly-available-for-finish)
+    -   [Kill](/quest-value-references#kill-available-for-finish)
+    -   [Exit Status](/quest-value-references#exit-status-available-for-finish)
 -   Available For Start Requirements
     -   Fail Conditions
     -   Rewards
