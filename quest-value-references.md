@@ -2,7 +2,7 @@
 title: Quest Value References
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: false
-date: 2025-06-05T22:53:55.616Z
+date: 2025-06-05T22:54:56.697Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -54,11 +54,7 @@ This page contains various values used during quest creation or modification. Pl
 | Jaeger | 5c0647fdd443bc2504c2d371 |
 | Ref | 6617beeaa9cfa777ca915b7c |
 
-
-<div style="text-align: right;" markdown="1">
-[Return To Top](https://wiki.sp-tarkov.com/en/quest-value-references)
-</div>
-
+[Return To Top](https://wiki.sp-tarkov.com/en/quest-value-references#quick-links)
 ## Location IDs
 
 | Friendly Name | ID | Case-Sensitive Coded Name |
@@ -76,24 +72,22 @@ This page contains various values used during quest creation or modification. Pl
 | Ground Zero (20-) | 653e6760052c01c1c805532f | Sandbox |
 | Ground Zero (21+) | 653e6760052c01c1c805532f | Sandbox_high |
 
-<p style="text-align: right;">Return To Top</p>
-
+[Return To Top](https://wiki.sp-tarkov.com/en/quest-value-references)
 ## Quest Types
 
 Blah blah
 
-<p style="text-align: right;">Return To Top</p>
-
+[Return To Top](https://wiki.sp-tarkov.com/en/quest-value-references)
 ## Quest Sides
 
 Blah blah
 
-<p style="text-align: right;">Return To Top</p>
-
+[Return To Top](https://wiki.sp-tarkov.com/en/quest-value-references)
 ## Handover Item (Available For Finish)
 
 Blah blah
 
+[Return To Top](https://wiki.sp-tarkov.com/en/quest-value-references)
 ## Find Item (Available For Finish)
 
 Blah blah
