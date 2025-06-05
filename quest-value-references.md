@@ -2,7 +2,7 @@
 title: Quest Value References
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: false
-date: 2025-06-05T23:19:01.638Z
+date: 2025-06-05T23:19:45.591Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -14,11 +14,11 @@ This page contains various values used during quest creation or modification. Pl
 
 ## Quick Links
 
--   [Trader IDs *Vanilla Trader IDs.*](https://wiki.sp-tarkov.com/en/quest-value-references#trader-ids)
+-   [Trader IDs *Vanilla Trader IDs.*](/quest-value-references#trader-ids)
 {.links-list}
--   [Location IDs *Location Names, IDs, and Case-sensitive coded names.*](https://wiki.sp-tarkov.com/en/quest-value-references#location-ids)
--   [Quest Types *Available quest types.*](https://wiki.sp-tarkov.com/en/quest-value-references#quest-types)
--   [Quest Sides *Available quest sides.*](https://wiki.sp-tarkov.com/en/quest-value-references#quest-sides)
+-   [Location IDs *Location Names, IDs, and Case-sensitive coded names.*](/quest-value-references#location-ids)
+-   [Quest Types *Available quest types.*](/quest-value-references#quest-types)
+-   [Quest Sides *Available quest sides.*](/quest-value-references#quest-sides)
 -   Available For Finish Conditions
     -   [Handover Item *Require player to hand over specific or various items to a trader.*](https://wiki.sp-tarkov.com/en/quest-value-references#handover-item-available-for-finish)
     -   [Find Item *Require player to find specific or various items or item classifications.*](https://wiki.sp-tarkov.com/en/quest-value-references#find-item-available-for-finish)
