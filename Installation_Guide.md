@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-06-05T15:36:49.757Z
+date: 2025-06-05T18:35:09.684Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -47,3 +47,9 @@ Below you can find some common issues that users encounter when installing or fi
 
 This happens because you have moved the `SPT.Server` and/or the `SPT.Launcher`, out of your SPT install folder. 
 You will need to move these back into your SPT install folder and create desktop shortcuts of these. You can do this by right-clicking the executables and then Send To > Desktop (Shortcut).
+
+**Installer Errors**
+
+![installernewpatch.png](/installernewpatch.png)
+
+There is a new EFT update and either the SPT Development Team needs to update the downpatcher or you have not updated your EFT via the BSG Launcher.
