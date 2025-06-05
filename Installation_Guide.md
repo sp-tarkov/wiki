@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-06-05T15:22:08.298Z
+date: 2025-06-05T15:36:49.757Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -27,7 +27,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
 4. Select an install path. 
 - **DO NOT** install to a protected location such as Documents or Desktop. Create a folder in the root of a drive and call it SPT. C:\SPT as an example
 5. Click 'Start Install' and wait for it to complete.
-- Once complete you will be asked if you want to open the Install Folder or Add a Desktop Shortcuts. Tick or untick to your preference.
+- Once complete you will be asked if you want to open the Install Folder or Add a Desktop Shortcuts. Tick or untick to your preference. Select 'Add Desktop Shortcuts' if you intend on running SPT from outside of the folder.
 6. Navigate to your SPT install and run `SPT.Server`.
 - Wait for the green text to say "Happy Playing". This may take several minutes on first startup.
 7. Run `SPT.Launcher` and follow the onscreen instructions.
@@ -37,3 +37,13 @@ This is particularly important if you have just installed Escape From Tarkov so 
 - Select your desired game version, each version has a description box telling you a summary of what is included, then click Register.
 8. Push 'Start Game' and load into the main menu and stash.
 Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/).
+
+## Common Installation and Start-up Issues
+Below you can find some common issues that users encounter when installing or first starting SPT and how to fix them. If your issue is not here then feel free to ask for help in the [SPT-Support](https://discord.com/channels/875684761291599922/1172730102119944222) discord channel
+
+**The application had a critical error and failed to run "Watermark" error**
+
+![failedshortcuts.png](/failedshortcuts.png)
+
+This happens because you have moved the `SPT.Server` and/or the `SPT.Launcher`, out of your SPT install folder. 
+You will need to move these back into your SPT install folder and create desktop shortcuts of these. You can do this by right-clicking the executables and then Send To > Desktop (Shortcut).
