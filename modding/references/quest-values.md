@@ -2,7 +2,7 @@
 title: Quest Value Reference Sheet
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2025-06-06T21:32:47.365Z
+date: 2025-06-06T21:33:33.140Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -37,7 +37,7 @@ Updated as of 3.11
 	- [Exit Status](/modding/references/quest-values#exit-status)
 	- [Exit Name](/modding/references/quest-values#exit-name)
 	- [Trader Loyalty](/modding/references/quest-values#trader-loyalty)
-	- [Location](/modding/references/quest-values#location)
+	- [Location Requirement](/modding/references/quest-values#location-requirement)
   	- [Counter Creator](/modding/references/quest-values#counter-creator)
 - [Available For Start Requirements](/modding/references/quest-values#available-for-start-requirements)
 - [Fail Conditions](/modding/references/quest-values#fail-conditions)
@@ -1248,7 +1248,8 @@ Example:
   "visibilityConditions": []
 }
 ```
-### Location
+### Location Requirement
+
 >
 > As with all properties in quests - you should use all available properties regardless of if you need them or not.
 > BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
