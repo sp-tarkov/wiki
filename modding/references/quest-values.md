@@ -2,13 +2,13 @@
 title: Quest Value Reference Sheet
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2025-06-06T07:37:07.130Z
+date: 2025-06-06T07:37:26.767Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
 ---
 
-# Quest Value Reference
+# Quest Value Reference Sheet
 
 This page contains various values used during quest creation or modification. Please utilize the quick links to jump between various areas.
 
