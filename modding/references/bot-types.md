@@ -1,14 +1,14 @@
 ---
-title: Bot Type & Name References
+title: Bot Information Reference Sheet
 description: List of all current and previously known bots and their names
 published: true
-date: 2025-06-06T04:15:52.004Z
-tags: mods, bots
+date: 2025-06-06T07:38:06.433Z
+tags: bots, mods
 editor: markdown
 dateCreated: 2025-06-06T04:15:52.004Z
 ---
 
-# Bot Type & Name References
+# Bot Information Reference Sheet
 The below table is all currently known and previously known bot types and their associated named values.
 
 | Friendly Name | Coded Name | Bot Type | Previously Known As | Notes |
