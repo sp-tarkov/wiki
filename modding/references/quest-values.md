@@ -2,7 +2,7 @@
 title: Quest Value References
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: false
-date: 2025-06-06T02:53:38.351Z
+date: 2025-06-06T03:50:56.328Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -21,9 +21,10 @@ Updated as of 3.11
 	- [Useful Links](/modding/references/quest-values#useful-links)
 	- [Trader IDs](/modding/references/quest-values#trader-ids)
   	- [Location Details](/modding/references/quest-values#location-details)
+  	- [Skill Names](/modding/references/quest-values#skill-names)
     - [Quest Types](/modding/references/quest-values#quest-types)
-    - [Properties](/modding/references/quest-values#properties)
-  	- [Structure](/modding/references/quest-values#quest-structure)
+    - [Quest Properties](/modding/references/quest-values#properties)
+  	- [Quest Structure](/modding/references/quest-values#quest-structure)
 - [Visibility Conditions](/modding/references/quest-values#visibility-conditions)
 -	[Available For Finish Conditions](/modding/references/quest-values#available-for-finish-conditions)
 	- [Handover Item](/modding/references/quest-values#handover-item)
@@ -95,6 +96,50 @@ Location details are used in various locations in quests. There is a ID for the 
 | Ground Zero (Level <= 20) | 653e6760052c01c1c805532f | Sandbox |
 | Ground Zero (Level > 20) | 653e6760052c01c1c805532f | Sandbox_high |
 | Any Map | any | N/A |
+
+### Skill Names
+Below is a table of all currently used or previously used Skill Names for EFT. 
+>
+>Some values have been removed from the game but at still listed here for clarity for updating mods or modding previous versions of SPT.
+>
+| Skill Name | Value | Validity |
+| :--- | :--- | :--- |
+| Bot Reload | `"BotReload"` | Hidden Skill/Do Not Use for Quests |
+| Bot Sound | `"BotSound"` | Hidden Skill/Do Not Use for Quests |
+| Hideout Management | `"HideoutManagement"` | Valid |
+| Crafting | `"Crafting"` | Valid |
+| Metabolism | `"Metabolism"` | Valid |
+| Immunity | `"Immunity"` | Valid |
+| Endurance | `"Endurance"` | Valid |
+| Strength | `"Strength"` | Valid |
+| Vitality | `"Vitality"` | Valid |
+| Health | `"Health"` | Valid |
+| StressResistance | `"StressResistance"` | Valid |
+| Throwing | `"Throwing"` | Valid |
+| Recoil Control | `"RecoilControl"` | Removed as of 3.9 |
+| Convert Movement | `"CovertMovement"` | Valid |
+| Perception | `"Perception"` | Valid |
+| Intellect | `"Intellect"` | Valid |
+| Attention | `"Attention"` | Valid |
+| Charisma | `"Charisma"` | Valid |
+| Memory | `"Memory"` | Removed as of 3.9 |
+| Melee | `"Melee"` | Valid |
+| Surgery | `"Surgery"` | Valid |
+| Aim Drills | `"AimDrills"` | Valid |
+| Troubleshooting | `"TroubleShooting"` | Valid |
+| First Aid | `"FirstAid"` | Valid |
+| Light Vests | `"LightVests"` | Valid |
+| Heavy Vests | `"HeavyVests"` | Valid |
+| Weapon Treatment | `"WeaponTreatment"` | Valid |
+| Mag Drills | `"MagDrills"` | Valid |
+| Snipers | `"Sniper"` | Valid |
+| Pistols | `"Pistol"` | Valid |
+| Revolvers | `"Revolver"` | Valid |
+| SMGs | `"SMG"` | Valid |
+| Assault Rifles | `"Assault"` | Valid |
+| Shotguns | `"Shotgun"` | Valid |
+| LMGs | `"LMG"` | Valid |
+| DMRs | `"DMR"` | Valid |
 
 ### Quest Types
 Quest types are required and will display specific ways on the players Task List as well as in the trader Tasks page.
@@ -589,7 +634,7 @@ The _target_ is the condition ID that you are requiring to be completed before t
 | maxDurability | `100` | int | Required for medical items, weapons, armour, etc |
 | minDurability | `0` | int | Required for medical items, weapons, armour, etc |
 | onlyFoundInRaid | `false` | boolean | If item is required to be FIR or not |
-| parentId | `""` | MongoID string | Used to create optional sub-tasks for a task - see "Bad Rep Evidence" in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
+| parentId | `""` | MongoID string | Used to create optional sub-tasks for a task - see `"Bad Rep Evidence"` in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
 | target | `["54491c4f4bdc2db1078b4568"]` | MongoID string array | ItemID that is to be handed over, you can have multiple items in the array for multiple choice. If wanting a dogtag handed over, it will only be the specified ID - if you want all of them to be accepted you will need to populate the array for every ID for dogtags. |
 | value | `2` | int | Amount of items in target that are required to be handed over to complete subtask |
 | visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
@@ -635,11 +680,33 @@ Example:
 | maxDurability | `100` | int | Required for medical items, weapons, armour, etc |
 | minDurability | `0` | int | Required for medical items, weapons, armour, etc |
 | onlyFoundInRaid | `false` | boolean | If item is required to be FIR or not |
-| parentId | `""` | MongoID string | Used to create optional sub-tasks for a task - see "Bad Rep Evidence" in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
+| parentId | `""` | MongoID string | Used to create optional sub-tasks for a task - see `"Bad Rep Evidence"` in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
 | target | `["54491c4f4bdc2db1078b4568"]` | MongoID string array | ItemID that is to be found, you can have multiple items in the array for multiple choice. If wanting a dogtag handed over, it will only count the specified IDs - if you want all of them to be accepted you will need to populate the array for every ID for dogtags. |
 | value | `2` | int | Amount of items in target that are required to be found to complete subtask |
 | visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
 
+Example:
+```json
+{
+  "conditionType": "FindItem",
+  "countInRaid": false,
+  "dogtagLevel": 0,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "5ac502a786f7740bde1b000c",
+  "index": 0,
+  "isEncoded": false,
+  "maxDurability": 100,
+  "minDurability": 0,
+  "onlyFoundInRaid": true,
+  "parentId": "",
+  "target": [
+    "59e36c6f86f774176c10a2a7"
+  ],
+  "value": 2,
+  "visibilityConditions": []
+}
+```
 ### Skill Requirement
 >
 > As with all properties in quests - you should use all available properties regardless of if you need them or not.
@@ -654,71 +721,286 @@ Example:
 | globalQuestCounterId | `""` | string | Currently unused |
 | id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
 | index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
-| parentId | `""` | MongoID string | Used to create optional sub-tasks for a task - see "Bad Rep Evidence" in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
-| target | `"Sniper"` | string | Skill name that the condition targets - see below table. |
-| value | `2` | int | Amount of items in target that are required to be found to complete subtask |
+| parentId | `""` | MongoID string | Used to create optional sub-tasks for a task - see `"Bad Rep Evidence"` in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
+| target | `"Charisma"` | string | Skill name that the condition targets - see [Skill Table](/modding/references/quest-values#skill-names) |
+| value | `10` | int | Amount of items in target that are required to be found to complete subtask |
 | visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
 
----
-### Skill Names
-Below is a table of all currently used or previously used Skill Names for EFT. 
->
->Some values have been removed from the game but at still listed here for clarity for updating mods or modding previous versions of SPT.
->
-| Skill Name | Value | Validity |
-| :--- | :--- | :--- |
-| Bot Reload | `"BotReload"` | Hidden Skill/Do Not Use for Quests |
-| Bot Sound | `"BotSound"` | Hidden Skill/Do Not Use for Quests |
-| Hideout Management | `"HideoutManagement"` | Valid |
-| Crafting | `"Crafting"` | Valid |
-| Metabolism | `"Metabolism"` | Valid |
-| Immunity | `"Immunity"` | Valid |
-| Endurance | `"Endurance"` | Valid |
-| Strength | `"Strength"` | Valid |
-| Vitality | `"Vitality"` | Valid |
-| Health | `"Health"` | Valid |
-| StressResistance | `"StressResistance"` | Valid |
-| Throwing | `"Throwing"` | Valid |
-| Recoil Control | `"RecoilControl"` | Removed as of 3.9 |
-| Convert Movement | `"CovertMovement"` | Valid |
-| Perception | `"Perception"` | Valid |
-| Intellect | `"Intellect"` | Valid |
-| Attention | `"Attention"` | Valid |
-| Charisma | `"Charisma"` | Valid |
-| Memory | `"Memory"` | Removed as of 3.9 |
-| Melee | `"Melee"` | Valid |
-| Surgery | `"Surgery"` | Valid |
-| Aim Drills | `"AimDrills"` | Valid |
-| Troubleshooting | `"TroubleShooting"` | Valid |
-| First Aid | `"FirstAid"` | Valid |
-| Light Vests | `"LightVests"` | Valid |
-| Heavy Vests | `"HeavyVests"` | Valid |
-| Weapon Treatment | `"WeaponTreatment"` | Valid |
-| Mag Drills | `"MagDrills"` | Valid |
-| Snipers | `"Sniper"` | Valid |
-| Pistols | `"Pistol"` | Valid |
-| Revolvers | `"Revolver"` | Valid |
-| SMGs | `"SMG"` | Valid |
-| Assault Rifles | `"Assault"` | Valid |
-| Shotguns | `"Shotgun"` | Valid |
-| LMGs | `"LMG"` | Valid |
-| DMRs | `"DMR"` | Valid |
-
+Example:
+```json
+{
+  "compareMethod": ">=",
+  "conditionType": "Skill",
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "5ae9c29386f77427153c7fb0",
+  "index": 0,
+  "parentId": "",
+  "target": "Charisma",
+  "value": 10,
+  "visibilityConditions": []
+}
+```
 ### Leave Item
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
 
-Blah blah
+>
+> This quest type is NOT the same as PlaceBeacon. They have different in game behaviours. Beacon is persistent and can be removed/destroyed and will impact the players progress. PlaceItemAtLocation is completed and the item disappears as soon as it's placed.
+>
 
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| conditionType | `"LeaveItemAtLocation"` | string | LeaveItemAtLocation condition |
+| dogtagLevel | `0` | int | Required if finding DogTag of specific level |
+| dynamicLocale | `false` | boolean | Currently unused |
+| globalQuestCounterId | `""` | string | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| inEncoded | `false` | boolean | Required if requiring DSP Transmitter handover |
+| maxDurability | `100` | int | Required for medical items, weapons, armour, etc |
+| minDurability | `0` | int | Required for medical items, weapons, armour, etc |
+| onlyFoundInRaid | `false` | boolean | If item to be placed is required to be FIR or not |
+| parentId | `""` | MongoID string | Used to create optional sub-tasks for a task - see `"Bad Rep Evidence"` in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
+| plantTime | `30` | int | Time in seconds that it takes the player to "place" the item |
+| target | `["54491c4f4bdc2db1078b4568"]` | MongoID string array | ItemID that is to be placed, you can have multiple items in the array for multiple choice. If wanting a dogtag to be placed, it will only count the specified IDs - if you want all of them to be acceptable you will need to populate the array for every ID for dogtags. |
+| value | `2` | int | Amount of items in target that are required to be found to complete subtask |
+| visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
+| zoneId | `"ter_017_area_1"` | string | This value is required and must match the `placeitem` zone that you have created (or use a vanilla zone ID). This zone indicates where the item must be placed. For zone creation, you may consider using the mod VCQL by Virtual. |
+
+Example:
+```json
+{
+  "conditionType": "LeaveItemAtLocation",
+  "dogtagLevel": 0,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "5a687a1c86f7745f2152168c",
+  "index": 2,
+  "isEncoded": false,
+  "maxDurability": 100,
+  "minDurability": 0,
+  "onlyFoundInRaid": false,
+  "parentId": "",
+  "plantTime": 30,
+  "target": [
+    "590c5a7286f7747884343aea"
+  ],
+  "value": 3,
+  "visibilityConditions": [],
+  "zoneId": "ter_017_area_1"
+}
+```
 ### Place Beacon
 
-Blah blah
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
+
+>
+> This quest type is NOT the same as PlaceItemAtLocation. They have different in game behaviours. Beacon is persistent and can be removed/destroyed and will impact the players progress. PlaceItemAtLocation is completed and the item disappears as soon as it's placed.
+>
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| conditionType | `"PlaceBeacon"` | string | PlaceBeacon condition |
+| dynamicLocale | `false` | boolean | Currently unused |
+| globalQuestCounterId | `""` | string | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| parentId | `""` | MongoID string | Used to create optional sub-tasks for a task - see `"Bad Rep Evidence"` in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
+| plantTime | `30` | int | Time in seconds that it takes the player to "place" the item |
+| target | `["5991b51486f77447b112d44f"]` | MongoID string array | You should **only use** the ID for the MS2000 Marker (`5991b51486f77447b112d44f`) or the Radio Repeater (`63a0b2eabea67a6d93009e52`). Since the item persists after placing, I believe these two IDs are the only ones currently used for this quest type.|
+| value | `1` | int | Amount of beacons that must be placed to complete the task. |
+| visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
+| zoneId | `"gazel"` | string | This value is required and must match the `placeitem` zone that you have created (or use a vanilla zone ID). This zone indicates where the item must be placed. For zone creation, you may consider using the mod VCQL by Virtual. |
+
+Example:
+```json
+{
+  "conditionType": "PlaceBeacon",
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "5998366886f77455853b2d9f",
+  "index": 1,
+  "parentId": "",
+  "plantTime": 30,
+  "target": [
+    "5991b51486f77447b112d44f"
+  ],
+  "value": 1,
+  "visibilityConditions": [],
+  "zoneId": "gazel"
+}
+```
 
 ### Visit Place
 
-Blah blah
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
+
+>
+> Notice that the quest structure for this type is actually inside a "CounterCreator" condition.
+> "CounterCreator" conditions hold various condition types, and must be used for this condition type.
+>
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| conditionType | `"VisitPlace"` | string | VisitPlace condition |
+| dynamicLocale | `false` | boolean | Currently unused |
+| globalQuestCounterId | `""` | string | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| target | `"place_peacemaker_001"` | string | This value is required and must match the `visit` zone that you have created (or use a vanilla zone ID). This zone indicates where the player must visit. For zone creation, you may consider using the mod VCQL by Virtual. |
+| value | `1` | int | This is always 1, as you visit it one time and it completes the condition. Probably works with higher values but untested. |
+
+Example:
+```json
+{
+  "completeInSeconds": 0,
+  "conditionType": "CounterCreator",
+  "counter": {
+    "conditions": [
+      {
+        "conditionType": "VisitPlace",
+        "dynamicLocale": false,
+        "id": "5a3ba1c286f7742c9d4f5d49",
+        "target": "place_peacemaker_001",
+        "value": 1
+      }
+    ],
+    "id": "5a3ba11786f7742c9d4f5d28"
+  },
+  "doNotResetIfCounterCompleted": false,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "5a3ba11786f7742c9d4f5d29",
+  "index": 1,
+  "isNecessary": false,
+  "isResetOnConditionFailed": false,
+  "oneSessionOnly": false,
+  "parentId": "",
+  "type": "Exploration",
+  "value": 1,
+  "visibilityConditions": []
+}
+```
 
 ### Weapon Assembly
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
 
-Blah blah
+>
+> These types of quest conditions are personally the hardest to get correct. It is very easy to mess up a compare method or use an invalid value.
+> Double, triple, and quadruple check these quests as you build them. Test. Them.
+{.is-warning}
+
+| Property Name | Example Value | Type | Child Property Name | Child Example Value | Child Type | Notes |
+| :--- | :--- | :--- | :--- |
+| conditionType | `"WeaponAssembly"` | string | | | | WeaponAssembly condition |
+| id | `"5accd5e386f77463027e9397"` | MongoID string | | | | Unique ID for the condition |
+| index | `0` | int | | | | Currently unused (suspected added via BSG Tooling to build quests) |
+| dynamicLocale | `""` | string | | | | Currently unused |
+| globalQuestCounterId | `""` | string | | | | Currently unused |
+| containsItems | `["5aa66be6e5b5b0214e506e97"]` | string array | | | | List of ItemIDs in an array that the weapon must have attached |
+| parentId | `""` | MongoID string | | | | Used to create optional sub-tasks for a task - see `"Bad Rep Evidence"` in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
+| baseAccuracy | - | object | compareMethod | >= | string | Weapon MOA Requirements |
+| | | | value | 0 | int | |
+| durability | - | object | compareMethod | >= | string | Current durability requirements |
+| | | | value | 60 | int | |
+| effectiveDistance | - | object | compareMethod | >= | string | Sighting Range requirements |
+| | | | value | 60 | int | |
+| emptyTacticalSlot | - | object | compareMethod | >= | string | How many empty tactical slots are required |
+| | | | value | 60 | int | |
+| ergonomics | - | object | compareMethod | >= | string | Ergonomics requirements |
+| | | | value | 60 | int | |
+| hasItemFromCategory | `["55818b164bdc2ddc698b456c"]` | string array | | | | List of Item Category IDs that the weapon must have attached |
+| height | - | object | compareMethod | <= | string | Number of vertical grid cells the weapon must have in the stash |
+| | | | value | 2 | int | |
+| magazineCapacity | - | object | compareMethod | <= | string | Requirements for size of the attached magazine |
+| | | | value | 50 | int | |
+| muzzleVelocity | - | object | compareMethod | >= | string | Velocity Requirements (Velocity * SpeedFactor) |
+| | | | value | 0 | int | |
+| recoil | - | object | compareMethod | <= | string | Sum of Horizontal & Vertical recoil is the value to compare |
+| | | | value | 300 | int | |
+| target | `["5bfea6e90db834001b7347f3"]` | string array |  |  |  | The ItemID of the weapon to be built |
+| value | `1` | int |  |  |  | The number of weapons that must be built and handed over that match the requirements (untested over 1) |
+| visibilityConditions | `[]` | array | | | | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
+| weight | - | object | compareMethod | <= | string | Weapon must match the comparison of the value to be valid |
+| | | | value | 4.5 | float | |
+| width | - | object | compareMethod | <= | string | Number of horizontal grid cells the weapon must have in the stash |
+| | | | value | 8 | int | |
+
+Example:
+```json
+{
+  "baseAccuracy": {
+    "compareMethod": ">=",
+    "value": 0
+  },
+  "conditionType": "WeaponAssembly",
+  "containsItems": [],
+  "durability": {
+    "compareMethod": ">=",
+    "value": 60
+  },
+  "dynamicLocale": false,
+  "effectiveDistance": {
+    "compareMethod": ">=",
+    "value": 0
+  },
+  "emptyTacticalSlot": {
+    "compareMethod": ">=",
+    "value": 0
+  },
+  "ergonomics": {
+    "compareMethod": ">=",
+    "value": 47
+  },
+  "globalQuestCounterId": "",
+  "hasItemFromCategory": [
+    "55818b164bdc2ddc698b456c"
+  ],
+  "height": {
+    "compareMethod": "<=",
+    "value": 1
+  },
+  "id": "5accd5e386f77463027e9397",
+  "index": 0,
+  "magazineCapacity": {
+    "compareMethod": ">=",
+    "value": 5
+  },
+  "muzzleVelocity": {
+    "compareMethod": ">=",
+    "value": 0
+  },
+  "parentId": "",
+  "recoil": {
+    "compareMethod": "<=",
+    "value": 850
+  },
+  "target": [
+    "54491c4f4bdc2db1078b4568"
+  ],
+  "value": 1,
+  "visibilityConditions": [],
+  "weight": {
+    "compareMethod": ">=",
+    "value": 0
+  },
+  "width": {
+    "compareMethod": "<=",
+    "value": 4
+  }
+}
+```
 
 ### Kills
 
