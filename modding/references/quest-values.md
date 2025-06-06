@@ -2,7 +2,7 @@
 title: Quest Value References
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2025-06-06T06:00:43.245Z
+date: 2025-06-06T06:06:53.803Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -1300,6 +1300,8 @@ Counter Creator's are used to combine multiple conditions together within a sing
 
 Do not be afraid to mess around the multiple conditions inside a count creator to understand how it functions and how you can utilize it to create unique quests that others (including BSG!) may not have thought to do.
 
+There are two very different examples of use cases for this condition below.
+
 >
 > Many quest conditions are nested inside a Counter Creator. For their specific behaviour within a counter creator, please read the relevant sections for that condition type.
 {.is-info}
@@ -1322,6 +1324,110 @@ Do not be afraid to mess around the multiple conditions inside a count creator t
 | value | `5` | int | Number of nested condition counts required to count the `CounterCreator` condition as completed. (Ie, 5 kills, 5 visits, etc) |
 | visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
 
+25 Scav kills on a specific Map example:
+```json
+{
+  "completeInSeconds": 0,
+  "conditionType": "CounterCreator",
+  "counter": {
+    "conditions": [
+      {
+        "bodyPart": [],
+        "compareMethod": ">=",
+        "conditionType": "Kills",
+        "daytime": {
+          "from": 0,
+          "to": 0
+        },
+        "distance": {
+          "compareMethod": ">=",
+          "value": 0
+        },
+        "dynamicLocale": false,
+        "enemyEquipmentExclusive": [],
+        "enemyEquipmentInclusive": [],
+        "enemyHealthEffects": [],
+        "id": "5ae44ef386f774149f15ed84",
+        "resetOnSessionEnd": false,
+        "savageRole": [],
+        "target": "Savage",
+        "value": 1,
+        "weapon": [],
+        "weaponCaliber": [],
+        "weaponModsExclusive": [],
+        "weaponModsInclusive": []
+      },
+      {
+        "conditionType": "Location",
+        "dynamicLocale": false,
+        "id": "5ae44efd86f774149d4cc6a4",
+        "target": [
+          "Interchange"
+        ]
+      }
+    ],
+    "id": "5ae44ecd86f77414a13c970d"
+  },
+  "doNotResetIfCounterCompleted": false,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "5ae44ecd86f77414a13c970e",
+  "index": 0,
+  "isNecessary": false,
+  "isResetOnConditionFailed": false,
+  "oneSessionOnly": false,
+  "parentId": "",
+  "type": "Elimination",
+  "value": 25,
+  "visibilityConditions": []
+}
+```
+Player exfil 7 times from a specific location, with a specific status, from a specific exfil example:
+```json
+{
+  "completeInSeconds": 0,
+  "conditionType": "CounterCreator",
+  "counter": {
+    "conditions": [
+      {
+        "conditionType": "Location",
+        "dynamicLocale": false,
+        "id": "5ae9e46686f77440d37ce046",
+        "target": [
+          "Interchange"
+        ]
+      },
+      {
+        "conditionType": "ExitName",
+        "dynamicLocale": false,
+        "exitName": "Saferoom Exfil",
+        "id": "63929163c115f907b14700bb"
+      },
+      {
+        "conditionType": "ExitStatus",
+        "dynamicLocale": false,
+        "id": "5bb60cc688a4507f2f385a76",
+        "status": [
+          "Survived"
+        ]
+      }
+    ],
+    "id": "5ae9e44f86f7746b6a466a8d"
+  },
+  "doNotResetIfCounterCompleted": false,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "5bb60cbc88a45011a8235cc5",
+  "index": 0,
+  "isNecessary": false,
+  "isResetOnConditionFailed": false,
+  "oneSessionOnly": false,
+  "parentId": "",
+  "type": "Completion",
+  "value": 7,
+  "visibilityConditions": []
+}
+```
 ## Available For Start Requirements
 
 ## Fail Conditions
