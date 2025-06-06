@@ -2,7 +2,7 @@
 title: Quest Value References
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2025-06-06T04:17:51.359Z
+date: 2025-06-06T04:18:27.964Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -52,7 +52,7 @@ Below you will find all general information related to quests, including vanilla
 ### Useful Links
 [Item Finder](https://db.sp-tarkov.com/search)
 [Vanilla Quest Data](https://github.com/sp-tarkov/server/blob/master/project/assets/database/templates/quests.json)
-[Bot Types & Names Reference Sheet](/modding/references/bot-types)
+[Bot Types & Names Reference Sheet](https://wiki.sp-tarkov.com/modding/references/bot-types)
 
 
 ### Trader IDs
