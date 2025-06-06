@@ -2,7 +2,7 @@
 title: Quest Value References
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2025-06-06T05:08:25.187Z
+date: 2025-06-06T06:00:43.245Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -23,6 +23,7 @@ Updated as of 3.11
   	- [Location Details](/modding/references/quest-values#location-details)
   	- [Skill Names](/modding/references/quest-values#skill-names)
     - [Quest Types](/modding/references/quest-values#quest-types)
+    - [Quest Status](/modding/references/quest-values#quest-status)
     - [Quest Properties](/modding/references/quest-values#properties)
   	- [Quest Structure](/modding/references/quest-values#quest-structure)
 - [Visibility Conditions](/modding/references/quest-values#visibility-conditions)
@@ -37,6 +38,7 @@ Updated as of 3.11
 	- [Kills](/modding/references/quest-values#kills)
 	- [Exit Status](/modding/references/quest-values#exit-status)
 	- [Exit Name](/modding/references/quest-values#exit-name)
+	- [Trader Loyalty](/modding/references/quest-values#trader-loyalty)
   	- [Counter Creator](/modding/references/quest-values#counter-creator)
 - [Available For Start Requirements](/modding/references/quest-values#available-for-start-requirements)
 - [Fail Conditions](/modding/references/quest-values#fail-conditions)
@@ -151,17 +153,48 @@ Quest types are required and will display specific ways on the players Task List
 > Quest types will display the name and BSG Icon on the task list on the players client.
 > The type does not have to match the conditions of the quest, but it is encouraged to match it for player clarity.
 >
-| Type | Description |
+
+>
+> I have added typical quest usage to the valid types table below. **_You do not have to follow these suggestions, they are common uses in BSG quests._** 
+>You can do whatever you want for quest types _on the quest itself_, but conditions much match properly per the condition types.
+{.is-info}
+
+| Type | Typical Quest Usage |
 | :--- | :--- |
-| Prapor | 54cb50c76803fa8b248b4571 |
-| Therapist | 54cb57776803fa99248b456e |
-| Fence | 579dc571d53a0658a154fbec |
-| Skier | 58330581ace78e27b8b10cee |
-| Peacekeeper | 5935c25fb3acc3127c3d8cd9 |
-| Mechanic | 5a7c2eca46aef81a7ca2145d |
-| Ragman | 5ac3b934156ae10c4430e83c |
-| Jaeger | 5c0647fdd443bc2504c2d371 |
-| Ref | 6617beeaa9cfa777ca915b7c |
+| PickUp | Find/Handover |
+| Elimination | Kill |
+| Discover | LeaveItemAtLocation |
+| Completion | Multi Conditional |
+| Exploration | VisitPlace |
+| Levelling | Prestige/Achievement/Level (Unused) |
+| Experience | Experience (Unused) |
+| Standing | TraderLoyalty |
+| Loyalty | Branching quests (Like choosing one trader or another) |
+| Merchant | Handing money over to a trader |
+| Skill | Skill Requirements |
+| Multi | Multi Conditional |
+| WeaponAssembly | WeaponAssembly |
+| ArenaWinMatch | Unused - Untested if works in SPT |
+| ArenaWinRound | Unused - Untested if works in SPT |
+
+### Quest Status
+Quest Statuses are set automatically by the condition counters during raids, and out of raids. They can also be used in Available For Start requirements.
+>
+> All quests will always have a status. This status is stored in the users profile json.
+>
+| Status | Value | Description |
+| :--- | :--- | :--- |
+| Locked | 0 | Quest is locked and not available to the player |
+| AvailableForStart | 1 | Quest is available to player |
+| Started | 2 | Quest is available to the player, and they have accepted it |
+| AvailableForFinish | 3 | Quest is available to the player, they have accepted it, and it is ready to turn in |
+| Success | 4 | Quest has been completed by the player |
+| Fail | 5 | Player has failed the quest and it is not marked restartable |
+| FailRestartable | 6 | Player has failed the quest, and can restart it |
+| MarkedAsFailed | 7 | Quest has been marked to fail but did not flip to status 5 or 6 yet |
+| Expired | 8 | Quest has expired |
+| AvailableAfter | 9 | Quest is available, but is delayed from being shown to the player |
+
 ### Properties
 
 The below table is a list of all currently known properties for quests. 
@@ -198,7 +231,7 @@ The below table is a list of all currently known properties for quests.
 | startedMessageText | No | `"68423056128053531e5a5bf6 name"` | string |
 | successMessageText | No | `"68423056128053531e5a5bf6 name"` | string |
 | traderId | Yes | `"54cb50c76803fa8b248b4571"` | string ([Trader ID Table](/modding/references/quest-values#trader-ids)) |
-| type | Yes | `"Skill"` | string ([Quest Type Table](/modding/references/quest-values#location-details)) |
+| type | Yes | `"Skill"` | string ([Quest Type Table](/modding/references/quest-values#quest-types)) |
 
 ### Quest Structure
 Below is an example quest that was created by BSG.
@@ -1224,6 +1257,39 @@ Example:
   "visibilityConditions": []
 }
 ```
+### Trader Loyalty
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| compareMethod | `">="` | string | Compare method, no reason to really change this unless you want to require them to be lower loyalty levels, which may cause the player to be unable to complete this |
+| conditionType | `"TraderLoyalty"` | string | TraderLoyalty condition |
+| dynamicLocale | `false` | boolean | Currently unused |
+| globalQuestCounterId | `""` | string | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| target | `"54cb50c76803fa8b248b4571"` | string | Trader ID for the value requirement of the loyalty level. See [TraderIDs](/modding/references/quest-values#trader-ids) |
+| value | `3` | float | Loyalty Level required for the player to compare against using the `compareMethod` |
+| visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
+
+Example:
+```json
+{
+  "compareMethod": ">=",
+  "conditionType": "TraderLoyalty",
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "5dbadfd186f77449467d1482",
+  "index": 0,
+  "parentId": "",
+  "target": "54cb50c76803fa8b248b4571",
+  "value": 3,
+  "visibilityConditions": []
+}
+```
 ### Counter Creator
 >
 > As with all properties in quests - you should use all available properties regardless of if you need them or not.
@@ -1237,6 +1303,24 @@ Do not be afraid to mess around the multiple conditions inside a count creator t
 >
 > Many quest conditions are nested inside a Counter Creator. For their specific behaviour within a counter creator, please read the relevant sections for that condition type.
 {.is-info}
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| completeInSeconds | `0` | int | Currently unused |
+| conditionType | `"CounterCreator"` | string | CounterCreator condition |
+| counter | | object | See relevant condition documentation |
+| doNotResetIfCounterCompleted | `false` | boolean | Works in tandem with `isResetOnConditionFailed` and on its own. If true, and `value` is less than condition value, can set the condition value to 0. In some scenarios, it will check the `isResetOnConditionFailed` property first. Largely unused. See the quest `"Chemistry Closet"` in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) for usage. |
+| dynamicLocale | `false` | boolean | Currently unused |
+| globalQuestCounterId | `""` | string | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| isNecessary | `false` | boolean | Used in tandem with parentId. If true, and parentId used for optional condition, requires it instead of being optional. Largely unused. |
+| isResetOnConditionFailed | `false` | boolean | Used in tandem with `doNotResetIfCounterCompleted`. If true, and `doNotResetIfCounterCompleted` is true - Will reset the value of the counter to 0 if any conditions are not met when starting a raid. This has never been used, untested if works properly. |
+| oneSessionOnly | `false` | boolean | Currently unused |
+| parentId | `""` | MongoID string | Used to create optional sub-tasks for a task - see `"Bad Rep Evidence"` in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
+| type | `"Elimination"` | string | Type of condition for the counter creator. |
+| value | `5` | int | Number of nested condition counts required to count the `CounterCreator` condition as completed. (Ie, 5 kills, 5 visits, etc) |
+| visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
 
 ## Available For Start Requirements
 
