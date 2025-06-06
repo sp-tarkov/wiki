@@ -2,7 +2,7 @@
 title: Quest Value Reference Sheet
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2025-06-06T21:16:32.354Z
+date: 2025-06-06T21:30:32.975Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -19,8 +19,6 @@ Updated as of 3.11
 -	[General Information](/modding/references/quest-values#general-information)
 {.links-list}
 	- [Useful Links](/modding/references/quest-values#useful-links)
-	- [Trader IDs](/modding/references/quest-values#trader-ids)
-  	- [Location Details](/modding/references/quest-values#location-details)
   	- [Skill Names](/modding/references/quest-values#skill-names)
     - [Quest Types](/modding/references/quest-values#quest-types)
     - [Quest Status](/modding/references/quest-values#quest-status)
@@ -38,6 +36,7 @@ Updated as of 3.11
 	- [Kills](/modding/references/quest-values#kills)
 	- [Exit Status](/modding/references/quest-values#exit-status)
 	- [Exit Name](/modding/references/quest-values#exit-name)
+	- [Location](/modding/references/quest-values#location)
 	- [Trader Loyalty](/modding/references/quest-values#trader-loyalty)
   	- [Counter Creator](/modding/references/quest-values#counter-creator)
 - [Available For Start Requirements](/modding/references/quest-values#available-for-start-requirements)
@@ -57,50 +56,9 @@ Below you will find all general information related to quests, including vanilla
 [Item Finder](https://db.sp-tarkov.com/search)
 [Vanilla Quest Data](https://github.com/sp-tarkov/server/blob/master/project/assets/database/templates/quests.json)
 [Bot Types & Names Reference Sheet](/modding/references/bot-types)
+[Trader IDs](/modding/references/trader-information)
+[Location IDs](/modding/references/location-information)
 
-
-### Trader IDs
-Trader IDs are used in quest conditions, standing rewards, and quest properties for what trader issues the quest.
-
->
-> Please ensure that you are using a **_valid MongoID_** if you are creating a custom trader, **_the custom trader will not load if it is an invalid MongoID._**
-> You do not need to have a custom trader to create custom quests, you can create quests for vanilla traders.
->
-
-| Friendly Name | ID |
-| :--- | :---: |
-| Prapor | 54cb50c76803fa8b248b4571 |
-| Therapist | 54cb57776803fa99248b456e |
-| Fence | 579dc571d53a0658a154fbec |
-| Skier | 58330581ace78e27b8b10cee |
-| Peacekeeper | 5935c25fb3acc3127c3d8cd9 |
-| Mechanic | 5a7c2eca46aef81a7ca2145d |
-| Ragman | 5ac3b934156ae10c4430e83c |
-| Jaeger | 5c0647fdd443bc2504c2d371 |
-| Ref (Arena) | 6617beeaa9cfa777ca915b7c |
-
-### Location Details
-Location details are used in various locations in quests. There is a MongoID for the location as well as a Target Name string for each location. They are used in specific spots in the quest structure.
->
-> Friendly Names are not used in code.
-> MongoIDs are used for the "location" property on quests.
-> Target Names are used when a condition requires a location. **These are case sensitive.**
->
-| Friendly Name | MongoID | Target Name |
-| :--- | :--- | :--- |
-| Factory (Day) | 55f2d3fd4bdc2d5f408b4567 | factory4_day |
-| Factory (Night) | 59fc81d786f774390775787e | factory4_night |
-| Customs | 56f40101d2720b2a4d8b45d6 | bigmap |
-| Woods | 5704e3c2d2720bac5b8b4567 | Woods |
-| Lighthouse | 5704e4dad2720bb55b8b4567 | Lighthouse |
-| Shoreline | 5704e554d2720bac5b8b456e | Shoreline |
-| Reserve | 5704e5fad2720bc05b8b4567 | RezervBase |
-| Interchange | 5714dbc024597771384a510d | Interchange |
-| Laboratory | 5b0fc42d86f7744a585f9105 | laboratory |
-| Streets Of Tarkov | 5714dc692459777137212e12 | TarkovStreets |
-| Ground Zero (Level <= 20) | 653e6760052c01c1c805532f | Sandbox |
-| Ground Zero (Level > 20) | 653e6760052c01c1c805532f | Sandbox_high |
-| Any Map | any | N/A |
 
 ### Skill Names
 Below is a table of all currently used or previously used Skill Names for EFT. 
@@ -219,7 +177,7 @@ The below table is a list of all currently known properties for quests.
 | image | No | `"/files/quest/icon/quest_icon.png"` | string |
 | instantComplete | No | `false` | boolean |
 | isKey | No | `false` | boolean |
-| location | Yes | `"5704e4dad2720bb55b8b4567"` | MongoID string ([Location Details Table](/modding/references/quest-values#location-details)) |
+| location | Yes | `"5704e4dad2720bb55b8b4567"` | MongoID string ([Location IDs](/modding/references/location-information)) |
 | name | Yes | `"68423056128053531e5a5bf6 name"` | string |
 | note | No | `"68423056128053531e5a5bf6 note"` | string |
 | progressSource | No | `"eft"` | string |
@@ -230,7 +188,7 @@ The below table is a list of all currently known properties for quests.
 | side | Yes | `"Pmc"` | string |
 | startedMessageText | No | `"68423056128053531e5a5bf6 name"` | string |
 | successMessageText | No | `"68423056128053531e5a5bf6 name"` | string |
-| traderId | Yes | `"54cb50c76803fa8b248b4571"` | MongoID string ([Trader ID Table](/modding/references/quest-values#trader-ids)) |
+| traderId | Yes | `"54cb50c76803fa8b248b4571"` | MongoID string ([Trader IDs](/modding/references/trader-information)) |
 | type | Yes | `"Skill"` | string ([Quest Type Table](/modding/references/quest-values#quest-types)) |
 
 ### Quest Structure
@@ -1271,7 +1229,7 @@ Example:
 | globalQuestCounterId | `""` | string | Currently unused |
 | id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
 | index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
-| target | `"54cb50c76803fa8b248b4571"` | MongoID string | Trader ID for the value requirement of the loyalty level. See [TraderIDs](/modding/references/quest-values#trader-ids) |
+| target | `"54cb50c76803fa8b248b4571"` | MongoID string | Trader ID for the value requirement of the loyalty level. See [Trader IDs](/modding/references/trader-information) |
 | value | `3` | float | Loyalty Level required for the player to compare against using the `compareMethod` |
 | visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
 
@@ -1288,6 +1246,73 @@ Example:
   "target": "54cb50c76803fa8b248b4571",
   "value": 3,
   "visibilityConditions": []
+}
+```
+### Location
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
+
+>
+> Notice that the quest structure for this type is actually inside a "CounterCreator" condition.
+> "CounterCreator" conditions hold various condition types, and must be used for this condition type.
+> You pair this condition with others, this will require the other conditions inside the `CounterCreator` to have been completed on the specified map.
+{.is-info}
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| conditionType | `"Location"` | string | Location condition |
+| dynamicLocale | `false` | boolean | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| target | `["Interchange"]` | string array | Use `Target Name` data for the locations - see [Location Information](/modding/references/location-information) |
+
+Example:
+```json
+{
+  "completeInSeconds": 0,
+  "conditionType": "CounterCreator",
+  "counter": {
+    "conditions": [
+      {
+        "conditionType": "ExitStatus",
+        "dynamicLocale": false,
+        "id": "5a577b4186f7743e797f6f04",
+        "status": [
+          "Survived",
+          "Runner"
+        ]
+      },
+      {
+        "conditionType": "Location",
+        "dynamicLocale": false,
+        "id": "5bf5393d86f77458f17c1993",
+        "target": [
+          "factory4_day",
+          "factory4_night"
+        ]
+      }
+    ],
+    "id": "5977784486f774285402cf51"
+  },
+  "doNotResetIfCounterCompleted": false,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "5977784486f774285402cf52",
+  "index": 2,
+  "isNecessary": false,
+  "isResetOnConditionFailed": false,
+  "oneSessionOnly": false,
+  "parentId": "",
+  "type": "Completion",
+  "value": 1,
+  "visibilityConditions": [
+    {
+      "conditionType": "CompleteCondition",
+      "id": "5a5779e486f774411f6c321f",
+      "target": "59674fe586f7744f4e358aa2"
+    }
+  ]
 }
 ```
 ### Counter Creator
@@ -1533,7 +1558,7 @@ Example:
 | id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
 | index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
 | parentId | `""` | string | Currently unused for Quest Start requirements |
-| target | `"579dc571d53a0658a154fbec"` | MongoID string | Trader ID for the value requirement of the loyalty level. See [TraderIDs](/modding/references/quest-values#trader-ids) |
+| target | `"579dc571d53a0658a154fbec"` | MongoID string | Trader ID for the value requirement of the loyalty level. See [Trader IDs](/modding/references/trader-information) |
 | value | `3` | float | Loyalty Level required for the player to compare against using the `compareMethod` |
 | visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage. **This is unused for Start Requirements, I would not advise using it.** |
 
@@ -1783,7 +1808,7 @@ Weapon reward example:
 | items | | object array | See examples. This array should only have 1 entry unless you are adding an item that has children (weapon, armour, etc). |
 | loyaltyLevel | `1` | int | Loyalty Level for the Unlock. Must match the Quest Assort Loyalty Level for the trader. |
 | target | `"67d82e6f4f4b5340e611a4cb"` | MongoID string | The target is the `_id` of the item you are rewarding as an unlock. The `_tpl` of that target is the item that is actually going to be unlocked, only if that `_tpl` has an entry in the assort and the quest ID for this condition is in the `questassort.json` for the `traderId` being targetted...and that `questassort` entry for the questID is targetted to the `id` of the assort entry for the `_tpl`. You can see how this is confusing, **_use custom traders or vanilla traders as a reference_.** |
-| traderId | `"58330581ace78e27b8b10cee"` | MongoID string | Trader ID for the assortment unlock. See [TraderIDs](/modding/references/quest-values#trader-ids) | |
+| traderId | `"58330581ace78e27b8b10cee"` | MongoID string | Trader ID for the assortment unlock. See [Trader IDs](/modding/references/trader-information) | |
 | type | `"AssortmentUnlock"` | string | Will always be `"Item"` for an Item reward |
 | unknown | `false` | boolean | Whether or not the reward will be shown, or if it will display a `?` on the trader task page. |
 
@@ -1857,7 +1882,7 @@ Single item unlock example:
 | availableInGameEditions | `[]` | string array | If you would like the rewards for a quest to be restricted to specific game editions, you add those editions to this array |
 | id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the reward |
 | index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
-| target | `"5a7c2eca46aef81a7ca2145d"` | MongoID string | Trader ID that the condition targets - see [Trader ID Table](/modding/references/quest-values#trader-ids) |
+| target | `"5a7c2eca46aef81a7ca2145d"` | MongoID string | Trader ID that the condition targets - see [Trader IDs](/modding/references/trader-information) |
 | type | `"TraderStanding"` | string | Will always be `"TraderStanding"` for an TraderStanding reward |
 | unknown | `false` | boolean | Whether or not the reward will be shown, or if it will display a `?` on the trader task page. |
 | value | `0.45` | float | How many loyalty points to award to the player for the targetted Trader |
