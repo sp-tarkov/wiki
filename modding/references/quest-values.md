@@ -2,7 +2,7 @@
 title: Quest Value Reference Sheet
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2025-06-06T07:37:26.767Z
+date: 2025-06-06T21:16:32.354Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -1852,6 +1852,102 @@ Single item unlock example:
 ```
 
 ### Trader Standing
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| availableInGameEditions | `[]` | string array | If you would like the rewards for a quest to be restricted to specific game editions, you add those editions to this array |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the reward |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| target | `"5a7c2eca46aef81a7ca2145d"` | MongoID string | Trader ID that the condition targets - see [Trader ID Table](/modding/references/quest-values#trader-ids) |
+| type | `"TraderStanding"` | string | Will always be `"TraderStanding"` for an TraderStanding reward |
+| unknown | `false` | boolean | Whether or not the reward will be shown, or if it will display a `?` on the trader task page. |
+| value | `0.45` | float | How many loyalty points to award to the player for the targetted Trader |
+
+Example:
+```json
+{
+  "availableInGameEditions": [],
+  "id": "60cc7aff179f8541b8469273",
+  "index": 0,
+  "target": "5a7c2eca46aef81a7ca2145d",
+  "type": "TraderStanding",
+  "unknown": false,
+  "value": 0.02
+}
+```
 ### Skill
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| availableInGameEditions | `[]` | string array | If you would like the rewards for a quest to be restricted to specific game editions, you add those editions to this array |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the reward |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| target | `"Attention"` | string | Skill name that the condition targets - see [Skill Table](/modding/references/quest-values#skill-names) |
+| type | `"Skill"` | string | Will always be `"Skill"` for a Skill reward |
+| unknown | `false` | boolean | Whether or not the reward will be shown, or if it will display a `?` on the trader task page. |
+| value | `100` | int | How many points to award to the target skill |
+
+Example:
+```json
+{
+  "availableInGameEditions": [],
+  "id": "629f0a7650f43060015c5382",
+  "index": 0,
+  "target": "Attention",
+  "type": "Skill",
+  "unknown": false,
+  "value": 300
+}
+```
 ### Stash Rows
+>
+> Stash Row rewards will not display on the players stash until they restart the EFT client, or they run and exfil from a raid.
+{.is-warning}
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| availableInGameEditions | `[]` | string array | If you would like the rewards for a quest to be restricted to specific game editions, you add those editions to this array |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the reward |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| type | `"StashRows"` | string | Will always be `"StashRows"` for a StashRows reward |
+| unknown | `false` | boolean | Whether or not the reward will be shown, or if it will display a `?` on the trader task page. |
+| value | `2` | int | How many rows to award to the player's stash |
+
+Example:
+```json
+{
+  "availableInGameEditions": [],
+  "id": "668858720221bbe5f306b4e7",
+  "index": 0,
+  "type": "StashRows",
+  "unknown": false,
+  "value": "2"
+}
+```
 ### Achievement
+>
+> Achievement rewards require custom code to import the achievement data and icon to award to the player properly, unless you are rewarding an existing achievement.
+{.is-warning}
+
+>
+> Referring to the Server `achievements.json` file in the server database templates is advised to understand the actual structure of achievements. This reference sheet will not go into detail on how to properly add achievements to the server.
+{.is-info}
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| availableInGameEditions | `[]` | string array | If you would like the rewards for a quest to be restricted to specific game editions, you add those editions to this array |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the reward |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) ||
+| target | `"664f1f8768508d74604bf556"` | MongoID string | Unique AchievementID, this is the achievement that will be rewarded |
+| type | `"Achievement"` | string | Will always be `"Achievement"` for an Achievement reward |
+| unknown | `false` | boolean | Whether or not the reward will be shown, or if it will display a `?` on the trader task page |
+
+Example:
+```json
+{
+  "availableInGameEditions": [],
+  "id": "664f249468508d74604bf55f",
+  "index": 0,
+  "target": "664f1f8768508d74604bf556",
+  "type": "Achievement",
+  "unknown": false
+}
+```
