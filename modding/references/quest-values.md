@@ -2,7 +2,7 @@
 title: Quest Value References
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2025-06-06T05:05:03.419Z
+date: 2025-06-06T05:08:25.187Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -905,7 +905,7 @@ Example:
 {.is-warning}
 
 | Property Name | Example Value | Type | Child Property Name | Child Example Value | Child Type | Notes |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | conditionType | `"WeaponAssembly"` | string | | | | WeaponAssembly condition |
 | id | `"5accd5e386f77463027e9397"` | MongoID string | | | | Unique ID for the condition |
 | index | `0` | int | | | | Currently unused (suspected added via BSG Tooling to build quests) |
