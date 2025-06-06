@@ -2,7 +2,7 @@
 title: Quest Value References
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2025-06-06T07:17:35.389Z
+date: 2025-06-06T07:20:14.362Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -80,13 +80,13 @@ Trader IDs are used in quest conditions, standing rewards, and quest properties 
 | Ref (Arena) | 6617beeaa9cfa777ca915b7c |
 
 ### Location Details
-Location details are used in various locations in quests. There is a ID for the location as well as a coded string for each location. They are used in specific spots in the quest structure.
+Location details are used in various locations in quests. There is a MongoID for the location as well as a Target Name string for each location. They are used in specific spots in the quest structure.
 >
 > Friendly Names are not used in code.
-> IDs are used for the "location" property on quests.
+> MongoIDs are used for the "location" property on quests.
 > Target Names are used when a condition requires a location. **These are case sensitive.**
 >
-| Friendly Name | ID | Target Name |
+| Friendly Name | MongoID | Target Name |
 | :--- | :--- | :--- |
 | Factory (Day) | 55f2d3fd4bdc2d5f408b4567 | factory4_day |
 | Factory (Night) | 59fc81d786f774390775787e | factory4_night |
@@ -219,7 +219,7 @@ The below table is a list of all currently known properties for quests.
 | image | No | `"/files/quest/icon/quest_icon.png"` | string |
 | instantComplete | No | `false` | boolean |
 | isKey | No | `false` | boolean |
-| location | Yes | `"5704e4dad2720bb55b8b4567"` | string ([Location Details Table](/modding/references/quest-values#location-details)) |
+| location | Yes | `"5704e4dad2720bb55b8b4567"` | MongoID string ([Location Details Table](/modding/references/quest-values#location-details)) |
 | name | Yes | `"68423056128053531e5a5bf6 name"` | string |
 | note | No | `"68423056128053531e5a5bf6 note"` | string |
 | progressSource | No | `"eft"` | string |
@@ -230,7 +230,7 @@ The below table is a list of all currently known properties for quests.
 | side | Yes | `"Pmc"` | string |
 | startedMessageText | No | `"68423056128053531e5a5bf6 name"` | string |
 | successMessageText | No | `"68423056128053531e5a5bf6 name"` | string |
-| traderId | Yes | `"54cb50c76803fa8b248b4571"` | string ([Trader ID Table](/modding/references/quest-values#trader-ids)) |
+| traderId | Yes | `"54cb50c76803fa8b248b4571"` | MongoID string ([Trader ID Table](/modding/references/quest-values#trader-ids)) |
 | type | Yes | `"Skill"` | string ([Quest Type Table](/modding/references/quest-values#quest-types)) |
 
 ### Quest Structure
@@ -944,7 +944,7 @@ Example:
 | index | `0` | int | | | | Currently unused (suspected added via BSG Tooling to build quests) |
 | dynamicLocale | `""` | string | | | | Currently unused |
 | globalQuestCounterId | `""` | string | | | | Currently unused |
-| containsItems | `["5aa66be6e5b5b0214e506e97"]` | string array | | | | List of ItemIDs in an array that the weapon must have attached |
+| containsItems | `["5aa66be6e5b5b0214e506e97"]` | MongoID string array | | | | List of ItemIDs in an array that the weapon must have attached |
 | parentId | `""` | MongoID string | | | | Used to create optional sub-tasks for a task - see `"Bad Rep Evidence"` in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
 | baseAccuracy | - | object | compareMethod | >= | string | Weapon MOA Requirements |
 | | | | value | 0 | int | |
@@ -956,7 +956,7 @@ Example:
 | | | | value | 60 | int | |
 | ergonomics | - | object | compareMethod | >= | string | Ergonomics requirements |
 | | | | value | 60 | int | |
-| hasItemFromCategory | `["55818b164bdc2ddc698b456c"]` | string array | | | | List of Item Category IDs that the weapon must have attached |
+| hasItemFromCategory | `["55818b164bdc2ddc698b456c"]` | MongoID string array | | | | List of Item Category IDs that the weapon must have attached |
 | height | - | object | compareMethod | <= | string | Number of vertical grid cells the weapon must have in the stash |
 | | | | value | 2 | int | |
 | magazineCapacity | - | object | compareMethod | <= | string | Requirements for size of the attached magazine |
@@ -965,7 +965,7 @@ Example:
 | | | | value | 0 | int | |
 | recoil | - | object | compareMethod | <= | string | Sum of Horizontal & Vertical recoil is the value to compare |
 | | | | value | 300 | int | |
-| target | `["5bfea6e90db834001b7347f3"]` | string array |  |  |  | The ItemID of the weapon to be built |
+| target | `["5bfea6e90db834001b7347f3"]` | MongoID string array |  |  |  | The ItemID of the weapon to be built |
 | value | `1` | int |  |  |  | The number of weapons that must be built and handed over that match the requirements (untested over 1) |
 | visibilityConditions | `[]` | array | | | | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
 | weight | - | object | compareMethod | <= | string | Weapon must match the comparison of the value to be valid |
@@ -1271,7 +1271,7 @@ Example:
 | globalQuestCounterId | `""` | string | Currently unused |
 | id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
 | index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
-| target | `"54cb50c76803fa8b248b4571"` | string | Trader ID for the value requirement of the loyalty level. See [TraderIDs](/modding/references/quest-values#trader-ids) |
+| target | `"54cb50c76803fa8b248b4571"` | MongoID string | Trader ID for the value requirement of the loyalty level. See [TraderIDs](/modding/references/quest-values#trader-ids) |
 | value | `3` | float | Loyalty Level required for the player to compare against using the `compareMethod` |
 | visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
 
@@ -1495,7 +1495,7 @@ Example:
 | index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
 | parentId | `""` | string | Currently unused for Quest Start requirements |
 | status | `[4, 5]` | int array | Possible quest statuses for the target quest within the players profile. The target quest must be one of these statuses to become available. See [Quest Status](/modding/references/quest-values#quest-status) for possible values. |
-| target | `"657315ddab5a49b71f098853"` | string | Quest ID of the quest that is checked for the status conditions to control availability of the quest you are building this requirement for. |
+| target | `"657315ddab5a49b71f098853"` | MongoID string | Quest ID of the quest that is checked for the status conditions to control availability of the quest you are building this requirement for. |
 | visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage. **This is unused for Start Requirements, I would not advise using it.** |
 
 Example:
@@ -1533,7 +1533,7 @@ Example:
 | id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
 | index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
 | parentId | `""` | string | Currently unused for Quest Start requirements |
-| target | `"579dc571d53a0658a154fbec"` | string | Trader ID for the value requirement of the loyalty level. See [TraderIDs](/modding/references/quest-values#trader-ids) |
+| target | `"579dc571d53a0658a154fbec"` | MongoID string | Trader ID for the value requirement of the loyalty level. See [TraderIDs](/modding/references/quest-values#trader-ids) |
 | value | `3` | float | Loyalty Level required for the player to compare against using the `compareMethod` |
 | visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage. **This is unused for Start Requirements, I would not advise using it.** |
 
@@ -1597,7 +1597,7 @@ Example:
 | id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the reward |
 | index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
 | items | | object array | See examples |
-| target | `"67d82e6f4f4b5340e611a4cb"` | string | The target is the `_id` of the item you are rewarding. This target ID is targetted to a different `_id` depending on if it's a single item reward, multi item reward, or a weapon/armour reward (item that has children). See the examples. |
+| target | `"67d82e6f4f4b5340e611a4cb"` | MongoID string | The target is the `_id` of the item you are rewarding. This target ID is targetted to a different `_id` depending on if it's a single item reward, multi item reward, or a weapon/armour reward (item that has children). See the examples. |
 | type | `"Item"` | string | Will always be `"Item"` for an Item reward |
 | unknown | `false` | boolean | Whether or not the reward will be shown, or if it will display a `?` on the trader task page. |
 | value | `1` | int | The value here is dependent on how many items you are rewarding, or what type of item you are rewarding. Stackable single item rewards will match the `StackObjectsCount` of the item in the `items` array. Multiple of the same item will be the sum of the `StackObjectsCount` inside the `items` array, but the `items` array must only contain the same `_tpl` item to be valid. Rewarding a weapon/armour/etc, this value will always be 1 since they cannot stack. |
