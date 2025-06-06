@@ -2,7 +2,7 @@
 title: Quest Value References
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2025-06-06T06:06:53.803Z
+date: 2025-06-06T07:17:35.389Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -1429,12 +1429,428 @@ Player exfil 7 times from a specific location, with a specific status, from a sp
 }
 ```
 ## Available For Start Requirements
+>
+All Start Requirements can be combined to have multiple different requirements. 
+You can get creative with this and even force players to be between specific levels while also having completed specific quests for a quest to become available. 
+I usually recommend only using 2-3 requirements. 
 
+>You can have multiple quest requirements, a good quest to look at for this would be `"Collector"` in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) - the vanilla quest that by far, has the most individual quest requirements out of every quest in Tarkov. 
+{.is-info}
+
+>Every condition must be met for a quest to become available for a player to accept it.
+{.is-warning}
+
+### Level Start Requirement
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| compareMethod | `">="` | string | Compare method, no reason to really change this unless you want to require the player to be a lower level than dictated to receive the quest, which may cause the player to be unable to ever see this quest depending on other requirements |
+| conditionType | `"Level"` | string | Level condition |
+| dynamicLocale | `false` | boolean | Currently unused |
+| globalQuestCounterId | `""` | string | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| parentId | `""` | string | Currently unused for Quest Start requirements |
+| value | `10` | float | Player Side Level required for the player to compare against using the `compareMethod` |
+| visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage. **This is unused for Start Requirements, I would not advise using it.** |
+
+Example:
+```json
+{
+  "availableAfter": 0,
+  "conditionType": "Quest",
+  "dispersion": 0,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "66796ea13b61733d65fc59a6",
+  "index": 0,
+  "parentId": "",
+  "status": [
+    2,
+    5,
+    4
+  ],
+  "target": "657315ddab5a49b71f098853",
+  "visibilityConditions": []
+}
+```
+### Quest Start Requirement
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| availableAfter | `0` | int | Minutes that must have passed since completing the quest target for this quest to become available. |
+| conditionType | `"Quest"` | string | Quest condition |
+| dispersion | `0` | int | Currently unused |
+| dynamicLocale | `false` | boolean | Currently unused |
+| globalQuestCounterId | `""` | string | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| parentId | `""` | string | Currently unused for Quest Start requirements |
+| status | `[4, 5]` | int array | Possible quest statuses for the target quest within the players profile. The target quest must be one of these statuses to become available. See [Quest Status](/modding/references/quest-values#quest-status) for possible values. |
+| target | `"657315ddab5a49b71f098853"` | string | Quest ID of the quest that is checked for the status conditions to control availability of the quest you are building this requirement for. |
+| visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage. **This is unused for Start Requirements, I would not advise using it.** |
+
+Example:
+```json
+{
+  "availableAfter": 0,
+  "conditionType": "Quest",
+  "dispersion": 0,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "66796ea13b61733d65fc59a6",
+  "index": 0,
+  "parentId": "",
+  "status": [
+    2,
+    5,
+    4
+  ],
+  "target": "657315ddab5a49b71f098853",
+  "visibilityConditions": []
+}
+```
+### Trader Standing Requirement
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| compareMethod | `">="` | string | Compare method, no reason to really change this unless you want to require the player to be a lower loyalty level than dictated to receive the quest, which may cause the player to be unable to ever see this quest depending on other requirements |
+| conditionType | `"TraderStanding"` | string | TraderStanding condition |
+| dynamicLocale | `false` | boolean | Currently unused |
+| globalQuestCounterId | `""` | string | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| parentId | `""` | string | Currently unused for Quest Start requirements |
+| target | `"579dc571d53a0658a154fbec"` | string | Trader ID for the value requirement of the loyalty level. See [TraderIDs](/modding/references/quest-values#trader-ids) |
+| value | `3` | float | Loyalty Level required for the player to compare against using the `compareMethod` |
+| visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage. **This is unused for Start Requirements, I would not advise using it.** |
+
+Example:
+```json
+{
+  "compareMethod": ">=",
+  "conditionType": "TraderStanding",
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "6672daa3a5f158174abeaab2",
+  "index": 0,
+  "parentId": "",
+  "target": "579dc571d53a0658a154fbec",
+  "value": 4,
+  "visibilityConditions": []
+}
+```
 ## Fail Conditions
+Fail conditions can get extremely complicated and are very easy to break. It is highly suggest that as you add conditions that may cause the quest to fail, you **test** them. You can use a USEC Dev account to test quest failure conditions, as when the profile is created, all quests are started and accepted without needing to do `AvailableForStart` conditions.
+
+> If you add fail conditions and you want the player to be able to restart it, make sure that you flip `restartable` to `true` in the quest properties. If you fail to do this, and they fail the quest - it is permanently failed.
+{.is-warning}
+
+Fail conditions work the exact same way as `AvailableForStart` and `AvailableForFinish` conditions. Please refer to that documentation on how to create Fail Conditions. The only difference is that the conditions go within the `Fail` array, and not the `AvailableForStart` or `AvailableForFinish` array.
+
+Using vanilla quests is a very good way to build your fail conditions. See Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links)
 
 ## Rewards
 ### Experience
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| availableInGameEditions | `[]` | string array | If you would like the rewards for a quest to be restricted to specific game editions, you add those editions to this array |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the reward |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| type | `"Experience"` | string | Experience reward |
+| unknown | `false` | boolean | Whether or not the reward will be shown, or if it will display a `?` on the trader task page. |
+| value | `85000` | int | Amount of experience to grant to the player upon quest completion |
+
+Example:
+```json
+{
+  "availableInGameEditions": [],
+  "id": "60c8c2d02238043a5267864d",
+  "index": 0,
+  "type": "Experience",
+  "unknown": false,
+  "value": 7500
+}
+```
 ### Item
+> I would highly suggest that you look at how vanilla quests are structured for item rewards. These can be complicated when starting out.
+
+> There are multiple examples in this secion on doing item rewards. Pay attention to the `StackObjectsCount` inside the `items` array compared to the `value` property on the reward object. It is very easy to mess this up.
+{.is-warning}
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| availableInGameEditions | `[]` | string array | If you would like the rewards for a quest to be restricted to specific game editions, you add those editions to this array |
+| findInRaid | `false` | boolean | Whether the item being rewarded is marked as FIR or not |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the reward |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| items | | object array | See examples |
+| target | `"67d82e6f4f4b5340e611a4cb"` | string | The target is the `_id` of the item you are rewarding. This target ID is targetted to a different `_id` depending on if it's a single item reward, multi item reward, or a weapon/armour reward (item that has children). See the examples. |
+| type | `"Item"` | string | Will always be `"Item"` for an Item reward |
+| unknown | `false` | boolean | Whether or not the reward will be shown, or if it will display a `?` on the trader task page. |
+| value | `1` | int | The value here is dependent on how many items you are rewarding, or what type of item you are rewarding. Stackable single item rewards will match the `StackObjectsCount` of the item in the `items` array. Multiple of the same item will be the sum of the `StackObjectsCount` inside the `items` array, but the `items` array must only contain the same `_tpl` item to be valid. Rewarding a weapon/armour/etc, this value will always be 1 since they cannot stack. |
+
+Rouble reward (single item reward) example:
+```json
+{
+  "availableInGameEditions": [],
+  "findInRaid": false,
+  "id": "60cb694077dc197c77424fcd",
+  "index": 0,
+  "items": [
+    {
+      "_id": "67d82e6f4f4b5340e611a4cb",
+      "_tpl": "5449016a4bdc2d6f028b456f",
+      "upd": {
+        "StackObjectsCount": 75000
+      }
+    }
+  ],
+  "target": "67d82e6f4f4b5340e611a4cb",
+  "type": "Item",
+  "unknown": false,
+  "value": 75000
+}
+```
+
+Single item reward example:
+```json
+{
+  "availableInGameEditions": [],
+  "findInRaid": true,
+  "id": "60cb69576a2a1958fc522d04",
+  "index": 0,
+  "items": [
+    {
+      "_id": "67d82e6f4f4b5340e611a4cd",
+      "_tpl": "5d02778e86f774203e7dedbe",
+      "upd": {
+        "SpawnedInSession": true,
+        "StackObjectsCount": 1
+      }
+    }
+  ],
+  "target": "67d82e6f4f4b5340e611a4cd",
+  "type": "Item",
+  "unknown": false,
+  "value": 1
+}
+```
+
+Multiple item reward example:
+```json
+{
+  "availableInGameEditions": [],
+  "findInRaid": true,
+  "id": "5ac6643e86f774055a77c730",
+  "index": 0,
+  "items": [
+    {
+      "_id": "67d82e6f4f4b5340e611a646",
+      "_tpl": "5673de654bdc2d180f8b456d",
+      "upd": {
+        "SpawnedInSession": true,
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "67d82e6f4f4b5340e611a647",
+      "_tpl": "5673de654bdc2d180f8b456d",
+      "upd": {
+        "SpawnedInSession": true,
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "67d82e6f4f4b5340e611a648",
+      "_tpl": "5673de654bdc2d180f8b456d",
+      "upd": {
+        "SpawnedInSession": true,
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "67d82e6f4f4b5340e611a649",
+      "_tpl": "5673de654bdc2d180f8b456d",
+      "upd": {
+        "SpawnedInSession": true,
+        "StackObjectsCount": 1
+      }
+    }
+  ],
+  "target": "67d82e6f4f4b5340e611a649",
+  "type": "Item",
+  "unknown": false,
+  "value": 4
+}
+```
+
+Weapon reward example:
+```json
+{
+  "availableInGameEditions": [],
+  "findInRaid": true,
+  "id": "60d062e01bdece56c249cc0b",
+  "index": 0,
+  "items": [
+    {
+      "_id": "67d82e6e4f4b5340e611a3d5",
+      "_tpl": "59f9cabd86f7743a10721f46",
+      "upd": {
+        "StackObjectsCount": 1
+      }
+    },
+    {
+      "_id": "67d82e6e4f4b5340e611a3d6",
+      "_tpl": "5998517986f7746017232f7e",
+      "parentId": "67d82e6e4f4b5340e611a3d5",
+      "slotId": "mod_pistol_grip"
+    },
+    {
+      "_id": "67d82e6e4f4b5340e611a3d7",
+      "_tpl": "599851db86f77467372f0a18",
+      "parentId": "67d82e6e4f4b5340e611a3d5",
+      "slotId": "mod_stock"
+    },
+    {
+      "_id": "67d82e6e4f4b5340e611a3d8",
+      "_tpl": "5998529a86f774647f44f421",
+      "parentId": "67d82e6e4f4b5340e611a3d5",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "67d82e6e4f4b5340e611a3d9",
+      "_tpl": "5998598e86f7740b3f498a86",
+      "parentId": "67d82e6e4f4b5340e611a3d5",
+      "slotId": "mod_muzzle"
+    },
+    {
+      "_id": "67d82e6e4f4b5340e611a3da",
+      "_tpl": "59985a8086f77414ec448d1a",
+      "parentId": "67d82e6e4f4b5340e611a3d5",
+      "slotId": "mod_reciever"
+    },
+    {
+      "_id": "67d82e6e4f4b5340e611a3db",
+      "_tpl": "599860e986f7743bb57573a6",
+      "parentId": "67d82e6e4f4b5340e611a3d5",
+      "slotId": "mod_sight_rear"
+    },
+    {
+      "_id": "67d82e6e4f4b5340e611a3dc",
+      "_tpl": "59ccd11386f77428f24a488f",
+      "parentId": "67d82e6e4f4b5340e611a3d5",
+      "slotId": "mod_gas_block"
+    },
+    {
+      "_id": "67d82e6e4f4b5340e611a3dd",
+      "_tpl": "5648b1504bdc2d9d488b4584",
+      "parentId": "67d82e6e4f4b5340e611a3dc",
+      "slotId": "mod_handguard"
+    }
+  ],
+  "target": "67d82e6e4f4b5340e611a3d5",
+  "type": "Item",
+  "unknown": false,
+  "value": 1
+}
+```
+### Assortment Unlock
+> I would highly suggest that you look at how custom traders are structured for item unlocks. 
+> These can be complicated when starting out. 
+> If you are altering a vanilla trader you will also need to adjust the traders assort to have these items in them, and you will need to adjust the traders `questassort.json` to have the relevant quest ID to match to the assort ID unlock. These steps are also required when doing unlocks for custom traders.
+
+> There are multiple examples in this section on doing item unlocks. This behaviour has slightly changed in 3.11 for unlocks as the targets no longer have to match the assorts.
+{.is-warning}
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| availableInGameEditions | `[]` | string array | If you would like the rewards for a quest to be restricted to specific game editions, you add those editions to this array |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the reward |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| items | | object array | See examples. This array should only have 1 entry unless you are adding an item that has children (weapon, armour, etc). |
+| loyaltyLevel | `1` | int | Loyalty Level for the Unlock. Must match the Quest Assort Loyalty Level for the trader. |
+| target | `"67d82e6f4f4b5340e611a4cb"` | MongoID string | The target is the `_id` of the item you are rewarding as an unlock. The `_tpl` of that target is the item that is actually going to be unlocked, only if that `_tpl` has an entry in the assort and the quest ID for this condition is in the `questassort.json` for the `traderId` being targetted...and that `questassort` entry for the questID is targetted to the `id` of the assort entry for the `_tpl`. You can see how this is confusing, **_use custom traders or vanilla traders as a reference_.** |
+| traderId | `"58330581ace78e27b8b10cee"` | MongoID string | Trader ID for the assortment unlock. See [TraderIDs](/modding/references/quest-values#trader-ids) | |
+| type | `"AssortmentUnlock"` | string | Will always be `"Item"` for an Item reward |
+| unknown | `false` | boolean | Whether or not the reward will be shown, or if it will display a `?` on the trader task page. |
+
+Weapon assort unlock example (Will unlock this specific weapon, with these specific attachments in the assort): 
+```json
+{
+  "availableInGameEditions": [],
+  "id": "63a1a03b4ebcff1c995dc341",
+  "index": 0,
+  "items": [
+    {
+      "_id": "67d82e6e4f4b5340e611a312",
+      "_tpl": "5a7828548dc32e5a9c28b516"
+    },
+    {
+      "_id": "67d82e6e4f4b5340e611a313",
+      "_tpl": "5a787f7ac5856700177af660",
+      "parentId": "67d82e6e4f4b5340e611a312",
+      "slotId": "mod_barrel"
+    },
+    {
+      "_id": "67d82e6e4f4b5340e611a314",
+      "_tpl": "5a788089c5856700142fdd9c",
+      "parentId": "67d82e6e4f4b5340e611a312",
+      "slotId": "mod_handguard"
+    },
+    {
+      "_id": "67d82e6e4f4b5340e611a315",
+      "_tpl": "5a7882dcc5856700177af662",
+      "parentId": "67d82e6e4f4b5340e611a312",
+      "slotId": "mod_magazine"
+    },
+    {
+      "_id": "67d82e6e4f4b5340e611a316",
+      "_tpl": "5a7880d0c5856700142fdd9d",
+      "parentId": "67d82e6e4f4b5340e611a312",
+      "slotId": "mod_stock"
+    }
+  ],
+  "loyaltyLevel": 1,
+  "target": "67d82e6e4f4b5340e611a312",
+  "traderId": "58330581ace78e27b8b10cee",
+  "type": "AssortmentUnlock",
+  "unknown": false
+}
+```
+
+Single item unlock example: 
+```json
+{
+  "availableInGameEditions": [],
+  "id": "5ac667f686f77403df401d1d",
+  "index": 0,
+  "items": [
+    {
+      "_id": "67d82e6f4f4b5340e611a5ec",
+      "_tpl": "584984812459776a704a82a6"
+    }
+  ],
+  "loyaltyLevel": 1,
+  "target": "67d82e6f4f4b5340e611a5ec",
+  "traderId": "58330581ace78e27b8b10cee",
+  "type": "AssortmentUnlock",
+  "unknown": false
+}
+```
+
 ### Trader Standing
 ### Skill
 ### Stash Rows
