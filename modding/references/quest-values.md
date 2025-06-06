@@ -2,7 +2,7 @@
 title: Quest Value Reference Sheet
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2025-06-06T21:30:32.975Z
+date: 2025-06-06T21:32:47.365Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -36,8 +36,8 @@ Updated as of 3.11
 	- [Kills](/modding/references/quest-values#kills)
 	- [Exit Status](/modding/references/quest-values#exit-status)
 	- [Exit Name](/modding/references/quest-values#exit-name)
-	- [Location](/modding/references/quest-values#location)
 	- [Trader Loyalty](/modding/references/quest-values#trader-loyalty)
+	- [Location](/modding/references/quest-values#location)
   	- [Counter Creator](/modding/references/quest-values#counter-creator)
 - [Available For Start Requirements](/modding/references/quest-values#available-for-start-requirements)
 - [Fail Conditions](/modding/references/quest-values#fail-conditions)
