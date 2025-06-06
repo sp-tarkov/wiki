@@ -2,7 +2,7 @@
 title: Quest Value References
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2025-06-06T04:18:27.964Z
+date: 2025-06-06T05:05:03.419Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -36,6 +36,8 @@ Updated as of 3.11
 	- [Weapon Assembly](/modding/references/quest-values#weapon-assembly)
 	- [Kills](/modding/references/quest-values#kills)
 	- [Exit Status](/modding/references/quest-values#exit-status)
+	- [Exit Name](/modding/references/quest-values#exit-name)
+  	- [Counter Creator](/modding/references/quest-values#counter-creator)
 - [Available For Start Requirements](/modding/references/quest-values#available-for-start-requirements)
 - [Fail Conditions](/modding/references/quest-values#fail-conditions)
 - [Rewards](/modding/references/quest-values#rewards)
@@ -52,7 +54,7 @@ Below you will find all general information related to quests, including vanilla
 ### Useful Links
 [Item Finder](https://db.sp-tarkov.com/search)
 [Vanilla Quest Data](https://github.com/sp-tarkov/server/blob/master/project/assets/database/templates/quests.json)
-[Bot Types & Names Reference Sheet](https://wiki.sp-tarkov.com/modding/references/bot-types)
+[Bot Types & Names Reference Sheet](/modding/references/bot-types)
 
 
 ### Trader IDs
@@ -848,7 +850,7 @@ Example:
 >
 > Notice that the quest structure for this type is actually inside a "CounterCreator" condition.
 > "CounterCreator" conditions hold various condition types, and must be used for this condition type.
->
+{.is-info}
 
 | Property Name | Example Value | Type | Notes |
 | :--- | :--- | :--- | :--- |
@@ -857,7 +859,7 @@ Example:
 | globalQuestCounterId | `""` | string | Currently unused |
 | id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
 | target | `"place_peacemaker_001"` | string | This value is required and must match the `visit` zone that you have created (or use a vanilla zone ID). This zone indicates where the player must visit. For zone creation, you may consider using the mod VCQL by Virtual. |
-| value | `1` | int | This is always 1, as you visit it one time and it completes the condition. Probably works with higher values but untested. |
+| value | `1` | int | This is always 1. The actual value of how many times you must complete the "VisitPlace" condition is the `value` property on the `CounterCreator` itself, and not the one within the `VisitPlace` condition. |
 
 Example:
 ```json
@@ -1005,11 +1007,236 @@ Example:
 
 ### Kills
 
-Blah blah
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
 
+>
+> Notice that the quest structure for this type is actually inside a "CounterCreator" condition.
+> "CounterCreator" conditions hold various condition types, and must be used for this condition type.
+> See [CounterCreator]()
+{.is-info}
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| bodyPart | `["Head"]` | string array | If populated, requires specific kill shots to count. See [Body Part Values]() |
+| compareMethod | `">="` | string | Compare method, there's really no reason to use anything other than `">="`
+| conditionType | `"Kills"` | string | Kills condition |
+| daytime | see example below | object | In game hour requirement, not required - if either value is not 0 then it is enforced for the kill to count (typically used for night raids). Leave `from` & `to` both at `0` to not have a time requirement |
+| distance | see example below | object | Distance requirement, not required - if either value is not 0 then it is enforced for the kill to count (typically used for night raids). Set `compareMethod` to `">="` & `value` to `0` to not have a distance requirement. Value is distance in meters. |
+| dynamicLocale | `false` | boolean | Currently unused |
+| enemyEquipmentExclusive | `[]` | boolean | If populated, requires specific equipment to not be worn by enemy when killed (Not Used by BSG, untested) |
+| enemyEquipmentInclusive | `[]` | boolean | If populated, requires specific equipment to be worn by enemy when killed (Not Used by BSG, untested) |
+| enemyHealthEffects | `[]` | boolean | If populated, requires specific health ailments to be active on enemy when killed (Not Used by BSG, untested) |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| resetOnSessionEnd | `false` | boolean | Whether the condition resets to 0 if not completed by session end (Exfil/death/etc) - In otherwords, the kill condition must be completed in 1 raid or it resets if `true` |
+| savageRole | `[]` | string array | If specified, then the kill will only count if the player kills that specific bot type. See [Bot Type & Name Reference Sheet](/modding/references/bot-types) |
+| target | `"AnyPmc"` | string | Must be `"AnyPmc"`, `"Savage"`, or `"Any"`. See [Bot Type & Name Reference Sheet](/modding/references/bot-types) for clarification on what is a Savage or Pmc. Specifying `"Any"` will count any kill no matter what. |
+| value | `1` | int | This is always 1. The actual value of how many kills you must achieve to complete the condition is the `value` property on the `CounterCreator` itself, and not the one within the `Kills` condition. |
+| weapon | `[]` | string array | Array of weapons that must make the killing blow to count towards the condition. Can be empty.|
+| weaponCaliber | `[]` | string array | Unused |
+| weaponModsExclusive | `[]` | string array | Array of weapon attachments - if the killing weapon has any of these attachments then the kill will not count. |
+| weaponModsInclusive | `[]` | string array | Array of weapon attachments - the killing weapon must have these attachments to be counted. |
+
+Example:
+```json
+{
+  "completeInSeconds": 0,
+  "conditionType": "CounterCreator",
+  "counter": {
+    "conditions": [
+      {
+        "bodyPart": [],
+        "compareMethod": ">=",
+        "conditionType": "Kills",
+        "daytime": {
+          "from": 22,
+          "to": 7
+        },
+        "distance": {
+          "compareMethod": ">=",
+          "value": 20
+        },
+        "dynamicLocale": false,
+        "enemyEquipmentExclusive": [],
+        "enemyEquipmentInclusive": [],
+        "enemyHealthEffects": [],
+        "id": "5edab65ececc0069284c0ec3",
+        "resetOnSessionEnd": false,
+        "savageRole": [
+          "bossSanitar"
+        ],
+        "target": "Savage",
+        "value": 1,
+        "weapon": [],
+        "weaponCaliber": [],
+        "weaponModsExclusive": [],
+        "weaponModsInclusive": []
+      }
+    ],
+    "id": "5edab5a6cecc0069284c0ec1"
+  },
+  "doNotResetIfCounterCompleted": false,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "5edab5a6cecc0069284c0ec2",
+  "index": 0,
+  "isNecessary": false,
+  "isResetOnConditionFailed": false,
+  "oneSessionOnly": false,
+  "parentId": "",
+  "type": "Elimination",
+  "value": 1,
+  "visibilityConditions": []
+}
+```
 ### Exit Status
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
 
-Blah blah
+>
+> Notice that the quest structure for this type is actually inside a "CounterCreator" condition.
+> "CounterCreator" conditions hold various condition types, and must be used for this condition type.
+{.is-info}
+
+>
+> Exit Status conditions can be paired with Exit Name conditions within a "CounterCreator" to also require a specific exfil to have been taken by the player to count. See the example.
+{.is-info}
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| conditionType | `"ExitStatus"` | string | ExitStatus condition |
+| dynamicLocale | `false` | boolean | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| status | `["Survived", "Transit", "Runner"]` | string array | Depending on what you populate in the array, those are the available exfil statuses that can complete the condition. If you specify the example to the left and the player is killed, the counter remains at 0, because you did not specify "Killed" as a status. If they Transit, they will complete this condition. For valid statuses, see below table. |
+
+
+| Status Name | Requirements |
+| :--- | :--- |
+| "Survived" | Player earned 200+ XP or spent at least 7 minutes in raid, and successfully exfilled - not transit. |
+| "Killed" | Player dies in raid. |
+| "Left" | Player left raid. (Does not apply in SPT) |
+| "Runner" | Player exfilled before 7 minutes in raid and did not earn at least 200 XP. |
+| "MissingInAction" | Player did not exfil or transit prior to raid time expiring. |
+| "Transit" | Player activated a transit and moved to another map. |
+
+Example:
+```json
+{
+  "completeInSeconds": 0,
+  "conditionType": "CounterCreator",
+  "counter": {
+    "conditions": [
+      {
+        "conditionType": "ExitStatus",
+        "dynamicLocale": false,
+        "id": "669fb170617a3971bb525b2a",
+        "status": [
+          "Survived",
+          "Transit"
+        ]
+      },
+      {
+        "conditionType": "ExitName",
+        "dynamicLocale": false,
+        "exitName": "Gate_o",
+        "id": "66c0a86de55c52cd17921935"
+      }
+    ],
+    "id": "669fb12ec1fbcb64b49837ab"
+  },
+  "doNotResetIfCounterCompleted": false,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "669fb12eb01ceef19a5b4ebc",
+  "index": 0,
+  "isNecessary": false,
+  "isResetOnConditionFailed": false,
+  "oneSessionOnly": false,
+  "parentId": "",
+  "type": "Completion",
+  "value": 1,
+  "visibilityConditions": []
+}
+```
+### Exit Name
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
+
+>
+> Notice that the quest structure for this type is actually inside a "CounterCreator" condition.
+> "CounterCreator" conditions hold various condition types, and must be used for this condition type.
+{.is-info}
+
+>
+> Exit Name conditions can be paired with Exit Status conditions within a "CounterCreator" to also require a specific exfiltration status by the player to count. See the example.
+{.is-info}
+
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| conditionType | `"ExitName"` | string | ExitStatus condition |
+| dynamicLocale | `false` | boolean | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| exitName | `"EXFIL_Train"` | string | Name of the exfil that the player must take to complete the condition. For valid exfil names, see [SPT Location Data](https://github.com/sp-tarkov/server/tree/master/project/assets/database/locations) on the GitHub, and view the `allExtracts.json` for the location you are interested in requiring players to exfil from. |
+
+Example:
+```json
+{
+  "completeInSeconds": 0,
+  "conditionType": "CounterCreator",
+  "counter": {
+    "conditions": [
+      {
+        "conditionType": "ExitStatus",
+        "dynamicLocale": false,
+        "id": "669fb170617a3971bb525b2a",
+        "status": [
+          "Survived",
+          "Runner",
+          "Transit"
+        ]
+      },
+      {
+        "conditionType": "ExitName",
+        "dynamicLocale": false,
+        "exitName": "Gate_o",
+        "id": "66c0a86de55c52cd17921935"
+      }
+    ],
+    "id": "669fb12ec1fbcb64b49837ab"
+  },
+  "doNotResetIfCounterCompleted": false,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "669fb12eb01ceef19a5b4ebc",
+  "index": 0,
+  "isNecessary": false,
+  "isResetOnConditionFailed": false,
+  "oneSessionOnly": false,
+  "parentId": "",
+  "type": "Completion",
+  "value": 1,
+  "visibilityConditions": []
+}
+```
+### Counter Creator
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
+
+Counter Creator's are used to combine multiple conditions together within a single task of a quest, or even by itself with a single condition because it is required. It is highly advised to have read the relevant documentation for the type of condition you are trying to create.
+
+Do not be afraid to mess around the multiple conditions inside a count creator to understand how it functions and how you can utilize it to create unique quests that others (including BSG!) may not have thought to do.
+
+>
+> Many quest conditions are nested inside a Counter Creator. For their specific behaviour within a counter creator, please read the relevant sections for that condition type.
+{.is-info}
 
 ## Available For Start Requirements
 
