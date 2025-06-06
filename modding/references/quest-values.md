@@ -2,7 +2,7 @@
 title: Quest Value References
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: false
-date: 2025-06-06T03:50:56.328Z
+date: 2025-06-06T03:54:03.368Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -30,7 +30,7 @@ Updated as of 3.11
 	- [Handover Item](/modding/references/quest-values#handover-item)
 	- [Find Item](/modding/references/quest-values#find-item)
 	- [Skill Requirement](/modding/references/quest-values#skill-requirement)
-	- [Leave Item](/modding/references/quest-values#leave-item)
+	- [Leave Item At Location](/modding/references/quest-values#leave-item-at-location)
 	- [Place Beacon](/modding/references/quest-values#place-beacon)
 	- [Visit Place](/modding/references/quest-values#visit-place)
 	- [Weapon Assembly](/modding/references/quest-values#weapon-assembly)
@@ -741,14 +741,14 @@ Example:
   "visibilityConditions": []
 }
 ```
-### Leave Item
+### Leave Item At Location
 >
 > As with all properties in quests - you should use all available properties regardless of if you need them or not.
 > BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
 >
 
 >
-> This quest type is NOT the same as PlaceBeacon. They have different in game behaviours. Beacon is persistent and can be removed/destroyed and will impact the players progress. PlaceItemAtLocation is completed and the item disappears as soon as it's placed.
+> This quest type is NOT the same as PlaceBeacon. They have different in game behaviours. Beacon is persistent and can be removed/destroyed and will impact the players progress. LeaveItemAtLocation is completed and the item disappears as soon as it's placed.
 >
 
 | Property Name | Example Value | Type | Notes |
@@ -801,7 +801,7 @@ Example:
 >
 
 >
-> This quest type is NOT the same as PlaceItemAtLocation. They have different in game behaviours. Beacon is persistent and can be removed/destroyed and will impact the players progress. PlaceItemAtLocation is completed and the item disappears as soon as it's placed.
+> This quest type is NOT the same as LeaveItemAtLocation. They have different in game behaviours. Beacon is persistent and can be removed/destroyed and will impact the players progress. LeaveItemAtLocation is completed and the item disappears as soon as it's placed.
 >
 
 | Property Name | Example Value | Type | Notes |
