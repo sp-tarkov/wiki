@@ -2,7 +2,7 @@
 title: Quest Value References
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: false
-date: 2025-06-06T00:41:37.041Z
+date: 2025-06-06T02:53:38.351Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -18,21 +18,23 @@ Updated as of 3.11
 
 -	[General Information](/modding/references/quest-values#general-information)
 {.links-list}
+	- [Useful Links](/modding/references/quest-values#useful-links)
 	- [Trader IDs](/modding/references/quest-values#trader-ids)
   	- [Location Details](/modding/references/quest-values#location-details)
     - [Quest Types](/modding/references/quest-values#quest-types)
     - [Properties](/modding/references/quest-values#properties)
   	- [Structure](/modding/references/quest-values#quest-structure)
+- [Visibility Conditions](/modding/references/quest-values#visibility-conditions)
 -	[Available For Finish Conditions](/modding/references/quest-values#available-for-finish-conditions)
 	- [Handover Item](/modding/references/quest-values#handover-item)
 	- [Find Item](/modding/references/quest-values#find-item)
 	- [Skill Requirement](/modding/references/quest-values#skill-requirement)
-	- [Leave Item](/modding/references//quest-values#leave-item)
-	- [Place Beacon](/modding/references//quest-values#place-beacon)
-	- [Visit Place](/modding/references//quest-values#visit-place)
-	- [Weapon Assembly](/modding/references//quest-values#weapon-assembly)
-	- [Kills](/modding/references//quest-values#kills)
-	- [Exit Status](/modding/references//quest-values#exit-status)
+	- [Leave Item](/modding/references/quest-values#leave-item)
+	- [Place Beacon](/modding/references/quest-values#place-beacon)
+	- [Visit Place](/modding/references/quest-values#visit-place)
+	- [Weapon Assembly](/modding/references/quest-values#weapon-assembly)
+	- [Kills](/modding/references/quest-values#kills)
+	- [Exit Status](/modding/references/quest-values#exit-status)
 - [Available For Start Requirements](/modding/references/quest-values#available-for-start-requirements)
 - [Fail Conditions](/modding/references/quest-values#fail-conditions)
 - [Rewards](/modding/references/quest-values#rewards)
@@ -46,12 +48,17 @@ Updated as of 3.11
 ---
 ## General Information
 Below you will find all general information related to quests, including vanilla trader IDs, location information and IDs, quest types, and properties. You will also find an example quest pulled directly from BSG.
+### Useful Links
+[Item Finder](https://db.sp-tarkov.com/search)
+[Vanilla Quest Data](https://github.com/sp-tarkov/server/blob/master/project/assets/database/templates/quests.json)
+
 
 ### Trader IDs
 Trader IDs are used in quest conditions, standing rewards, and quest properties for what trader issues the quest.
 
 >
 > Please ensure that you are using a **_valid MongoID_** if you are creating a custom trader, **_the custom trader will not load if it is an invalid MongoID._**
+> You do not need to have a custom trader to create custom quests, you can create quests for vanilla traders.
 >
 
 | Friendly Name | ID |
@@ -109,57 +116,593 @@ Quest types are required and will display specific ways on the players Task List
 | Ref | 6617beeaa9cfa777ca915b7c |
 ### Properties
 
-The below table is a list of all currently known properties for quests. While not all properties are *required* for use, it is best to have every single property whether or not you are utilizing it.
-
+The below table is a list of all currently known properties for quests. 
+>
+> While not all properties are *required* for use, it is _best to have every single property, whether or not you are utilizing it_.
+>
 | Property Name | Required? | Example Value | Type |
 | :--- | :--- | :--- | :--- |
-| QuestName | Yes | "Building Our First Quest!" | string |
-| _id | Yes | "68423056128053531e5a5bf6" | MongoID string |
-| acceptPlayerMessage | No | "68423056128053531e5a5bf6 acceptPlayerMessage" | string |
-| acceptanceAndFinishingSource | No | "eft" | string |
-| arenaLocations | No | [] | array |
-| canShowNotificationsInGame | Yes | true | boolean |
-| changeQuestMessageText | No | "68423056128053531e5a5bf6 changeQuestMessageText" | string |
-| completePlayerMessage | No | "68423056128053531e5a5bf6 completePlayerMessage" | string |
+| QuestName | Yes | `"Building Our First Quest!"` | string |
+| _id | Yes | `"68423056128053531e5a5bf6"` | MongoID string |
+| acceptPlayerMessage | No | `"68423056128053531e5a5bf6 acceptPlayerMessage"` | string |
+| acceptanceAndFinishingSource | No | `"eft"` | string |
+| arenaLocations | No | `[]` | array |
+| canShowNotificationsInGame | Yes | `true` | boolean |
+| changeQuestMessageText | No | `"68423056128053531e5a5bf6 changeQuestMessageText"` | string |
+| completePlayerMessage | No | `"68423056128053531e5a5bf6 completePlayerMessage"` | string |
 | conditions | Yes | | object ([AvailableForFinish](/modding/references/quest-values#available-for-finish-conditions)/[AvailableForStart](/modding/references/quest-values#available-for-start-requirements)/[Fail](/modding/references/quest-values#fail-conditions))|
-| declinePlayerMessage | No | "68423056128053531e5a5bf6 declinePlayerMessage" | string |
-| description | No | "68423056128053531e5a5bf6 description" | string |
-| failMessageText | No | "68423056128053531e5a5bf6 failMessageText" | string |
-| gameModes | No | [] | array |
-| image | No | "/files/quest/icon/quest_icon.png" | string |
-| instantComplete | No | false | boolean |
-| isKey | No | false | boolean |
-| location | Yes | "5704e4dad2720bb55b8b4567" | string ([Location Details Table](/modding/references/quest-values#location-details)) |
-| name | Yes | "68423056128053531e5a5bf6 name" | string |
-| note | No | "68423056128053531e5a5bf6 note" | string |
-| progressSource | No | "eft" | string |
-| rankingModes | No | [] | array |
-| restartable | Yes | false | boolean |
-| rewards | No |  | object ([Rewards](/modding/references/quest-values#rewards)) |
-| secretQuest | No | false | boolean |
-| side | Yes | "Pmc" | string |
-| startedMessageText | No | "68423056128053531e5a5bf6 name" | string |
-| successMessageText | No | "68423056128053531e5a5bf6 name" | string |
-| traderId | Yes | "lol" | string ([Trader ID Table](/modding/references/quest-values#trader-ids)) |
-| type | Yes | "Skill" | string ([Quest Type Table](/modding/references/quest-values#location-details)) |
+| declinePlayerMessage | No | `"68423056128053531e5a5bf6 declinePlayerMessage"` | string |
+| description | No | `"68423056128053531e5a5bf6 description"` | string |
+| failMessageText | No | `"68423056128053531e5a5bf6 failMessageText"` | string |
+| gameModes | No | `[]` | array |
+| image | No | `"/files/quest/icon/quest_icon.png"` | string |
+| instantComplete | No | `false` | boolean |
+| isKey | No | `false` | boolean |
+| location | Yes | `"5704e4dad2720bb55b8b4567"` | string ([Location Details Table](/modding/references/quest-values#location-details)) |
+| name | Yes | `"68423056128053531e5a5bf6 name"` | string |
+| note | No | `"68423056128053531e5a5bf6 note"` | string |
+| progressSource | No | `"eft"` | string |
+| rankingModes | No | `[]` | array |
+| restartable | Yes | `false` | boolean |
+| rewards | No | | object ([Rewards](/modding/references/quest-values#rewards)) |
+| secretQuest | No | `false` | boolean |
+| side | Yes | `"Pmc"` | string |
+| startedMessageText | No | `"68423056128053531e5a5bf6 name"` | string |
+| successMessageText | No | `"68423056128053531e5a5bf6 name"` | string |
+| traderId | Yes | `"54cb50c76803fa8b248b4571"` | string ([Trader ID Table](/modding/references/quest-values#trader-ids)) |
+| type | Yes | `"Skill"` | string ([Quest Type Table](/modding/references/quest-values#location-details)) |
 
 ### Quest Structure
+Below is an example quest that was created by BSG.
 
-Blah Blah
+The following information can be found while reading through the quest structure. There is plenty more information that can be found, and I will not list all details here. You can read through the actual quest data yourself below and see what you can find!
 
-[Return To Top](#quick-links)
+- The Quest Name is "Debut"
+- The quest ID is 5936d90786f7742b1420ba5b.
+	- As you can see, this ID is also used in the various locale strings, such as "**acceptPlayerMessage**".
+- The quest will show in-game notifications when a subtask is completed, as indicated by the "**canShowNotificationsInGame**" being true.
+- The quest is an "**Elimination**" quest, so the player task list will have a skull and be branded "Elimination"
+- The kills are required to be any non-PMC
+	- Bosses & Scavs are classified as "**Savage**" and the role is not defined, so any non-PMC is a valid target.
+	- The number of kills required is 5.
+- The item being required to hand over is the "MP-133 12ga pump-action shotgun" as indicated by the target "**54491c4f4bdc2db1078b4568**".
+	- These shotguns are not required to be FIR as indicated by "**onlyFoundInRaid**" being false.
+- This quest unlocks at level 1, but the player must also have completed the quest ID "**657315df034d76585f032e01**"
+	- The quest ID that is required is the quest named "Shooting Cans"
+- This quest rewards experience, trader standing, items (including built weapons), and a trader assort unlock for Prapor.
+
+
+```json
+{
+  "5936d90786f7742b1420ba5b": {
+    "QuestName": "Debut",
+    "_id": "5936d90786f7742b1420ba5b",
+    "acceptPlayerMessage": "5936d90786f7742b1420ba5b acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "5936d90786f7742b1420ba5b changeQuestMessageText",
+    "completePlayerMessage": "5936d90786f7742b1420ba5b completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "5967379786f774620e763ea8",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Savage",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "5967379186f77463860dadd5"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "5967379186f77463860dadd6",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 5,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "596737cb86f77463a8115efd",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "54491c4f4bdc2db1078b4568"
+          ],
+          "value": 2,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "658471a72957dfa0e01552d1",
+          "index": 0,
+          "parentId": "",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "658471a35740d10d154dac8f",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4,
+            5
+          ],
+          "target": "657315df034d76585f032e01",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "5936d90786f7742b1420ba5b declinePlayerMessage",
+    "description": "5936d90786f7742b1420ba5b description",
+    "failMessageText": "5936d90786f7742b1420ba5b failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/596b465486f77457ca186188.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "5936d90786f7742b1420ba5b name",
+    "note": "5936d90786f7742b1420ba5b note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "5fe305df8a67d12f5f24c8aa",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 1700
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "60c89c0c80b2027f403dd992",
+          "index": 0,
+          "target": "54cb50c76803fa8b248b4571",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.02
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": false,
+          "id": "5fe305d9c646836c3b6fc562",
+          "index": 0,
+          "items": [
+            {
+              "_id": "67d82e6e4f4b5340e611a2d7",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 15000
+              }
+            }
+          ],
+          "target": "67d82e6e4f4b5340e611a2d7",
+          "type": "Item",
+          "unknown": false,
+          "value": 15000
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "60cb4643f09d61072d6cf21a",
+          "index": 0,
+          "items": [
+            {
+              "_id": "67d82e6e4f4b5340e611a2d8",
+              "_tpl": "57d14d2524597714373db789",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "67d82e6e4f4b5340e611a2d9",
+              "_tpl": "57d152ec245977144076ccdf",
+              "parentId": "67d82e6e4f4b5340e611a2d8",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "67d82e6e4f4b5340e611a2da",
+              "_tpl": "57d1519e24597714373db79d",
+              "parentId": "67d82e6e4f4b5340e611a2d8",
+              "slotId": "mod_magazine"
+            }
+          ],
+          "target": "67d82e6e4f4b5340e611a2d8",
+          "type": "Item",
+          "unknown": false,
+          "value": 1
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "60cb467f7c496e588343a193",
+          "index": 0,
+          "items": [
+            {
+              "_id": "67d82e6e4f4b5340e611a2dd",
+              "_tpl": "65702606cfc010a0f5006a3e",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "67d82e6e4f4b5340e611a2de",
+              "_tpl": "573718ba2459775a75491131",
+              "parentId": "67d82e6e4f4b5340e611a2dd",
+              "slotId": "cartridges",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 50
+              }
+            },
+            {
+              "_id": "67d82e6e4f4b5340e611a2df",
+              "_tpl": "65702606cfc010a0f5006a3e",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "67d82e6e4f4b5340e611a2e0",
+              "_tpl": "573718ba2459775a75491131",
+              "parentId": "67d82e6e4f4b5340e611a2df",
+              "slotId": "cartridges",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 50
+              }
+            }
+          ],
+          "target": "67d82e6e4f4b5340e611a2df",
+          "type": "Item",
+          "unknown": false,
+          "value": 2
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "5ac64f3786f774056634a1cb",
+          "index": 0,
+          "items": [
+            {
+              "_id": "67d82e6e4f4b5340e611a2e1",
+              "_tpl": "5839a40f24597726f856b511",
+              "upd": {
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "Foldable": {
+                  "Folded": false
+                }
+              }
+            },
+            {
+              "_id": "67d82e6e4f4b5340e611a2e2",
+              "_tpl": "5649ad3f4bdc2df8348b4585",
+              "parentId": "67d82e6e4f4b5340e611a2e1",
+              "slotId": "mod_pistol_grip"
+            },
+            {
+              "_id": "67d82e6e4f4b5340e611a2e3",
+              "_tpl": "57dc347d245977596754e7a1",
+              "parentId": "67d82e6e4f4b5340e611a2e1",
+              "slotId": "mod_stock"
+            },
+            {
+              "_id": "67d82e6e4f4b5340e611a2e4",
+              "_tpl": "564ca99c4bdc2d16268b4589",
+              "parentId": "67d82e6e4f4b5340e611a2e1",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "67d82e6e4f4b5340e611a2e5",
+              "_tpl": "57ffb0e42459777d047111c5",
+              "parentId": "67d82e6e4f4b5340e611a2e1",
+              "slotId": "mod_muzzle"
+            },
+            {
+              "_id": "67d82e6e4f4b5340e611a2e6",
+              "_tpl": "5839a7742459773cf9693481",
+              "parentId": "67d82e6e4f4b5340e611a2e1",
+              "slotId": "mod_reciever"
+            },
+            {
+              "_id": "67d82e6e4f4b5340e611a2e7",
+              "_tpl": "59d36a0086f7747e673f3946",
+              "parentId": "67d82e6e4f4b5340e611a2e1",
+              "slotId": "mod_gas_block"
+            },
+            {
+              "_id": "67d82e6e4f4b5340e611a2e8",
+              "_tpl": "57dc32dc245977596d4ef3d3",
+              "parentId": "67d82e6e4f4b5340e611a2e7",
+              "slotId": "mod_handguard"
+            }
+          ],
+          "loyaltyLevel": 1,
+          "target": "67d82e6e4f4b5340e611a2e1",
+          "traderId": "54cb50c76803fa8b248b4571",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "629f016390948017ee17bb3b",
+          "index": 0,
+          "target": "5c0647fdd443bc2504c2d371",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.01
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "5936d90786f7742b1420ba5b startedMessageText",
+    "status": 0,
+    "successMessageText": "5936d90786f7742b1420ba5b successMessageText",
+    "traderId": "54cb50c76803fa8b248b4571",
+    "type": "Elimination"
+  }
+```
+## Visibility Conditions
+Visibility Conditions are an advanced feature available in creating quests for SPT. Most mod authors do not utilize these values, but they are extremely useful.
+
+The use case for Visibility Conditions is if you have tasks in a quest that you may not want the player to see until they complete the relevant condition first. You can use these to "surprise" a player with additional tasks that do not appear in the task list until they are ready to be engaged with.
+
+>
+> Conditions "hiding" in a Visibility Condition do not track or count any values until they are visible to a player.
+>
+
+An example of this will be the "Background Check" quest from BSG.
+
+This quest has 2 **FindItem** conditions and a **HandoverItem** condition. We don't actually care about one of the **FindItem** conditions, so that will not be included in the example.
+The **HandoverItem** does not appear in the players task list until they complete the condition for finding the "Bronze pocket watch on a chain"
+
+As you can see in the below example, the **HandoverItem** condition has a **visibilityCondition**. This condition requires the "conditionType" of **"CompleteCondition"** which means the _target_ must be completed before the **HandoverItem** condition becomes visible to player.
+
+The _conditionType_ must be "CompleteCondition"
+The _id_ must be a unique ID for the visibility array entry itself.
+The _target_ is the condition ID that you are requiring to be completed before the condition itself becomes visible.
+
+>
+> You can have multiple requirements for a task to become visible, this example only has 1 condition that must be completed for the HandoverItem to be visible. If you would like an example of a quest that has multiple requirements for a condition, see "The Blood of War - Part 3" in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links)
+>
+```json
+{
+  "conditionType": "FindItem",
+  "countInRaid": false,
+  "dogtagLevel": 0,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "5968ec9986f7741ddd6c1012",
+  "index": 0,
+  "isEncoded": false,
+  "maxDurability": 100,
+  "minDurability": 0,
+  "onlyFoundInRaid": false,
+  "parentId": "",
+  "target": [
+    "5937fd0086f7742bf33fc198"
+  ],
+  "value": 1,
+  "visibilityConditions": []
+},
+{
+  "conditionType": "HandoverItem",
+  "dogtagLevel": 0,
+  "dynamicLocale": false,
+  "globalQuestCounterId": "",
+  "id": "5967920f86f77468d219d632",
+  "index": 1,
+  "isEncoded": false,
+  "maxDurability": 100,
+  "minDurability": 0,
+  "onlyFoundInRaid": false,
+  "parentId": "",
+  "target": [
+    "5937fd0086f7742bf33fc198"
+  ],
+  "value": 1,
+  "visibilityConditions": [
+    {
+      "conditionType": "CompleteCondition",
+      "id": "5a5778c986f7740ad83cd652",
+      "target": "5968ec9986f7741ddd6c1012"
+    }
+  ]
+}
+```
+
+
 ## Available For Finish Conditions
 ### Handover Item
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
 
-Blah blah
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| conditionType | `"HandoverItem"` | string | HandoverItem condition |
+| dogtagLevel | `0` | int | Required if handing over DogTag |
+| dynamicLocale | `false` | boolean | Currently unused |
+| globalQuestCounterId | `""` | string | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| inEncoded | `false` | boolean | Required if requiring DSP Transmitter handover |
+| maxDurability | `100` | int | Required for medical items, weapons, armour, etc |
+| minDurability | `0` | int | Required for medical items, weapons, armour, etc |
+| onlyFoundInRaid | `false` | boolean | If item is required to be FIR or not |
+| parentId | `""` | MongoID string | Used to create optional sub-tasks for a task - see "Bad Rep Evidence" in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
+| target | `["54491c4f4bdc2db1078b4568"]` | MongoID string array | ItemID that is to be handed over, you can have multiple items in the array for multiple choice. If wanting a dogtag handed over, it will only be the specified ID - if you want all of them to be accepted you will need to populate the array for every ID for dogtags. |
+| value | `2` | int | Amount of items in target that are required to be handed over to complete subtask |
+| visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
+
+Example:
+```json
+				{
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "596737cb86f77463a8115efd",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "54491c4f4bdc2db1078b4568"
+          ],
+          "value": 2,
+          "visibilityConditions": []
+        }
+```
 
 ### Find Item
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
 
-Blah blah
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| conditionType | `"FindItem"` | string | HandoverItem condition |
+| countInRaid | `false` | boolean | Currently unused, should always be false |
+| dogtagLevel | `0` | int | Required if finding DogTag of specific level |
+| dynamicLocale | `false` | boolean | Currently unused |
+| globalQuestCounterId | `""` | string | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| inEncoded | `false` | boolean | Required if requiring DSP Transmitter handover |
+| maxDurability | `100` | int | Required for medical items, weapons, armour, etc |
+| minDurability | `0` | int | Required for medical items, weapons, armour, etc |
+| onlyFoundInRaid | `false` | boolean | If item is required to be FIR or not |
+| parentId | `""` | MongoID string | Used to create optional sub-tasks for a task - see "Bad Rep Evidence" in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
+| target | `["54491c4f4bdc2db1078b4568"]` | MongoID string array | ItemID that is to be found, you can have multiple items in the array for multiple choice. If wanting a dogtag handed over, it will only count the specified IDs - if you want all of them to be accepted you will need to populate the array for every ID for dogtags. |
+| value | `2` | int | Amount of items in target that are required to be found to complete subtask |
+| visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
 
 ### Skill Requirement
+>
+> As with all properties in quests - you should use all available properties regardless of if you need them or not.
+> BSG Quests uses all properties regardless of whether or not they are related to the item being handed over.
+>
 
-blah blah
+| Property Name | Example Value | Type | Notes |
+| :--- | :--- | :--- | :--- |
+| compareMethod | `">="` | string | Method to compare player skill to required skill (example shows player must have higher than or equal to the example value) |
+| conditionType | `"Skill"` | string | HandoverItem condition |
+| dynamicLocale | `false` | boolean | Currently unused |
+| globalQuestCounterId | `""` | string | Currently unused |
+| id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
+| index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
+| parentId | `""` | MongoID string | Used to create optional sub-tasks for a task - see "Bad Rep Evidence" in the Vanilla Quests Data -> [Useful Links](/modding/references/quest-values#useful-links) --- Leave this as an empty string if not needed. |
+| target | `"Sniper"` | string | Skill name that the condition targets - see below table. |
+| value | `2` | int | Amount of items in target that are required to be found to complete subtask |
+| visibilityConditions | `[]` | array | see [Visibility Conditions](/modding/references/quest-values#visibility-conditions) for example usage |
+
+---
+### Skill Names
+Below is a table of all currently used or previously used Skill Names for EFT. 
+>
+>Some values have been removed from the game but at still listed here for clarity for updating mods or modding previous versions of SPT.
+>
+| Skill Name | Value | Validity |
+| :--- | :--- | :--- |
+| Bot Reload | `"BotReload"` | Hidden Skill/Do Not Use for Quests |
+| Bot Sound | `"BotSound"` | Hidden Skill/Do Not Use for Quests |
+| Hideout Management | `"HideoutManagement"` | Valid |
+| Crafting | `"Crafting"` | Valid |
+| Metabolism | `"Metabolism"` | Valid |
+| Immunity | `"Immunity"` | Valid |
+| Endurance | `"Endurance"` | Valid |
+| Strength | `"Strength"` | Valid |
+| Vitality | `"Vitality"` | Valid |
+| Health | `"Health"` | Valid |
+| StressResistance | `"StressResistance"` | Valid |
+| Throwing | `"Throwing"` | Valid |
+| Recoil Control | `"RecoilControl"` | Removed as of 3.9 |
+| Convert Movement | `"CovertMovement"` | Valid |
+| Perception | `"Perception"` | Valid |
+| Intellect | `"Intellect"` | Valid |
+| Attention | `"Attention"` | Valid |
+| Charisma | `"Charisma"` | Valid |
+| Memory | `"Memory"` | Removed as of 3.9 |
+| Melee | `"Melee"` | Valid |
+| Surgery | `"Surgery"` | Valid |
+| Aim Drills | `"AimDrills"` | Valid |
+| Troubleshooting | `"TroubleShooting"` | Valid |
+| First Aid | `"FirstAid"` | Valid |
+| Light Vests | `"LightVests"` | Valid |
+| Heavy Vests | `"HeavyVests"` | Valid |
+| Weapon Treatment | `"WeaponTreatment"` | Valid |
+| Mag Drills | `"MagDrills"` | Valid |
+| Snipers | `"Sniper"` | Valid |
+| Pistols | `"Pistol"` | Valid |
+| Revolvers | `"Revolver"` | Valid |
+| SMGs | `"SMG"` | Valid |
+| Assault Rifles | `"Assault"` | Valid |
+| Shotguns | `"Shotgun"` | Valid |
+| LMGs | `"LMG"` | Valid |
+| DMRs | `"DMR"` | Valid |
 
 ### Leave Item
 
@@ -185,13 +728,10 @@ Blah blah
 
 Blah blah
 
-[Return To Top](#quick-links)
 ## Available For Start Requirements
 
-[Return To Top](#quick-links)
 ## Fail Conditions
 
-[Return To Top](#quick-links)
 ## Rewards
 ### Experience
 ### Item
@@ -199,5 +739,3 @@ Blah blah
 ### Skill
 ### Stash Rows
 ### Achievement
-
-[Return To Top](#quick-links)
