@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-06-07T18:31:09.075Z
+date: 2025-06-07T18:33:48.866Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -41,12 +41,6 @@ Once you have completed the above, you can now play SPT and install mods found o
 ## Common Installation and Start-up Issues
 Below you can find some common issues that users encounter when installing or first starting SPT and how to fix them. If your issue is not here then feel free to ask for help in the [SPT-Support](https://discord.com/channels/875684761291599922/1172730102119944222) discord channel
 
-**Installer Errors**
-
-![installernewpatch.png](/installernewpatch.png)
-
-- There is a new EFT update and either the SPT Development Team needs to update the downpatcher or you have not updated your EFT via the BSG Launcher.
-
 <details>
 <summary>The application had a critical error and failed to run "Watermark" error</summary>
 <br>
@@ -55,4 +49,14 @@ Below you can find some common issues that users encounter when installing or fi
 
 This happens because you have moved the `SPT.Server` and/or the `SPT.Launcher`, out of your SPT install folder. 
 You will need to move these back into your SPT install folder and create desktop shortcuts of these. You can do this by right-clicking the executables and then Send To > Desktop (Shortcut).
+</details>
+
+<details>
+<summary>Installer Errors</summary>
+<br>
+  
+![installernewpatch.png](/installernewpatch.png)
+
+There is a new EFT update and either the SPT Development Team needs to update the downpatcher or you have not updated your EFT via the BSG Launcher.
+
 </details>
