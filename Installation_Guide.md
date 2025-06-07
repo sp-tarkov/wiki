@@ -2,14 +2,14 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-06-07T18:56:48.442Z
+date: 2025-06-07T18:56:58.995Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
 ---
 
 # Single Player Tarkov Installation Guide
-Below you will find information and a guide on how to correctly install and set-up Single Player Tarkov. You can find Ccommon installation issues and the fixes at the bottom of the page.
+Below you will find information and a guide on how to correctly install and set-up Single Player Tarkov. You can find common installation issues and the fixes at the bottom of the page.
 
 
 ## What you need to do before you install Single Player Tarkov
