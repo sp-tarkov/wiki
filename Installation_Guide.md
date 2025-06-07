@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-06-07T18:56:58.995Z
+date: 2025-06-07T19:05:10.468Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -22,10 +22,11 @@ This is particularly important if you have just installed Escape From Tarkov so 
 ## Installing and running Single Player Tarkov
 1. Download the [SPT Installer](https://ligma.waffle-lord.net/SPTInstaller.exe). 
 - The installer will always download the latest SPT version, it **does not** update a current SPT install.
-2. Locate where the SPT Installer was downloaded to and run it.
+2. Run the SPT Installer from the download location.
 3. Read the Installer Info page, then click next.
+- This page contains information as to what the installer does and does not do.
 4. Select an install path. 
-- **DO NOT** install to a protected location such as Documents or Desktop. Create a folder in the root of a drive and call it SPT. C:\SPT as an example
+- **DO NOT** install to a protected location such as Documents or Desktop. Create a folder in the root of a drive and call it SPT. An example being `C:\SPT`.
 5. Click 'Start Install' and wait for it to complete.
 - Once complete you will be asked if you want to open the Install Folder or Add a Desktop Shortcuts. Tick or untick to your preference. Select 'Add Desktop Shortcuts' if you intend on running SPT from outside of the folder.
 6. Navigate to your SPT install and run `SPT.Server`.
@@ -33,10 +34,11 @@ This is particularly important if you have just installed Escape From Tarkov so 
 7. Run `SPT.Launcher` and follow the onscreen instructions.
 - If you want to copy over your Live Game settings, click OK. 
 - You can use any username you want. It is recommend that you **do not** use your Live account username. Especially if you plan on recording or streaming SPT.
-- 'Login Automatically' will always log into the first profile you created, or the last profile you loaded. You can disable this by clicking Logout in the bottom right then unchecking the option.
-- Select your desired game version, each version has a description box telling you a summary of what is included, then click Register.
+- 'Login Automatically' will always log into the first profile you created, or the last profile you loaded. You can disable this by clicking 'Logout' in the bottom right, then unchecking the option.
+- Select your desired game version. Each version has a description box telling you a summary of what is included. Once you have picked your chosen game version click 'Register'.
 8. Push 'Start Game' and load into the main menu and stash.
-Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/).
+
+Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/). You can find a guide on how to correctly install SPT mods on the [Installing Mods](#) wiki page.
 
 ## Common Installation and Start-up Issues
 Below you can find some common issues that users encounter when installing or first starting SPT, along with the solution to fixing it. If your issue is not here then feel free to ask for help in the [SPT-Support](https://discord.com/channels/875684761291599922/1172730102119944222) discord channel.
