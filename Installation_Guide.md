@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-06-07T18:52:04.697Z
+date: 2025-06-07T18:53:17.444Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -51,7 +51,7 @@ You will need to move these back into your SPT install folder and create desktop
 </details>
 
 <details>
-<summary>Installer Errors</summary>
+<summary>Could not find a downgrade patcher for the version of EFT you have installed.</summary>
 <br>
 <img src="/installernewpatch.png" style="border: 2px solid grey;" alt="Patcher Error">
 
