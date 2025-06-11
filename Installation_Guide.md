@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-06-07T19:05:10.468Z
+date: 2025-06-11T13:09:41.866Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -20,15 +20,15 @@ Verify that your Escape From Tarkov works, and that you can load up to at least 
 This is particularly important if you have just installed Escape From Tarkov so all necessary files can be generated.
 
 ## Installing and running Single Player Tarkov
-1. Download the [SPT Installer](https://ligma.waffle-lord.net/SPTInstaller.exe). 
-- The installer will always download the latest SPT version, it **does not** update a current SPT install.
-2. Run the SPT Installer from the download location.
+1. Download the [SPT Installer](https://ligma.waffle-lord.net/SPTInstaller.exe).
+- The installer will always download & install the latest SPT version, it **does not** update a current SPT install.
+2. Run the SPT Installer.
 3. Read the Installer Info page, then click next.
-- This page contains information as to what the installer does and does not do.
+- This page contains information as to what the installer does and does not do. It also answers many common questions that users have which is why it is there.
 4. Select an install path. 
-- **DO NOT** install to a protected location such as Documents or Desktop. Create a folder in the root of a drive and call it SPT. An example being `C:\SPT`.
+- **DO NOT** install to a protected location such as Documents or Desktop. An example of a suitable installation folder is to the root directory of a drive such as `C:\SPT`.
 5. Click 'Start Install' and wait for it to complete.
-- Once complete you will be asked if you want to open the Install Folder or Add a Desktop Shortcuts. Tick or untick to your preference. Select 'Add Desktop Shortcuts' if you intend on running SPT from outside of the folder.
+- Once complete you will be asked if you want to open the Install Folder or Add a Desktop Shortcuts. Tick or untick to your preference. Select 'Add Desktop Shortcuts' if you intend on running SPT from outside of the folder SPT folder. This will also stop you from encountering the  "Watermark" error below.
 6. Navigate to your SPT install and run `SPT.Server`.
 - Wait for the green text to say "Happy Playing". This may take several minutes on first startup.
 7. Run `SPT.Launcher` and follow the onscreen instructions.
