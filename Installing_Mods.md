@@ -2,7 +2,7 @@
 title: Installing Mods
 description: A beginners guide on how to correctly install mods for Single Player Tarkov.
 published: true
-date: 2025-06-12T20:40:39.588Z
+date: 2025-06-12T20:41:07.146Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -32,7 +32,7 @@ When selecting the mods you want to install, make sure that you **only install m
 - For mods that go into your `BepInEx` or `plugins`, drag and drop the mod folders and files into `BepInEx\plugins` folder 
 ---
 
-<img src="/mod-install-v1.gif" alt="mod install" width="50%" height="50%" style="display: block; margin: 0 auto;">
+<img src="/mod-install-v1.gif" alt="mod install" width=500 style="display: block; margin: 0 auto;">
 
 ## Profiles
 Nearly all mods can be added to an existing profile. However, **removing some mods might be impossible without making a new profile**. Mods that add new traders, quests, or items will require a new profile. Always **read the modpage**, as the author should specify if a mod is unsafe to remove from a profile.
