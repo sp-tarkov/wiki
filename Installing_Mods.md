@@ -2,7 +2,7 @@
 title: Installing Mods
 description: A beginners guide on how to correctly install your mods for Single Player Tarkov.
 published: true
-date: 2025-06-12T19:51:57.905Z
+date: 2025-06-12T19:52:29.308Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -16,7 +16,7 @@ You can find mods for SPT on [The Forge](https://forge.sp-tarkov.com/). The Forg
 
 It is **highly recommended** that you download and install [7-Zip](https://www.7-zip.org/) before you proceed to install mods. Other archiving programs such as WinRAR are known to have corrupt files upon extracting without telling you. [7-Zip](https://www.7-zip.org/) has a much lower chance of this happening, as well as informing you should there be an issue.
 
-Make sure that you have have already loaded SPT up to the main menu or stash as outlined in the [Installation Guide](/Installation_Guide).
+Make sure that you have already loaded SPT up to the main menu or stash as outlined in the [Installation Guide](/Installation_Guide).
 
 When selecting the mods you want to install, make sure that you only install mods that have been updated to your SPT version. If you are unsure what version of SPT you are on, then you can see the SPT version in the top left of the server window or in the bottom left while in-game.
 
