@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-06-05T14:01:02.864Z
+date: 2025-06-12T18:59:21.403Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -29,7 +29,7 @@ Dive into the world of SPT modding to tailor your experience:
 
 - [Understanding Mod Types (Server/Client)](#): Learn the difference.
 - [Finding Mods](#): Where to look for SPT compatible mods.
-- [Installing Mods](#): General guide on adding mods to your game.
+- [Installing Mods](https://wiki.sp-tarkov.com/en/Installing_Mods): General guide on adding mods to your game.
 - [Popular Mods Showcase](#): Discover highly-rated community mods.
 
 ## Troubleshooting
