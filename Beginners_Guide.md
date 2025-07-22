@@ -2,7 +2,7 @@
 title: Beginner's Guide
 description: Welcome to SPT!
 published: true
-date: 2025-07-22T10:13:29.789Z
+date: 2025-07-22T10:58:36.025Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-22T10:13:29.789Z
@@ -31,6 +31,11 @@ Open source: You are free to inspect, fork and build the project from our source
 - [Development](https://dev.sp-tarkov.com/)
 - [Github](https://github.com/sp-tarkov/)
 - [Patreon](https://www.patreon.com/sptarkov)
+
+## Getting started
+[Installing SPT](/Installation_Guide)
+[Installing Mods](/Installing_Mods)
+[Performance Tuning](/Performance_Tuning)
 
 ## Helping out
 The best way to help is to give some of your time and energy to keep this place running!
