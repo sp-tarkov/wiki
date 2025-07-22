@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-07-22T06:54:40.386Z
+date: 2025-07-22T11:32:33.035Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -21,8 +21,7 @@ Only CPUs with powerful single-threaded performance will improve your performanc
 - Set the vaulting from `Press` to `Auto` in the in-game settings
 - Disable `Nvidia Reflex` in the graphics settings
 - Use `Low texture mode for Streets` to further minimise memory usage
-- Do not use the `Unheard` menu background
-  - This tweak is most beneficial on some Linux systems
+- If you're using [Vulkan](https://en.wikipedia.org/wiki/Vulkan), do not use the `Unheard` menu background
 - Remove mods that add new functions to AI
   - As bots are the main cause of performance issues, mods that add new functions to them will impact performance
 - Use [AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit)
