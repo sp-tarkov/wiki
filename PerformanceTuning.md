@@ -1,9 +1,9 @@
 ---
-title: Performance Tuning
+title: Performance_Tuning
 description: Get the most FPS while playing SPT
 published: true
-date: 2025-07-22T03:38:27.428Z
-tags: performance, guide
+date: 2025-07-22T03:39:32.532Z
+tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
 ---
