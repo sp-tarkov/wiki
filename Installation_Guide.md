@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-06-11T13:09:41.866Z
+date: 2025-07-22T16:41:04.589Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -38,7 +38,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
 - Select your desired game version. Each version has a description box telling you a summary of what is included. Once you have picked your chosen game version click 'Register'.
 8. Push 'Start Game' and load into the main menu and stash.
 
-Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/). You can find a guide on how to correctly install SPT mods on the [Installing Mods](#) wiki page.
+Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/). You can find a guide on how to correctly install SPT mods on the [Installing Mods](https://wiki.sp-tarkov.com/Installing_Mods) wiki page.
 
 ## Common Installation and Start-up Issues
 Below you can find some common issues that users encounter when installing or first starting SPT, along with the solution to fixing it. If your issue is not here then feel free to ask for help in the [SPT-Support](https://discord.com/channels/875684761291599922/1172730102119944222) discord channel.
