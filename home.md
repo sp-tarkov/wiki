@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-07-22T08:25:50.311Z
+date: 2025-07-22T10:13:55.230Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -18,7 +18,7 @@ SPT allows you to experience Escape From Tarkov offline, in a single-player envi
 
 ## Getting Started
 
-- [New to SPT? Start Here!](#) WIP: A beginner's overview.
+- [New to SPT? Start Here!](https://wiki.sp-tarkov.com/en/Beginners_Guide): A beginner's overview.
 - [Installation Guide](https://wiki.sp-tarkov.com/en/Installation_Guide): Step-by-step instructions to install SPT.
 - [Updating SPT](#) WIP: How to update your SPT installation safely.
 - [Frequently Asked Questions (FAQ)](#) WIP: Answers to common queries.
