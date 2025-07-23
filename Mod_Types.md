@@ -2,7 +2,7 @@
 title: Mod Types
 description: Learn the difference between server mods and client mods.
 published: true
-date: 2025-07-23T16:49:05.354Z
+date: 2025-07-23T16:49:26.549Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-07-22T08:23:52.210Z
@@ -29,7 +29,6 @@ Some mods include both a server mod and a client mod. Some changes are easier to
 The easiest mods to start with are server mods. With basic knowledge of Typescript, you can open any of the provided [mod examples](https://github.com/sp-tarkov/mod-examples) and make your mod from them.
 The best place to get guidance is in our Discord's [`#mod-development`](https://discord.com/channels/875684761291599922/875803116409323562) channel. Note that it's a channel dedicated only to mod developers, not users. Make best effort to describe the issue you have in detail, provide a snippet of the code you're working on, and one of the many knowledgable modders will be happy to help you.
 
-[Modding Resources](/Modding_Resources) has basic resources to start creating SPT mods.
-
 # See also
 [Installing Mods](/Installing_Mods)
+[Modding Resources](/Modding_Resources)
