@@ -2,13 +2,12 @@
 title: Beginner's Guide
 description: Welcome to SPT!
 published: true
-date: 2025-07-22T10:58:36.025Z
+date: 2025-07-23T15:46:20.105Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-22T10:13:29.789Z
 ---
 
-# Welcome to SPT!
 ## What is SPT?
 SPT is a modding framework for Escape From Tarkov made for people who want to play offline singleplayer with progression similar to live. It's made by fans for fans
 
@@ -33,9 +32,11 @@ Open source: You are free to inspect, fork and build the project from our source
 - [Patreon](https://www.patreon.com/sptarkov)
 
 ## Getting started
-[Installing SPT](/Installation_Guide)
-[Installing Mods](/Installing_Mods)
-[Performance Tuning](/Performance_Tuning)
+- [Installing SPT](/Installation_Guide)
+- [Installing Mods](/Installing_Mods)
+- [Recommended Mods](/Recommended_Mods)
+- [Performance Tuning](/Performance_Tuning)
+- [Understanding Mod Types](/Mod_Types)
 
 ## Helping out
 The best way to help is to give some of your time and energy to keep this place running!
