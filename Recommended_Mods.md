@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommened mods to improve your SPT experience.
 published: true
-date: 2025-07-23T14:45:49.992Z
+date: 2025-07-23T14:47:56.948Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
@@ -35,3 +35,6 @@ Be sure to first read through the [Mod installation guide](/Installing_Mods) bef
 ## Mods for better player experience
 [Enemy Markers](https://forge.sp-tarkov.com/mod/1858/enemy-markers), [Dad Gamer Mode](https://forge.sp-tarkov.com/mod/1875/props-dad-gamer-mod-for-39), [Gilded Key Storage](https://forge.sp-tarkov.com/mod/865/gilded-key-storage), [Bright Lasers](https://forge.sp-tarkov.com/mod/1358/brightlasers), [Use Items Anywhere](https://forge.sp-tarkov.com/mod/2177/use-items-anywhere), [Hideout Cat](https://forge.sp-tarkov.com/mod/2038/hideout-cat), [Old Tarkov Movement](https://forge.sp-tarkov.com/mod/1860/old-tarkov-movement-no-inertia), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Skill Multiplier](https://forge.sp-tarkov.com/mod/2162/skill-multiplier), [Loot Highlighter](https://forge.sp-tarkov.com/mod/2136/loot-highlighter), [No Save on Death](https://forge.sp-tarkov.com/mod/2150/no-save-on-death-respawned)
 [^1]: Mod incompatible with SAIN
+# See also
+[Installing mods](/Installing_mods)
+[Performance tuning](/Performance_Tuning)
