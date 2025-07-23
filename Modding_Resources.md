@@ -1,14 +1,16 @@
 ---
 title: Modding Resources
-description: Basic resources to start with modding SPT.
+description: Basic resources to start creating SPT mods.
 published: true
-date: 2025-07-23T16:46:34.874Z
+date: 2025-07-23T16:50:20.852Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T16:46:34.874Z
 ---
 
-Basic resources to start with modding SPT. It is recommended to start with server mods.
+> Basic resources to start creating SPT mods. It is recommended to start with server mods.
+{.is-info}
+
 
 ## Discord mod development channels:
 - [#mods-resources](https://discord.com/channels/875684761291599922/875806757836951575)
