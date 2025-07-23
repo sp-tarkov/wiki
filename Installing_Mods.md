@@ -2,13 +2,13 @@
 title: Installing Mods
 description: A beginners guide on how to correctly install mods for Single Player Tarkov.
 published: true
-date: 2025-07-22T07:52:52.069Z
+date: 2025-07-23T15:43:49.593Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
 ---
 
-# Mod installation guide
+# Installing Mods
 Below is a guide on how to install mods for Single Player Tarkov, as well as common issues which users encounter and how to fix them.
 
 ## Before installing your mods
@@ -51,3 +51,5 @@ If you need to edit it, you should use a tool like [Load Order Editor](https://f
 To create a new, empty load order, delete your `user\mods\order.json`. SPT will create a new one the next time you run it.
 
 **Note**: Mods like SVM can override/break any mod loaded before it, so it's recommended to load it first.
+# See also
+[Understanding mod types](/Mod_Types)
