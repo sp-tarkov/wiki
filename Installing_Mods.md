@@ -2,7 +2,7 @@
 title: Installing Mods
 description: A beginners guide on how to correctly install mods for SPT.
 published: true
-date: 2025-07-23T15:47:12.856Z
+date: 2025-07-23T16:00:15.377Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -52,4 +52,4 @@ To create a new, empty load order, delete your `user\mods\order.json`. SPT will 
 
 **Note**: Mods like SVM can override/break any mod loaded before it, so it's recommended to load it first.
 # See also
-[Understanding mod types](/Mod_Types)
+[Mod Types](/Mod_Types)
