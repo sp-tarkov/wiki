@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-07-23T16:37:26.449Z
+date: 2025-07-23T16:48:01.865Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -52,6 +52,7 @@ Interested in creating your own content for SPT?
 
 - [Modding Introduction](#) WIP: Getting started with SPT mod development.
 - [Modding Tools](#) WIP: Useful software for creating mods.
+- [Modding Resources](/Modding_Resources): Basic resources to start creating SPT mods.
 
 ## Contribute!
 
