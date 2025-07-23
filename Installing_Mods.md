@@ -1,9 +1,9 @@
 ---
 title: Installing Mods
-description: A beginners guide on how to correctly install mods for Single Player Tarkov.
+description: A beginners guide on how to correctly install mods for SPT.
 published: true
-date: 2025-07-23T15:43:49.593Z
-tags: 
+date: 2025-07-23T15:47:12.856Z
+tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
 ---
