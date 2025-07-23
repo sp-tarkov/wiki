@@ -2,7 +2,7 @@
 title: Mod Types
 description: Learn the difference between server mods and client mods.
 published: true
-date: 2025-07-23T15:56:48.334Z
+date: 2025-07-23T16:05:55.797Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-07-22T08:23:52.210Z
@@ -10,7 +10,7 @@ dateCreated: 2025-07-22T08:23:52.210Z
 
 # Mod Types
 SPT mods are divided into two categories: server mods, and client mods. Server mods, which are installed in the `user\mods` folder, and client mods, which are installed in the `BepInEx` folder.
-> Always read the mod pages of the mods you are installing.
+> Always read the mod pages of the mods you're installing.
 {.is-info}
 ## Server mods
 Server mods interact with the SPT server, which handles everything a live EFT server would: your profiles, traders, quests, items, the flea etc, etc. While less "powerful" than client mods, they still let mod authors create custom traders, quests, weapons and items. They can also tweak things like insurance rates, skill gain or bot spawning.
