@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommened mods to improve your SPT experience.
 published: true
-date: 2025-07-23T15:26:05.050Z
+date: 2025-07-23T16:01:00.987Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
@@ -52,5 +52,5 @@ Be sure to first read through the [Mod installation guide](/Installing_Mods) bef
 - Tweaking
 [Skill Multiplier](https://forge.sp-tarkov.com/mod/2162/skill-multiplier), [Server Value Modifier](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm)
 # See also
-[Performance tuning](/Performance_Tuning)
-[Mod types](/Mod_Types)
+[Performance Tuning](/Performance_Tuning)
+[Mod Types](/Mod_Types)
