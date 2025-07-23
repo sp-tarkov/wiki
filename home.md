@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-07-23T15:44:30.958Z
+date: 2025-07-23T16:37:26.449Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -30,7 +30,7 @@ Dive into the world of SPT modding to tailor your experience:
 - [Understanding Mod Types (Server/Client)](/Mod_Types): Learn the difference.
 - [Finding Mods](#) WIP: Where to look for SPT compatible mods.
 - [Installing Mods](/Installing_Mods): General guide on adding mods to your game.
-- [Recommended Mods](/Recommended_Mods): A list of vanilla+ mods to add to you game.
+- [Recommended Mods](/Recommended_Mods): A selection of recommened mods to improve your SPT experience.
 
 ## Troubleshooting
 
