@@ -2,7 +2,7 @@
 title: Beginner's Guide
 description: Welcome to SPT!
 published: true
-date: 2025-07-23T15:46:20.105Z
+date: 2025-07-29T15:04:27.286Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-22T10:13:29.789Z
@@ -12,14 +12,14 @@ dateCreated: 2025-07-22T10:13:29.789Z
 SPT is a modding framework for Escape From Tarkov made for people who want to play offline singleplayer with progression similar to live. It's made by fans for fans
 
 ## Features
-Offline: No internet connection required, completely offline, no connection to BSG's servers in any shape or form.
-Progression: You can progress through the game as you would in live.
-Accurate: Many of the game's systems behave exactly the same as live.
-Stable: No disconnects mid-raid, no cheaters to ruin your raid.
-Moddable: Completely configurable to your need through the modding system.
-Legit: It requires a legally purchased copy of the game to play.
-Free of charge: You don't need to buy the software or the source code of the project to play.
-Open source: You are free to inspect, fork and build the project from our source code for non-commercial purposes.
+- Offline: No internet connection required, completely offline, no connection to BSG's servers in any shape or form.
+- Progression: You can progress through the game as you would in live.
+- Accurate: Many of the game's systems behave exactly the same as live.
+- Stable: No disconnects mid-raid, no cheaters to ruin your raid.
+- Moddable: Completely configurable to your need through the modding system.
+- Legit: It requires a legally purchased copy of the game to play.
+- Free of charge: You don't need to buy the software or the source code of the project to play.
+- Open source: You are free to inspect, fork and build the project from our source code for non-commercial purposes.
 
 ## Official links
 - [Official website](https://www.sp-tarkov.com/)
