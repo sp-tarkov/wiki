@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-07-22T16:41:04.589Z
+date: 2025-07-30T07:17:07.405Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -35,7 +35,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
 - If you want to copy over your Live Game settings, click OK. 
 - You can use any username you want. It is recommend that you **do not** use your Live account username. Especially if you plan on recording or streaming SPT.
 - 'Login Automatically' will always log into the first profile you created, or the last profile you loaded. You can disable this by clicking 'Logout' in the bottom right, then unchecking the option.
-- Select your desired game version. Each version has a description box telling you a summary of what is included. Once you have picked your chosen game version click 'Register'.
+- Select your desired game version. Each version has a description box telling you a summary of what is included. Once you have picked your chosen game version click 'Register'. *You can pick any game version you want from the profile list, you do not need to own the corresponding EFT version.*
 8. Push 'Start Game' and load into the main menu and stash.
 
 Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/). You can find a guide on how to correctly install SPT mods on the [Installing Mods](https://wiki.sp-tarkov.com/Installing_Mods) wiki page.
