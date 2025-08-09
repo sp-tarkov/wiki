@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-08-09T12:47:20.199Z
+date: 2025-08-09T12:49:51.844Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -57,7 +57,7 @@ This decision is firm and will not be changed by further requests or complaints.
 
 **HOWEVER**, we are pleased to announce that the SPT 3.11 release has been designated as a Long-Term Support (LTS) version. This means it will be maintained and available for download (along with its corresponding downgrade patcher) for an extended period.
 
-## SPT 4.0 Bleeding Edge test build
+# SPT 4.0 Bleeding Edge test build
 ***It is for testing purposes only***. You will not get any help __installing__ or __using__ it. It is assumed that if you are running the Bleeding Edge built of SPT that you already know what you're doing. No one has time to hold your hand. The watermark is there ***on purpose*** and cannot be removed.
 
 - Do not ask for help installing 4.0 BE
