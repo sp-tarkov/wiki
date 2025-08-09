@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-08-09T12:45:37.740Z
+date: 2025-08-09T12:47:20.199Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -26,6 +26,7 @@ No. EFT patches made after the release of SPT v3.11 will only be available in SP
 
 ### Can I use my profile and mods from 3.10?**
 ***If*** the `3.10` profile was ***un-modded***, yes. Otherwise A new profile will be required. None of your `3.10` mods are compatible.
+See the guide on [Updating SPT](/Updating_SPT) for more details.
 
 ### I miss 3.10, can I re-download it?
 No. Support for 3.10 is gone. If you plan on updating to 3.11 just remember that you do not have to delete your old files.
@@ -43,7 +44,7 @@ At raid start, bots will spawn until the max defined value for each map is reach
 # Troubleshooting tips
 - Do not install mods until you've launched SPT at least once. Verify your SPT install works, then install mods.
 - Do not install out of date mods.
-- Do not install multiple mods at once (unless they're dependencies). Install mods one at a time. That way when something goes wrong, you'll know exactly what mod is responsible.
+- Do not install multiple mods at once (unless they're dependencies). Install mods one at a time or in small batches. That way when something goes wrong, you'll know exactly what mod is responsible.
 - Read mod pages. Not only is it just common courtesy to read the mod page __before__ asking for help, chances are the mod page has exactly the information you need. What the mod does, how to install it, how to use it, and known issues or incompatibility with other mods.
 ### "I'm still having issues and it wasn't the last mod I installed, what do I do?" 
 Start removing mods one at a time until you find the mod causing the issue. When you've identified the mod responsible, check the mod page to see if it's actually an issue or an intended feature. Check the comments section to see if anyone else reported the same problem you're experiencing. 
