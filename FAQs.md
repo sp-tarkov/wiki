@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-08-09T12:49:51.844Z
+date: 2025-08-09T12:51:14.166Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -114,7 +114,7 @@ Install [Color Converter API](https://forge.sp-tarkov.com/mod/1090/color-convert
 ### Could not convert string to double: `Infinity0.1234`
 Run your profile through the [Profile Fixer](<https://drakiaxyz.github.io/spt-profile-fix/>)
 
-# EFT issues
+# Known EFT issues
 > Always read the mod pages of the mods you're installing.
 {.is-info}
 ### Stuck animations? Can't Interact with anything
