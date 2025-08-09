@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-08-09T12:54:04.702Z
+date: 2025-08-09T13:17:25.953Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -37,7 +37,7 @@ Dive into the world of SPT modding to tailor your experience:
 Running into issues? Find solutions here:
 
 - [Performance Tuning](/Performance_Tuning): Tips for improving FPS and stability.
-- [Frequently Asked Questions (FAQ)](#): Answers to frequently asked questions.
+- [Frequently Asked Questions (FAQ)](/FAQs): Answers to frequently asked questions.
   - [SPT 3.11](https://wiki.sp-tarkov.com/en/FAQs#spt-311)
   - [Troubleshooting tips](https://wiki.sp-tarkov.com/en/FAQs#troubleshooting-tips)
   - [Old versions of SPT](https://wiki.sp-tarkov.com/en/FAQs#old-versions-of-spt)
