@@ -2,7 +2,7 @@
 title: Mod Types
 description: Learn the difference between server mods and client mods.
 published: true
-date: 2025-08-09T12:04:42.604Z
+date: 2025-08-09T13:11:50.050Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-07-22T08:23:52.210Z
@@ -19,15 +19,15 @@ As of SPT `3.11`, server mods are written in Typescript. `4.0` will have server 
 
 ## Client mods
 Client mods interact directly with the game. They are capable of changing anything in it given enough effort. The most comprehensive mods are usually client mods. They are capable of completely altering bot behaviour, adding new animations and mechanics or adding new elements to the HUD.
-Client mods are installed in the `BepInEx\plugins` folder. Few mods also include a `prepatcher` file that goes into the `BepInEx\patchers` folder. The vast majority of client mods are configured from the <kbd>F12</kbd> menu ingame. Some have a dedicated button for opening their configuration menu. Few include config files inside `Bepinex\plugins` for manual editing.
+Client mods are installed in the `BepInEx\plugins` folder. Few mods also include a `prepatcher` file that goes into the `BepInEx\patchers` folder. The vast majority of client mods are configured from the <kbd>F12</kbd> menu in-game. Some have a dedicated button for opening their configuration menu. Few include config files inside `Bepinex\plugins` for manual editing.
 All client mods are written in C#.
 
 ## Combination mods
-Some mods include both a server mod and a client mod. Some changes are easier to make in one or the other. While most let you configure the client-side settings in the <kbd>F12</kbd> menu, they tend to have seperate config files inside their folder in `user\mods`. 
+Some mods include both a server and a client component. Some changes are easier to make in one or the other. While most let you configure the client-side settings in the <kbd>F12</kbd> menu, they tend to have separate config files inside their folder in `user\mods`. 
 
 ## Making mods
 The easiest mods to start with are server mods. With basic knowledge of Typescript, you can open any of the provided [mod examples](https://github.com/sp-tarkov/mod-examples) and make your mod from them.
-The best place to get guidance is in our Discord's [`#mod-development`](https://discord.com/channels/875684761291599922/875803116409323562) channel. Note that it's a channel dedicated only to mod developers, not users. Make best effort to describe the issue you have in detail, provide a snippet of the code you're working on, and one of the many knowledgable modders will be happy to help you.
+The best place to get guidance is in our Discord's [`#mod-development`](https://discord.com/channels/875684761291599922/875803116409323562) channel. Note that it's a channel dedicated only to mod developers, not users. Make best effort to describe the issue you have in detail, provide a snippet of the code you're working on, and one of the many knowledgeable modders will be happy to help you.
 
 # See also
 [Installing Mods](/Installing_Mods)
