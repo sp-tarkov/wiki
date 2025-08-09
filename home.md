@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-08-09T13:17:25.953Z
+date: 2025-08-09T16:28:12.558Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -26,10 +26,12 @@ SPT allows you to experience Escape From Tarkov offline, in a single-player envi
 
 Dive into the world of SPT modding to tailor your experience:
 
-- [Understanding Mod Types (Server/Client)](/Mod_Types): Learn the difference.
-- [Installing Mods](/Installing_Mods): General guide on adding mods to your game.
+- [Understanding Mod Types](/Mod_Types): Learn the difference between server mods and client mods.
+- [Installing mods](/Installing_Mods): General guide on adding mods to your game.
   - [Profiles](https://wiki.sp-tarkov.com/Installing_Mods#profiles)
-  - [Load Order](https://wiki.sp-tarkov.com/Installing_Mods#load-order)
+  - [Load order](https://wiki.sp-tarkov.com/Installing_Mods#load-order)
+  - [Uninstalling mods](https://wiki.sp-tarkov.com/Installing_Mods#uninstalling-mods)
+  - [Updating Mods](https://wiki.sp-tarkov.com/en/Installing_Mods#updating-mods)
 - [Recommended Mods](/Recommended_Mods): A selection of recommended mods to improve your SPT experience.
 
 ## Troubleshooting
