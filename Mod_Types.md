@@ -2,7 +2,7 @@
 title: Mod Types
 description: Learn the difference between server mods and client mods.
 published: true
-date: 2025-08-09T13:11:50.050Z
+date: 2025-08-09T16:11:16.786Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-07-22T08:23:52.210Z
@@ -15,11 +15,13 @@ SPT mods are divided into two categories: server mods, and client mods. Server m
 ## Server mods
 Server mods interact with the SPT server, which handles everything a live EFT server would: your profiles, traders, quests, items, the flea etc, etc. While less "powerful" than client mods, they still let mod authors create custom traders, quests, weapons and items. They can also tweak things like insurance rates, skill gain or bot spawning.
 Server mods are installed in the `user\mods` folder. They are configured either by `config` files, or by a mod-included configuration tool.
+They will show up both in your Server console and Launcher.
 As of SPT `3.11`, server mods are written in Typescript. `4.0` will have server mods written in C# to match client mods.
 
 ## Client mods
 Client mods interact directly with the game. They are capable of changing anything in it given enough effort. The most comprehensive mods are usually client mods. They are capable of completely altering bot behaviour, adding new animations and mechanics or adding new elements to the HUD.
 Client mods are installed in the `BepInEx\plugins` folder. Few mods also include a `prepatcher` file that goes into the `BepInEx\patchers` folder. The vast majority of client mods are configured from the <kbd>F12</kbd> menu in-game. Some have a dedicated button for opening their configuration menu. Few include config files inside `Bepinex\plugins` for manual editing.
+Client mods will only show up in you F12 menu if they have settings to configure. Some client mods don't, which means there's no good way to check if they are installed and running or not, except to see if they do what they are meant to.
 All client mods are written in C#.
 
 ## Combination mods
