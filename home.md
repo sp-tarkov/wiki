@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-08-09T12:02:50.301Z
+date: 2025-08-09T12:54:04.702Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -21,7 +21,6 @@ SPT allows you to experience Escape From Tarkov offline, in a single-player envi
 - [New to SPT? Start Here!](/Beginners_Guide): A beginner's overview.
 - [Installation Guide](/Installation_Guide): Step-by-step instructions to install SPT.
 - [Updating SPT](/Updating_SPT): Learn how to update your SPT installation.
-- [Frequently Asked Questions (FAQ)](#) WIP: Answers to common queries.
 
 ## Exploring Mods
 
@@ -31,30 +30,35 @@ Dive into the world of SPT modding to tailor your experience:
 - [Installing Mods](/Installing_Mods): General guide on adding mods to your game.
   - [Profiles](https://wiki.sp-tarkov.com/Installing_Mods#profiles)
   - [Load Order](https://wiki.sp-tarkov.com/Installing_Mods#load-order)
-- [Recommended Mods](/Recommended_Mods): A selection of recommened mods to improve your SPT experience.
+- [Recommended Mods](/Recommended_Mods): A selection of recommended mods to improve your SPT experience.
 
 ## Troubleshooting
 
 Running into issues? Find solutions here:
 
-- [Common Problems & Solutions](#) WIP: Fixes for frequent errors and crashes.
 - [Performance Tuning](/Performance_Tuning): Tips for improving FPS and stability.
-- [Reporting Issues](#) WIP: How to effectively ask for help.
-
+- [Frequently Asked Questions (FAQ)](#): Answers to frequently asked questions.
+  - [SPT 3.11](https://wiki.sp-tarkov.com/en/FAQs#spt-311)
+  - [Troubleshooting tips](https://wiki.sp-tarkov.com/en/FAQs#troubleshooting-tips)
+  - [Old versions of SPT](https://wiki.sp-tarkov.com/en/FAQs#old-versions-of-spt)
+  - [SPT 4.0 Bleeding Edge test build](https://wiki.sp-tarkov.com/en/FAQs#spt-40-bleeding-edge-test-build)
+  - [Known mod issues](https://wiki.sp-tarkov.com/en/FAQs#known-mod-issues)
+  - [Known EFT issues](https://wiki.sp-tarkov.com/en/FAQs#eft-issues)
+- [Reporting Issues](#) `WIP`: How to effectively ask for help.
 ## Guides & Advanced Topics
 
-- [Configuration Files Explained](#) WIP: Learn how to tweak SPT settings.
-- [Profiles](#) WIP: Learn about user profiles.
-- [Guide Index](#) WIP: A list of all available guides and tutorials.
+- [Configuration Files Explained](#) `WIP`: Learn how to tweak SPT settings.
+- [Profiles](#) `WIP`: Learn about user profiles.
+- [Guide Index](#) `WIP`: A list of all available guides and tutorials.
 
 ## For Mod Developers
 
 Interested in creating your own content for SPT?
 
-- [Modding Introduction](#) WIP: Getting started with SPT mod development.
-- [Modding Tools](#) WIP: Useful software for creating mods.
+- [Modding Introduction](#) `WIP`: Getting started with SPT mod development.
+- [Modding Tools](#) `WIP`: Useful software for creating mods.
 - [Modding Resources](/Modding_Resources): Basic resources to start creating SPT mods.
 
 ## Contribute!
 
-This wiki relies on community contributions. See [how to contribute](#) WIP to learn how you can help improve and expand this knowledge base.
+This wiki relies on community contributions. See [how to contribute](#) `WIP` to learn how you can help improve and expand this knowledge base.
