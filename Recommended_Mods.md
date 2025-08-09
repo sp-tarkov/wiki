@@ -2,15 +2,15 @@
 title: Recommended Mods
 description: A selection of recommened mods to improve your SPT experience.
 published: true
-date: 2025-08-06T13:11:18.466Z
+date: 2025-08-09T12:05:54.449Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
 ---
 
-# Recommended Mods
+> Read through the [Mod installation guide](/Installing_Mods) before installing any of mods.
+{.is-info}
 
-Be sure to first read through the [Mod installation guide](/Installing_Mods) before installing any of the following mods.
 > Always read the mod pages of the mods you're installing.
 {.is-info}
 
