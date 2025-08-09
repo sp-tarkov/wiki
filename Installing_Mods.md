@@ -2,7 +2,7 @@
 title: Installing Mods
 description: A beginners guide on how to correctly install mods for SPT.
 published: true
-date: 2025-08-09T16:18:08.073Z
+date: 2025-08-09T16:27:25.546Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -23,7 +23,7 @@ When selecting the mods you want to install, make sure that you **only install m
 
 **SPT MUST BE FULLY CLOSED BEFORE YOU INSTALL MODS**
 
-## Installing Mods
+## Installing mods
 1. Open the mod archive using 7zip
 2. If the mod archive has a `BepInEx` or `user` or *both* folders, drag and drop the contents of the archive to the empty space in your SPT folder
 3. If the mod archive has just a folder or files, read the mod page for install instructions
@@ -48,7 +48,7 @@ To create a new, empty load order, delete your `user\mods\order.json`. SPT will 
 
 **Note**: Mods like SVM can override/break any mod loaded before it, so it's recommended to load it first.
 
-## Uninstalling Mods
+## Uninstalling mods
 1. Close your game, launcher and server.
 2. **Read the mod page of the mod you're uninstalling**. Some, like Realism, Raid Overhaul or SVM, have extra steps you'll need to do beforehand.
 3. Generally, to uninstall a mod, move or delete its files from `user\mods`, `BepInEx\plugins` and/or `BepInEx\patchers`.
