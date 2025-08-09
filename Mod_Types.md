@@ -2,13 +2,13 @@
 title: Mod Types
 description: Learn the difference between server mods and client mods.
 published: true
-date: 2025-07-23T16:49:26.549Z
+date: 2025-08-09T12:04:42.604Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-07-22T08:23:52.210Z
 ---
 
-# Mod Types
+## Mod Types
 SPT mods are divided into two categories: server mods, and client mods. Server mods, which are installed in the `user\mods` folder, and client mods, which are installed in the `BepInEx` folder.
 > Always read the mod pages of the mods you're installing.
 {.is-info}
