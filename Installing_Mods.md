@@ -2,7 +2,7 @@
 title: Installing Mods
 description: A beginners guide on how to correctly install mods for SPT.
 published: true
-date: 2025-08-09T12:04:56.847Z
+date: 2025-08-09T16:18:08.073Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -47,5 +47,20 @@ If you need to edit it, you should use a tool like [Load Order Editor](https://f
 To create a new, empty load order, delete your `user\mods\order.json`. SPT will create a new one the next time you run it.
 
 **Note**: Mods like SVM can override/break any mod loaded before it, so it's recommended to load it first.
+
+## Uninstalling Mods
+1. Close your game, launcher and server.
+2. **Read the mod page of the mod you're uninstalling**. Some, like Realism, Raid Overhaul or SVM, have extra steps you'll need to do beforehand.
+3. Generally, to uninstall a mod, move or delete its files from `user\mods`, `BepInEx\plugins` and/or `BepInEx\patchers`.
+  - The easiest way to see what files a mod has is to look inside its archive you downloaded.
+  - **Do not remove** your `BepInEx\plugins\spt` folder and `BepInEx\patchers\spt-prepatch.dll` file.
+4. **Mods that add custom items, traders or quests permanently change your profile**. Uninstalling them might be impossible without starting a new profile.
+  - Setting `removeModItemsFromProfile` and `removeInvalidTradersFromProfile` to `true` inside `SPT_Data\Server\configs\core.json` might fix your profile, but it's not guaranteed. You might have to reinstall the mod or start a new profile.
+
+## Updating mods
+Most mods can be updated by simply reinstalling their files, overriding any files when prompted.
+However, some mods move, delete or rename files between versions. While the mod authors should make a note of it, sometimes it's missed.
+If you are experiencing issues after updating a mod, or a mod has a large number of individual files, you should delete and reinstall it.
+
 # See also
 [Mod Types](/Mod_Types)
