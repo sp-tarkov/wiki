@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-08-09T12:51:14.166Z
+date: 2025-08-09T12:59:44.578Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -113,6 +113,10 @@ A mod is overloading the SPT server with requests. Mods that display the value o
 Install [Color Converter API](https://forge.sp-tarkov.com/mod/1090/color-converter-api)
 ### Could not convert string to double: `Infinity0.1234`
 Run your profile through the [Profile Fixer](<https://drakiaxyz.github.io/spt-profile-fix/>)
+### All bots converge on me after I fire my gun
+If you're using [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), decrease bots' maximum hearing range and/or aggressiveness.
+### Traders are unclickable because they are behind the profile
+Install [Kaeno's Trader Scrolling](https://forge.sp-tarkov.com/mod/1089/kaeno-traderscrolling) or enable `Intermediate trader menu` in your game settings.
 
 # Known EFT issues
 > Always read the mod pages of the mods you're installing.
