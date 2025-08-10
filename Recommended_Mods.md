@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-08-10T20:49:43.988Z
+date: 2025-08-10T20:50:57.990Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
@@ -22,7 +22,7 @@ dateCreated: 2025-07-23T12:05:23.561Z
 ## Mods for better performance
 [Waypoints](https://forge.sp-tarkov.com/mod/827/waypoints-expanded-navmesh), [RAM Cleaner Fix](https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix)`*`, [VRAM Cleaner](https://forge.sp-tarkov.com/mod/2173/vram-cleaner), [AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit), [Body Disposal Service Maid](https://forge.sp-tarkov.com/mod/1159/bdsm-body-disposal-service-maid)
 `*` Most useful if you have less than 32gb of RAM
-
+See [Performance Tuning](/Performance_Tuning) for further information.
 ## Mods for better bot spawns (pick only __one__)
 [Acid's Bot Placement System](https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system), [MOAR](https://forge.sp-tarkov.com/mod/789/moar-bagels-ultra-lite-spawn-mod)
 
