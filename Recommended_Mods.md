@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-08-10T20:49:16.910Z
+date: 2025-08-10T20:49:43.988Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
@@ -33,7 +33,7 @@ dateCreated: 2025-07-23T12:05:23.561Z
 - Visuals
 [Amands's Graphics](https://forge.sp-tarkov.com/mod/592/amandss-graphics), [HollywoodFX](https://forge.sp-tarkov.com/mod/2003/hollywoodfx)
 - HUD 
-[Dynamic Maps](https://forge.sp-tarkov.com/mod/1431/dynamic-maps), [Game Panel HUD](https://forge.sp-tarkov.com/mod/456/game-panel-hud), [Quest Tracker](https://forge.sp-tarkov.com/mod/1140/quest-tracker), 
+[Dynamic Maps](https://forge.sp-tarkov.com/mod/1431/dynamic-maps), [Game Panel HUD](https://forge.sp-tarkov.com/mod/456/game-panel-hud), [Quest Tracker](https://forge.sp-tarkov.com/mod/1140/quest-tracker)
 
 ## Mods for better quality of life
 - Fixes
