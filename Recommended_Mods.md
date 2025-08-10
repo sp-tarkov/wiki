@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-08-10T12:39:57.998Z
+date: 2025-08-10T20:49:16.910Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
@@ -37,18 +37,18 @@ dateCreated: 2025-07-23T12:05:23.561Z
 
 ## Mods for better quality of life
 - Fixes
-[UI Fixes](https://forge.sp-tarkov.com/mod/1342/ui-fixes), [HandsAreNotBusy](https://forge.sp-tarkov.com/mod/1298/handsarenotbusy), [Shadow Flicker Fix](https://forge.sp-tarkov.com/mod/1621/shadow-flicker-fix), [FOV Fix](https://forge.sp-tarkov.com/mod/701/fontaines-fov-fix), [Let Me Out](https://forge.sp-tarkov.com/mod/2240/let-me-out)
+[UI Fixes](https://forge.sp-tarkov.com/mod/1342/ui-fixes), [HandsAreNotBusy](https://forge.sp-tarkov.com/mod/1298/handsarenotbusy), [Shadow Flicker Fix](https://forge.sp-tarkov.com/mod/1621/shadow-flicker-fix), [FOV Fix](https://forge.sp-tarkov.com/mod/701/fontaines-fov-fix), [Let Me Out](https://forge.sp-tarkov.com/mod/2240/let-me-out), [TerraGroup Employee Fix](https://hub.sp-tarkov.com/files/file/2953-terragroup-employee-fix/)
 - UI
 [Item Context Menu Extended](https://forge.sp-tarkov.com/mod/940/item-context-menu-extended),[More Checkmarks](https://forge.sp-tarkov.com/mod/861/morecheckmarks), [Expanded Task Text](https://forge.sp-tarkov.com/mod/2153/expanded-task-text-ett), [Item Info](https://forge.sp-tarkov.com/mod/2142/odts-item-info-311-update-added-colored-name), [Interacable Exfils API](https://forge.sp-tarkov.com/mod/1676/interactable-exfils-api)
 - Inventory and Stash
 [Stash Search](https://forge.sp-tarkov.com/mod/2148/stash-search), [Quick Sell](https://forge.sp-tarkov.com/mod/1698/quicksell), [AutoDeposit](https://forge.sp-tarkov.com/mod/1469/autodeposit), [Quick Move to Containers](https://forge.sp-tarkov.com/mod/1341/quick-move-to-containers), [Gilded Key Storage](https://forge.sp-tarkov.com/mod/865/gilded-key-storage)
-- QoL
-[Loot Radius](https://forge.sp-tarkov.com/mod/1349/loot-radius), [Search Open Containers](https://forge.sp-tarkov.com/mod/934/search-open-containers), [Use Loose Loot](https://forge.sp-tarkov.com/mod/933/use-loose-loot), 
+- Looting
+[Loot Radius](https://forge.sp-tarkov.com/mod/1349/loot-radius), [Search Open Containers](https://forge.sp-tarkov.com/mod/934/search-open-containers), [Use Loose Loot](https://forge.sp-tarkov.com/mod/933/use-loose-loot)
 ## Mods for better player experience
 - Ease of play
-[Custom Raid Times](https://forge.sp-tarkov.com/mod/551/custom-raid-times), [Enemy Markers](https://forge.sp-tarkov.com/mod/1858/enemy-markers), [Dad Gamer Mode](https://forge.sp-tarkov.com/mod/1875/props-dad-gamer-mod-for-39), [Loot Highlighter](https://forge.sp-tarkov.com/mod/2136/loot-highlighter), [No Save on Death](https://forge.sp-tarkov.com/mod/2150/no-save-on-death-respawned)
+[Custom Raid Times](https://forge.sp-tarkov.com/mod/551/custom-raid-times), [Enemy Markers](https://forge.sp-tarkov.com/mod/1858/enemy-markers), [Dad Gamer Mode](https://forge.sp-tarkov.com/mod/1875/props-dad-gamer-mod-for-39), [Loot Highlighter](https://forge.sp-tarkov.com/mod/2136/loot-highlighter), [No Save on Death](https://forge.sp-tarkov.com/mod/2150/no-save-on-death-respawned), [Keep Starting Gear](https://hub.sp-tarkov.com/files/file/2957-blackhorse311-keep-starting-gear-spt-3-11-x/)
 - Gameplay
-[Bright Lasers](https://forge.sp-tarkov.com/mod/1358/brightlasers), [Use Items Anywhere](https://forge.sp-tarkov.com/mod/2177/use-items-anywhere), [Old Tarkov Movement](https://forge.sp-tarkov.com/mod/1860/old-tarkov-movement-no-inertia), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Headbob Reducer](https://forge.sp-tarkov.com/mod/707/fontaines-headbob-reducer)
+[Bright Lasers](https://forge.sp-tarkov.com/mod/1358/brightlasers), [Use Items Anywhere](https://forge.sp-tarkov.com/mod/2177/use-items-anywhere), [Old Tarkov Movement](https://forge.sp-tarkov.com/mod/1860/old-tarkov-movement-no-inertia), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Headbob Reducer](https://hub.sp-tarkov.com/files/file/948-fontaine-s-headbob-reducer/)
 - Tweaking
 [Skill Multiplier](https://forge.sp-tarkov.com/mod/2162/skill-multiplier), [Server Value Modifier](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm)
 # See also
