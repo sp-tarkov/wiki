@@ -2,7 +2,7 @@
 title: Installing Mods
 description: A beginners guide on how to correctly install mods for SPT.
 published: true
-date: 2025-08-09T16:27:25.546Z
+date: 2025-08-11T19:54:51.976Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -33,7 +33,7 @@ When selecting the mods you want to install, make sure that you **only install m
 <img src="/mod-install-v1.gif" alt="mod install" width=400 style="display: block; margin: 0 auto;">
 
 ## Profiles
-Nearly all mods can be added to an existing profile. However, **removing some mods might be impossible without making a new profile**. Mods that add new traders, quests, or items will require a new profile. Always **read the modpage**, as the author should specify if a mod is unsafe to remove from a profile.
+Nearly all mods can be added to an existing profile. However, **removing some mods might be impossible without making a new profile**. Mods that add new traders, quests, or items fall under that category. Always **read the modpage**, as the author should specify if a mod is unsafe to remove from a profile.
 
 If you removed a mod that broke your profile, you can attempt to fix it by changing `removeModItemsFromProfile` and `removeInvalidTradersFromProfile` to `true` inside `SPT_Data\Server\configs\core.json`. **This is not guaranteed to work**. SPT will do the best it can to remove any item that's in your profile from the removed mod, but some mods make irreversable changes to your profile.
 
@@ -54,8 +54,6 @@ To create a new, empty load order, delete your `user\mods\order.json`. SPT will 
 3. Generally, to uninstall a mod, move or delete its files from `user\mods`, `BepInEx\plugins` and/or `BepInEx\patchers`.
   - The easiest way to see what files a mod has is to look inside its archive you downloaded.
   - **Do not remove** your `BepInEx\plugins\spt` folder and `BepInEx\patchers\spt-prepatch.dll` file.
-4. **Mods that add custom items, traders or quests permanently change your profile**. Uninstalling them might be impossible without starting a new profile.
-  - Setting `removeModItemsFromProfile` and `removeInvalidTradersFromProfile` to `true` inside `SPT_Data\Server\configs\core.json` might fix your profile, but it's not guaranteed. You might have to reinstall the mod or start a new profile.
 
 ## Updating mods
 Most mods can be updated by simply reinstalling their files, overriding any files when prompted.
