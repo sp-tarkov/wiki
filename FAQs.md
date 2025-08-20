@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-08-09T12:59:44.578Z
+date: 2025-08-20T22:45:54.741Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -93,7 +93,7 @@ If you're still crashing, join our [Discord Server](http://discord.sp-tarkov.com
 ### Bots freeze after death
 Update [Quests Extended](https://forge.sp-tarkov.com/mod/2106/quests-extended).
 ### Glitchy grenades
-Remove [Borkel's NVGs](https://forge.sp-tarkov.com/mod/954/borkels-realistic-night-vision-goggles-nvgs-and-t-7).
+Update [Borkel's NVGs](https://forge.sp-tarkov.com/mod/954/borkels-realistic-night-vision-goggles-nvgs-and-t-7).
 ### Weird movement after using a key
 Update [Plant Time Modifier](https://forge.sp-tarkov.com/mod/1965/plant-time-modifier-updated-by-crocodilejonesy).
 ### SAIN is throwing errors about bot brains
