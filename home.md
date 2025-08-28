@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-08-28T18:23:32.598Z
+date: 2025-08-28T18:23:59.076Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -50,7 +50,7 @@ Running into issues? Find solutions here:
 
 ## Guides & Advanced Topics
 
-- [Bot Difficulties](/Bot_Difficulties): Learn how EFT, and by extension SPT handles bot difficulties.
+- [Bot Difficulties](/Bot_Difficulties): Learn how SPT and mods handle bots' difficulty.
 - [Configuration Files Explained](#) `WIP`: Learn how to tweak SPT settings.
 - [Profiles](#) `WIP`: Learn about user profiles.
 - [Guide Index](#) `WIP`: A list of all available guides and tutorials.
