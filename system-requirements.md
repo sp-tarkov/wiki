@@ -2,7 +2,7 @@
 title: System Requirements
 description: The system requirements to run SPT
 published: true
-date: 2025-08-28T18:54:13.382Z
+date: 2025-08-28T18:55:30.223Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T18:53:33.574Z
@@ -13,7 +13,7 @@ SPT requires more system resources than just running Escape From Tarkov due to i
 
 The following are the minimum requirements we have found necessary to reliably run SPT.
 
-| | Recommended Requirements |
+| | Minimum Requirements |
 |------------------|----------|
 | Operating System | Windows 10/11 64-bit |
 | CPU              | `Intel Core i5-10400F`/`AMD Ryzen 5 5600` or newer |
