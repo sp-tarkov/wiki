@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-08-28T20:01:31.339Z
+date: 2025-08-28T20:04:22.202Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -71,5 +71,6 @@ The most subjective section. Use of bold and italicised text should still be sta
 - _Underlines_ should be avoided, as clickable links are also underlined. Bold or italicised text should be used instead.
 - `Code blocks` should be used when referring to folder names, file names, values and text strings from config files:
   - "To create a new, empty load order, delete your `user\mods\order.json`."
+  - "Set [ALP](https://forge.sp-tarkov.com/mod/1015/alp-algorithmic-level-progression)'s `leveledClothing` to false in `user\mods\AlgorithmicLevelProgression\config\config.json`."
 - <kbd>Keyboard keys</kbd> should be used when referring to a keyboard key:
   - "...configure the client-side settings in the <kbd>F12</kbd> menu."
