@@ -2,13 +2,12 @@
 title: Installing Mods
 description: A beginners guide on how to correctly install mods for SPT.
 published: true
-date: 2025-08-28T19:46:33.434Z
+date: 2025-08-28T19:46:58.817Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
 ---
 
----
 ## Before installing your mods
 You can find mods for SPT on [The Forge](https://forge.sp-tarkov.com/). The Forge is the main hub of mods for SPT, and is the only place to get mods which are supported in the SPT Discord.
 
