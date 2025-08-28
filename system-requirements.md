@@ -2,14 +2,16 @@
 title: System Requirements
 description: The system requirements to run SPT
 published: true
-date: 2025-08-28T18:53:33.574Z
+date: 2025-08-28T18:54:13.382Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T18:53:33.574Z
 ---
 
 # System Requirements
-SPT requires more system resources than just running Escape From Tarkov due to its offline nature, where your system is running all parts of a raid locally, as well as the SPT Server. The following are the minimum requirements we have found necessary to reliably run SPT.
+SPT requires more system resources than just running Escape From Tarkov due to its offline nature, where your system is running all parts of a raid locally, as well as the SPT Server. 
+
+The following are the minimum requirements we have found necessary to reliably run SPT.
 
 | | Recommended Requirements |
 |------------------|----------|
