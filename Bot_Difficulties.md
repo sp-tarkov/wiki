@@ -1,11 +1,14 @@
 ---
 title: Bot Difficulties
-description: Learn how EFT, and by extension SPT handles bot difficulties.
+description: Learn how SPT and mods handle bots' difficulty.
 published: true
-date: 2025-08-28T18:13:03.244Z
+date: 2025-08-28T18:22:18.492Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-28T18:04:16.547Z
+---
+
+
 ---
 
 In EFT, there are 4 difficulties a *specific* bot can have:
