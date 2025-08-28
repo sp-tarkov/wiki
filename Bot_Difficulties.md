@@ -2,13 +2,12 @@
 title: Bot Difficulties
 description: Learn how EFT, and by extension SPT handles bot difficulties.
 published: true
-date: 2025-08-28T18:10:10.358Z
+date: 2025-08-28T18:13:03.244Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-28T18:04:16.547Z
 ---
 
-## Vanilla difficulties
 In EFT, there are 4 difficulties a *specific* bot can have:
 - **Easy**
 - **Medium**
@@ -32,4 +31,5 @@ Each preset will alter each difficulty individually. This allows you to separate
 You should consider changing settings in BOTH places if you are unhappy with how difficult your game is. 
 - If you picked an easier preset and are still having a hard time, try setting the bots' difficulty to **Easy** or **Medium** so that there won't be a chance for **Hard** bots to spawn in your raid.
 - If you picked a harder preset and want your bots as difficult as possible, try setting the bots' difficulty to **Hard** or **Impossible**.
-
+‎
+<img src="/sain_presets_v2.png" alt="SAIN Presets" width=600 style="display: block; margin: 0 auto;">
