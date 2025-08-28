@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-08-28T18:18:16.047Z
+date: 2025-08-28T18:20:12.463Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -64,4 +64,5 @@ Interested in creating your own content for SPT?
 
 ## Contribute!
 
-This wiki relies on community contributions. See [how to contribute](#) `WIP` to learn how you can help improve and expand this knowledge base.
+The Wiki is currently closed to public edits while it's being developed. 
+In the future, you will be able to learn [how to contribute](#) `WIP`. Make sure you'll follow the [Style Guide](#) `WIP`.
