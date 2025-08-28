@@ -1,8 +1,8 @@
 ---
 title: Bot Difficulties
-description: Learn how EFT, and by extension SPT handles bot difficulties
+description: Learn how EFT, and by extension SPT handles bot difficulties.
 published: true
-date: 2025-08-28T18:04:16.547Z
+date: 2025-08-28T18:07:12.829Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-28T18:04:16.547Z
