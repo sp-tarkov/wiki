@@ -2,7 +2,7 @@
 title: Installing Mods
 description: A beginners guide on how to correctly install mods for SPT.
 published: true
-date: 2025-08-11T19:54:51.976Z
+date: 2025-08-28T19:46:06.574Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -29,7 +29,7 @@ When selecting the mods you want to install, make sure that you **only install m
 3. If the mod archive has just a folder or files, read the mod page for install instructions
 - For mods that go into your `user` folder, drag and drop the mod folder into `user\mods`
 - For mods that go into your `BepInEx` or `plugins`, drag and drop the mod folders and files into `BepInEx\plugins` folder 
-‎
+&nbsp;
 <img src="/mod-install-v1.gif" alt="mod install" width=400 style="display: block; margin: 0 auto;">
 
 ## Profiles
