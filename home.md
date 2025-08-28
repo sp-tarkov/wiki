@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-08-28T18:06:28.056Z
+date: 2025-08-28T18:18:16.047Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -47,6 +47,7 @@ Running into issues? Find solutions here:
   - [Known mod issues](https://wiki.sp-tarkov.com/en/FAQs#known-mod-issues)
   - [Known EFT issues](https://wiki.sp-tarkov.com/en/FAQs#eft-issues)
 - [Reporting Issues](#) `WIP`: How to effectively ask for help.
+
 ## Guides & Advanced Topics
 - [Bot Difficulties](/Bot_Difficulties): Learn how EFT, and by extension SPT handles bot difficulties.
 - [Configuration Files Explained](#) `WIP`: Learn how to tweak SPT settings.
