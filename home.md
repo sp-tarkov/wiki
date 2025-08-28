@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-08-28T18:20:12.463Z
+date: 2025-08-28T18:23:32.598Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -27,10 +27,10 @@ SPT allows you to experience Escape From Tarkov offline, in a single-player envi
 Dive into the world of SPT modding to tailor your experience:
 
 - [Understanding Mod Types](/Mod_Types): Learn the difference between server mods and client mods.
-- [Installing mods](/Installing_Mods): General guide on adding mods to your game.
+- [Installing Mods](/Installing_Mods): General guide on adding mods to your game.
   - [Profiles](https://wiki.sp-tarkov.com/Installing_Mods#profiles)
-  - [Load order](https://wiki.sp-tarkov.com/Installing_Mods#load-order)
-  - [Uninstalling mods](https://wiki.sp-tarkov.com/Installing_Mods#uninstalling-mods)
+  - [Load Order](https://wiki.sp-tarkov.com/Installing_Mods#load-order)
+  - [Uninstalling Mods](https://wiki.sp-tarkov.com/Installing_Mods#uninstalling-mods)
   - [Updating Mods](https://wiki.sp-tarkov.com/en/Installing_Mods#updating-mods)
 - [Recommended Mods](/Recommended_Mods): A selection of recommended mods to improve your SPT experience.
 
@@ -41,14 +41,15 @@ Running into issues? Find solutions here:
 - [Performance Tuning](/Performance_Tuning): Tips for improving FPS and stability.
 - [Frequently Asked Questions (FAQ)](/FAQs): Answers to frequently asked questions.
   - [SPT 3.11](https://wiki.sp-tarkov.com/en/FAQs#spt-311)
-  - [Troubleshooting tips](https://wiki.sp-tarkov.com/en/FAQs#troubleshooting-tips)
-  - [Old versions of SPT](https://wiki.sp-tarkov.com/en/FAQs#old-versions-of-spt)
-  - [SPT 4.0 Bleeding Edge test build](https://wiki.sp-tarkov.com/en/FAQs#spt-40-bleeding-edge-test-build)
-  - [Known mod issues](https://wiki.sp-tarkov.com/en/FAQs#known-mod-issues)
-  - [Known EFT issues](https://wiki.sp-tarkov.com/en/FAQs#eft-issues)
+  - [Troubleshooting Tips](https://wiki.sp-tarkov.com/en/FAQs#troubleshooting-tips)
+  - [Old Versions of SPT](https://wiki.sp-tarkov.com/en/FAQs#old-versions-of-spt)
+  - [SPT 4.0 Bleeding Edge Test Build](https://wiki.sp-tarkov.com/en/FAQs#spt-40-bleeding-edge-test-build)
+  - [Known Mod Issues](https://wiki.sp-tarkov.com/en/FAQs#known-mod-issues)
+  - [Known EFT Issues](https://wiki.sp-tarkov.com/en/FAQs#eft-issues)
 - [Reporting Issues](#) `WIP`: How to effectively ask for help.
 
 ## Guides & Advanced Topics
+
 - [Bot Difficulties](/Bot_Difficulties): Learn how EFT, and by extension SPT handles bot difficulties.
 - [Configuration Files Explained](#) `WIP`: Learn how to tweak SPT settings.
 - [Profiles](#) `WIP`: Learn about user profiles.
