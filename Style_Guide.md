@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-08-28T19:58:59.804Z
+date: 2025-08-28T20:01:31.339Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -25,19 +25,20 @@ https://wiki.sp-tarkov.com/en/Style_Guide#header-sizes
 You can copy the direct link to a header by hovering over it, right clicking `¶` and copying the link.
 
 ```
-# Largest title
+# Largest heading
 Useful for the "See also" section. If a section on a page could use this header size, consider making it a separate page instead.
 
 ## Second largest
-The perfect size for section headings
+The perfect size for section headings. All headings on this page use this size.
 
 ### Third largest 
 To separate larger lists which might required external linking to. Use instead of ordered/unordered lists.
 
 #### Forth largest 
-It's too small to work as a heading. Same applies for all the other titles.
+It's too small to work as a heading. Same applies for the two smaller headings.
 
 ##### Fifth largest
+
 ###### Sixth largest
 ```
 
