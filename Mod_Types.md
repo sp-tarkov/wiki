@@ -2,7 +2,7 @@
 title: Mod Types
 description: Learn the difference between server mods and client mods.
 published: true
-date: 2025-08-29T16:52:59.036Z
+date: 2025-08-29T17:23:21.652Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-07-22T08:23:52.210Z
@@ -27,7 +27,7 @@ Client mods interact directly with the game. They are capable of changing anythi
 
 Client mods are installed in the `BepInEx\plugins` folder. Few mods also include a `prepatcher` file that goes into the `BepInEx\patchers` folder. The vast majority of client mods are configured from the <kbd>F12</kbd> menu in-game. Some have a dedicated button for opening their configuration menu. Few include config files inside `Bepinex\plugins` for manual editing. Changes made in the F12 menu should apply immediately to your game unless the setting states otherwise.
 
-Client mods will only show up in your F12 menu if they have settings to configure. Some client mods don't, which means there's no good way to check if they are installed and running or not, except to see if they do what they are meant to.
+Client mods will only show up in your <kbd>F12</kbd> menu if they have settings to configure. Some client mods don't, which means there's no good way to check if they are installed and running or not, except to see if they do what they are meant to.
 
 All client mods are written in C#.
 
