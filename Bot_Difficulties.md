@@ -2,7 +2,7 @@
 title: Bot Difficulties
 description: Learn how SPT and mods handle bots' difficulty.
 published: true
-date: 2025-08-29T16:04:39.898Z
+date: 2025-08-29T16:59:36.730Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-28T18:04:16.547Z
@@ -25,7 +25,7 @@ The **Pre-Raid** selected difficulty setting determines what <u>difficulty class
 - Medium: *Only* **Medium** class bots will spawn
 - ...so on
 
-Note that **SVM** can be used to change which **Pre-Raid** difficulty setting is selected by default, so it is not needed to select the desired difficulty before every raid.
+Note that **SVM** can be used to change which **Pre-Raid** difficulty setting is selected by default, so it is not needed to select the desired difficulty before every raid. Otherwise, it will always default to **As in online**.
 
 ## SAIN F6 Difficulty Presets
 Each preset will alter the SAIN behavioral settings of each <u>difficulty class</u> individually. This allows you to separately tweak how hard an **Easy** bot is vs. a **Hard** bot, and so on.
