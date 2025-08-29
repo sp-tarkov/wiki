@@ -32,7 +32,7 @@ SPT is a modding framework for Escape From Tarkov made for people who want to pl
 - [Patreon](https://www.patreon.com/sptarkov)
 
 ## Getting started
-- [Installing SPT](/Installation_Guide)
+- [Installing SPT](/Installation_Guide.md)
 - [Installing Mods](/Installing_Mods)
 - [Recommended Mods](/Recommended_Mods)
 - [Performance Tuning](/Performance_Tuning)
