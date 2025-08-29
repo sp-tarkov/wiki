@@ -2,7 +2,7 @@
 title: Updating SPT
 description: Learn how to update your SPT installation.
 published: true
-date: 2025-08-09T12:01:16.553Z
+date: 2025-08-29T17:08:37.097Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-09T12:01:16.553Z
@@ -32,13 +32,10 @@ Z = Patch
 - Old profiles will work
 - **Can be used to update your SPT if it's on the same Minor version**
 
-‎
-> You can always check if a hotfix patch will be compatible with your installed mods on the [Release page](<https://github.com/sp-tarkov/build/releases/latest>).
-{.is-info}
-
-‎
+You can always check if a hotfix patch will be compatible with your installed mods on the [Release page](<https://github.com/sp-tarkov/build/releases/latest>):
+&nbsp;
 <img src="/patch_compat.png" alt="Direct Download" width=400 style="display: block; margin: 0 auto;">
-
+&nbsp;
 <div style='text-align: center;'>
 Example of the compatibility section for SPT 3.11.3.
 </div>
@@ -46,9 +43,9 @@ Example of the compatibility section for SPT 3.11.3.
 ## Updating to a new hotfix patch
 
 1. Download the latest SPT files from the Direct Download section at the **bottom** of the [Release page](<https://github.com/sp-tarkov/build/releases/latest>) (requires [7zip](https://www.7-zip.org/)).
-‎
+&nbsp;
 <img src="/direct_download.png" alt="Direct Download" width=400 style="display: block; margin: 0 auto;">
-‎
+&nbsp;
 2. Close your game, launcher, and server
 3. Copy contents of the 7z file into your **existing** folder, **overwrite all files**
 4. **Update all of your mods to their latest release versions**
