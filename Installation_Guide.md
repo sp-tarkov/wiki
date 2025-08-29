@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-08-29T16:42:50.037Z
+date: 2025-08-29T17:06:00.918Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -58,6 +58,7 @@ You will need to move these back into your SPT install folder and create desktop
 </details>
 
 # See also
+[System Requirements](/system-requirements)
 [Updating SPT](/Updating_SPT)
 [Installing Mods](/Installing_Mods)
 [Frequently Asked Questions](/FAQs)
