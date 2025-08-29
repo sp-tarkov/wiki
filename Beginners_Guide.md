@@ -2,7 +2,7 @@
 title: Beginner's Guide
 description: Welcome to SPT!
 published: true
-date: 2025-08-09T12:47:50.297Z
+date: 2025-08-29T16:36:32.592Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-22T10:13:29.789Z
@@ -43,7 +43,7 @@ The best way to help is to give some of your time and energy to keep this place 
 - Be an active community member and keep this place lively!
 - Have your friends join our [Discord](http://discord.sp-tarkov.com/) server.
 - Contribute to the project (feel free to ask how to best contribute over at ⁠[`#dev-community`](https://discord.com/channels/875684761291599922/875707258074447904).
-- Help translate the project on [Crowdin](https://crowdin.com/project/spt-translation)
-- Make mods
-- Write tutorials and documentation for the community
-- Help covering server hosting costs by subscribing to our [Patreon](https://www.patreon.com/sptarkov)
+- Help translate the project on [Crowdin](https://crowdin.com/project/spt-translation).
+- Make mods.
+- Write tutorials and documentation for the community.
+- Help covering server hosting costs by subscribing to our [Patreon](https://www.patreon.com/sptarkov).
