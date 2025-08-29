@@ -2,7 +2,7 @@
 title: Bot Difficulties
 description: Learn how SPT and mods handle bots' difficulty.
 published: true
-date: 2025-08-28T18:22:18.492Z
+date: 2025-08-29T15:23:58.758Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-28T18:04:16.547Z
@@ -17,7 +17,7 @@ In EFT, there are 4 difficulties a *specific* bot can have:
 - **Hard**
 - **Impossible**
 
-In Pre-Raid Settings, your selection determines which difficulties are allowed to spawn in your raid:
+In **Pre-Raid Settings**, your selection determines which difficulties are allowed to spawn in your raid:
 - As in online: *Mix* of **Easy**, **Medium**, and **Hard** bots
 - Easy: *Only* **Easy** bots will spawn
 - Medium: *Only* **Medium** bots will spawn
