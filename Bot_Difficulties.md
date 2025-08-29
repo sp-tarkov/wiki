@@ -2,7 +2,7 @@
 title: Bot Difficulties
 description: Learn how SPT and mods handle bots' difficulty.
 published: true
-date: 2025-08-29T16:59:36.730Z
+date: 2025-08-29T17:02:05.287Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-28T18:04:16.547Z
@@ -35,7 +35,7 @@ Note that this is NOT the same as changing the **Pre-Raid Difficulty Settings**.
 ## Spawn mods like ABPS and MOAR:
 These mods have configuration options to change the likelihood for each bot <u>difficulty class</u> to spawn when **As in online** is chosen in **Pre-Raid Settings**.
 
-*Note: choosing a specific difficulty in **Pre-Raid Settings** will likely override these settings.
+*Note: choosing a specific difficulty in **Pre-Raid Settings** will likely override these settings.*
 
 ## What does this mean for me?
 Consider changing settings in multiple places if you are unhappy with how difficult your game is.
