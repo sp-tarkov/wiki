@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-08-29T17:03:10.108Z
+date: 2025-08-29T23:15:30.469Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
@@ -26,11 +26,15 @@ dateCreated: 2025-07-23T12:05:23.561Z
 
 See [Performance Tuning](/Performance_Tuning) for further information.
 
-## Mods for better bot spawns (pick only __one__)
+## Mods for better bot spawns
+
+You should only have **one** bot spawning mod installed to avoid issues.
 
 [Acid's Bot Placement System](https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system), [MOAR](https://forge.sp-tarkov.com/mod/789/moar-bagels-ultra-lite-spawn-mod)
 
-## Mods for better AI progression (pick only __one__)
+## Mods for better bot progression
+
+You should only have **one** bot progression mod installed to avoid issues.
 
 [Valen's Progression](https://forge.sp-tarkov.com/mod/562/valens-progression), [Acid's Progressive Bot System](https://forge.sp-tarkov.com/mod/1594/apbs-acids-progressive-bot-system), [Algorithmic Level Progression](https://forge.sp-tarkov.com/mod/1015/alp-algorithmic-level-progression)
 
