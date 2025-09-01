@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-08-20T22:45:54.741Z
+date: 2025-09-01T01:04:27.225Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -142,6 +142,7 @@ Disable `Mip Streaming` in your in-game settings.
 ### Hideout turning white?
 Disable `Resampling` in your in-game settings, or use [Un-flashbang Hideout](<https://hub.sp-tarkov.com/files/file/1975-un-flashbang-hideout/>).
 
-
+### Bots phasing through doors?
+There's no known fix. [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement) attempts to fix it, but there have been reports of bots doing it even with it installed.
 
 
