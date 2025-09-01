@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-09-01T01:04:27.225Z
+date: 2025-09-01T01:10:30.322Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -24,7 +24,7 @@ No. Labyrinth came out after 5 March 2025.
 ### Will 3.11 be updated to include the latest EFT patches?
 No. EFT patches made after the release of SPT v3.11 will only be available in SPT 4.0, which is still in active development.
 
-### Can I use my profile and mods from 3.10?**
+### Can I use my profile and mods from 3.10?
 ***If*** the `3.10` profile was ***un-modded***, yes. Otherwise A new profile will be required. None of your `3.10` mods are compatible.
 See the guide on [Updating SPT](/Updating_SPT) for more details.
 
