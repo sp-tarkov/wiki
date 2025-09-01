@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-08-30T19:57:08.235Z
+date: 2025-09-01T01:06:28.488Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -31,10 +31,11 @@ Only CPUs with powerful single-threaded performance will improve your in-game FP
   - [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots) already includes an AI limiter.
 - Tweak your bot spawning mod to spawn less bots.
   - Less bots mean less demand on your system, but it will make raid feel "less alive" if lowered too much.
-- Edit your [boot.config](https://hub.sp-tarkov.com/doc/entry/80-fps-boost-boost-framerate-with-command-line-in-boot-config).
+
 ## Further tweaks
 - You will see minor improvements by changing your graphic settings. Follow any graphics guide for EFT.
 - Enabling Nvidia's `Smooth motion` (for 40 and 50 series GPUs), or AMD's `Fluid Motion Frames` for EFT will let your GPU interpolate extra frames, using the unused part of your GPU.
   - If neither are available to you, use [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling)'s Frame Generation.
   - Any form of frame generation will result in some increase in latency.
+- Editing your [boot.config](https://hub.sp-tarkov.com/doc/entry/80-fps-boost-boost-framerate-with-command-line-in-boot-config) might help, however it's less impactful than in the past.
 - For further tweaks and discussion, visit the [Optimization Megathread](https://discord.com/channels/875684761291599922/1163777314862149683) in our [Discord server](http://discord.sp-tarkov.com/).
