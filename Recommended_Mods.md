@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-08-29T23:15:30.469Z
+date: 2025-09-02T06:32:49.847Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
@@ -49,7 +49,7 @@ You should only have **one** bot progression mod installed to avoid issues.
 ## Mods for better quality of life
 
 - Fixes
-[UI Fixes](https://forge.sp-tarkov.com/mod/1342/ui-fixes), [HandsAreNotBusy](https://forge.sp-tarkov.com/mod/1298/handsarenotbusy), [Shadow Flicker Fix](https://forge.sp-tarkov.com/mod/1621/shadow-flicker-fix), [FOV Fix](https://forge.sp-tarkov.com/mod/701/fontaines-fov-fix), [Let Me Out](https://forge.sp-tarkov.com/mod/2240/let-me-out), [TerraGroup Employee Fix](https://hub.sp-tarkov.com/files/file/2953-terragroup-employee-fix/)
+[UI Fixes](https://forge.sp-tarkov.com/mod/1342/ui-fixes), [HandsAreNotBusy](https://forge.sp-tarkov.com/mod/1298/handsarenotbusy), [Shadow Flicker Fix](https://forge.sp-tarkov.com/mod/1621/shadow-flicker-fix), [FOV Fix](https://forge.sp-tarkov.com/mod/701/fontaines-fov-fix), [Let Me Out](https://forge.sp-tarkov.com/mod/2240/let-me-out)
 
 - UI
 [Item Context Menu Extended](https://forge.sp-tarkov.com/mod/940/item-context-menu-extended),[More Checkmarks](https://forge.sp-tarkov.com/mod/861/morecheckmarks), [Expanded Task Text](https://forge.sp-tarkov.com/mod/2153/expanded-task-text-ett), [Item Info](https://forge.sp-tarkov.com/mod/2142/odts-item-info-311-update-added-colored-name), [Interacable Exfils API](https://forge.sp-tarkov.com/mod/1676/interactable-exfils-api)
