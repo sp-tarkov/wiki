@@ -2,7 +2,7 @@
 title: Installing Mods
 description: A beginners guide on how to correctly install mods for SPT.
 published: true
-date: 2025-08-29T17:00:17.882Z
+date: 2025-09-03T21:35:14.771Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -18,7 +18,7 @@ It is **highly recommended** that you download and install [7-Zip](https://www.7
 
 Make sure that **you have already loaded SPT up to the main menu** before installing mods.
 
-When selecting the mods you want to install, make sure that you **only install mods that have been made for the current SPT version**. They will not work, and will break things. If you are unsure what version of SPT you are on, you can see the SPT version in the top left of the server window or in the bottom left while in-game.
+When selecting the mods you want to install, make sure that you **only install mods that have been made for the current SPT version**. Mods for older SPT versions will not work, and will break things. If you are unsure what version of SPT you are on, you can see the SPT version in the top left of the server window or in the bottom left while in-game.
 
 **Read the mod pages** of the mods you want to install. They include information on how to install, configure and **incompatibilities** with other mods.
 
