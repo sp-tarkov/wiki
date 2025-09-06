@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-09-06T17:39:07.869Z
+date: 2025-09-06T17:39:40.630Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -24,7 +24,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
 4. Select an install path. 
 - **DO NOT** install to a protected location such as Documents or Desktop. An example of a suitable installation folder is to the root directory of a drive such as `C:\SPT` or `C:\Games\SPT`.
 5. Click 'Start Install' and wait for it to complete.
-- Once complete you will be asked if you want to open the "Install Folder" or "Add a Desktop Shortcuts". Tick or untick to your preference. Select "Add Desktop Shortcuts" if you intend on running SPT from outside of the folder SPT folder. This will also stop you from encountering the "Watermark" error in the [Common Installation and Start-up Issues](#Common-Installation-and-Start-up-Issues) below.
+- Once complete you will be asked if you want to open the "Install Folder" or "Add a Desktop Shortcuts". Tick or untick to your preference. Select "Add Desktop Shortcuts" if you intend on running SPT from outside of the folder SPT folder. This will also stop you from encountering the "Watermark" error in the Common Installation and Start-up Issues section below.
 6. Navigate to your SPT install and run `SPT.Server`.
 - Wait for the green text to say "Happy Playing". This may take several minutes on first startup.
 7. Run `SPT.Launcher` and follow the onscreen instructions.
