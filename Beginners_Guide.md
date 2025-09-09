@@ -2,7 +2,7 @@
 title: Beginner's Guide
 description: Welcome to SPT!
 published: true
-date: 2025-08-29T16:36:32.592Z
+date: 2025-09-09T13:00:08.801Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-22T10:13:29.789Z
@@ -32,6 +32,7 @@ SPT is a modding framework for Escape From Tarkov made for people who want to pl
 - [Patreon](https://www.patreon.com/sptarkov)
 
 ## Getting started
+- [System Requirements](/system-requirements)
 - [Installing SPT](/Installation_Guide)
 - [Installing Mods](/Installing_Mods)
 - [Recommended Mods](/Recommended_Mods)
