@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-09-02T06:32:49.847Z
+date: 2025-09-10T18:57:01.454Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
@@ -63,10 +63,10 @@ You should only have **one** bot progression mod installed to avoid issues.
 ## Mods for better player experience
 
 - Ease of play
-[Custom Raid Times](https://forge.sp-tarkov.com/mod/551/custom-raid-times), [Enemy Markers](https://forge.sp-tarkov.com/mod/1858/enemy-markers), [Dad Gamer Mode](https://forge.sp-tarkov.com/mod/1875/props-dad-gamer-mod-for-39), [Loot Highlighter](https://forge.sp-tarkov.com/mod/2136/loot-highlighter), [No Save on Death](https://forge.sp-tarkov.com/mod/2150/no-save-on-death-respawned), [Keep Starting Gear](https://hub.sp-tarkov.com/files/file/2957-blackhorse311-keep-starting-gear-spt-3-11-x/)
+[Custom Raid Times](https://forge.sp-tarkov.com/mod/551/custom-raid-times), [Enemy Markers](https://forge.sp-tarkov.com/mod/1858/enemy-markers), [Dad Gamer Mode](https://forge.sp-tarkov.com/mod/1875/props-dad-gamer-mod-for-39), [Loot Highlighter](https://forge.sp-tarkov.com/mod/2136/loot-highlighter), [No Save on Death](https://forge.sp-tarkov.com/mod/2150/no-save-on-death-respawned), [Keep Starting Gear](https://forge.sp-tarkov.com/mod/2250/blackhorse311-keep-starting-gear-spt-311x)
 
 - Gameplay
-[Bright Lasers](https://forge.sp-tarkov.com/mod/1358/brightlasers), [Use Items Anywhere](https://forge.sp-tarkov.com/mod/2177/use-items-anywhere), [Old Tarkov Movement](https://forge.sp-tarkov.com/mod/1860/old-tarkov-movement-no-inertia), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Headbob Reducer](https://hub.sp-tarkov.com/files/file/948-fontaine-s-headbob-reducer/)
+[Bright Lasers](https://forge.sp-tarkov.com/mod/1358/brightlasers), [Use Items Anywhere](https://forge.sp-tarkov.com/mod/2177/use-items-anywhere), [Old Tarkov Movement](https://forge.sp-tarkov.com/mod/1860/old-tarkov-movement-no-inertia), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Headbob Reducer](https://forge.sp-tarkov.com/mod/707/fontaines-headbob-reducer)
 
 - Tweaking
 [Skill Multiplier](https://forge.sp-tarkov.com/mod/2162/skill-multiplier), [Server Value Modifier](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm)
