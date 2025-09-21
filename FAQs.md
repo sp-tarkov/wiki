@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-09-01T01:10:30.322Z
+date: 2025-09-21T00:31:49.039Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -117,6 +117,15 @@ Run your profile through the [Profile Fixer](<https://drakiaxyz.github.io/spt-pr
 If you're using [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), decrease bots' maximum hearing range and/or aggressiveness.
 ### Traders are unclickable because they are behind the profile
 Install [Kaeno's Trader Scrolling](https://forge.sp-tarkov.com/mod/1089/kaeno-traderscrolling) or enable `Intermediate trader menu` in your game settings.
+
+### Bot brains being destroyed when running Realism, SAIN and Questing Bots
+Edit `user\mods\SPT-Realism\db\bots\pmcTypes.json` so the initial section has all instances of `"assault"` changed to `"assaultGroup"`:
+```json
+    "playerScavBrainType": {
+        "factory4_day": {
+            "assaultGroup": 1
+...
+```
 
 # Known EFT issues
 > Always read the mod pages of the mods you're installing.
