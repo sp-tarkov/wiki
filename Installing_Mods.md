@@ -2,11 +2,14 @@
 title: Installing Mods
 description: A beginners guide on how to correctly install mods for SPT.
 published: true
-date: 2025-09-03T21:35:14.771Z
+date: 2025-09-25T10:40:03.113Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
 ---
+
+> Always read the mod pages of the mods you're installing.
+{.is-info}
 
 ## Before installing your mods
 
@@ -40,6 +43,9 @@ Nearly all mods can be added to an existing profile. However, **removing some mo
 
 If you removed a mod that broke your profile, you can attempt to fix it by changing `removeModItemsFromProfile` and `removeInvalidTradersFromProfile` to `true` inside `SPT_Data\Server\configs\core.json`. **This is not guaranteed to work**. SPT will do the best it can to remove any item that's in your profile from the removed mod, but some mods make irreversable changes to your profile.
 
+> The above should be viewed as a "last resort" solution. Even a profile "fixed" by this method can exhibit issues like random crashing, bots not spawning, and some maps being unloadable.
+{.is-info}
+
 ## Load order
 
 You do not need to edit your load order manually unless a mod specifies you to do so. By default, with an empty `order.json` SPT loads mods alphabetically from A to Z. __Mods expect to be loaded in that order.__
@@ -51,14 +57,6 @@ If you need to edit it, you should use a tool like [Load Order Editor](https://f
 To create a new, empty load order, delete your `user\mods\order.json`. SPT will create a new one the next time you run it.
 
 **Note**: Mods like SVM can override/break any mod loaded before it, so it's recommended to load it first.
-
-## Uninstalling mods
-
-1. Close your game, launcher and server.
-2. **Read the mod page of the mod you're uninstalling**. Some, like Realism, Raid Overhaul or SVM, have extra steps you'll need to do beforehand.
-3. Generally, to uninstall a mod, move or delete its files from `user\mods`, `BepInEx\plugins` and/or `BepInEx\patchers`.
-  - The easiest way to see what files a mod has is to look inside its archive you downloaded.
-  - **Do not remove** your `BepInEx\plugins\spt` folder and `BepInEx\patchers\spt-prepatch.dll` file.
 
 ## Updating mods
 
