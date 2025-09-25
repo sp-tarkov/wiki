@@ -2,7 +2,7 @@
 title: Uninstalling Mods
 description: Learn how to properly uninstall mods.
 published: true
-date: 2025-09-25T10:46:51.329Z
+date: 2025-09-25T10:47:45.972Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-09-25T10:46:32.773Z
@@ -34,3 +34,4 @@ If you removed a mod that broke your profile, SPT can try fixing it. **This is n
 
 # See also
 [Installing Mods](/Installing_Mods)
+[Mod Types](/Mod_Types)
