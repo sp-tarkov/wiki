@@ -2,7 +2,7 @@
 title: Bot Difficulties
 description: Learn how SPT and mods handle bots' difficulty.
 published: true
-date: 2025-09-21T10:41:29.149Z
+date: 2025-09-25T17:30:07.034Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-28T18:04:16.547Z
@@ -30,7 +30,7 @@ Note that [SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm) c
 ## SAIN Presets
 Each preset in [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement)'s <kbd>F6</kbd> menu will alter each *difficulty class* individually. This allows you to separately tweak how hard an *Easy* bot is vs. a *Hard* bot, and so on.
 
-Note that this is **not** the same as changing the difficulty in the **Pre-Raid Settings**. This will **not** change which *difficulty classes* can spawn in the raid, it will only alter the behaviors of each *difficulty class*.
+Note that this is **not** the same as changing the difficulty in the **Pre-Raid Settings**. This will **not** change which *difficulty classes* can spawn in the raid, it will only alter the behaviours of each *difficulty class*.
 &nbsp;
 <img src="/sain_presets_v2.png" alt="SAIN Presets" width=600 style="display: block; margin: 0 auto;">
 
