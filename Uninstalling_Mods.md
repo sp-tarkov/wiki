@@ -2,7 +2,7 @@
 title: Uninstalling Mods
 description: Learn how to properly uninstall mods.
 published: true
-date: 2025-09-25T10:46:32.773Z
+date: 2025-09-25T10:46:51.329Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-09-25T10:46:32.773Z
@@ -26,7 +26,7 @@ If you removed a mod that broke your profile, SPT can try fixing it. **This is n
 1. Open `SPT_Data\Server\configs\core.json` in a text editor.
 2. Set `removeModItemsFromProfile` from `false` to `true`.
 3. Set `removeInvalidTradersFromProfile` from `false` to `true`.
-4. Save your edits.
+4. Save your changes.
 5. Launch SPT.
 
 > The above should be viewed as a "last resort" solution. Even a profile "fixed" by this method can exhibit issues like random crashing, bots not spawning, and some maps being unloadable.
