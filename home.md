@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-08-29T17:05:34.844Z
+date: 2025-09-25T10:50:56.613Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -31,8 +31,8 @@ Dive into the world of SPT modding to tailor your experience:
 - [Installing Mods](/Installing_Mods): General guide on adding mods to your game.
   - [Profiles](https://wiki.sp-tarkov.com/Installing_Mods#profiles)
   - [Load Order](https://wiki.sp-tarkov.com/Installing_Mods#load-order)
-  - [Uninstalling Mods](https://wiki.sp-tarkov.com/Installing_Mods#uninstalling-mods)
   - [Updating Mods](https://wiki.sp-tarkov.com/en/Installing_Mods#updating-mods)
+- [Uninstalling Mods]: A guide on uninstalling SPT mods.
 - [Recommended Mods](/Recommended_Mods): A selection of recommended mods to improve your SPT experience.
 
 ## Troubleshooting
