@@ -1,8 +1,8 @@
 ---
 title: Installing Mods
-description: A beginners guide on how to correctly install mods for SPT.
+description: General guide on adding mods to your game.
 published: true
-date: 2025-09-25T10:49:07.184Z
+date: 2025-09-25T10:51:14.840Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
