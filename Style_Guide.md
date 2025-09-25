@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-08-28T20:04:22.202Z
+date: 2025-09-25T10:36:55.409Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -68,6 +68,11 @@ The most subjective section. Use of bold and italicised text should still be sta
   - "You should disable **V-Sync** in your in-game graphics settings."
 - **Italics** are best reserved for key information in a sentence:
   - "If the mod archive has a `BepInEx` or `user` or *both* folders, drag and drop the contents of the archive to the empty space in your SPT folder."
+- When you want to differenciate two concepts that share the same name, assign one concept to be **bold** and the other as *italicised*.:
+   - "The selected difficulty in the **Pre-Raid Setting** determines which *difficulty classes* are allowed to spawn in your raid:
+     - **As in online**: Mix of *Easy*, *Medium*, and *Hard* classes can spawn.
+     - **Easy**: Only *Easy* class bots will spawn.
+     - **Medium**: Only *Medium* class bots will spawn."
 - _Underlines_ should be avoided, as clickable links are also underlined. Bold or italicised text should be used instead.
 - `Code blocks` should be used when referring to folder names, file names, values and text strings from config files:
   - "To create a new, empty load order, delete your `user\mods\order.json`."
