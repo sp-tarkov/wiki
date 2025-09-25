@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-09-25T10:51:56.270Z
+date: 2025-09-25T10:53:04.430Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -19,7 +19,7 @@ SPT allows you to experience Escape From Tarkov offline, in a single-player envi
 ## Getting Started
 
 - [New to SPT? Start Here!](/Beginners_Guide): A beginner's overview of the SPT project.
-- [System Requirements](/system-requirements): Minimum specs for an optimal SPT experience.
+- [System Requirements](/system-requirements): The system requirements to run SPT.
 - [Installation Guide](/Installation_Guide): Step-by-step instructions to install SPT.
 - [Updating SPT](/Updating_SPT): Learn how to update your SPT installation.
 
