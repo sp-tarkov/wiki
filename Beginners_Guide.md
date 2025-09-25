@@ -1,12 +1,14 @@
 ---
 title: Beginner's Guide
-description: Welcome to SPT!
+description: A beginner's overview of the SPT project.
 published: true
-date: 2025-09-09T13:00:08.801Z
+date: 2025-09-25T10:52:39.092Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-22T10:13:29.789Z
 ---
+
+# Welcome to SPT!
 
 ## What is SPT?
 SPT is a modding framework for Escape From Tarkov made for people who want to play offline singleplayer with progression similar to live. It's made by fans for fans
