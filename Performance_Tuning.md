@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-09-01T01:06:28.488Z
+date: 2025-09-26T22:16:40.714Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -39,3 +39,22 @@ Only CPUs with powerful single-threaded performance will improve your in-game FP
   - Any form of frame generation will result in some increase in latency.
 - Editing your [boot.config](https://hub.sp-tarkov.com/doc/entry/80-fps-boost-boost-framerate-with-command-line-in-boot-config) might help, however it's less impactful than in the past.
 - For further tweaks and discussion, visit the [Optimization Megathread](https://discord.com/channels/875684761291599922/1163777314862149683) in our [Discord server](http://discord.sp-tarkov.com/).
+
+## Pagefile
+EFT extensively uses your pagefile, which is a cache for programs to use alongside your RAM. It's unlikely you will encounter issues with it being overfilled, which will lead to crashes, if you have at least the recommended amount of RAM per [System Requirements](/system-requirements).
+
+If you're under those requirements, or have a heavily modded game and are experiencing random crashing, manually increasing your pagefile might alleviate them.
+
+1. To access your pagefile settings, press <kbd>Win</kbd> + <kbd>R</kbd>, enter `systempropertiesadvanced` and press `OK`. 
+2. Under `Performance`, go into `Settings`, then the `Advanced` tab.
+3. Under `Virtual memory` press `Change`.
+4. Select your fastest drive, and set the `Custom size` values to the following:
+| Your amount of RAM | Initial Size (MB) | Maximum Size (MB) |
+|---|---|---|
+| 16 GB | 24000 | 32000 |
+| 32 GB | 48000 | 64000 |
+| 64 GB | 64000 | 96000 |
+5. Press `Set` then `OK`.
+
+> You should still use the [RAM Cleaner Fix](<https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix>) even with an increased pagefile.
+{.is-info}
