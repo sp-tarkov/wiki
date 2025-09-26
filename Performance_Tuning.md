@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-09-26T22:17:54.827Z
+date: 2025-09-26T22:19:15.123Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -51,11 +51,13 @@ To manually increase your pagefile:
 2. Under `Performance`, go into `Settings`, then the `Advanced` tab.
 3. Under `Virtual memory` press `Change`.
 4. Select your fastest drive, and set the `Custom size` values to the following:
+
 | Your amount of RAM | Initial Size (MB) | Maximum Size (MB) |
 |---|---|---|
 | 16 GB | 24000 | 32000 |
 | 32 GB | 48000 | 64000 |
 | 64 GB | 64000 | 96000 |
+
 5. Press `Set` then `OK`.
 
 > You should still use the [RAM Cleaner Fix](<https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix>) even with an increased pagefile.
