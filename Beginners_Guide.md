@@ -2,7 +2,7 @@
 title: Beginner's Guide
 description: A beginner's overview of the SPT project.
 published: true
-date: 2025-09-25T10:52:39.092Z
+date: 2025-09-26T22:21:16.342Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-22T10:13:29.789Z
@@ -25,8 +25,8 @@ SPT is a modding framework for Escape From Tarkov made for people who want to pl
 
 ## Official links
 - [Official website](https://www.sp-tarkov.com/)
-- [SPT Hub](https://hub.sp-tarkov.com/) - The home of the community and mods
-- [SPT Forge](https://forge.sp-tarkov.com/) (WIP) - An WIP upgrade to the Hub
+- [SPT Forge](https://forge.sp-tarkov.com/) - The home of the community and mods
+- [SPT Hub](https://hub.sp-tarkov.com/) - The old home of the community and mods
 - [Discord Server](http://discord.sp-tarkov.com/) - The other home of the community and best place to ask for support
 - [Documentation](https://docs.sp-tarkov.com/)
 - [Development](https://dev.sp-tarkov.com/)
