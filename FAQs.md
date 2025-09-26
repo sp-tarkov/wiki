@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-09-26T22:25:19.624Z
+date: 2025-09-26T22:26:08.624Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -134,7 +134,7 @@ Edit `user\mods\SPT-Realism\db\bots\pmcTypes.json` so the initial section has al
 Bug named *busy hands*. Close SPT or extract from raid as it cannot be fixed mid raid. Use the [HandsAreNotBusy](<https://forge.sp-tarkov.com/mod/1298/handsarenotbusy>) mod to help avoid the bug in the future. Do note that it does not guarantee a fix for all scenarios of the bug. Closing SPT during raid will revert your profile to pre-raid state.
 
 ### AI flying or despawning after you kill them?
-An issue with BSGs ragdoll physics. [HollywoodFX](<https://hub.sp-tarkov.com/files/file/2683-hollywoodfx/>) helps alleviate this.
+An issue with BSGs ragdoll physics. [HollywoodFX](<https://forge.sp-tarkov.com/mod/2003/hollywoodfx>) helps alleviate this.
 
 ### Missing secure container when you enter raid?
 You pushed the `eye` icon in the pre-raid screen too many times. This is a *visual* bug. Restart your SPT. Closing SPT during raid will revert your profile to pre-raid state.
@@ -149,7 +149,7 @@ Restart SPT and unbind the `Compass` from your hotbar. Closing SPT using <kbd>Al
 Disable `Mip Streaming` in your in-game settings.
 
 ### Hideout turning white?
-Disable `Resampling` in your in-game settings, or use [Un-flashbang Hideout](<https://hub.sp-tarkov.com/files/file/1975-un-flashbang-hideout/>).
+Disable `Resampling` in your in-game settings, or use [Un-flashbang Hideout](<https://forge.sp-tarkov.com/mod/1425/un-flashbang-hideout>).
 
 ### Bots phasing through doors?
 There's no known fix. [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement) attempts to fix it, but there have been reports of bots doing it even with it installed.
