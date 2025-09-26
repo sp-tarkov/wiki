@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-09-26T22:16:40.714Z
+date: 2025-09-26T22:17:54.827Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -45,7 +45,9 @@ EFT extensively uses your pagefile, which is a cache for programs to use alongsi
 
 If you're under those requirements, or have a heavily modded game and are experiencing random crashing, manually increasing your pagefile might alleviate them.
 
-1. To access your pagefile settings, press <kbd>Win</kbd> + <kbd>R</kbd>, enter `systempropertiesadvanced` and press `OK`. 
+To manually increase your pagefile:
+
+1. Press <kbd>Win</kbd> + <kbd>R</kbd>, enter `systempropertiesadvanced` and press `OK`. 
 2. Under `Performance`, go into `Settings`, then the `Advanced` tab.
 3. Under `Virtual memory` press `Change`.
 4. Select your fastest drive, and set the `Custom size` values to the following:
