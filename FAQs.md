@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-09-21T00:31:49.039Z
+date: 2025-09-26T22:25:19.624Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -131,7 +131,7 @@ Edit `user\mods\SPT-Realism\db\bots\pmcTypes.json` so the initial section has al
 > Always read the mod pages of the mods you're installing.
 {.is-info}
 ### Stuck animations? Can't Interact with anything
-Bug named *busy hands*. Close SPT or extract from raid as it cannot be fixed mid raid. Use the [HandsAreNotBusy](<https://hub.sp-tarkov.com/files/file/1810-handsarenotbusy/>) mod to help avoid the bug in the future. Do note that it does not guarantee a fix for all scenarios of the bug. Closing SPT during raid will revert your profile to pre-raid state.
+Bug named *busy hands*. Close SPT or extract from raid as it cannot be fixed mid raid. Use the [HandsAreNotBusy](<https://forge.sp-tarkov.com/mod/1298/handsarenotbusy>) mod to help avoid the bug in the future. Do note that it does not guarantee a fix for all scenarios of the bug. Closing SPT during raid will revert your profile to pre-raid state.
 
 ### AI flying or despawning after you kill them?
 An issue with BSGs ragdoll physics. [HollywoodFX](<https://hub.sp-tarkov.com/files/file/2683-hollywoodfx/>) helps alleviate this.
