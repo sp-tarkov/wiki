@@ -2,7 +2,7 @@
 title: Mod Types
 description: Learn the difference between server mods and client mods.
 published: true
-date: 2025-08-29T17:23:21.652Z
+date: 2025-09-26T22:30:33.521Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-07-22T08:23:52.210Z
@@ -41,4 +41,5 @@ The best place to get guidance is in our Discord's [`#mod-development`](https://
 
 # See also
 [Installing Mods](/Installing_Mods)
+[Uninstalling Mods](/Uninstalling_Mods)
 [Modding Resources](/Modding_Resources)
