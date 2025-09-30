@@ -2,28 +2,25 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2025-09-27T22:38:05.961Z
+date: 2025-09-30T23:12:23.166Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
 ---
 
-> Always read the mod pages of the mods you're installing.
-{.is-info}
-
 ## Before installing your mods
+
+**Read the mod pages** of the mods you want to install. They include information on how to install, configure and **incompatibilities** with other mods.
 
 [The Forge](https://forge.sp-tarkov.com/) is the main source for finding and downloading mods for SPT. We only offer support for mods downloaded from it.
 
-It is **highly recommended** that you download and install [7-Zip](https://www.7-zip.org/). Other archiving programs, such as WinRAR or Windows itself, are known to corrupt files upon extracting without telling you.
+Install [7-Zip](https://www.7-zip.org/) to open and extract mod archives. Other archiving programs, such as WinRAR or Windows itself, are known to corrupt files upon extracting without telling you.
 
 [Notepad++](https://notepad-plus-plus.org/) is another useful tool to have installed. It simplifies editing config files, and will let you know if there's any formatting issues with the edits you made.
 
 Make sure that **you have already loaded SPT up to the main menu** before installing mods.
 
-When selecting the mods you want to install, make sure that you **only install mods that have been made for the current SPT version**. Mods for older SPT versions will not work, and will break things. If you are unsure what version of SPT you are on, you can see the SPT version in the top left of the server window or in the bottom left while in-game.
-
-**Read the mod pages** of the mods you want to install. They include information on how to install, configure and **incompatibilities** with other mods.
+**Only install mods that are marked compatible with your version of SPT.** Mods for older SPT versions will not work, and will break things. If you are unsure what version of SPT you are on, you can see the SPT version in the top left of the server window or in the bottom left while in-game.
 
 **Close everything SPT related** when installing or removing mods. Your server needs to be closed when configuring [server mods](https://wiki.sp-tarkov.com/en/Mod_Types#server-mods).
 
