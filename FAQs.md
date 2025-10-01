@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-09-26T22:26:08.624Z
+date: 2025-10-01T15:12:39.938Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -119,13 +119,7 @@ If you're using [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-mod
 Install [Kaeno's Trader Scrolling](https://forge.sp-tarkov.com/mod/1089/kaeno-traderscrolling) or enable `Intermediate trader menu` in your game settings.
 
 ### Bot brains being destroyed when running Realism, SAIN and Questing Bots
-Edit `user\mods\SPT-Realism\db\bots\pmcTypes.json` so the initial section has all instances of `"assault"` changed to `"assaultGroup"`:
-```json
-    "playerScavBrainType": {
-        "factory4_day": {
-            "assaultGroup": 1
-...
-```
+Disable `Spawn Tweaks` inside Realism's config tool. 
 
 # Known EFT issues
 > Always read the mod pages of the mods you're installing.
