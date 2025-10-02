@@ -2,7 +2,7 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2025-09-30T23:13:06.276Z
+date: 2025-10-02T19:15:52.983Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -45,6 +45,9 @@ If you removed a mod that broke your profile, SPT can try fixing it. **This is n
 3. Set `removeInvalidTradersFromProfile` from `false` to `true`.
 4. Save your changes.
 5. Launch SPT.
+
+> The above should be viewed as a "last resort" solution. Even a profile "fixed" by this method can exhibit issues like random crashing, bots not spawning, and some maps being unloadable.
+{.is-info}
 
 ## Load order
 
