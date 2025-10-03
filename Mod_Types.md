@@ -2,7 +2,7 @@
 title: Mod Types
 description: Learn the difference between server mods and client mods.
 published: true
-date: 2025-09-26T22:30:33.521Z
+date: 2025-10-03T00:10:10.463Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-07-22T08:23:52.210Z
@@ -19,7 +19,7 @@ Server mods are installed in the `user\mods` folder. They are configured either 
 
 They will show up both in your Server console and Launcher.
 
-As of SPT `3.11`, server mods are written in Typescript. `4.0` will have server mods written in C# to match client mods.
+Mods made for SPT `4.0` are written in C#, while mods made for SPT `3.11` and below are written in TypeScript.
 
 ## Client mods
 
