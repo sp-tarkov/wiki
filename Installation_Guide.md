@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-09-27T23:04:36.859Z
+date: 2025-10-03T00:05:42.608Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -16,7 +16,7 @@ Verify that your Escape From Tarkov works, and that you can load up to at least 
 This is particularly important if you have just installed Escape From Tarkov so all necessary files can be generated.
 
 ## Installing and running Single Player Tarkov
-1. Download the [SPT Installer](https://ligma.waffle-lord.net/SPTInstaller.exe).
+1. Download the [SPT Installer](https://forge.sp-tarkov.com/installer).
 - The installer will always download & install the latest SPT version, it **does not** update a current SPT install.
 2. Run the SPT Installer.
 3. Read the Installer Info page, then click next.
