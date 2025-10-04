@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-09-10T18:57:01.454Z
+date: 2025-10-04T14:57:26.625Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
@@ -69,7 +69,7 @@ You should only have **one** bot progression mod installed to avoid issues.
 [Bright Lasers](https://forge.sp-tarkov.com/mod/1358/brightlasers), [Use Items Anywhere](https://forge.sp-tarkov.com/mod/2177/use-items-anywhere), [Old Tarkov Movement](https://forge.sp-tarkov.com/mod/1860/old-tarkov-movement-no-inertia), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Headbob Reducer](https://forge.sp-tarkov.com/mod/707/fontaines-headbob-reducer)
 
 - Tweaking
-[Skill Multiplier](https://forge.sp-tarkov.com/mod/2162/skill-multiplier), [Server Value Modifier](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm)
+[Skill Multiplier](https://forge.sp-tarkov.com/mod/2162/skill-multiplier), [Medical Attention](https://forge.sp-tarkov.com/mod/147/medical-attention), [Server Value Modifier](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm)
 
 # See also
 [Performance Tuning](/Performance_Tuning)
