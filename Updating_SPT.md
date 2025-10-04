@@ -2,7 +2,7 @@
 title: Updating SPT
 description: Learn how to update your SPT installation.
 published: true
-date: 2025-09-01T18:29:04.417Z
+date: 2025-10-04T22:28:29.950Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-09T12:01:16.553Z
@@ -17,15 +17,15 @@ X = Major update
 - A large refactor of SPT or EFT
 - Requires reinstalling SPT anew
 - Old mods won't work
-- Old profiles won't work
+- Unmodded old profiles might work
 
 Y = Minor update
 - A new version of EFT is being used
 - Requires reinstalling SPT anew
 - Old mods won't work
-- Some old profiles might work
+- Unmodded old profiles might work
 
-Z = Patch
+Z = Patch/Hotfix
 - Bug fixes for the previous version
 - Generally doesn't require a reinstall
 - Generally works with mods made for the previous hotfix version
