@@ -2,7 +2,7 @@
 title: Updating SPT
 description: Learn how to update your SPT installation.
 published: true
-date: 2025-10-04T22:28:29.950Z
+date: 2025-10-04T22:28:57.656Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-09T12:01:16.553Z
@@ -26,7 +26,7 @@ Y = Minor update
 - Unmodded old profiles might work
 
 Z = Patch/Hotfix
-- Bug fixes for the previous version
+- Bug fixes for the previous Minor version
 - Generally doesn't require a reinstall
 - Generally works with mods made for the previous hotfix version
 - Old profiles will work
