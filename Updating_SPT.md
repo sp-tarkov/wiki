@@ -2,7 +2,7 @@
 title: Updating SPT
 description: Learn how to update your SPT installation.
 published: true
-date: 2025-10-04T22:28:57.656Z
+date: 2025-10-04T22:30:24.296Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-09T12:01:16.553Z
@@ -52,3 +52,7 @@ Example of the compatibility section for SPT 3.11.3.
 
 > This will only overwrite base SPT files. It will __not__ overwrite or remove your profile(s), mods or mod configs.
 {.is-info}
+
+# See also
+[New to SPT? Start here!](/Beginners_Guide)
+[Installing SPT](/Uninstalling_Mods)
