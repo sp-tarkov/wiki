@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-09-25T10:53:34.582Z
+date: 2025-10-05T14:59:41.771Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -47,6 +47,7 @@ Running into issues? Find solutions here:
   - [SPT 4.0 Bleeding Edge Test Build](https://wiki.sp-tarkov.com/en/FAQs#spt-40-bleeding-edge-test-build)
   - [Known Mod Issues](https://wiki.sp-tarkov.com/en/FAQs#known-mod-issues)
   - [Known EFT Issues](https://wiki.sp-tarkov.com/en/FAQs#eft-issues)
+- [50/50 Method](/5050-method): How to use the 50/50 Method to find the mod causing your issues.
 - [Reporting Issues](#) `WIP`: How to effectively ask for help.
 
 ## Guides & Advanced Topics
