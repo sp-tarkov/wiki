@@ -1,9 +1,9 @@
 ---
 title: SPT & Commando
-description: 
-published: false
-date: 2025-10-05T16:37:22.082Z
-tags: 
+description: How to use SPT & Commando
+published: true
+date: 2025-10-05T16:37:49.390Z
+tags: guide
 editor: markdown
 dateCreated: 2025-10-05T07:40:42.709Z
 ---
