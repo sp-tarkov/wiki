@@ -2,7 +2,7 @@
 title: 50/50 Method
 description: Learn how to use a binary search to find the mod causing your issues.
 published: true
-date: 2025-10-05T01:29:38.525Z
+date: 2025-10-05T01:32:45.908Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-10-05T01:29:38.525Z
@@ -16,6 +16,7 @@ If you need to check **100** mods, the 50/50 Method will only take **8** tests, 
 
 ## 50/50 Method
 First, verify that the issue you have is due to a mod by running SPT without any installed. See the [Uninstalling Mods](/Uninstalling_Mods) page on how to uninstall mods. Note that there's no need to delete your mods, simply move them to a temporary folder, and create a new test profile [so your main profile isn't affected](https://wiki.sp-tarkov.com/Uninstalling_Mods#profiles).
+If you have the storage space, you can test if the issue is due to mods by installing a new copy of SPT and seeing if the issue is present without any mods.
 
 1. Copy your `user` and `BepInEx` folders to a new folder (e.g.: a new folder called `my mods` on your desktop).
   - This will allow you to restore all your mods, profiles, and settings after you find the issue-causing mod.
@@ -37,9 +38,10 @@ First, verify that the issue you have is due to a mod by running SPT without any
 7. Move or delete the mod that's causing the issue from your `my mods` folder.
 8. Copy the files from `my mods` folder into your SPT folder. This will reinstall all your mods, except the one causing the issue. Override all files when prompted.
 
+After you identified which mod causes your issue, you should report it to the mod author on their [Forge](https://forge.sp-tarkov.com/) mod page.
+
 ## Alternative Methods
 
 - While it might be tempting to instead install a new copy of SPT and then install your mods half at a time to it, this new install will not have the same game and mod settings as your main SPT install. If you make every setting match, or manually go through each mod to copy its settings files, you will just end up with a copy of your main SPT install, possibly with small differences you might have missed.
-- If you have the storage space, you can test if the issue is due to mods by installing a new copy of SPT and seeing if the issue is there without any mods.
-- If you have the storage space, you can also copy your entire SPT folder elsewhere and perform the 50/50 Method on it instead. However, step 1 of the 50/50 Method means you don't have to.
+- Instead, if you have the storage space, you can also copy your entire SPT folder elsewhere and perform the 50/50 Method on it instead.
 - This method should highlight why it's important to install your mods one at a time or in small batches, as that would let you catch the issue as being one of the mods you recently installed. However, if you didn't install mods gradually, or the issue didn't present itself immediately after installing mods, then the 50/50 Method is your best option.
