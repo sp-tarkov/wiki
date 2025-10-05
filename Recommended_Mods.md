@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-04T14:57:26.625Z
+date: 2025-10-05T04:39:54.714Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
@@ -17,11 +17,11 @@ dateCreated: 2025-07-23T12:05:23.561Z
 
 ## Mods for better AI
 
-[Looting Bots](https://forge.sp-tarkov.com/mod/812/looting-bots), [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots), [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [No Boss PMCs](https://forge.sp-tarkov.com/mod/2095/no-boss-pmcs)`*`, [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades)
+[Looting Bots](https://forge.sp-tarkov.com/mod/812/looting-bots), [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots), [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Ombarella](https://forge.sp-tarkov.com/mod/2315/ombarella), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades), [No Boss PMCs](https://forge.sp-tarkov.com/mod/2095/no-boss-pmcs) `*`
 	`*` Mod incompatible with SAIN
 
 ## Mods for better performance
-[Waypoints](https://forge.sp-tarkov.com/mod/827/waypoints-expanded-navmesh), [RAM Cleaner Fix](https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix)`*`, [VRAM Cleaner](https://forge.sp-tarkov.com/mod/2173/vram-cleaner), [AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit), [Body Disposal Service Maid](https://forge.sp-tarkov.com/mod/1159/bdsm-body-disposal-service-maid)
+[Waypoints](https://forge.sp-tarkov.com/mod/827/waypoints-expanded-navmesh), [RAM Cleaner Fix](https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix) `*`, [VRAM Cleaner](https://forge.sp-tarkov.com/mod/2173/vram-cleaner), [AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit), [Body Disposal Service Maid](https://forge.sp-tarkov.com/mod/1159/bdsm-body-disposal-service-maid)
 `*` Most useful if you have less than 32gb of RAM
 
 See [Performance Tuning](/Performance_Tuning) for further information.
