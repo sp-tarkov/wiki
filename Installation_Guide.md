@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-10-03T00:05:42.608Z
+date: 2025-10-05T19:53:32.210Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -22,16 +22,17 @@ This is particularly important if you have just installed Escape From Tarkov so 
 3. Read the Installer Info page, then click next.
 - This page contains information as to what the installer does and does not do. It also answers many common questions that users have which is why it is there.
 4. Select an install path. 
-- **DO NOT** install to a protected location such as Documents or Desktop. An example of a suitable installation folder is to the root directory of a drive such as `C:\SPT` or `C:\Games\SPT`.
+- **DO NOT** install to a protected location such as Documents or Desktop. You might encounter Windows permission issues. A good location would be `C:\Games\SPT`.
 5. Click 'Start Install' and wait for it to complete.
-- Once complete you will be asked if you want to open the Install Folder or Add a Desktop Shortcuts. Tick or untick to your preference. Select "Add Desktop Shortcuts" if you intend on running SPT from outside of the SPT folder. This will also stop you from encountering the "Watermark" error outlined in the Common Installation and Start-up Issues section below.
-6. Navigate to your SPT install and run `SPT.Server`.
+- Once complete you will be asked if you want to open the Install Folder or Add a Desktop Shortcuts. Tick or untick to your preference. Making shortcuts will also stop you from encountering the "Watermark" error outlined in the Common Installation and Start-up Issues section below.
+- If you decide against the shortcuts, you can run the `SPT.Server` and `SPT.Launcher` from inside your SPT folder.
+6. Run `SPT.Server`.
 - Wait for the green text to say "Happy Playing". This may take several minutes on first startup.
 7. Run `SPT.Launcher` and follow the onscreen instructions.
 - If you want to copy over your Live Game settings, click OK. 
 - You can use any username you want. It is recommend that you **do not** use your Live account username. Especially if you plan on recording or streaming SPT.
 - 'Login Automatically' will always log into the last profile you loaded. You can disable this by clicking 'Logout' in the bottom right, then unchecking the option.
-- Select your desired game version. Each version has a description box summarising what is included. Once you have picked your chosen game version click 'Register'. You can pick *any* game version you want from the profile list, you do not need to own the corresponding EFT version. Once chosen, you cannot change a the edition a profile is using.
+- Select your desired game version. Each version has a description box summarising what is included. Once you have picked your chosen game version click 'Register'. You can pick *any* game version you want from the profile list, you do not need to own the corresponding EFT version. Once chosen, you cannot change the edition a profile is using.
 8. Click 'Start Game' and load into the main menu.
 
 Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/). You can find a guide on how to correctly install SPT mods on the [Installing Mods](https://wiki.sp-tarkov.com/Installing_Mods) Wiki page.
