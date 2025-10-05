@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-04T00:44:57.675Z
+date: 2025-10-05T22:18:06.579Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -126,6 +126,9 @@ Edit `user\mods\SPT-Realism\db\bots\pmcTypes.json` so the initial section has al
             "assaultGroup": 1
 ...
 ```
+
+### `An attempt was made to transition to a task error message` when using WTT - W.A.A.C.
+Having any of the custom voices enabled causes this error. There's no known fix except to not use those custom voices.
 
 # Known EFT issues
 > Always read the mod pages of the mods you're installing.
