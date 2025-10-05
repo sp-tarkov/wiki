@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-05T22:18:18.202Z
+date: 2025-10-05T22:19:05.664Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -127,7 +127,7 @@ Edit `user\mods\SPT-Realism\db\bots\pmcTypes.json` so the initial section has al
 ...
 ```
 
-### `An attempt was made to transition to a task` error message when using WTT - W.A.A.C.
+### `An attempt was made to transition a task...` error message when using WTT - W.A.A.C.
 Having any of the custom voices enabled causes this error. There's no known fix except to not use those custom voices.
 
 # Known EFT issues
