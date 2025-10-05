@@ -2,7 +2,7 @@
 title: SPT & Commando
 description: 
 published: false
-date: 2025-10-05T07:40:42.709Z
+date: 2025-10-05T07:41:41.111Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-05T07:40:42.709Z
@@ -82,8 +82,8 @@ These are special codes or chat commands which result in various changes to your
 
 # Commando
 
-Commando is used to execute commands. They can modify your level, skills and trader standing. Sending `**help**` will list them and how to use them.
-The most commonly used is the `**spt give**` command. There are two main ways of using it:
+Commando is used to execute commands. They can modify your level, skills and trader standing. Sending `help` will list them and how to use them.
+The most commonly used is the `spt give` command. There are two main ways of using it:
 
 • `spt give "[item name]" [quantity]` will give you the item using its name. If it isn't an exact match, it will search through the items and give you a list of choices
 • `spt give [item ID] [quantity]` will give you the item using its template ID. You can find these IDs [here](https://db.sp-tarkov.com/search).
