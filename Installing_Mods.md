@@ -2,7 +2,7 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2025-10-02T19:15:52.983Z
+date: 2025-10-06T20:09:30.484Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -12,7 +12,7 @@ dateCreated: 2025-06-12T18:59:03.228Z
 
 - **Read the mod pages** of the mods you want to install. They include information on how to install, configure and **incompatibilities** with other mods.
 
-- [The Forge](https://forge.sp-tarkov.com/) is the main source for finding and downloading mods for SPT. We only offer support for mods downloaded from it.
+- [The Forge](https://forge.sp-tarkov.com/mods) is the main source for finding and downloading mods for SPT. We only offer support for mods downloaded from it.
 
 - Install [7-Zip](https://www.7-zip.org/) to open and extract mod archives. Other archiving programs, such as WinRAR or Windows itself, are known to corrupt files upon extracting without telling you.
 
