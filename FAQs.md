@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-05T22:20:19.691Z
+date: 2025-10-07T18:10:24.175Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -126,6 +126,9 @@ Edit `user\mods\SPT-Realism\db\bots\pmcTypes.json` so the initial section has al
             "assaultGroup": 1
 ...
 ```
+
+### Bot brains being destroyed when running SAIN and Jiang Hu
+Set `bosspms` to `false` inside `user\mods\Jiang Hu\config\config.jsonc`.
 
 ### `An attempt was made to transition a task...` error message when using WTT - W.A.A.C.
 Using any of the custom voices causes this error. There's no known fix except to not use those custom voices.
