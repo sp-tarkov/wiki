@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-07T03:59:15.370Z
+date: 2025-10-07T18:24:04.919Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -81,13 +81,26 @@ To manually increase your pagefile:
 > You should still use the [RAM Cleaner Fix](<https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix>) even with an increased pagefile.
 {.is-info}
 
-
 ## Further tweaks
 - You will see minor improvements by changing your graphic settings. Follow any graphics guide for EFT.
 - Enabling Nvidia's `Smooth motion` (for 40 and 50 series GPUs), or AMD's `Fluid Motion Frames` for EFT will let your GPU interpolate extra frames, using the unused part of your GPU.
   - If neither are available to you, use [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling)'s Frame Generation.
   - Any form of frame generation will result in some increase in latency.
 - For further tweaks and discussion, visit the [Optimization Megathread](https://discord.com/channels/875684761291599922/1163777314862149683) in our [Discord server](http://discord.sp-tarkov.com/).
+
+## Headless client
+
+> This is an advanced setup requiring technical knowledge and an understanding of how SPT works.
+{.is-warning}
+
+> While Project Fika is a mod available on the Forge, we do not offer support with it installed. If you wish to receive support for Fika, you must seek support from Fika's [Discord server](https://discord.gg/project-fika).
+{.is-warning}
+
+As stated in the introduction, the main performance impact on your game is bots. EFT does not efficiently utilise your system resources, using the same CPU thread to process bots and render your game. When you play an online raid in EFT, all bot processing happens on BSG's servers, letting your CPU "concentrate" on rendering the game.
+
+[Fika](https://forge.sp-tarkov.com/mod/2326/project-fika) allows you to host a raid on a different computer as the one you're playing on. This lets you recreate the conditions of a live EFT raid while still using SPT. It's also possible to host the raid on the same computer as the one you're playing on, letting one part of your CPU render the game, while another processes the bots.
+
+To set up a headless client, [follow this guide](https://project-fika.gitbook.io/wiki/advanced-features/headless-client).
 
 # See also
 [System Requirements](/system-requirements)
