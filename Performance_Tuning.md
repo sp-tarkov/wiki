@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-07T03:56:45.919Z
+date: 2025-10-07T03:59:15.370Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -14,6 +14,7 @@ Compared to live PVP, the performance in SPT will always be worse. When you're p
 You might have noticed that when playing SPT your CPU and GPU usage is never at 100%. Your GPU cannot run at full power because it's busy waiting on instructions from your CPU, and your CPU cannot run at full power because it has to slowly process all the bots. To see this in action, disable bots in either Pre-Raid Settings, or the bot spawning mod you installed.
 
 Only CPUs with powerful single-threaded performance will improve your in-game FPS. AMD's X3D CPUs are the most optimal as they let a single thread process more data at once.
+
 ## Optimisations
 - Use [Waypoints](https://forge.sp-tarkov.com/mod/827/waypoints-expanded-navmesh) to optimise AI pathfinding.
 - Use [RAM Cleaner Fix](https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix) to prevent crashes from overfilled memory.
