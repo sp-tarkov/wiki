@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-07T03:48:42.626Z
+date: 2025-10-07T03:56:45.919Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -54,9 +54,7 @@ Then, add these below:
 ```
 gfx-disable-mt-rendering=1
 vr-enabled=0
-hdr-display-enabled=0
 job-worker-count=11
-single-instance=
 ```
 
 ## Pagefile
