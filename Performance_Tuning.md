@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-09-26T22:19:15.123Z
+date: 2025-10-07T03:48:42.626Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -32,13 +32,32 @@ Only CPUs with powerful single-threaded performance will improve your in-game FP
 - Tweak your bot spawning mod to spawn less bots.
   - Less bots mean less demand on your system, but it will make raid feel "less alive" if lowered too much.
 
-## Further tweaks
-- You will see minor improvements by changing your graphic settings. Follow any graphics guide for EFT.
-- Enabling Nvidia's `Smooth motion` (for 40 and 50 series GPUs), or AMD's `Fluid Motion Frames` for EFT will let your GPU interpolate extra frames, using the unused part of your GPU.
-  - If neither are available to you, use [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling)'s Frame Generation.
-  - Any form of frame generation will result in some increase in latency.
-- Editing your [boot.config](https://hub.sp-tarkov.com/doc/entry/80-fps-boost-boost-framerate-with-command-line-in-boot-config) might help, however it's less impactful than in the past.
-- For further tweaks and discussion, visit the [Optimization Megathread](https://discord.com/channels/875684761291599922/1163777314862149683) in our [Discord server](http://discord.sp-tarkov.com/).
+## Boot.config
+Editing your `boot.config` file might marginally help with performance. While no extensive testing has been done on its effectiveness, some report an improvement after tweaking them.
+
+Your `boot.config` file is located in `[your SPT install folder]\EscapeFromTarkov_Data`. You can edit it using Notepad or any text editor.
+By default, it contains this:
+
+```
+gfx-enable-gfx-jobs=1
+gfx-enable-native-gfx-jobs=1
+wait-for-native-debugger=0
+hdr-display-enabled=0
+gc-max-time-slice=3
+single-instance=
+build-guid=[some ID]
+```
+
+First, change `gc-max-time-slice=3` to `gc-max-time-slice=10`. 
+Then, add these below:
+
+```
+gfx-disable-mt-rendering=1
+vr-enabled=0
+hdr-display-enabled=0
+job-worker-count=11
+single-instance=
+```
 
 ## Pagefile
 EFT extensively uses your pagefile, which is a cache for programs to use alongside your RAM. It's unlikely you will encounter issues with it being overfilled, which will lead to crashes, if you have at least the recommended amount of RAM per [System Requirements](/system-requirements).
@@ -62,3 +81,14 @@ To manually increase your pagefile:
 
 > You should still use the [RAM Cleaner Fix](<https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix>) even with an increased pagefile.
 {.is-info}
+
+
+## Further tweaks
+- You will see minor improvements by changing your graphic settings. Follow any graphics guide for EFT.
+- Enabling Nvidia's `Smooth motion` (for 40 and 50 series GPUs), or AMD's `Fluid Motion Frames` for EFT will let your GPU interpolate extra frames, using the unused part of your GPU.
+  - If neither are available to you, use [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling)'s Frame Generation.
+  - Any form of frame generation will result in some increase in latency.
+- For further tweaks and discussion, visit the [Optimization Megathread](https://discord.com/channels/875684761291599922/1163777314862149683) in our [Discord server](http://discord.sp-tarkov.com/).
+
+# See also
+[System Requirements](/system-requirements)
