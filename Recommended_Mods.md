@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-05T04:39:54.714Z
+date: 2025-10-08T11:12:35.280Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
@@ -17,7 +17,7 @@ dateCreated: 2025-07-23T12:05:23.561Z
 
 ## Mods for better AI
 
-[Looting Bots](https://forge.sp-tarkov.com/mod/812/looting-bots), [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots), [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Ombarella](https://forge.sp-tarkov.com/mod/2315/ombarella), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades), [No Boss PMCs](https://forge.sp-tarkov.com/mod/2095/no-boss-pmcs) `*`
+[Looting Bots](https://forge.sp-tarkov.com/mod/812/looting-bots), [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots), [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Ombarella](https://forge.sp-tarkov.com/mod/2315/ombarella), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades), [No Boss PMCs](https://forge.sp-tarkov.com/mod/2095/no-boss-pmcs) `*`, [Seperate Hostility](https://forge.sp-tarkov.com/mod/2248/separate-hostility) `*`
 	`*` Mod incompatible with SAIN
 
 ## Mods for better performance
