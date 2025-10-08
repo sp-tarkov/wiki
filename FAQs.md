@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-08T11:13:22.410Z
+date: 2025-10-08T13:47:25.949Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -133,7 +133,7 @@ Set `bosspms` to `false` inside `user\mods\Jiang Hu\config\config.jsonc`.
 ### `An attempt was made to transition a task...` error message when using WTT - W.A.A.C.
 Using any of the custom voices causes this error. There's no known fix except to not use those custom voices.
 
-### Traders with no items, lag and a forever growing `_traces.log` file after a raid
+### Lag and a forever growing `_traces.log` file after a raid
 An incompatibility between Separate Hostility and SAIN. Remove one or the other.
 
 # Known EFT issues
