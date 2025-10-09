@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-08T13:47:25.949Z
+date: 2025-10-09T05:45:38.428Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -135,6 +135,9 @@ Using any of the custom voices causes this error. There's no known fix except to
 
 ### Lag and a forever growing `_traces.log` file after a raid
 An incompatibility between Separate Hostility and SAIN. Remove one or the other.
+
+### Mechanic has no items for sale when using MassiveSoft's mod
+Install the [fix](<https://forge.sp-tarkov.com/mod/2309/zzzmassivesoft-mechanic-fix>).
 
 # Known EFT issues
 > Always read the mod pages of the mods you're installing.
