@@ -1,8 +1,8 @@
 ---
-title: FAQs
-description: Answers to frequently asked questions.
+title: FAQs 3.11
+description: Answers to frequently asked questions about SPT 3.11.
 published: true
-date: 2025-10-10T10:47:07.210Z
+date: 2025-10-10T11:58:28.101Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
