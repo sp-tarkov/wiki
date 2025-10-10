@@ -2,7 +2,7 @@
 title: 50/50 Method
 description: How to use the 50/50 Method to find the mod causing your issues.
 published: true
-date: 2025-10-05T16:45:49.255Z
+date: 2025-10-10T19:50:24.359Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-10-05T01:29:38.525Z
@@ -45,3 +45,7 @@ After you identified which mod causes your issue, you should report it to the mo
 - While it might be tempting to instead install a new copy of SPT and then install your mods half at a time to it, this new install will not have the same game and mod settings as your main SPT install. If you make every setting match, or manually go through each mod to copy its settings files, you will just end up with a copy of your main SPT install, possibly with small differences you might have missed.
 - Instead, if you have the storage space, you can also copy your entire SPT folder elsewhere and perform the 50/50 Method on it instead.
 - This method should highlight why it's important to install your mods one at a time or in small batches, as that would let you catch the issue as being one of the mods you recently installed. However, if you didn't install mods gradually, or the issue didn't present itself immediately after installing mods, then the 50/50 Method is your best option.
+
+# See also
+[Installing Mods](/Installing_Mods)
+[Uninstalling Mods](/Uninstalling_Mods)
