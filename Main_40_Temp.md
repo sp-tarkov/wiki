@@ -1,8 +1,8 @@
 ---
-title: Main 4.0 Temp page
-description: to be copied into Main, and deleted
+title: Home 4.0 Temp page
+description: to be copied into Home, and deleted
 published: false
-date: 2025-10-10T15:09:39.340Z
+date: 2025-10-10T19:45:45.151Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T15:09:39.340Z
@@ -32,22 +32,20 @@ Dive into the world of SPT modding to tailor your experience:
   - [Profiles](https://wiki.sp-tarkov.com/Installing_Mods#profiles)
   - [Updating Mods](https://wiki.sp-tarkov.com/en/Installing_Mods#updating-mods)
 - [Uninstalling Mods](/Uninstalling_Mods): A guide on uninstalling SPT mods.
-- [Recommended Mods for 4.0](/Recommended_Mods_40): A selection of recommended mods to improve your SPT 4.0 experience.
-- [Recommended Mods for 3.11](/Recommended_Mods_311): A selection of recommended mods to improve your SPT 3.11 experience.
+- [Recommended Mods](/Recommended_Mods_40): A selection of recommended mods to improve your SPT experience.
 
 ## Troubleshooting
 
 Running into issues? Find solutions here:
 
 - [Performance Tuning](/Performance_Tuning): Tips for improving FPS and stability.
-- [Frequently Asked Questions (FAQs) for SPT 4.0](/FAQs_40): Answers to frequently asked questions about SPT 4.0:
+- [Frequently Asked Questions (FAQs)](/FAQs_40): Answers to frequently asked questions:
 	- [SPT 4.0](https://wiki.sp-tarkov.com/en/FAQs_40#spt-40)
 	- [Troubleshooting tips](https://wiki.sp-tarkov.com/en/FAQs_40#troubleshooting-tips)
 	- [Old versions of SPT](https://wiki.sp-tarkov.com/en/FAQs_40#old-versions-of-spt)
 	- [Known EFT Issues](/Known_EFT_Issues_40)
 	- [Known SPT Issues](/Known_SPT_Issues_40)
 	- [Known Mod Issues](/Known_Mod_Issues_40)
-- [Frequently Asked Questions (FAQs) for SPT 3.11](/FAQs_311): Answers to frequently asked questions about SPT 3.11.
 - [50/50 Method](/5050-method): How to use the 50/50 Method to find the mod causing your issues.
 - [Reporting Issues](#) `WIP`: How to effectively ask for help.
 
@@ -66,6 +64,14 @@ Interested in creating your own content for SPT?
 - [Modding Introduction](#) `WIP`: Getting started with SPT mod development.
 - [Modding Tools](#) `WIP`: Useful software for creating mods.
 - [Modding Resources](/Modding_Resources): Basic resources to start creating SPT mods.
+
+## SPT 3.11
+
+Pages specific for the Long Term Distribution version of SPT.
+
+- [Manual Install Instructions for 3.11](/SPT_311/Manual-Installation-Instructions_311): How to install SPT 3.11.
+- [Frequently Asked Questions (FAQs) for SPT 3.11](/FAQs_311): Answers to frequently asked questions about SPT 3.11.
+- [Recommended Mods for 3.11](/SPT_311/Recommended_Mods_311): A selection of recommended mods to improve your SPT 3.11 experience.
 
 ## Contribute!
 
