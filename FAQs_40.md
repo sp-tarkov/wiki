@@ -1,8 +1,8 @@
 ---
-title: FAQs 4.0
+title: FAQs for SPT 4.0
 description: Answers to frequently asked questions about SPT 4.0
 published: false
-date: 2025-10-10T12:44:14.214Z
+date: 2025-10-10T14:14:45.761Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
