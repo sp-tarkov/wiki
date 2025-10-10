@@ -1,8 +1,8 @@
 ---
-title: FAQs for SPT 4.0
-description: Answers to frequently asked questions about SPT 4.0
+title: FAQs
+description: Answers to frequently asked questions.
 published: false
-date: 2025-10-10T14:14:45.761Z
+date: 2025-10-10T19:49:26.851Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -59,6 +59,3 @@ This decision is firm and will not be changed by further requests or complaints.
 - [Known EFT Issues](/Known_EFT_Issues_40)
 - [Known SPT Issues](/Known_SPT_Issues_40)
 - [Known Mod Issues](/Known_Mod_Issues_40)
-
-# See also
-[FAQs 3.11](/FAQs_311)
