@@ -2,7 +2,7 @@
 title: Home 4.0 Temp page
 description: to be copied into Home, and deleted
 published: false
-date: 2025-10-10T19:45:45.151Z
+date: 2025-10-10T19:47:46.069Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T15:09:39.340Z
@@ -70,7 +70,7 @@ Interested in creating your own content for SPT?
 Pages specific for the Long Term Distribution version of SPT.
 
 - [Manual Install Instructions for 3.11](/SPT_311/Manual-Installation-Instructions_311): How to install SPT 3.11.
-- [Frequently Asked Questions (FAQs) for SPT 3.11](/FAQs_311): Answers to frequently asked questions about SPT 3.11.
+- [Frequently Asked Questions (FAQs) for SPT 3.11](/SPT_311/FAQs_311): Answers to frequently asked questions about SPT 3.11.
 - [Recommended Mods for 3.11](/SPT_311/Recommended_Mods_311): A selection of recommended mods to improve your SPT 3.11 experience.
 
 ## Contribute!
