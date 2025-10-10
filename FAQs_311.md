@@ -2,7 +2,7 @@
 title: FAQs for SPT 3.11
 description: Answers to frequently asked questions about SPT 3.11.
 published: true
-date: 2025-10-10T14:16:52.163Z
+date: 2025-10-10T19:01:25.878Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
