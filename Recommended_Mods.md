@@ -1,8 +1,8 @@
 ---
-title: Recommended Mods
+title: Recommended Mods for SPT 3.11
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-08T11:12:46.095Z
+date: 2025-10-10T12:50:36.297Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
