@@ -2,7 +2,7 @@
 title: FAQs 4.0
 description: Answers to frequently asked questions about SPT 4.0
 published: false
-date: 2025-10-10T12:24:28.337Z
+date: 2025-10-10T12:26:31.488Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -22,7 +22,7 @@ Refer to the previous question. If you're curious about something specific, plea
 Yes.
 
 ### Is the Softcore wipe in SPT?
-No. The Softcore wipe only made changes to the PVP mode. SPT is based off the PVE mode. You can easily recreate
+No. The Softcore wipe only made changes to the PVP mode. SPT is based off the PVE mode. You can easily recreate it using mods.
 
 ### Will 4.0 be updated to include the latest EFT patches?
 No. EFT patches made after the release of SPT 4.0 will only be available in SPT 4.1.
