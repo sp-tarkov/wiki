@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-09T05:45:38.428Z
+date: 2025-10-10T10:47:07.210Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -86,46 +86,54 @@ Remove the custom player spawn points from [MOAR](https://forge.sp-tarkov.com/mo
 ```
 ### Partisan spawning right next to you
 Also [MOAR](https://forge.sp-tarkov.com/mod/789/moar-bagels-ultra-lite-spawn-mod). Tweak it or disable Partisan.
+
 ### Random crashing
 If using [Simple Declutter](https://forge.sp-tarkov.com/mod/2139/simple-declutter), disable `Decal Declutter`.
 If that didn't help it, remove that mod.
 If you're still crashing, join our [Discord Server](http://discord.sp-tarkov.com/) and read through the [#support-guidelines](https://discord.com/channels/875684761291599922/1172733248317694022) for instructions on making a support ticket.
+
 ### Bots freeze after death
 Update [Quests Extended](https://forge.sp-tarkov.com/mod/2106/quests-extended).
+
 ### Glitchy grenades
 Update [Borkel's NVGs](https://forge.sp-tarkov.com/mod/954/borkels-realistic-night-vision-goggles-nvgs-and-t-7).
+
 ### Weird movement after using a key
 Update [Plant Time Modifier](https://forge.sp-tarkov.com/mod/1965/plant-time-modifier-updated-by-crocodilejonesy).
+
 ### SAIN is throwing errors about bot brains
 Remove any mod marked incompatible on [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement)'s mod page.
+
 ### Item cards have some info with `blablabla`
 Remove [Volkov Trader](https://forge.sp-tarkov.com/mod/2009/volkov-trader). Follow the instructions for [removing trader mods from a profile](https://wiki.sp-tarkov.com/Installing_Mods#profiles).
 If there's no info on the card other than the `blablabla`, join our [Discord Server](http://discord.sp-tarkov.com/) and read through the [#support-guidelines](https://discord.com/channels/875684761291599922/1172733248317694022) for instructions on making a support ticket.
+
 ### Random black flickering / flashing in game
 This is an issue with [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots) and AI spawning in. Mod author is aware.
+
 ### PMCs missing or grey faces
 Set [ALP](https://forge.sp-tarkov.com/mod/1015/alp-algorithmic-level-progression)'s `leveledClothing` to false in `user\mods\AlgorithmicLevelProgression\config\config.json`.
+
 ### Audio cuts out
 Update [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement). If that doesn't fix it, then it's a binaural audio bug. Recent update force-enabled it for everyone.
+
 ### Unable to complete SSL connection
 A mod is overloading the SPT server with requests. Mods that display the value of items are the most common cause.
+
 ### Error converting value `#xxxxxx` to type `JsonType.TaxonomyColor`
-Install [Color Converter API](https://forge.sp-tarkov.com/mod/1090/color-converter-api)
+Install [Color Converter API](https://forge.sp-tarkov.com/mod/1090/color-converter-api).
+
 ### Could not convert string to double: `Infinity0.1234`
 Run your profile through the [Profile Fixer](<https://drakiaxyz.github.io/spt-profile-fix/>)
+
 ### All bots converge on me after I fire my gun
 If you're using [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), decrease bots' maximum hearing range and/or aggressiveness.
+
 ### Traders are unclickable because they are behind the profile
 Install [Kaeno's Trader Scrolling](https://forge.sp-tarkov.com/mod/1089/kaeno-traderscrolling) or enable `Intermediate trader menu` in your game settings.
 
 ### Bot brains being destroyed when running Realism, SAIN and Questing Bots
-Edit `user\mods\SPT-Realism\db\bots\pmcTypes.json` so the initial section has all instances of `"assault"` changed to `"assaultGroup"`:
-```json
-    "playerScavBrainType": {
-        "factory4_day": {
-            "assaultGroup": 1
-...
-```
+Update [Realism](https://forge.sp-tarkov.com/mod/416/spt-realism-mod).
 
 ### Bot brains being destroyed when running SAIN and Jiang Hu
 Set `bosspms` to `false` inside `user\mods\Jiang Hu\config\config.jsonc`.
