@@ -2,7 +2,7 @@
 title: FAQs 4.0
 description: Answers to frequently asked questions about SPT 4.0
 published: false
-date: 2025-10-10T12:38:54.197Z
+date: 2025-10-10T12:44:14.214Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -55,7 +55,10 @@ This decision is firm and will not be changed by further requests or complaints.
 
 **HOWEVER**, we are pleased to announce that the SPT 3.11 release has been designated as a Long-Term Support (LTS) version. This means it will be maintained and available for download (along with its corresponding downgrade patcher) for an extended period.
 
+# Known Issues
+- [Known EFT Issues](/Known_EFT_Issues_40)
+- [Known SPT Issues](/Known_SPT_Issues_40)
+- [Known Mod Issues](/Known_Mod_Issues_40)
+
 # See also
-[Known EFT Issues](/Known_EFT_Issues_40)
-[Known SPT Issues](/Known_SPT_Issues_40)
-[Known Mod Issues](/Known_Mod_Issues_40)
+[FAQs 3.11](/FAQs_311)
