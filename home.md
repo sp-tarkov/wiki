@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-10-10T11:59:51.643Z
+date: 2025-10-10T19:38:21.105Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -33,20 +33,20 @@ Dive into the world of SPT modding to tailor your experience:
   - [Load Order](https://wiki.sp-tarkov.com/Installing_Mods#load-order)
   - [Updating Mods](https://wiki.sp-tarkov.com/en/Installing_Mods#updating-mods)
 - [Uninstalling Mods](/Uninstalling_Mods): A guide on uninstalling SPT mods.
-- [Recommended Mods](/Recommended_Mods): A selection of recommended mods to improve your SPT experience.
+- [Recommended Mods](/SPT_311//Recommended_Mods_311): A selection of recommended mods to improve your SPT experience.
 
 ## Troubleshooting
 
 Running into issues? Find solutions here:
 
 - [Performance Tuning](/Performance_Tuning): Tips for improving FPS and stability.
-- [Frequently Asked Questions (FAQ) for SPT 3.11](/FAQs_311): Answers to frequently asked questions about SPT 3.11.
-  - [SPT 3.11](https://wiki.sp-tarkov.com/en/FAQs_311#spt-311)
-  - [Troubleshooting Tips](https://wiki.sp-tarkov.com/en/FAQs_311#troubleshooting-tips)
-  - [Old Versions of SPT](https://wiki.sp-tarkov.com/en/FAQs_311#old-versions-of-spt)
-  - [SPT 4.0 Bleeding Edge Test Build](https://wiki.sp-tarkov.com/en/FAQs_311#spt-40-bleeding-edge-test-build)
-  - [Known Mod Issues](https://wiki.sp-tarkov.com/en/FAQs_311#known-mod-issues)
-  - [Known EFT Issues](https://wiki.sp-tarkov.com/en/FAQs_311#eft-issues)
+- [Frequently Asked Questions (FAQ) for SPT 3.11](/SPT_311/FAQs_311): Answers to frequently asked questions about SPT 3.11.
+  - [SPT 3.11](https://wiki.sp-tarkov.com/en/SPT_311/FAQs_311#spt-311)
+  - [Troubleshooting Tips](https://wiki.sp-tarkov.com/en/SPT_311/FAQs_311#troubleshooting-tips)
+  - [Old Versions of SPT](https://wiki.sp-tarkov.com/en/SPT_311/FAQs_311#old-versions-of-spt)
+  - [SPT 4.0 Bleeding Edge Test Build](https://wiki.sp-tarkov.com/en/SPT_311/FAQs_311#spt-40-bleeding-edge-test-build)
+  - [Known Mod Issues](https://wiki.sp-tarkov.com/en/SPT_311/FAQs_311#known-mod-issues)
+  - [Known EFT Issues](https://wiki.sp-tarkov.com/en/SPT_311/FAQs_311#eft-issues)
 - [50/50 Method](/5050-method): How to use the 50/50 Method to find the mod causing your issues.
 - [Reporting Issues](#) `WIP`: How to effectively ask for help.
 
