@@ -2,7 +2,7 @@
 title: FAQs 3.11
 description: Answers to frequently asked questions about SPT 3.11.
 published: true
-date: 2025-10-10T11:58:28.101Z
+date: 2025-10-10T12:25:43.605Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -13,7 +13,7 @@ dateCreated: 2025-08-09T12:45:37.740Z
 Users in both the live and SPT communities have reported an improvement in performance over version 0.15.5 and a decrease in stutters.
 
 ### What version of Tarkov is SPT running?
-Version 0.16.1.3.35392, released 5 March 2025.
+Version `0.16.1.3.35392`, released 5 March 2025.
 
 ### Is (insert content here) in SPT now?
 Refer to the previous question. If you're curious about something specific, please see the official [Tarkov changelog](<https://escapefromtarkov.fandom.com/wiki/Changelog>).
