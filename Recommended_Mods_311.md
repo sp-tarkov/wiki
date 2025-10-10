@@ -2,16 +2,19 @@
 title: Recommended Mods for SPT 3.11
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-10T12:50:36.297Z
+date: 2025-10-10T12:53:51.738Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
 ---
 
-> Read through the [Mod installation guide](/Installing_Mods) before installing any of mods.
+> Read through the [Mod installation guide](/Installing_Mods) for a guide on installing mods.
 {.is-info}
 
 > Always read the mod pages of the mods you're installing.
+{.is-info}
+
+> Only install versions of mods made for your version of SPT. You can access old versions of a mod by going to the `Versions` tab on the mod page.
 {.is-info}
 
 
