@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-10-10T11:59:08.809Z
+date: 2025-10-10T11:59:51.643Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -40,13 +40,13 @@ Dive into the world of SPT modding to tailor your experience:
 Running into issues? Find solutions here:
 
 - [Performance Tuning](/Performance_Tuning): Tips for improving FPS and stability.
-- [Frequently Asked Questions (FAQ) for SPT 3.11](/FAQs): Answers to frequently asked questions about SPT 3.11.
-  - [SPT 3.11](https://wiki.sp-tarkov.com/en/FAQs#spt-311)
-  - [Troubleshooting Tips](https://wiki.sp-tarkov.com/en/FAQs#troubleshooting-tips)
-  - [Old Versions of SPT](https://wiki.sp-tarkov.com/en/FAQs#old-versions-of-spt)
-  - [SPT 4.0 Bleeding Edge Test Build](https://wiki.sp-tarkov.com/en/FAQs#spt-40-bleeding-edge-test-build)
-  - [Known Mod Issues](https://wiki.sp-tarkov.com/en/FAQs#known-mod-issues)
-  - [Known EFT Issues](https://wiki.sp-tarkov.com/en/FAQs#eft-issues)
+- [Frequently Asked Questions (FAQ) for SPT 3.11](/FAQs_311): Answers to frequently asked questions about SPT 3.11.
+  - [SPT 3.11](https://wiki.sp-tarkov.com/en/FAQs_311#spt-311)
+  - [Troubleshooting Tips](https://wiki.sp-tarkov.com/en/FAQs_311#troubleshooting-tips)
+  - [Old Versions of SPT](https://wiki.sp-tarkov.com/en/FAQs_311#old-versions-of-spt)
+  - [SPT 4.0 Bleeding Edge Test Build](https://wiki.sp-tarkov.com/en/FAQs_311#spt-40-bleeding-edge-test-build)
+  - [Known Mod Issues](https://wiki.sp-tarkov.com/en/FAQs_311#known-mod-issues)
+  - [Known EFT Issues](https://wiki.sp-tarkov.com/en/FAQs_311#eft-issues)
 - [50/50 Method](/5050-method): How to use the 50/50 Method to find the mod causing your issues.
 - [Reporting Issues](#) `WIP`: How to effectively ask for help.
 
