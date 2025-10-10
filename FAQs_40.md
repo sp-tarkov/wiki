@@ -2,7 +2,7 @@
 title: FAQs 4.0
 description: Answers to frequently asked questions about SPT 4.0
 published: false
-date: 2025-10-10T12:32:54.217Z
+date: 2025-10-10T12:35:08.107Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -33,6 +33,7 @@ See the guide on [Updating SPT](/Updating_SPT) for more details.
 
 ### I miss 3.11, can I re-download it?
 Yes. SPT 3.11 is in Long Term Distribution. However, you will need to manually install it and we offer no support for it.
+See [this guide](https://github.com/sp-tarkov/build/wiki/3.11-Manual-Installation-Instructions) for instructions.
 
 ### When is (insert mod here) going to update to 4.0?
 Nobody knows when certain mods are going to update, not even the authors themselves. Do not pester mod authors about updates to their mods.
