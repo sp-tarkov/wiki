@@ -2,7 +2,7 @@
 title: Uninstalling Mods
 description: A guide on uninstalling SPT mods.
 published: true
-date: 2025-10-10T16:21:33.975Z
+date: 2025-10-10T16:22:37.015Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-09-25T10:46:32.773Z
@@ -21,7 +21,7 @@ dateCreated: 2025-09-25T10:46:32.773Z
 
 Nearly all mods can be added to an existing profile. However, **removing some mods might be impossible without making a new profile**. Mods that add new traders, quests, or items fall under that category. Always **read the modpage**, as the author should specify if a mod is unsafe to remove from a profile.
 
-If you removed a mod that broke your profile, SPT can try fixing it. **This is not guaranteed to work**. SPT will do the best it can to remove any item that's in your profile from the removed mod, but some mods make irreversable changes to your profile.
+If you removed a mod that broke your profile, SPT can try fixing it. **This is not guaranteed to work**. SPT will do the best it can to remove any item that's in your profile from the removed mod, but some mods make irreversable changes to your profile. The guaranteed fix is to reinstall the mod you removed, or start a new profile.
 
 1. Close your game, launcher, and server.
 2. Make a copy of your profile from `\user\profiles` to somewhere safe.
