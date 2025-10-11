@@ -2,12 +2,11 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-11T19:56:45.093Z
+date: 2025-10-11T19:58:07.572Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
 ---
-
 
 
 - BSG have blacklisted a lot of high-level items from the flea. You can disable this blacklist by using a mod.
