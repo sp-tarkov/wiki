@@ -2,7 +2,7 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2025-10-06T20:09:30.484Z
+date: 2025-10-11T19:39:49.689Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -27,10 +27,10 @@ dateCreated: 2025-06-12T18:59:03.228Z
 ## Installing mods
 
 1. Open the mod archive using 7zip.
-2. If the mod archive has a `BepInEx` or `user` or *both* folders, drag and drop the contents of the archive to the empty space in your SPT folder.
+2. If the mod archive has a `SPT`, `BepInEx` or *both* folders, drag and drop the contents of the archive to the empty space in your SPT folder.
 3. If the mod archive has just a folder or files, read the mod page for install instructions:
-- For mods that go into your `user` folder, drag and drop the mod folder into `user\mods`.
-- For mods that go into your `BepInEx` or `plugins`, drag and drop the mod folders and files into `BepInEx\plugins` folder.
+- For mods that go into your `user` or `[game folder]\SPT` folder, drag and drop the mod folder into `[game folder]\user\mods`.
+- For mods that go into your `BepInEx` or `plugins`, drag and drop the mod folders and files into `\BepInEx\plugins` folder.
 &nbsp;
 <img src="/mod-install-v1.gif" alt="mod install" width=400 style="display: block; margin: 0 auto;">
 
@@ -40,7 +40,7 @@ Nearly all mods can be added to an existing profile. However, **removing some mo
 
 If you removed a mod that broke your profile, SPT can try fixing it. **This is not guaranteed to work**. SPT will do the best it can to remove any item that's in your profile from the removed mod, but some mods make irreversable changes to your profile.
 
-1. Open `SPT_Data\Server\configs\core.json` in a text editor.
+1. Open `[game folder]\SPT\SPT_Data\Server\configs\core.json` in a text editor.
 2. Set `removeModItemsFromProfile` from `false` to `true`.
 3. Set `removeInvalidTradersFromProfile` from `false` to `true`.
 4. Save your changes.
@@ -48,18 +48,6 @@ If you removed a mod that broke your profile, SPT can try fixing it. **This is n
 
 > The above should be viewed as a "last resort" solution. Even a profile "fixed" by this method can exhibit issues like random crashing, bots not spawning, and some maps being unloadable.
 {.is-info}
-
-## Load order
-
-You do not need to edit your load order manually unless a mod specifies you to do so. By default, with an empty `order.json` SPT loads mods alphabetically from A to Z. __Mods expect to be loaded in that order.__
-
-Mods that load first get overridden by those loaded later. However, they will only override the values they both alter, not the entire mod.
-
-If you need to edit it, you should use a tool like [Load Order Editor](https://forge.sp-tarkov.com/mod/803/loe-load-order-editor) or [Load Order Editor Drag-Drop](https://forge.sp-tarkov.com/mod/1390/load-order-editor-drag-drop). Your edited load order should still be A to Z, with only few mods moved.
-
-To create a new, empty load order, delete your `user\mods\order.json`. SPT will create a new one the next time you run it.
-
-**Note**: Mods like SVM can override/break any mod loaded before it, so it's recommended to load it first.
 
 ## Updating mods
 
