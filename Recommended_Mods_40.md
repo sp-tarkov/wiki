@@ -1,8 +1,8 @@
 ---
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
-published: false
-date: 2025-10-10T19:52:52.026Z
+published: true
+date: 2025-10-11T19:38:19.851Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
