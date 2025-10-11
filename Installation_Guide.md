@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-10-10T19:52:04.413Z
+date: 2025-10-11T19:39:33.589Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -24,8 +24,8 @@ This is particularly important if you have just installed Escape From Tarkov so 
 4. Select an install path. 
 - **DO NOT** install to a protected location such as Documents or Desktop. You might encounter Windows permission issues. A good location would be `C:\Games\SPT`.
 5. Click 'Start Install' and wait for it to complete.
-- Once complete you will be asked if you want to open the Install Folder or Add a Desktop Shortcuts. Tick or untick to your preference. Making shortcuts will also stop you from encountering the "Watermark" error outlined in the Common Installation and Start-up Issues section below.
-- If you decide against the shortcuts, you can run the `SPT.Server` and `SPT.Launcher` from inside your SPT folder.
+- Once complete you will be asked if you want to open the Install Folder or Add a Desktop Shortcuts. Tick or untick to your preference.
+- If you decide against the shortcuts, you can run the `SPT.Server` and `SPT.Launcher` from inside your SPT folder. They are shortcuts which you can copy to any location on your computer.
 6. Run `SPT.Server`.
 - Wait for the green text to say "Happy Playing". This may take several minutes on first startup.
 7. Run `SPT.Launcher` and follow the onscreen instructions.
@@ -54,12 +54,12 @@ Below you can find some common issues that users encounter when installing or fi
 <br>
 <img src="/failedshortcuts.png" style="border: 2px solid grey;" alt="Watermark Error">
 
-This happens because you have moved the `SPT.Server` and/or the `SPT.Launcher`, out of your SPT install folder. 
-You will need to move these back into your SPT install folder and create desktop shortcuts of these. You can do this by right-clicking the executables and then Send To > Desktop (Shortcut).
+This happens because you have moved the `SPT.Server` and/or the `SPT.Launcher`, out of your `[game folder]\SPT` folder. 
+You will need to move these back into your SPT install folder and create desktop shortcuts of these. You can do this by right-clicking the executables and then Send To > Desktop (Shortcut). The shortcuts to the two are made by the installer inside your game folder.
 </details>
 
 # See also
 [System Requirements](/system-requirements)
 [Updating SPT](/Updating_SPT)
 [Installing Mods](/Installing_Mods)
-[Frequently Asked Questions](/SPT_311/FAQs_311)
+[Frequently Asked Questions](/FAQs_40)
