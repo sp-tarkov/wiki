@@ -2,7 +2,7 @@
 title: Uninstalling Mods
 description: A guide on uninstalling SPT mods.
 published: true
-date: 2025-10-11T19:40:45.277Z
+date: 2025-10-11T19:40:53.729Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-09-25T10:46:32.773Z
@@ -25,7 +25,7 @@ If you removed a mod that broke your profile, SPT can try fixing it. **This is n
 
 1. Close your game, launcher, and server.
 2. Make a copy of your profile from `[game folder]\SPT\user\profiles` to somewhere safe.
-3. Open `[game foldre]\SPT\SPT_Data\Server\configs\core.json` in a text editor like Notepad.
+3. Open `[game folder]\SPT\SPT_Data\Server\configs\core.json` in a text editor like Notepad.
 4. Change `removeModItemsFromProfile` from `false` to `true` .
 5. Change `removeInvalidTradersFromProfile` from `false` to `true` .
 6. Save the file and launch your game.
