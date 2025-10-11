@@ -1,8 +1,8 @@
 ---
 title: FAQs
 description: Answers to frequently asked questions.
-published: false
-date: 2025-10-10T19:49:26.851Z
+published: true
+date: 2025-10-11T19:40:09.597Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
