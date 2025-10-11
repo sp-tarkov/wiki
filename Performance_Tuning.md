@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-07T18:24:04.919Z
+date: 2025-10-11T12:24:08.994Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -36,7 +36,7 @@ Only CPUs with powerful single-threaded performance will improve your in-game FP
 ## Boot.config
 Editing your `boot.config` file might marginally help with performance. While no extensive testing has been done on its effectiveness, some report an improvement after tweaking them.
 
-Your `boot.config` file is located in `[your SPT install folder]\EscapeFromTarkov_Data`. You can edit it using Notepad or any text editor.
+Your `boot.config` file is located in `[game folder]\EscapeFromTarkov_Data` . You can edit it using Notepad or any text editor.
 By default, it contains this:
 
 ```
@@ -65,7 +65,7 @@ If you're under those requirements, or have a heavily modded game and are experi
 
 To manually increase your pagefile:
 
-1. Press <kbd>Win</kbd> + <kbd>R</kbd>, enter `systempropertiesadvanced` and press `OK`. 
+1. Press <kbd>Win</kbd> and search for "View advanced system settings" and open the link. 
 2. Under `Performance`, go into `Settings`, then the `Advanced` tab.
 3. Under `Virtual memory` press `Change`.
 4. Select your fastest drive, and set the `Custom size` values to the following:
