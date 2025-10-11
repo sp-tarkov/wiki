@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-11T22:26:15.797Z
+date: 2025-10-11T22:44:09.531Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -25,7 +25,7 @@ dateCreated: 2025-10-10T12:33:53.585Z
 ## `The server has unexpectidely stopped... : Decoded string is not a valid IDN name.`
 Remove any trailing symbols from your Computer's name (e.g.: `My-PC-` > `My-PC`). You can rename your PC by searching for `View your PC name` in the Start menu, and clicking on `Rename this PC`.
 
-## Server closes when launched
-You need both of these installed for SPT to work properly:
-<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-9.0.9-windows-x64-installer>
-<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.9-windows-x64-installer>
+## Server doesn't launch or closes immediately
+Install **BOTH** of the below. If it tells you that you already have them installed, then use the repair option. Restart your PC after. 
+[Runtime 9.0.9](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-9.0.9-windows-x64-installer>) 
+[ASP.NET 9.0.9](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.9-windows-x64-installer>)
