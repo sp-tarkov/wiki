@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-11T20:01:27.822Z
+date: 2025-10-11T22:26:15.797Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -21,3 +21,11 @@ dateCreated: 2025-10-10T12:33:53.585Z
 - Lightkeeper does not give rewards in-game, they are sent by mail.
 - The bitcoin counter in hideout is slightly desynced to your game client, your game will say a bitcoin is ready to collect but the server is ~5 minutes behind.
 - Replacing a daily/weekly quest with another from the same trader will cause a client soft lock, restarting the client fixes the issue.
+
+## `The server has unexpectidely stopped... : Decoded string is not a valid IDN name.`
+Remove any trailing symbols from your Computer's name (e.g.: `My-PC-` > `My-PC`). You can rename your PC by searching for `View your PC name` in the Start menu, and clicking on `Rename this PC`.
+
+## Server closes when launched
+You need both of these installed for SPT to work properly:
+<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-9.0.9-windows-x64-installer>
+<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.9-windows-x64-installer>
