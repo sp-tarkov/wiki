@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-12T19:52:51.676Z
+date: 2025-10-12T20:07:41.812Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -16,10 +16,10 @@ You might have noticed that when playing SPT your CPU and GPU usage is never at 
 Only CPUs with powerful single-threaded performance will improve your in-game FPS. AMD's X3D CPUs are the most optimal as they let a single thread process more data at once.
 
 ## Optimisations
-- Use [Waypoints](https://forge.sp-tarkov.com/mod/827/waypoints-expanded-navmesh) to optimise AI pathfinding.
+- Use [Waypoints](https://forge.sp-tarkov.com/mod/827/waypoints-expanded-navmesh)^3.11.4^ to optimise AI pathfinding.
 - Use [RAM Cleaner Fix](https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix) to prevent crashes from overfilled memory.
-- Use [VRAM Cleaner](https://forge.sp-tarkov.com/mod/2173/vram-cleaner) to free up VRAM usage of your GPU.
-- Use [Body Disposal](https://forge.sp-tarkov.com/mod/1159/bdsm-body-disposal-service-maid) to clean bodies from the map.
+- Use [VRAM Cleaner](https://forge.sp-tarkov.com/mod/2173/vram-cleaner)^3.11.4^ to free up VRAM usage of your GPU.
+- Use [Body Disposal](https://forge.sp-tarkov.com/mod/1159/bdsm-body-disposal-service-maid)^3.11.4^ to clean bodies from the map.
 - Set the vaulting from `Press` to `Auto` in the in-game settings.
 - Disable `Nvidia Reflex` in the graphics settings.
 - Use `Low texture mode for Streets` to further minimise memory usage.
