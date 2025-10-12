@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-10-12T23:08:37.879Z
+date: 2025-10-12T23:08:51.456Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -76,6 +76,6 @@ The most subjective section. Use of bold and italicised text should still be sta
 - _Underlines_ should be avoided, as clickable links are also underlined. Bold or italicised text should be used instead.
 - `Code blocks` should be used when referring to folder names, file names, values, text strings from config files and interactable things with that name:
   - "If the mod archive has a `SPT`, `BepInEx` or *both* folders, drag and drop the contents of the archive to the empty space in your SPT folder."
-  - "Disable `Nvidia Reflex` in the graphics settings.."
+  - "Disable `Nvidia Reflex` in the graphics settings."
 - <kbd>Keyboard keys</kbd> should be used when referring to a keyboard key:
   - "...configure the client-side settings in the <kbd>F12</kbd> menu."
