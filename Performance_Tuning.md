@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-11T12:24:08.994Z
+date: 2025-10-12T14:29:39.529Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -55,8 +55,11 @@ Then, add these below:
 ```
 gfx-disable-mt-rendering=1
 vr-enabled=0
-job-worker-count=11
+job-worker-count=[your CPU's number of threads - 1]
 ```
+You can easily check how many threads your CPU has by pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Esc</kbd> to open your Task Manager, and seeing how many `Logical processors` there are in `Performance` > `CPU`.
+
+Finally, in the in-game menu, enable `Only use physical cores` in the `GAME` tab.
 
 ## Pagefile
 EFT extensively uses your pagefile, which is a cache for programs to use alongside your RAM. It's unlikely you will encounter issues with it being overfilled, which will lead to crashes, if you have at least the recommended amount of RAM per [System Requirements](/system-requirements).
