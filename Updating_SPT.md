@@ -2,7 +2,7 @@
 title: Updating SPT
 description: Learn how to update your SPT installation.
 published: true
-date: 2025-10-04T22:30:24.296Z
+date: 2025-10-12T22:58:33.063Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-09T12:01:16.553Z
@@ -16,14 +16,14 @@ SPT follows the [Semantic Versioning](https://semver.org/) schema for its versio
 X = Major update
 - A large refactor of SPT or EFT
 - Requires reinstalling SPT anew
-- Old mods won't work
-- Unmodded old profiles might work
+- Old mods **won't work**
+- Unmodded old profiles *might* work
 
 Y = Minor update
 - A new version of EFT is being used
 - Requires reinstalling SPT anew
-- Old mods won't work
-- Unmodded old profiles might work
+- Old mods **won't work**
+- Unmodded old profiles *might* work
 
 Z = Patch/Hotfix
 - Bug fixes for the previous Minor version
