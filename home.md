@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-10-12T16:56:34.764Z
+date: 2025-10-12T16:57:09.851Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -76,5 +76,4 @@ Pages specific for the Long Term Distribution version of SPT.
 ## Contribute!
 
 For discussions and suggestions about the Wiki, visit the [`#website-wiki`](https://discord.com/channels/875684761291599922/1426941224324960266) channel on our [Discord server](http://discord.sp-tarkov.com/).
-The Wiki is currently closed to public edits while it's being developed.
-You can still contribute directly to the wiki by reading the [How to Contribute](/how_to_contribute) page. Make sure to follow the [Style Guide](/Style_Guide).
+You can contribute to the Wiki by reading the [How to Contribute](/how_to_contribute) page. Make sure to follow the [Style Guide](/Style_Guide).
