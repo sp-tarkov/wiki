@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-10-12T18:53:37.416Z
+date: 2025-10-12T20:07:18.897Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -38,7 +38,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
 Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/). You can find a guide on how to correctly install SPT mods on the [Installing Mods](https://wiki.sp-tarkov.com/Installing_Mods) Wiki page.
 
 ## Common Installation and Start-up Issues
-Below you can find some common issues that users encounter when installing or first starting SPT, along with the solution to fixing it. If your issue, join our [Discord Server](http://discord.sp-tarkov.com/) and ask in the [`#spt-support`](https://discord.com/channels/875684761291599922/1172730102119944222) channel.
+Below you can find some common issues that users encounter when installing or first starting SPT, along with the solution to fixing it. If your issue is not listed then join our [Discord Server](http://discord.sp-tarkov.com/) and ask in the [`#spt-support`](https://discord.com/channels/875684761291599922/1172730102119944222) channel.
 
 <details>
 <summary>Could not find a downgrade patcher for the version of EFT you have installed.</summary>
