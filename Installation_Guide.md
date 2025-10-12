@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-10-11T19:39:33.589Z
+date: 2025-10-12T18:53:01.916Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -57,6 +57,10 @@ Below you can find some common issues that users encounter when installing or fi
 This happens because you have moved the `SPT.Server` and/or the `SPT.Launcher`, out of your `[game folder]\SPT` folder. 
 You will need to move these back into your SPT install folder and create desktop shortcuts of these. You can do this by right-clicking the executables and then Send To > Desktop (Shortcut). The shortcuts to the two are made by the installer inside your game folder.
 </details>
+
+## Old SPT versions
+You cannot use any of your old mod files in a newer SPT version. If you want to use the same mods, you need to download updated versions of them.
+Some old profiles can work. See the ["Version numbers"](https://wiki.sp-tarkov.com/Updating_SPT#version-numbers) section for more details.
 
 # See also
 [System Requirements](/system-requirements)
