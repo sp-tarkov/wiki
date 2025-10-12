@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-12T14:29:39.529Z
+date: 2025-10-12T19:52:51.676Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -86,6 +86,7 @@ To manually increase your pagefile:
 
 ## Further tweaks
 - You will see minor improvements by changing your graphic settings. Follow any graphics guide for EFT.
+- In the case you're severely GPU limited, [CWX's MegaMod](https://forge.sp-tarkov.com/mod/1454/cwx-megamod)'s `GrassCutter` and `EnvironmentEnjoyer` features might help your performance.
 - Enabling Nvidia's `Smooth motion` (for 40 and 50 series GPUs), or AMD's `Fluid Motion Frames` for EFT will let your GPU interpolate extra frames, using the unused part of your GPU.
   - If neither are available to you, use [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling)'s Frame Generation.
   - Any form of frame generation will result in some increase in latency.
