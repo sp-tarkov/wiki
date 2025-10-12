@@ -2,7 +2,7 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2025-10-11T19:39:49.689Z
+date: 2025-10-12T17:28:29.199Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -32,7 +32,7 @@ dateCreated: 2025-06-12T18:59:03.228Z
 - For mods that go into your `user` or `[game folder]\SPT` folder, drag and drop the mod folder into `[game folder]\user\mods`.
 - For mods that go into your `BepInEx` or `plugins`, drag and drop the mod folders and files into `\BepInEx\plugins` folder.
 &nbsp;
-<img src="/mod-install-v1.gif" alt="mod install" width=400 style="display: block; margin: 0 auto;">
+<img src="/mod-install-v2.gif" alt="mod install" width=600 style="display: block; margin: 0 auto;">
 
 ## Profiles
 
