@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-12T20:07:41.812Z
+date: 2025-10-12T23:04:36.783Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -16,10 +16,10 @@ You might have noticed that when playing SPT your CPU and GPU usage is never at 
 Only CPUs with powerful single-threaded performance will improve your in-game FPS. AMD's X3D CPUs are the most optimal as they let a single thread process more data at once.
 
 ## Optimisations
-- Use [Waypoints](https://forge.sp-tarkov.com/mod/827/waypoints-expanded-navmesh)^3.11.4^ to optimise AI pathfinding.
+- Use [Waypoints](https://forge.sp-tarkov.com/mod/827/waypoints-expanded-navmesh)^4.0^ to optimise AI pathfinding.
 - Use [RAM Cleaner Fix](https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix) to prevent crashes from overfilled memory.
-- Use [VRAM Cleaner](https://forge.sp-tarkov.com/mod/2173/vram-cleaner)^3.11.4^ to free up VRAM usage of your GPU.
-- Use [Body Disposal](https://forge.sp-tarkov.com/mod/1159/bdsm-body-disposal-service-maid)^3.11.4^ to clean bodies from the map.
+- Use [VRAM Cleaner](https://forge.sp-tarkov.com/mod/2173/vram-cleaner)^3.11^ to free up VRAM usage of your GPU.
+- Use [Body Disposal](https://forge.sp-tarkov.com/mod/1159/bdsm-body-disposal-service-maid)^3.11^ to clean bodies from the map.
 - Set the vaulting from `Press` to `Auto` in the in-game settings.
 - Disable `Nvidia Reflex` in the graphics settings.
 - Use `Low texture mode for Streets` to further minimise memory usage.
@@ -27,9 +27,9 @@ Only CPUs with powerful single-threaded performance will improve your in-game FP
   - It's not an issue on Linux.
 - Remove mods that add new functions to AI.
   - As bots are the main cause of performance issues, mods that add new functions to them will impact performance.
-- Use [AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit).
+- Use [AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit)^3.11^.
   - AI Limit works by disabling distant AIs. This will have an impact on gameplay, but will improve performance.
-  - [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots) already includes an AI limiter.
+  - [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots)^3.11^ already includes an AI limiter.
 - Tweak your bot spawning mod to spawn less bots.
   - Less bots mean less demand on your system, but it will make raid feel "less alive" if lowered too much.
 
