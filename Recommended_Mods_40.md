@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-12T12:07:12.676Z
+date: 2025-10-12T12:27:09.465Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -21,6 +21,9 @@ dateCreated: 2025-10-10T12:57:31.380Z
 [Big Brain](https://forge.sp-tarkov.com/mod/902/bigbrain), [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades)
 
 ## Mods for better performance
+
+[RAM Cleaner Fix](https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix) `*`
+`*` Most useful if you have less than 32gb of RAM
 
 See [Performance Tuning](/Performance_Tuning) for further information.
 
