@@ -2,7 +2,7 @@
 title: Mod Types
 description: Learn the difference between server mods and client mods.
 published: true
-date: 2025-10-11T19:40:24.878Z
+date: 2025-10-12T16:24:39.770Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-07-22T08:23:52.210Z
@@ -17,7 +17,7 @@ Server mods interact with the SPT server, which handles everything a live EFT se
 
 Server mods are installed in the `[game folder]\SPT\user\mods` folder. They are configured either by `config` files, or by a mod-included configuration tool. **Your game and server must be closed** to configure server mods.
 
-They will show up both in your Server console and Launcher.
+Only server mods will show up in your Server console and Launcher.
 
 Mods made for SPT `4.0` are written in C#, while mods made for SPT `3.11` and below are written in TypeScript.
 
