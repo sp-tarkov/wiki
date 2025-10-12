@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-12T23:04:58.747Z
+date: 2025-10-12T23:14:53.261Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -22,6 +22,7 @@ Only CPUs with powerful single-threaded performance will improve your in-game FP
 - Use [Body Disposal](https://forge.sp-tarkov.com/mod/1159/bdsm-body-disposal-service-maid)^3.11^ to clean bodies from the map.
 - Set the vaulting from `Press` to `Auto` in the in-game settings.
 - Disable `Nvidia Reflex` in the graphics settings.
+- Disable `V-Sync` in the graphics settings.
 - Use `Low texture mode for Streets` to further minimise memory usage.
 - If you're using [Vulkan](https://en.wikipedia.org/wiki/Vulkan) on Windows, do not use the `Unheard` menu background.
   - It's not an issue on Linux.
