@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-10-12T20:17:39.296Z
+date: 2025-10-12T20:25:09.967Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -42,7 +42,7 @@ Below you can find some common issues that users encounter when installing or fi
 
 <details>
 <summary>Could not find a downgrade patcher for the version of EFT you have installed.</summary>
-<br>
+
 <img src="/installernewpatch.png" style="border: 2px solid grey;" alt="Patcher Error">
 
   There is a new EFT update and either the SPT Development Team needs to update the downpatcher or you have not updated your EFT via the BSG Launcher.
@@ -59,8 +59,8 @@ Below you can find some common issues that users encounter when installing or fi
 </details>
 
 <details>
-<summary>The application had a critical error and failed to run "Watermark" error</summary>
-<br>
+<summary>The application had a critical error and failed to run "Watermark" error.</summary>
+
 <img src="/failedshortcuts.png" style="border: 2px solid grey;" alt="Watermark Error">
 
 This happens because you have moved the `SPT.Server` and/or the `SPT.Launcher`, out of your `[game folder]\SPT` folder. 
