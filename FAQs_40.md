@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-11T19:40:09.597Z
+date: 2025-10-12T23:27:02.509Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -11,6 +11,13 @@ dateCreated: 2025-10-10T12:23:08.957Z
 # SPT 4.0
 ### Why are there so many files in the new `\SPT` folder?
 To allow modders to use method patching, all the DLLs need to be 'loose' and not stored inside the server executable.
+
+### Why are `SPT.Launcher` and `SPT.Server` shortcuts?
+As part of the restructuring explained above.
+The actual exe files are in your `[game folder]\SPT` folder, and the installer creates shortcuts in your `[game folder]` for your convenience.
+
+## Where is my `user` folder?
+Also in `[game folder]\SPT`.
 
 ### What version of Tarkov is SPT running?
 Version `0.16.9.0.40087`, released 2 October 2025.
