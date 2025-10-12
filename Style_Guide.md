@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-10-12T19:59:05.586Z
+date: 2025-10-12T23:08:37.879Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -63,19 +63,19 @@ However, this will put the image directly next to the text with no space in-betw
 ## Text formatting
 The most subjective section. Use of bold and italicised text should still be standardised across the wiki.
 
-- **Bold** text should be used either to highlight very important information in the middle of a sentence, or to highlight key words that, for example, are verbatim of what's in-game:
+- **Bold** text should be used to highlight the most important part of a sentence:
   - "You should always **read the mod pages** of the mods you're installing."
-  - "You should disable **V-Sync** in your in-game graphics settings."
-- *Italics* are best reserved for key information in a sentence:
+  - "**DO NOT** install to a protected location such as Documents or Desktop."
+- *Italics* should be used for emphasis:
   - "If the mod archive has a `BepInEx` or `user` or *both* folders, drag and drop the contents of the archive to the empty space in your SPT folder."
-- When you want to differenciate two concepts that share the same name, assign one concept to be **bold** and the other as *italicised*.:
+- When you want to differenciate two concepts, assign one concept to be **bold** and the other as *italicised*:
    - "The selected difficulty in the **Pre-Raid Setting** determines which *difficulty classes* are allowed to spawn in your raid:
      - **As in online**: Mix of *Easy*, *Medium*, and *Hard* classes can spawn.
      - **Easy**: Only *Easy* class bots will spawn.
      - **Medium**: Only *Medium* class bots will spawn."
 - _Underlines_ should be avoided, as clickable links are also underlined. Bold or italicised text should be used instead.
-- `Code blocks` should be used when referring to folder names, file names, values and text strings from config files:
-  - "To create a new, empty load order, delete your `user\mods\order.json`."
-  - "Set [ALP](https://forge.sp-tarkov.com/mod/1015/alp-algorithmic-level-progression)'s `leveledClothing` to false in `user\mods\AlgorithmicLevelProgression\config\config.json`."
+- `Code blocks` should be used when referring to folder names, file names, values, text strings from config files and interactable things with that name:
+  - "If the mod archive has a `SPT`, `BepInEx` or *both* folders, drag and drop the contents of the archive to the empty space in your SPT folder."
+  - "Disable `Nvidia Reflex` in the graphics settings.."
 - <kbd>Keyboard keys</kbd> should be used when referring to a keyboard key:
   - "...configure the client-side settings in the <kbd>F12</kbd> menu."
