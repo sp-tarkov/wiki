@@ -1,8 +1,8 @@
 ---
 title: How to Contribute
 description: Learn how to contribute to the SPT Wiki.
-published: false
-date: 2025-10-12T15:47:12.223Z
+published: true
+date: 2025-10-12T16:55:37.365Z
 tags: guide
 editor: markdown
 dateCreated: 2025-10-12T15:47:12.223Z
