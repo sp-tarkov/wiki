@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-10-12T20:07:18.897Z
+date: 2025-10-12T20:17:39.296Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -46,6 +46,15 @@ Below you can find some common issues that users encounter when installing or fi
 <img src="/installernewpatch.png" style="border: 2px solid grey;" alt="Patcher Error">
 
   There is a new EFT update and either the SPT Development Team needs to update the downpatcher or you have not updated your EFT via the BSG Launcher.
+
+</details>
+
+<details>
+<summary>SPT Server crashing instantly or not opening up at all?</summary>
+  
+  Install both of the below .NET programs. If it states that they are already installed, then use the repair option. Restart your system after.
+  [Runtime 9.0.9](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-9.0.9-windows-x64-installer>)
+	[ASP.NET 9.0.9](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.9-windows-x64-installer>)
 
 </details>
 
