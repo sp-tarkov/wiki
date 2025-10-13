@@ -2,7 +2,7 @@
 title: FAQs for SPT 3.11
 description: Answers to frequently asked questions about SPT 3.11.
 published: true
-date: 2025-10-10T19:01:25.878Z
+date: 2025-10-13T23:21:26.063Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -47,8 +47,7 @@ At raid start, bots will spawn until the max defined value for each map is reach
 - Do not install multiple mods at once (unless they're dependencies). Install mods one at a time or in small batches. That way when something goes wrong, you'll know exactly what mod is responsible.
 - Read mod pages. Not only is it just common courtesy to read the mod page __before__ asking for help, chances are the mod page has exactly the information you need. What the mod does, how to install it, how to use it, and known issues or incompatibility with other mods.
 ### "I'm still having issues and it wasn't the last mod I installed, what do I do?" 
-Start removing mods one at a time until you find the mod causing the issue. When you've identified the mod responsible, check the mod page to see if it's actually an issue or an intended feature. Check the comments section to see if anyone else reported the same problem you're experiencing. 
-If none of that helps, then it's time to create a support ticket. Join our [Discord Server](http://discord.sp-tarkov.com/) and read through the [#support-guidelines](https://discord.com/channels/875684761291599922/1172733248317694022) for instructions.
+Start removing mods one at a time until you find the mod causing the issue. When you've identified the mod responsible, check the mod page to see if it's actually an issue or an intended feature. Check the comments section to see if anyone else reported the same problem you're experiencing.
 
 # Old versions of SPT
 We do not host old versions of SPT because each SPT version is specifically designed to work with a particular version of EFT. Since EFT is a live service game that receives frequent updates, every SPT version requires a dedicated patcher to downgrade your local EFT installation to the compatible version. Maintaining multiple older SPT versions would necessitate actively maintaining multiple downgrade patchers, which includes updating these patchers after each and every EFT update. Our team simply does not have the time to dedicate to this level of ongoing maintenance.
@@ -90,7 +89,6 @@ Also [MOAR](https://forge.sp-tarkov.com/mod/789/moar-bagels-ultra-lite-spawn-mod
 ### Random crashing
 If using [Simple Declutter](https://forge.sp-tarkov.com/mod/2139/simple-declutter), disable `Decal Declutter`.
 If that didn't help it, remove that mod.
-If you're still crashing, join our [Discord Server](http://discord.sp-tarkov.com/) and read through the [#support-guidelines](https://discord.com/channels/875684761291599922/1172733248317694022) for instructions on making a support ticket.
 
 ### Bots freeze after death
 Update [Quests Extended](https://forge.sp-tarkov.com/mod/2106/quests-extended).
@@ -106,7 +104,6 @@ Remove any mod marked incompatible on [SAIN](https://forge.sp-tarkov.com/mod/791
 
 ### Item cards have some info with `blablabla`
 Remove [Volkov Trader](https://forge.sp-tarkov.com/mod/2009/volkov-trader). Follow the instructions for [removing trader mods from a profile](https://wiki.sp-tarkov.com/Installing_Mods#profiles).
-If there's no info on the card other than the `blablabla`, join our [Discord Server](http://discord.sp-tarkov.com/) and read through the [#support-guidelines](https://discord.com/channels/875684761291599922/1172733248317694022) for instructions on making a support ticket.
 
 ### Random black flickering / flashing in game
 This is an issue with [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots) and AI spawning in. Mod author is aware.
