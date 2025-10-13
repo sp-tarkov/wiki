@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-13T22:39:06.447Z
+date: 2025-10-13T22:42:16.700Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -18,7 +18,7 @@ dateCreated: 2025-10-10T12:57:31.380Z
 {.is-info}
 
 ## Mods for better AI
-[Big Brain](https://forge.sp-tarkov.com/mod/902/bigbrain), [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades)
+[SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades)
 
 ## Mods for better performance
 
@@ -29,9 +29,12 @@ See [Performance Tuning](/Performance_Tuning) for further information.
 
 ## Mods for better bot spawns
 
+[Unda](https://forge.sp-tarkov.com/mod/1173/unda)
+
 You should only have **one** bot spawning mod installed to avoid issues.
 
 ## Mods for better bot progression
+
 
 You should only have **one** bot progression mod installed to avoid issues.
 
@@ -41,7 +44,7 @@ You should only have **one** bot progression mod installed to avoid issues.
 [HollywoodFX](https://forge.sp-tarkov.com/mod/2003/hollywoodfx)
 
 - HUD
-[Dynamic Maps](https://forge.sp-tarkov.com/mod/1431/dynamic-maps)
+
 
 ## Mods for better quality of life
 
@@ -49,10 +52,10 @@ You should only have **one** bot progression mod installed to avoid issues.
 [Search Open Containers](https://forge.sp-tarkov.com/mod/934/search-open-containers), [Hands Are Not Busy](https://forge.sp-tarkov.com/mod/1298/handsarenotbusy), [Task List Fixes](https://forge.sp-tarkov.com/mod/824/task-list-fixes), [Un-flashbang Hideout](https://forge.sp-tarkov.com/mod/1425/un-flashbang-hideout), [Stop Hotkey Auto-Vault](https://forge.sp-tarkov.com/mod/1652/stop-hotkey-auto-vault)
 
 - UI
-[Quest Tracker](https://forge.sp-tarkov.com/mod/1140/quest-tracker)
+[Quest Tracker](https://forge.sp-tarkov.com/mod/1140/quest-tracker), [Dynamic Maps](https://forge.sp-tarkov.com/mod/1431/dynamic-maps)
 
 - Inventory and Stash
-[Quick Move to Containers](https://forge.sp-tarkov.com/mod/1341/quick-move-to-containers), [Equip From Weapon Rack](https://forge.sp-tarkov.com/mod/1136/equip-from-weapon-rack)
+[Quick Move to Containers](https://forge.sp-tarkov.com/mod/1341/quick-move-to-containers), [Equip From Weapon Rack](https://forge.sp-tarkov.com/mod/1136/equip-from-weapon-rack), [Gilded Key Storage](https://forge.sp-tarkov.com/mod/865/gilded-key-storage)
 
 - Looting
 [Use Loose Loot](https://forge.sp-tarkov.com/mod/933/use-loose-loot)
