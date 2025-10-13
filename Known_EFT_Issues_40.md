@@ -2,13 +2,13 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-13T23:23:42.813Z
+date: 2025-10-13T23:51:05.316Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
 ---
 
-
+## [Github tracked issues](https://github.com/sp-tarkov/build/wiki/Known-non-SPT-issues)
 - BSG have blacklisted a lot of high-level items from the flea. You can disable this blacklist by using a mod.
 - Rogues are insanely difficult, their behavior is the same as live.
 - Tagging items in raid with special characters, e.g. , or " can corrupt the profile on exiting the raid.
