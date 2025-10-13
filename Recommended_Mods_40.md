@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-13T22:42:16.700Z
+date: 2025-10-13T22:47:42.040Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -23,6 +23,7 @@ dateCreated: 2025-10-10T12:57:31.380Z
 ## Mods for better performance
 
 [Remove The Dead](https://forge.sp-tarkov.com/mod/1551/remove-the-dead), [RAM Cleaner Fix](https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix)^*^
+
 ^*^Most useful if you have less than 32gb of RAM
 
 See [Performance Tuning](/Performance_Tuning) for further information.
