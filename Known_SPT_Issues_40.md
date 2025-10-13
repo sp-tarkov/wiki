@@ -2,13 +2,13 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-11T22:44:09.531Z
+date: 2025-10-13T23:52:29.286Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
 ---
 
-
+## [Github tracked issues](https://github.com/sp-tarkov/build/wiki/Known-SPT-issues)
 - Some quests need PMCs to spawn in map locations with no bot spawns, making them impossible to complete (e.g. kill x PMCs in scav fortress/base).
 - Selecting the overview tab as a scav can break your client, alt+f4 to revert the raid.
 - Your active flea offers are marked as expired when the server is offline and items are returned in the mail.
