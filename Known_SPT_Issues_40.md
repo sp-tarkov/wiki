@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-13T23:57:43.633Z
+date: 2025-10-13T23:57:49.053Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -32,4 +32,4 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 
 ## Server mods don't appear in the SPT Launcher
 A harmless visual bug. They are still loaded in if they were installed correctly.
-Note that [Client mods](<https://wiki.sp-tarkov.com/en/Mod_Types>) won't show up in the SPT Server nor Launcher.
+Note that [Client mods](https://wiki.sp-tarkov.com/en/Mod_Types) won't show up in the SPT Server nor Launcher.
