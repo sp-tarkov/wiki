@@ -2,7 +2,7 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-11T19:58:07.572Z
+date: 2025-10-13T23:23:42.813Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
@@ -31,3 +31,6 @@ dateCreated: 2025-10-10T12:31:17.069Z
 - `A Threshold durability should never be negative on an active repair buff` error occurs in client log.
 - Searching a container in raid sometimes shows 3 duplicates.
 - ZSH helmet + plague mask appear together on bots, BSG have not flagged this combo as incompatible.
+
+## Game crashing when the deploy timer hits 0?
+Disable any applications that add overlays to EFT such as Blitz.
