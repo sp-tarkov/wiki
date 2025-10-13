@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-12T12:28:20.773Z
+date: 2025-10-13T22:39:06.447Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -22,8 +22,8 @@ dateCreated: 2025-10-10T12:57:31.380Z
 
 ## Mods for better performance
 
-[RAM Cleaner Fix](https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix) `*`
-`*` Most useful if you have less than 32gb of RAM
+[Remove The Dead](https://forge.sp-tarkov.com/mod/1551/remove-the-dead), [RAM Cleaner Fix](https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix)^*^
+^*^Most useful if you have less than 32gb of RAM
 
 See [Performance Tuning](/Performance_Tuning) for further information.
 
@@ -41,6 +41,7 @@ You should only have **one** bot progression mod installed to avoid issues.
 [HollywoodFX](https://forge.sp-tarkov.com/mod/2003/hollywoodfx)
 
 - HUD
+[Dynamic Maps](https://forge.sp-tarkov.com/mod/1431/dynamic-maps)
 
 ## Mods for better quality of life
 
@@ -62,10 +63,10 @@ You should only have **one** bot progression mod installed to avoid issues.
 [Audio Accessibility Indicators](https://forge.sp-tarkov.com/mod/1760/audio-accessibility-indicators), [Simple Crosshair](https://forge.sp-tarkov.com/mod/1387/simple-crosshair), [Janky's Visual Assist](https://forge.sp-tarkov.com/mod/2213/jankys-visual-assist), [Simple Workout QTE](https://discord.com/channels/875684761291599922/875784814962307082/1426703933262401597)
 
 - Gameplay
-[Continuous Healing](https://forge.sp-tarkov.com/mod/1884/continuous-healing), [Set Speed](https://forge.sp-tarkov.com/mod/994/set-speed-set-player-speed-with-hotkeys), [Bosses Have Lega Medals](https://forge.sp-tarkov.com/mod/1539/bosses-have-lega-medals)
+[Continuous Healing](https://forge.sp-tarkov.com/mod/1884/continuous-healing), [Set Speed](https://forge.sp-tarkov.com/mod/994/set-speed-set-player-speed-with-hotkeys), [Bosses Have Lega Medals](https://forge.sp-tarkov.com/mod/1539/bosses-have-lega-medals), [Ref - SPT Friendly Quests](https://forge.sp-tarkov.com/mod/1538/ref-spt-friendly-quests), [Bush Whacker](https://forge.sp-tarkov.com/mod/2329/bushwhacker-standalone)
 
 - Tweaking
-
+[SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm), [Server Tweaks](https://forge.sp-tarkov.com/mod/2360/server-tweaks-discount-svm), [Quest Tweaks](https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-tweaks)
 
 # See also
 [Performance Tuning](/Performance_Tuning)
