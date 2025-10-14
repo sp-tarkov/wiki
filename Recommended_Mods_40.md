@@ -2,20 +2,21 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-13T22:47:42.040Z
+date: 2025-10-14T01:06:46.260Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
 ---
 
-> Read through [Mod installation](/Installing_Mods) guide on how to install mods.
+> This page applies to SPT versions: `4.0`
 {.is-info}
 
-> Always read the mod pages of the mods you're installing.
-{.is-info}
+- See the [Mod installation](/Installing_Mods) guide on how to install mods.
 
-> Only install versions of mods made for your version of SPT.
-{.is-info}
+- Always read the mod pages of the mods you're installing.
+
+- Only install versions of mods made for your version of SPT.
+
 
 ## Mods for better AI
 [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades)
