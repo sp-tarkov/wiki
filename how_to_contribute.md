@@ -2,7 +2,7 @@
 title: How to Contribute
 description: Learn how to contribute to the SPT Wiki.
 published: true
-date: 2025-10-12T16:55:37.365Z
+date: 2025-10-14T01:37:55.434Z
 tags: guide
 editor: markdown
 dateCreated: 2025-10-12T15:47:12.223Z
@@ -39,4 +39,6 @@ dateCreated: 2025-10-12T12:00:00.000Z
 ```
 Only the `title` and `description` fields need to be edited. The `date` and `dateCreated` fields should be updated to the date of your page's creation, but it's not stricly necessary. Already created pages have this header included if you'd like to see examples.
 
-You should follow the [Style Guide](/Style_Guide) when making your page.
+# See also
+
+[Style Guide](/Style_Guide)
