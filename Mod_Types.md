@@ -2,13 +2,13 @@
 title: Mod Types
 description: Learn the difference between server mods and client mods.
 published: true
-date: 2025-10-14T01:04:19.719Z
+date: 2025-10-14T01:12:49.487Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-07-22T08:23:52.210Z
 ---
 
-> This page applies to SPT versions: `4.0`
+> This page applies to SPT version `4.0`
 {.is-info}
 
 
