@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-10-14T01:11:43.008Z
+date: 2025-10-14T23:45:51.613Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -27,7 +27,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
 3. Read the Installer Info page, then click next.
  - This page contains information as to what the installer does and does not do. It also answers many common questions that users have which is why it is there.
 4. Select an install path. 
- - **DO NOT** install to a protected location such as Documents or Desktop. You might encounter Windows permission issues. A good location would be `C:\Games\SPT`.
+ - **DO NOT** install to a protected location such as Documents or Desktop as you might encounter Windows permission issues. **DO NOT** install into your Live EFT folder. A good location would be `C:\Games\SPT`.
 5. Click 'Start Install' and wait for it to complete.
  - Once complete you will be asked if you want to open the Install Folder or Add a Desktop Shortcuts. Tick or untick to your preference.
   - If you decide against the shortcuts, you can run the `SPT.Server` and `SPT.Launcher` from inside your SPT folder. They are shortcuts which you can copy to any location on your computer.
@@ -69,13 +69,13 @@ Install both of the below .NET programs. If it states that they are already inst
 <img src="/failedshortcuts.png" style="border: 2px solid grey;" alt="Watermark Error">
 
 This happens because you have moved the `SPT.Server` and/or the `SPT.Launcher`, out of your `[game folder]\SPT` folder. 
-You will need to move these back into your SPT install folder and create desktop shortcuts of these. You can do this by right-clicking the executables and then Send To > Desktop (Shortcut). The shortcuts to the two are made by the installer inside your game folder.
+You will need to move these back into your `[game folder]\SPT` folder and create desktop shortcuts of these. You can do this by right-clicking the executables and then Send To > Desktop (Shortcut). The shortcuts to the two are made by the installer inside your game folder.
 </details>
 
 ## Old mods and profiles
-You cannot use any of your old mod files in a newer SPT version. If you want to use the same mods, you need to download updated versions of them.
+You cannot use any of your old mod files in a newer SPT version. If you want to use the same mods, you need to download updated versions of them once they have been updated to the latest SPT version.
 
-Some old profiles can work. See the [Version numbers](https://wiki.sp-tarkov.com/Updating_SPT#version-numbers) section for more details.
+Some old profiles can work. See the [version numbers](https://wiki.sp-tarkov.com/Updating_SPT#version-numbers) section for more details.
 
 # See also
 [System Requirements](/system-requirements)
