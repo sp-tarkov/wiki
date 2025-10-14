@@ -2,11 +2,14 @@
 title: FAQs for SPT 3.11
 description: Answers to frequently asked questions about SPT 3.11.
 published: true
-date: 2025-10-13T23:21:26.063Z
+date: 2025-10-14T01:33:26.111Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
 ---
+
+> This page applies to SPT version `3.11`
+{.is-info}
 
 # SPT 3.11
 ### Is performance better on 3.11 than 3.10?
