@@ -2,11 +2,14 @@
 title: Client Modding Quick Guide
 description: A basic guide on getting started with Client mods.
 published: true
-date: 2025-10-14T00:49:13.519Z
+date: 2025-10-14T01:00:51.304Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-10-14T00:46:02.669Z
 ---
+
+> This page applies to SPT versions: `4.0`
+{.is-info}
 
 In order to write client mods for SPT (or any other Unity game with BepInEx) you will need to know how to program in C#. See the resources section to get started if you are new to programming.
 
