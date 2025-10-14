@@ -2,11 +2,15 @@
 title: 50/50 Method
 description: How to use the 50/50 Method to find the mod causing your issues.
 published: true
-date: 2025-10-11T19:38:41.232Z
+date: 2025-10-14T01:01:31.223Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-10-05T01:29:38.525Z
 ---
+
+> This page applies to SPT versions: `4.0`
+{.is-info}
+
 
 ## What is the 50/50 Method.
 The 50/50 Method, or a [binary search](https://en.wikipedia.org/wiki/Binary_search), is a method for quickly narrowing down a singular mod that's causing issues. It's a way of quickly checking all your mods if you have a large number installed. It's much faster than individually checking each one, also known as a [linear search](https://en.wikipedia.org/wiki/Linear_search).
