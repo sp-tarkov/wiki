@@ -2,7 +2,7 @@
 title: Client Modding Quick Guide
 description: A basic guide on getting started with Client mods.
 published: true
-date: 2025-10-14T00:46:47.857Z
+date: 2025-10-14T00:48:30.997Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-10-14T00:46:02.669Z
@@ -22,9 +22,8 @@ In order to write client mods for SPT (or any other Unity game with BepInEx) you
 	- Click `Download Visual Studio`.
 	- Once the installer is downloaded, run it. Click `Available` at the top, then click `Install under Visual Studio Community 2022`.
 	- Scroll down under the `Workloads` tab until you see `Game development with Unity`. Check the box next to that workload, and click `Install` in the bottom right.
-2. Install [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
-3. Install [.NET 4.7.1 Framework (runtime version)](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net471).
-4. Install [dnSpy](https://github.com/dnSpyEx/dnSpy/releases/latest).
+2. Install [.NET 4.7.1 Framework (runtime version)](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net471).
+3. Install [dnSpy](https://github.com/dnSpyEx/dnSpy/releases/latest).
 	- Scroll to the bottom of that release to the `Assets` section, and select either `dn-spy-net-win32.zip` or `dn-spy-net-win64.zip` depending on your system.
 	- Create a `C:\dnSpy` folder, then drag the contents of the zip you downloaded into that folder.
 	- Optionally, right click `dnSpy.exe` and create a shortcut, then place it on your desktop.
