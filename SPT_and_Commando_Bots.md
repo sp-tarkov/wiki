@@ -2,7 +2,7 @@
 title: SPT & Commando Bots
 description: How to use SPT & Commando bots in SPT.
 published: true
-date: 2025-10-14T01:14:13.317Z
+date: 2025-10-14T22:42:09.127Z
 tags: guide
 editor: markdown
 dateCreated: 2025-10-05T07:40:42.709Z
@@ -91,7 +91,7 @@ Majority of these can only be used once on each profile.
 | ITSONLYSNOWALAN | Enable snow for every raid after the following one |
 | GIVEMESUNSHINE  | Force enable summer season |
 | EDITPROFILE     | Debug gift to assist with profile testing |
-| TOURNAMENTGIFT  | Large assortment of items and various profile changes such as player level, skillpoints, Trader levels, etc. |
+| TOURNAMENTGIFT  | Large assortment of items and various profile changes such as player level, skillpoints, Trader levels, etc. **WARNING THIS MAKES IRREVERISBLE, POTENTIALLY UNWANTED CHANGES TO YOUR PROFILE**. |
 
 </details>
 
