@@ -2,7 +2,7 @@
 title: Client Modding Quick Guide
 description: A basic guide on getting started with Client mods.
 published: true
-date: 2025-10-14T00:48:30.997Z
+date: 2025-10-14T00:49:13.519Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-10-14T00:46:02.669Z
@@ -33,7 +33,7 @@ In order to write client mods for SPT (or any other Unity game with BepInEx) you
 1. Create a fresh SPT install to use for development.
 2. Create a Development folder to hold your mod projects in the root directory of your new SPT install e.g.: `[game folder]/Development` .
 	- Doing this is nice because when it is time to update your mod to a new SPT version, you can just paste the whole Development folder into that install and get to work without needing to update reference paths, etc. (thank Drakia for the idea!).
-3. Install [Unity Explorer](https://github.com/sinai-dev/UnityExplorer/releases/latest), download the `Mono` version of `BIE 5.X`. Install it like any other client mod.
+3. Download the `Mono` version of `BIE 5.X` of [Unity Explorer](https://github.com/sinai-dev/UnityExplorer/releases/latest). Install it like any other client mod.
 4. Navigate to `[game folder]/BepInEx/config` and open `BepInEx.cfg`, set `LogChannels = all` and `Enabled = true`. This will cause the BepInEx console to launch when you launch SPT. All logging done in your mod will appear in this console.
 5. Make sure to run your dev install once, all the way to the main menu and then quit. This deobfuscates the assembly.
 
