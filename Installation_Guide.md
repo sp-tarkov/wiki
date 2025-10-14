@@ -2,11 +2,15 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-10-12T23:45:14.983Z
+date: 2025-10-14T01:01:50.034Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
 ---
+
+> This page applies to SPT versions: `4.0`
+{.is-info}
+
 
 ## What you need to do before you install Single Player Tarkov
 Verify that your Escape From Tarkov is fully up-to-date, through the BSG Launcher.
