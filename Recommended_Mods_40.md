@@ -2,13 +2,13 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-14T01:06:46.260Z
+date: 2025-10-14T01:13:56.813Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
 ---
 
-> This page applies to SPT versions: `4.0`
+> This page applies to SPT version `4.0`
 {.is-info}
 
 - See the [Mod installation](/Installing_Mods) guide on how to install mods.
