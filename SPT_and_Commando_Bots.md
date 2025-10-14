@@ -2,11 +2,15 @@
 title: SPT & Commando Bots
 description: How to use SPT & Commando bots in SPT.
 published: true
-date: 2025-10-05T16:50:32.722Z
+date: 2025-10-14T01:07:11.351Z
 tags: guide
 editor: markdown
 dateCreated: 2025-10-05T07:40:42.709Z
 ---
+
+> This page applies to SPT versions: Any
+{.is-info}
+
 
 SPT automatically adds two friends to your in-game friendslist: **SPT** and **Commando**:
 - **SPT** is used to redeem gift coded.
