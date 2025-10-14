@@ -2,13 +2,13 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2025-10-14T01:02:09.772Z
+date: 2025-10-14T01:11:54.857Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
 ---
 
-> This page applies to SPT versions: `4.0`
+> This page applies to SPT version `4.0`
 {.is-info}
 
 
