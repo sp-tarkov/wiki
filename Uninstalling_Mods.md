@@ -2,13 +2,13 @@
 title: Uninstalling Mods
 description: A guide on uninstalling SPT mods.
 published: true
-date: 2025-10-14T01:07:35.622Z
+date: 2025-10-14T01:14:26.684Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-09-25T10:46:32.773Z
 ---
 
-> This page applies to SPT versions: `4.0`
+> This page applies to SPT version `4.0`
 {.is-info}
 
 ## Uninstalling mods
