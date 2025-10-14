@@ -2,7 +2,7 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2025-10-14T01:11:54.857Z
+date: 2025-10-14T23:50:13.065Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -31,7 +31,7 @@ dateCreated: 2025-06-12T18:59:03.228Z
 ## Installing mods
 
 1. Open the mod archive using 7zip.
-2. If the mod archive has a `SPT`, `BepInEx` or *both* folders, drag and drop the contents of the archive to the empty space in your SPT folder.
+2. If the mod archive has a `SPT`, `BepInEx` or *both* folders, drag and drop the contents of the archive to the empty space in your SPT folder as seen in the image below.
 3. If the mod archive has just a folder or files, read the mod page for install instructions:
 - For mods that go into your `user` or `[game folder]\SPT` folder, drag and drop the mod folder into `[game folder]\user\mods`.
 - For mods that go into your `BepInEx` or `plugins`, drag and drop the mod folders and files into `\BepInEx\plugins` folder.
@@ -42,7 +42,7 @@ dateCreated: 2025-06-12T18:59:03.228Z
 
 Nearly all mods can be added to an existing profile. However, **removing some mods might be impossible without making a new profile**. Mods that add new traders, quests, or items fall under that category. Always **read the modpage**, as the author should specify if a mod is unsafe to remove from a profile.
 
-If you removed a mod that broke your profile, SPT can try fixing it. **This is not guaranteed to work**. SPT will do the best it can to remove any item that's in your profile from the removed mod, but some mods make irreversable changes to your profile.
+If you removed a mod that broke your profile, SPT can try fixing it. **This is not guaranteed to work**. SPT will do the best it can to remove any item that's in your profile from the removed mod, but some mods make irreversible changes to your profile.
 
 1. Open `[game folder]\SPT\SPT_Data\Server\configs\core.json` in a text editor.
 2. Set `removeModItemsFromProfile` from `false` to `true`.
