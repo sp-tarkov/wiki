@@ -2,13 +2,13 @@
 title: 50/50 Method
 description: How to use the 50/50 Method to find the mod causing your issues.
 published: true
-date: 2025-10-14T01:01:31.223Z
+date: 2025-10-14T01:10:31.046Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-10-05T01:29:38.525Z
 ---
 
-> This page applies to SPT versions: `4.0`
+> This page applies to SPT version `4.0`
 {.is-info}
 
 
