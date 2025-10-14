@@ -2,30 +2,30 @@
 title: Recommended Mods for SPT 3.11
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-10T19:02:11.327Z
+date: 2025-10-14T01:36:02.455Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
 ---
 
-> Read through the [Mod installation guide](/Installing_Mods) for a guide on installing mods.
+> This page applies to SPT version `3.11`
 {.is-info}
 
-> Always read the mod pages of the mods you're installing.
-{.is-info}
+- Always read the mod pages of the mods you're installing.
 
-> Only install versions of mods made for your version of SPT. You can access old versions of a mod by going to the `Versions` tab on the mod page.
-{.is-info}
+- Only install versions of mods made for your version of SPT. You can access old versions of a mod by going to the `Versions` tab on the mod page.
 
 
 ## Mods for better AI
 
-[Looting Bots](https://forge.sp-tarkov.com/mod/812/looting-bots), [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots), [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Ombarella](https://forge.sp-tarkov.com/mod/2315/ombarella), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades), [No Boss PMCs](https://forge.sp-tarkov.com/mod/2095/no-boss-pmcs) `*`, [Separate Hostility](https://forge.sp-tarkov.com/mod/2248/separate-hostility) `*`
-	`*` Mod incompatible with SAIN
+[Looting Bots](https://forge.sp-tarkov.com/mod/812/looting-bots), [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots), [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Ombarella](https://forge.sp-tarkov.com/mod/2315/ombarella), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades), [No Boss PMCs](https://forge.sp-tarkov.com/mod/2095/no-boss-pmcs)^*^, [Separate Hostility](https://forge.sp-tarkov.com/mod/2248/separate-hostility)^*^
+
+^*^Mod incompatible with SAIN
 
 ## Mods for better performance
-[Waypoints](https://forge.sp-tarkov.com/mod/827/waypoints-expanded-navmesh), [RAM Cleaner Fix](https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix) `*`, [VRAM Cleaner](https://forge.sp-tarkov.com/mod/2173/vram-cleaner), [AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit), [Body Disposal Service Maid](https://forge.sp-tarkov.com/mod/1159/bdsm-body-disposal-service-maid)
-`*` Most useful if you have less than 32gb of RAM
+[Waypoints](https://forge.sp-tarkov.com/mod/827/waypoints-expanded-navmesh), [RAM Cleaner Fix](https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix)^*^, [VRAM Cleaner](https://forge.sp-tarkov.com/mod/2173/vram-cleaner), [AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit), [Body Disposal Service Maid](https://forge.sp-tarkov.com/mod/1159/bdsm-body-disposal-service-maid)
+
+^*^Most useful if you have less than 32gb of RAM
 
 See [Performance Tuning](/Performance_Tuning) for further information.
 
@@ -33,7 +33,7 @@ See [Performance Tuning](/Performance_Tuning) for further information.
 
 You should only have **one** bot spawning mod installed to avoid issues.
 
-[Acid's Bot Placement System](https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system), [MOAR](https://forge.sp-tarkov.com/mod/789/moar-bagels-ultra-lite-spawn-mod)
+[Acid's Bot Placement System](https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system), [MOAR](https://forge.sp-tarkov.com/mod/789/moar-bagels-ultra-lite-spawn-mod), [Unda](https://forge.sp-tarkov.com/mod/1173/unda)
 
 ## Mods for better bot progression
 
