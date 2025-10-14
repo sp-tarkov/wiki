@@ -2,13 +2,13 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-14T01:05:35.180Z
+date: 2025-10-14T01:13:30.769Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
 ---
 
-> This page applies to SPT versions: Any
+> This page applies to any SPT version
 {.is-info}
 
 Compared to live PVP, the performance in SPT will always be worse. When you're playing PVP, or an online PVE raid, bots (scavs, PMCs, bosses) run on BSG's servers. In SPT, local PVE, and practice raids, bots run on your computer. They are very unoptimised, running on a single CPU thread.
