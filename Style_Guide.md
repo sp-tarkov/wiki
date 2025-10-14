@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-10-14T01:33:00.367Z
+date: 2025-10-14T01:37:02.593Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -124,3 +124,6 @@ The most subjective section. Use of bold and italicised text should still be sta
   - "Disable `Nvidia Reflex` in the graphics settings."
 - <kbd>Keyboard keys</kbd> should be used when referring to a keyboard key:
   - "...configure the client-side settings in the <kbd>F12</kbd> menu."
+
+# See also
+[How to Contribute](/how_to_contribute)
