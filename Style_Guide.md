@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-10-14T01:30:46.845Z
+date: 2025-10-14T01:31:52.736Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -10,6 +10,10 @@ dateCreated: 2025-08-28T19:25:07.078Z
 
 Here's a rudimentary style guide for the Wiki. Nothing here is set in stone or enforced, and it'll see many changes as the Wiki develops.
 Its main purpose is to keep the initial set of pages semi-consistent with each other.
+
+## Markdown
+The SPT Wiki can use many different types of formatting. The easiest to use is [Markdown](https://daringfireball.net/projects/markdown/). You can see which Markdown features are supported on the [Wiki.js documentation page](https://docs.requarks.io/editors/markdown). There are many resources online for Markdown, however it's entirely doable in just Notepad or Github's text editor.
+
 
 ## There's no need for initial titles
 
