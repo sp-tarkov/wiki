@@ -2,13 +2,13 @@
 title: Modding Resources
 description: Basic resources to start creating SPT mods.
 published: true
-date: 2025-10-14T01:04:57.218Z
+date: 2025-10-14T01:13:00.876Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T16:46:34.874Z
 ---
 
-> This page applies to SPT versions: `4.0`
+> This page applies to SPT version `4.0`
 {.is-info}
 
 Basic resources to start creating SPT mods. It is recommended to start with server mods.
