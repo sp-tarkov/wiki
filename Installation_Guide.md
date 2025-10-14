@@ -2,13 +2,13 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-10-14T01:01:50.034Z
+date: 2025-10-14T01:11:43.008Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
 ---
 
-> This page applies to SPT versions: `4.0`
+> This page applies to SPT version `4.0`
 {.is-info}
 
 
