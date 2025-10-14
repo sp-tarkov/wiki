@@ -1,8 +1,8 @@
 ---
 title: Client Modding Quick Guide
-description: A basic guide on getting started with Client mods
+description: A basic guide on getting started with Client mods.
 published: true
-date: 2025-10-14T00:46:14.343Z
+date: 2025-10-14T00:46:47.857Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-10-14T00:46:02.669Z
