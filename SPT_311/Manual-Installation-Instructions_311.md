@@ -2,11 +2,14 @@
 title: Manual Installation Instructions for SPT 3.11
 description: 
 published: true
-date: 2025-10-11T05:31:45.758Z
+date: 2025-10-14T01:33:40.518Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T18:56:40.239Z
 ---
+
+> This page applies to SPT version `3.11`
+{.is-info}
 
 1. You will need to download a patcher to downgrade your game files. 
   Each version of SPT requires a specific version of EFT. `SPT 3.11.4` requires `EFT 16.1.3.35392`. The following downgrade is currently available:
