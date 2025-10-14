@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-10-12T16:57:09.851Z
+date: 2025-10-14T01:56:16.295Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -64,6 +64,7 @@ Interested in creating your own content for SPT?
 - [Modding Introduction](#) `WIP`: Getting started with SPT mod development.
 - [Modding Tools](#) `WIP`: Useful software for creating mods.
 - [Modding Resources](/Modding_Resources): Basic resources to start creating SPT mods.
+- [Client Modding Quick Guide](/Client_Modding_Quick_Guide): A basic guide on getting started with Client mods.
 
 ## SPT 3.11
 
