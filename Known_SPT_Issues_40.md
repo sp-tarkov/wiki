@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-14T01:12:32.493Z
+date: 2025-10-14T23:55:54.834Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -35,5 +35,5 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 [ASP.NET 9.0.9](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.9-windows-x64-installer>)
 
 ## Server mods don't appear in the SPT Launcher
-A harmless visual bug. They are still loaded in if they were installed correctly.
+A harmless visual bug. They are still loaded in if they were installed correctly. You can confirm this by viewing the server mods in the SPT Server window.
 Note that [Client mods](https://wiki.sp-tarkov.com/en/Mod_Types) won't show up in the SPT Server nor Launcher.
