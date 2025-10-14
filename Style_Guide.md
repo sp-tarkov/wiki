@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-10-12T23:08:51.456Z
+date: 2025-10-14T01:30:46.845Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -15,12 +15,50 @@ Its main purpose is to keep the initial set of pages semi-consistent with each o
 
 The Wiki already includes the page's title and short description as part of its page layout. It's unnecessary to add a second title stating the same right underneath it.
 
+## Version disclaimer
+
+To ensure information doesn't get applied to the incorrect SPT version, include this disclaimer at the top of your page:
+
+```
+> This page applies to SPT version `4.0`
+{.is-info}
+```
+
+If the information applies to any SPT version, simply have it state `This page applies to any SPT version`
+
+## File paths
+
+To remove any ambiguity, you should include the full filepath. For example, if you want to refer to the `profiles` folder: `[game folder]\SPT\user\profiles`
+
+Once written in full, additional references to it can be shortened to `\SPT\user\profiles`, or just `\profiles`.
+
+## Links
+
+To include a link to an external website, you should make it an inserted link. It can be easily done like this:
+
+```
+[clickable word](website url)
+```
+
+For example:
+> Read the SPT Wiki's [Style Guide](https://wiki.sp-tarkov.com/en/Style_Guide) to see how you can contribute to the Wiki.
+
+Is written like this:
+
+```
+Read the SPT Wiki's [Style Guide](https://wiki.sp-tarkov.com/en/Style_Guide) to see how you can contribute to the Wiki.
+```
+
+Conveniently, links to pages on this Wiki can be done by just referencing its location. The above example can also be written like this:
+
+```
+Read the SPT Wiki's [Style Guide](/Style_Guide) to see how you can contribute to the Wiki.
+```
+
 ## Header sizes
 
 There are 6 different header sizes available. `#` will give you the largest title, while `######` will be the smallest.
-Note that using any header will allow for direct linking to that section of a page e.g.: 
-
-https://wiki.sp-tarkov.com/en/Style_Guide#header-sizes
+Note that using any header will allow for direct linking to that section of a page e.g.: https://wiki.sp-tarkov.com/en/Style_Guide#header-sizes
 
 You can copy the direct link to a header by hovering over it, right clicking `¶` and copying the link.
 
@@ -41,6 +79,8 @@ It's too small to work as a heading. Same applies for the two smaller headings.
 
 ###### Sixth largest
 ```
+
+While it won't be reflected in the actual website, leave an extra line before and after headers to make future editing of the page easier.
 
 ## Lists and bulletpoints
 
@@ -73,7 +113,7 @@ The most subjective section. Use of bold and italicised text should still be sta
      - **As in online**: Mix of *Easy*, *Medium*, and *Hard* classes can spawn.
      - **Easy**: Only *Easy* class bots will spawn.
      - **Medium**: Only *Medium* class bots will spawn."
-- _Underlines_ should be avoided, as clickable links are also underlined. Bold or italicised text should be used instead.
+- _Underlines_ should be **avoided**, as clickable links are also underlined. Bold or italicised text should be used instead.
 - `Code blocks` should be used when referring to folder names, file names, values, text strings from config files and interactable things with that name:
   - "If the mod archive has a `SPT`, `BepInEx` or *both* folders, drag and drop the contents of the archive to the empty space in your SPT folder."
   - "Disable `Nvidia Reflex` in the graphics settings."
