@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-10-14T01:31:52.736Z
+date: 2025-10-14T01:33:00.367Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -28,6 +28,7 @@ To ensure information doesn't get applied to the incorrect SPT version, include 
 {.is-info}
 ```
 
+Replace `4.0` with the appropriate version for the contents of the page.
 If the information applies to any SPT version, simply have it state `This page applies to any SPT version`
 
 ## File paths
