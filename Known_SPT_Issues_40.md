@@ -2,11 +2,15 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-13T23:57:49.053Z
+date: 2025-10-14T01:03:07.927Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
 ---
+
+> This page applies to SPT versions: `4.0.0`
+{.is-info}
+
 
 ## [Github tracked issues](https://github.com/sp-tarkov/build/wiki/Known-SPT-issues)
 - Some quests need PMCs to spawn in map locations with no bot spawns, making them impossible to complete (e.g. kill x PMCs in scav fortress/base).
