@@ -2,7 +2,7 @@
 title: Bot Difficulties
 description: Learn how SPT and mods handle bots' difficulty.
 published: true
-date: 2025-10-14T01:10:49.932Z
+date: 2025-10-15T10:07:39.077Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-28T18:04:16.547Z
@@ -21,7 +21,7 @@ There are 4 different *difficulty classes* a specific bot can have:
 - *Impossible*
 
 The selected difficulty in the **Pre-Raid Setting** determines which *difficulty classes* are allowed to spawn in your raid:
-- **As in online**: Mix of *Easy*, *Medium*, and *Hard* classes can spawn.
+- **As in online**: Starts spawning *Easy* bots, progressing through *Medium* to *Hard* as the raid goes on.
 - **Easy**: Only *Easy* class bots will spawn.
 - **Medium**: Only *Medium* class bots will spawn.
 - ...and so on
