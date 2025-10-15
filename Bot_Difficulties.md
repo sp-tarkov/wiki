@@ -2,7 +2,7 @@
 title: Bot Difficulties
 description: Learn how SPT and mods handle bots' difficulty.
 published: true
-date: 2025-10-15T10:07:39.077Z
+date: 2025-10-15T10:24:23.906Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-28T18:04:16.547Z
@@ -25,6 +25,8 @@ The selected difficulty in the **Pre-Raid Setting** determines which *difficulty
 - **Easy**: Only *Easy* class bots will spawn.
 - **Medium**: Only *Medium* class bots will spawn.
 - ...and so on
+
+These *difficulty classes* only make changes to PMCs and Scavs, as Bosses have the same difficulty regardless of their *difficulty class*.
 
 Note that [SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm) can be used to change which **difficulty** is selected by default in the **Pre-Raid Setting**. Otherwise, it will always default to **As in online**.
 
