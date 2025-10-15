@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-14T01:13:56.813Z
+date: 2025-10-15T01:16:16.803Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -65,13 +65,13 @@ You should only have **one** bot progression mod installed to avoid issues.
 ## Mods for better player experience
 
 - Ease of play
-[Audio Accessibility Indicators](https://forge.sp-tarkov.com/mod/1760/audio-accessibility-indicators), [Simple Crosshair](https://forge.sp-tarkov.com/mod/1387/simple-crosshair), [Janky's Visual Assist](https://forge.sp-tarkov.com/mod/2213/jankys-visual-assist), [Simple Workout QTE](https://discord.com/channels/875684761291599922/875784814962307082/1426703933262401597)
+[Audio Accessibility Indicators](https://forge.sp-tarkov.com/mod/1760/audio-accessibility-indicators), [Simple Crosshair](https://forge.sp-tarkov.com/mod/1387/simple-crosshair), [Janky's Visual Assist](https://forge.sp-tarkov.com/mod/2213/jankys-visual-assist), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Deminvincibility](https://forge.sp-tarkov.com/mod/1117/deminvincibility)
 
 - Gameplay
 [Continuous Healing](https://forge.sp-tarkov.com/mod/1884/continuous-healing), [Set Speed](https://forge.sp-tarkov.com/mod/994/set-speed-set-player-speed-with-hotkeys), [Bosses Have Lega Medals](https://forge.sp-tarkov.com/mod/1539/bosses-have-lega-medals), [Ref - SPT Friendly Quests](https://forge.sp-tarkov.com/mod/1538/ref-spt-friendly-quests), [Bush Whacker](https://forge.sp-tarkov.com/mod/2329/bushwhacker-standalone)
 
 - Tweaking
-[SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm), [Server Tweaks](https://forge.sp-tarkov.com/mod/2360/server-tweaks-discount-svm), [Quest Tweaks](https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-tweaks)
+[SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm), [Server Tweaks](https://forge.sp-tarkov.com/mod/2360/server-tweaks-discount-svm), [Quest Tweaks](https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-tweaks), [QCAdjustments](https://forge.sp-tarkov.com/mod/1867/qcadjustments)
 
 # See also
 [Performance Tuning](/Performance_Tuning)
