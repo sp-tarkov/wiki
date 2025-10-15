@@ -2,7 +2,7 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-14T01:12:09.180Z
+date: 2025-10-15T01:42:34.898Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
@@ -37,3 +37,6 @@ dateCreated: 2025-10-10T12:31:17.069Z
 
 ## Game crashing when the deploy timer hits 0?
 Disable any applications that add overlays to EFT such as Blitz.
+
+## Extreme stuttering in-raid, very high RAM usage
+If you have `Texture Quality` set to `High` or `Ultra`, try `Medium` or `Low`.
