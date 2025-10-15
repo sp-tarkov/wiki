@@ -2,7 +2,7 @@
 title: SPT & Commando Bots
 description: How to use SPT & Commando bots in SPT.
 published: true
-date: 2025-10-14T22:52:38.383Z
+date: 2025-10-15T08:38:33.124Z
 tags: guide
 editor: markdown
 dateCreated: 2025-10-05T07:40:42.709Z
@@ -13,7 +13,7 @@ dateCreated: 2025-10-05T07:40:42.709Z
 
 
 SPT automatically adds two friends to your in-game friendslist: **SPT** and **Commando**:
-- **SPT** is used to redeem gift coded.
+- **SPT** is used to redeem gift codes.
 - **Commando** is used to execute commands.
 
 To open a new chat with the bots, click on `Messenger > Friends > SPT/Commando > Start Chat`.
