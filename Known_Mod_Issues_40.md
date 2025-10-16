@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-15T13:59:31.460Z
+date: 2025-10-16T16:07:31.543Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -18,3 +18,5 @@ Redownload and reinstall [SVM](https://forge.sp-tarkov.com/mod/236/server-value-
 ## BTR Driver chat instantly closes
 Update [Fika](https://forge.sp-tarkov.com/mod/2326/project-fika).
 
+## Raid doesn't get saved after extracting/dying
+If enabled, turn off `Practice Mode` in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>)'s `Raid Settings > Raid startup settings`.
