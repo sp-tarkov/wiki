@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-14T23:55:54.834Z
+date: 2025-10-16T05:45:57.235Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -37,3 +37,7 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 ## Server mods don't appear in the SPT Launcher
 A harmless visual bug. They are still loaded in if they were installed correctly. You can confirm this by viewing the server mods in the SPT Server window.
 Note that [Client mods](https://wiki.sp-tarkov.com/en/Mod_Types) won't show up in the SPT Server nor Launcher.
+
+## There are little to no PMCs in my Scav runs
+PMCs spawn in waves. When you do a Scav raid, the raid start time is offset, and the PMC waves that would have normally spawned before your start time are not spawned. This is to mimic the fact that on live you generally don't run into PMCs in later spawning Scav raids.
+Use a [bot spawning mod](<https://wiki.sp-tarkov.com/Recommended_Mods_40#mods-for-better-bot-spawns>) to tweak it.
