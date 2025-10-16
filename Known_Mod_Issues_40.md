@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-16T20:14:12.448Z
+date: 2025-10-16T20:23:36.651Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -24,3 +24,6 @@ If enabled, turn off `Practice Mode` in [SVM](<https://forge.sp-tarkov.com/mod/2
 
 ## With [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) bots don't move nor react unless shot at or grenaded
 If you're using the [Live Like Experience Preset](<https://forge.sp-tarkov.com/mod/1933/live-like-experience-sain-preset>), try using one of the default presets instead.
+
+## `Error handling request: /client/repeatalbeQuests/activityPeriods`, unable to launch profile
+Update [Quest Tweaks](<https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-tweaks>), and restore a backup of your profile from `[game folder]\SPT\user\profiles\backups`.
