@@ -2,7 +2,7 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-15T01:42:34.898Z
+date: 2025-10-16T18:40:04.140Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
@@ -40,3 +40,6 @@ Disable any applications that add overlays to EFT such as Blitz.
 
 ## Extreme stuttering in-raid, very high RAM usage
 If you have `Texture Quality` set to `High` or `Ultra`, try `Medium` or `Low`.
+
+## When inspecting trader items `Compatible with available` is blank
+No known fix.
