@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-15T01:16:16.803Z
+date: 2025-10-17T06:30:03.002Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -54,7 +54,7 @@ You should only have **one** bot progression mod installed to avoid issues.
 [Search Open Containers](https://forge.sp-tarkov.com/mod/934/search-open-containers), [Hands Are Not Busy](https://forge.sp-tarkov.com/mod/1298/handsarenotbusy), [Task List Fixes](https://forge.sp-tarkov.com/mod/824/task-list-fixes), [Un-flashbang Hideout](https://forge.sp-tarkov.com/mod/1425/un-flashbang-hideout), [Stop Hotkey Auto-Vault](https://forge.sp-tarkov.com/mod/1652/stop-hotkey-auto-vault)
 
 - UI
-[Quest Tracker](https://forge.sp-tarkov.com/mod/1140/quest-tracker), [Dynamic Maps](https://forge.sp-tarkov.com/mod/1431/dynamic-maps)
+[UI Fixes](https://forge.sp-tarkov.com/mod/1342/ui-fixes), [Quest Tracker](https://forge.sp-tarkov.com/mod/1140/quest-tracker), [Dynamic Maps](https://forge.sp-tarkov.com/mod/1431/dynamic-maps)
 
 - Inventory and Stash
 [Quick Move to Containers](https://forge.sp-tarkov.com/mod/1341/quick-move-to-containers), [Equip From Weapon Rack](https://forge.sp-tarkov.com/mod/1136/equip-from-weapon-rack), [Gilded Key Storage](https://forge.sp-tarkov.com/mod/865/gilded-key-storage)
