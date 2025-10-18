@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-14T16:02:58.984Z
+date: 2025-10-18T04:43:54.700Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -47,9 +47,6 @@ See [this guide](https://github.com/sp-tarkov/build/wiki/3.11-Manual-Installatio
 
 ### When is (insert mod here) going to update to 4.0?
 Nobody knows when certain mods are going to update, not even the authors themselves. Do not pester mod authors about updates to their mods.
-
-### There are little to no PMCs in my Scav runs
-PMCs spawn in waves. When you do a Scav raid, the raid start time is offset, and the PMC waves that would have normally spawned before your start time are not spawned. This is to mimic the fact that on live you generally don't run into PMCs in later spawning Scav raids.
 
 # Troubleshooting tips
 - Do not install mods until you've launched SPT at least once. Verify your SPT install works, then install mods.
