@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-10-18T07:33:52.534Z
+date: 2025-10-18T07:48:13.954Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -105,7 +105,19 @@ Images are best handled by using HTML:
 ```
 
 This will imbed the image in the middle of the screen, with a width of 400 px. Use 600 for images with smaller text.
-However, this will put the image directly next to the text with no space in-between. Use the non-breakable space's HTML code of `&nbsp;` to seperate images from non-header text surrounding it. Header text doesn't need it as it already spaces itself from images.
+However, this will put the image directly next to the text with no space in-between. Use the HTML code of `<br>` to seperate images from non-header text above it. Header text doesn't need it as it already spaces itself from images.
+
+Here is an image without the use of `<br>`:
+
+<img src="/mod-install-v1.gif" alt="image title" width=200 style="display: block; margin: 0 auto;">
+
+Notice how the top text is right against the image.
+<br>
+<img src="/mod-install-v1.gif" alt="image title" width=200 style="display: block; margin: 0 auto;">
+
+And this image, with the use of `<br>` has space above between it and the text.
+
+You can also use `<div style="margin-top: 20px;"></div>` for finer control over the size of the gap. Change the `20px` to a value that works best.
 
 ## Text formatting
 The most subjective section. Use of bold and italicised text should still be standardised across the wiki.
