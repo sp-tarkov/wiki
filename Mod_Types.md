@@ -2,7 +2,7 @@
 title: Mod Types
 description: Learn the difference between server mods and client mods.
 published: true
-date: 2025-10-18T08:15:37.678Z
+date: 2025-10-18T08:17:18.637Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-07-22T08:23:52.210Z
@@ -19,7 +19,7 @@ Server mods interact with the SPT server, which handles everything a live EFT se
 
 Server mods are installed in the `[game folder]\SPT\user\mods` folder. They are configured either by `config` files, or by a mod-included configuration tool. **Your game and server must be closed** to configure server mods.
 
-Most server mods can be added to an existing profile. However, **removing some mods might be impossible without making a new profile**. Mods that add new traders, quests, or items fall under that category. Always **read the modpage**, as the author should specify if a mod is unsafe to remove from a profile.
+Most server mods can be added to an existing profile. However, **removing some mods might be impossible without making a new profile**. Mods that add new traders, quests, or items fall under that category. Always **read the modpage**, as the author should specify if a mod is unsafe to remove from a profile. See the section on [Mods](https://wiki.sp-tarkov.com/en/Profiles#mods) for a "last resort" to fix a profile with those mods removed.
 
 Only server mods will show up in your Server console and Launcher.
 
