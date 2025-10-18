@@ -2,7 +2,7 @@
 title: Profiles
 description: How profiles work in SPT.
 published: true
-date: 2025-10-18T07:59:57.279Z
+date: 2025-10-18T08:02:57.592Z
 tags: guide
 editor: markdown
 dateCreated: 2025-10-18T07:59:57.279Z
@@ -10,17 +10,17 @@ dateCreated: 2025-10-18T07:59:57.279Z
 
 ## What are profiles?
 
-In SPT, your profiles are save file. It stores all the information of your in-game character: items, quests, stats, hideout progress, skills etc. It does not contain your in-game or mod settings.
+- In SPT, your profiles are your save files. They store all the information of your in-game character: items, quests, stats, hideout progress, skills etc. It does not contain your in-game or mod settings.
 
-You can have as many profiles as you want of any edition as you want. There's no restrictions on either, as they are both stored locally on your PC and are only used by SPT.
+- You can have as many profiles as you want of any edition as you want. There's no restrictions on either, as they are both stored locally on your PC and are only used by SPT. Each profile contains one in-game character.
 
-You can name your profiles however you want. The name you choose while creating them is only what will be displayed in the SPT Launcher. It will not be your in-game username, as that is set in-game during character creation.
+- You can name your profiles however you want. The name you choose while creating them is only what will be displayed in the SPT Launcher. It will not be your in-game username, as that is set during character creation.
 
-The SPT Launcher will keep track of all profiles you have. If you want to make or access another profile, simply press `Logout` to go back to the profile selection screen. From there, you can select any profile or make a new one.
+- The SPT Launcher will keep track of all profiles you have. If you want to make or access another profile, simply press `Logout` to go back to the profile selection screen. From there, you can select any profile or make a new one.
 
 ## Where are my profiles?
 
-Your profiles are stored in your `[game folder]\SPT\user\profiles` folder. They are in the `.json` format, which is a way of formatting text files. They are name `[profile's ID].json`. You can see which profile is which by opening it in a text editor like Notepad and seeing what `username` it is.
+Your profiles are stored in your `[game folder]\SPT\user\profiles` folder. They are in the `.json` format, which is a way of formatting text files. They are named `[profile's ID].json`. You can see which profile is which by opening it in a text editor like Notepad and seeing what `username` it is.
 
 <div style="margin-top: 10px;"></div>
 <img src="/profiles/profile top.png" alt="profile" width=400 style="display: block; margin: 0 auto;">
@@ -30,7 +30,7 @@ The first few lines of the profile file.
 </div>
 <br>
 
-We do not recommend manually editing your profiles. It is extremely easy to mess up and make your profile unusable. Even if you don't make any formatting errors it's extremely easy to edit something that will break your profile. That might manifest long after you made that edit with no way of reverting it.
+**We do not support manually editing your profiles**. It is extremely easy to mess up and make your profile unusable. Even if you don't make any formatting errors it's extremely easy to edit something that will break your profile. That might manifest long after you made that edit with no way of reverting it.
 
 Your profile file can be copied and moved freely. If you worry about a mod breaking your profile, you can copy and paste it somewhere safe. To go back to that copy, simply copy it back into the `\profiles` folder, overriding the one that's there. Note that SPT must be closed completely while doing so.
 
