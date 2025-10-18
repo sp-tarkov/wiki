@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-18T04:46:54.939Z
+date: 2025-10-18T09:05:17.881Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -59,3 +59,6 @@ Note that [Client mods](/Mod_Types) won't show up in the SPT Server nor Launcher
 Install **BOTH** of the below. If it tells you that you already have them installed, then use the repair option. Restart your PC after. 
 [.NET Runtime 9.0.10](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-9.0.10-windows-x64-installer>) 
 [ASP.NET 9.0.10](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.10-windows-x64-installer>)
+
+## Kollontay still spawns on high level Ground Zero
+Use a mod like [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>) to remove their spawn.
