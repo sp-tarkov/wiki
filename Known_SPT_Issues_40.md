@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-16T20:29:34.077Z
+date: 2025-10-18T04:10:39.426Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -48,11 +48,6 @@ dateCreated: 2025-10-10T12:33:53.585Z
 ## `The server has unexpectidely stopped... : Decoded string is not a valid IDN name.`
 Remove any trailing symbols from your Computer's name (e.g.: `My-PC-` > `My-PC`). You can rename your PC by searching for `View your PC name` in the Start menu, and clicking on `Rename this PC`.
 
-## Server doesn't launch or closes immediately
-Install **BOTH** of the below. If it tells you that you already have them installed, then use the repair option. Restart your PC after. 
-[Runtime 9.0.9](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-9.0.9-windows-x64-installer>) 
-[ASP.NET 9.0.9](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.9-windows-x64-installer>)
-
 ## Server mods don't appear in the SPT Launcher
 A harmless visual bug. They are still loaded in if they were [installed correctly](/Installing_Mods). You can confirm this by viewing the server mods in the SPT Server window.
 Note that [Client mods](https://wiki.sp-tarkov.com/en/Mod_Types) won't show up in the SPT Server nor Launcher.
@@ -60,3 +55,8 @@ Note that [Client mods](https://wiki.sp-tarkov.com/en/Mod_Types) won't show up i
 ## There are little to no PMCs in my Scav runs
 PMCs spawn in waves. When you do a Scav raid, the raid start time is offset, and the PMC waves that would have normally spawned before your start time are not spawned. This is to mimic the fact that on live you generally don't run into PMCs in later spawning Scav raids.
 Use a [bot spawning mod](<https://wiki.sp-tarkov.com/Recommended_Mods_40#mods-for-better-bot-spawns>) to tweak it.
+
+## Server doesn't launch or closes immediately
+Install **BOTH** of the below. If it tells you that you already have them installed, then use the repair option. Restart your PC after. 
+[.NET Runtime 9.0.10](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-9.0.10-windows-x64-installer>) 
+[ASP.NET 9.0.10](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.10-windows-x64-installer>)
