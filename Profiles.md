@@ -2,7 +2,7 @@
 title: Profiles
 description: How profiles work in SPT.
 published: true
-date: 2025-10-18T08:02:57.592Z
+date: 2025-10-18T15:34:19.945Z
 tags: guide
 editor: markdown
 dateCreated: 2025-10-18T07:59:57.279Z
@@ -41,7 +41,7 @@ SPT automatically makes copies of your profiles. They are located in `[game fold
 To restore a backup of a profile:
 1. Close your game, launcher and server.
 2. Copy your profile from the backup folder you want.
-3. Paste it into `[game folder]\SPT\user\profiles\backups`. Override the file when prompted.
+3. Paste it into `[game folder]\SPT\user\profiles`. Override the file when prompted.
 
 ## Mods
 
