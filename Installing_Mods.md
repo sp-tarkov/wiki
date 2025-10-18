@@ -2,7 +2,7 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2025-10-16T05:50:31.806Z
+date: 2025-10-18T08:03:41.601Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -66,3 +66,4 @@ If you are experiencing issues after updating a mod, or a mod has a large number
 
 [Uninstalling Mods](/Uninstalling_Mods)
 [Mod Types](/Mod_Types)
+[Profiles](/Profiles)
