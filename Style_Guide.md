@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-10-18T07:48:13.954Z
+date: 2025-10-18T07:48:38.529Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -117,7 +117,7 @@ Notice how the top text is right against the image.
 
 And this image, with the use of `<br>` has space above between it and the text.
 
-You can also use `<div style="margin-top: 20px;"></div>` for finer control over the size of the gap. Change the `20px` to a value that works best.
+You can also use `<div style="margin-top: 10px;"></div>` for finer control over the size of the gap. Change the `10px` to a value that works best.
 
 ## Text formatting
 The most subjective section. Use of bold and italicised text should still be standardised across the wiki.
