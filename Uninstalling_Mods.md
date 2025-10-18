@@ -2,7 +2,7 @@
 title: Uninstalling Mods
 description: A guide on uninstalling SPT mods.
 published: true
-date: 2025-10-15T08:45:41.381Z
+date: 2025-10-18T08:04:33.974Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-09-25T10:46:32.773Z
@@ -40,3 +40,4 @@ If you removed a mod that broke your profile, SPT can try fixing it. **This is n
 [50/50 Method](/5050-method)
 [Installing Mods](/Installing_Mods)
 [Mod Types](/Mod_Types)
+[Profile](/Profiles)
