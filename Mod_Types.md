@@ -2,7 +2,7 @@
 title: Mod Types
 description: Learn the difference between server mods and client mods.
 published: true
-date: 2025-10-18T08:10:12.745Z
+date: 2025-10-18T08:15:37.678Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-07-22T08:23:52.210Z
@@ -19,6 +19,8 @@ Server mods interact with the SPT server, which handles everything a live EFT se
 
 Server mods are installed in the `[game folder]\SPT\user\mods` folder. They are configured either by `config` files, or by a mod-included configuration tool. **Your game and server must be closed** to configure server mods.
 
+Most server mods can be added to an existing profile. However, **removing some mods might be impossible without making a new profile**. Mods that add new traders, quests, or items fall under that category. Always **read the modpage**, as the author should specify if a mod is unsafe to remove from a profile.
+
 Only server mods will show up in your Server console and Launcher.
 
 Server mods made for SPT `4.0` are written in C#.
@@ -27,9 +29,11 @@ Server mods made for SPT `4.0` are written in C#.
 
 Client mods interact directly with the game. They are capable of changing anything in it given enough effort. The most comprehensive mods are usually client mods. They are capable of completely altering bot behaviour, adding new animations and mechanics or adding new elements to the HUD.
 
-Client mods are installed in the `\BepInEx\plugins` folder. Few mods also include a `prepatcher` file that goes into the `\BepInEx\patchers` folder. The vast majority of client mods are configured from the <kbd>F12</kbd> menu in-game. Some have a dedicated button for opening their configuration menu. Few include config files inside `Bepinex\plugins` for manual editing. Changes made in the F12 menu should apply immediately to your game unless the setting states otherwise.
+Client mods are installed in the `\BepInEx\plugins` folder. Few mods also include a `prepatcher` file that goes into the `\BepInEx\patchers` folder. The vast majority of client mods are configured from the <kbd>F12</kbd> menu in-game. Some have a dedicated button for opening their configuration menu. Few include config files inside `Bepinex\plugins` for manual editing. Changes made in the <kbd>F12</kbd> menu should apply immediately to your game unless the setting states otherwise.
 
 Client mods will only show up in your <kbd>F12</kbd> menu if they have settings to configure. Some client mods don't, which means there's no good way to check if they are installed and running or not, except to see if they do what they are meant to.
+
+Nearly all client mods can be added to an existing profile. Always **read the modpage**, as the author should specify if a mod is unsafe to remove from a profile.
 
 All client mods are written in C#.
 
