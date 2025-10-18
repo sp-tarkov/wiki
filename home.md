@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-10-14T01:56:16.295Z
+date: 2025-10-18T04:05:09.391Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -47,22 +47,22 @@ Running into issues? Find solutions here:
 	- [Known SPT Issues](/Known_SPT_Issues_40)
 	- [Known Mod Issues](/Known_Mod_Issues_40)
 - [50/50 Method](/5050-method): How to use the 50/50 Method to find the mod causing your issues.
-- [Reporting Issues](#) `WIP`: How to effectively ask for help.
+- [Reporting Issues](#)^WIP^: How to effectively ask for help.
 
 ## Guides & Advanced Topics
 
 - [Bot Difficulties](/Bot_Difficulties): Learn how SPT and mods handle bots' difficulty.
 - [SPT & Commando Bots](/SPT_and_Commando_Bots): How to use SPT & Commando bots in SPT.
-- [Configuration Files Explained](#) `WIP`: Learn how to tweak SPT settings.
-- [Profiles](#) `WIP`: Learn about user profiles.
-- [Guide Index](#) `WIP`: A list of all available guides and tutorials.
+- [Configuration Files Explained](#)^WIP^: Learn how to tweak SPT settings.
+- [Profiles](#)^WIP^: Learn about user profiles.
+- [Guide Index](#)^WIP^: A list of all available guides and tutorials.
 
 ## For Mod Developers
 
 Interested in creating your own content for SPT?
 
-- [Modding Introduction](#) `WIP`: Getting started with SPT mod development.
-- [Modding Tools](#) `WIP`: Useful software for creating mods.
+- [Modding Introduction](#)^WIP^: Getting started with SPT mod development.
+- [Modding Tools](#)^WIP^: Useful software for creating mods.
 - [Modding Resources](/Modding_Resources): Basic resources to start creating SPT mods.
 - [Client Modding Quick Guide](/Client_Modding_Quick_Guide): A basic guide on getting started with Client mods.
 
