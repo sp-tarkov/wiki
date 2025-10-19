@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-10-19T04:56:54.965Z
+date: 2025-10-19T04:57:56.838Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -131,6 +131,8 @@ The above will results in this:
 <div style='text-align: center;'>
 Example text.
 </div>
+
+Remember to add a `<br>` or a margin between the image and the caption.
 
 ## Text formatting
 The most subjective section. Use of bold and italicised text should still be standardised across the wiki.
