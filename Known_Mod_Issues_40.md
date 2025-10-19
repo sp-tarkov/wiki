@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-17T09:32:23.208Z
+date: 2025-10-19T08:52:22.951Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -27,3 +27,6 @@ If you're using the any custom preset from the Forge, try using one of the defau
 
 ## `Error handling request: /client/repeatalbeQuests/activityPeriods`, unable to launch profile
 Update [Quest Tweaks](<https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-tweaks>), and restore a backup of your profile from `[game folder]\SPT\user\profiles\backups`.
+
+## ``Error adding locale `ID` to en, duplicate key`` with [Skills Extended](<https://forge.sp-tarkov.com/mod/2383/skills-extended>)
+Harmless error which you can ignore.
