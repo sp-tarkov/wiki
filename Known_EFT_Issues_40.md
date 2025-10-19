@@ -2,7 +2,7 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-18T04:44:31.607Z
+date: 2025-10-19T04:47:08.792Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
@@ -44,3 +44,6 @@ If you have `Texture Quality` set to `High` or `Ultra`, try `Medium` or `Low`.
 
 ## When inspecting trader items `Compatible with available` is blank
 No known fix.
+
+## Transits to Labs or Labyrinth consume two keycards
+Only have one of the necessary items in your inventory when transiting to those locations.
