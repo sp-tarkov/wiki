@@ -2,7 +2,7 @@
 title: Profiles
 description: How profiles work in SPT.
 published: true
-date: 2025-10-18T15:34:19.945Z
+date: 2025-10-19T05:28:27.038Z
 tags: guide
 editor: markdown
 dateCreated: 2025-10-18T07:59:57.279Z
@@ -49,7 +49,7 @@ Nearly all mods can be added to an existing profile. However, **removing some mo
 
 If you removed a mod that broke your profile, SPT can try fixing it. **This is not guaranteed to work**. SPT will do the best it can to remove any item that's in your profile from the removed mod, but some mods make irreversible changes to your profile.
 
-1. Open `[game folder]\SPT\SPT_Data\Server\configs\core.json` in a text editor.
+1. Open `[game folder]\SPT\SPT_Data\Server\configs\core.json` in a text editor like Notepad.
 2. Set `removeModItemsFromProfile` from `false` to `true`.
 3. Set `removeInvalidTradersFromProfile` from `false` to `true`.
 4. Save your changes.
