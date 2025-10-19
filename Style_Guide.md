@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-10-18T07:48:38.529Z
+date: 2025-10-19T04:51:32.485Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -109,11 +109,11 @@ However, this will put the image directly next to the text with no space in-betw
 
 Here is an image without the use of `<br>`:
 
-<img src="/mod-install-v1.gif" alt="image title" width=200 style="display: block; margin: 0 auto;">
+<img src="/mod-install-v1.gif" alt="image title" width=200 style="display: block; margin: 0 left;">
 
 Notice how the top text is right against the image.
 <br>
-<img src="/mod-install-v1.gif" alt="image title" width=200 style="display: block; margin: 0 auto;">
+<img src="/mod-install-v1.gif" alt="image title" width=200 style="display: block; margin: 0 left;">
 
 And this image, with the use of `<br>` has space above between it and the text.
 
