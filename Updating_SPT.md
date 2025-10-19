@@ -2,7 +2,7 @@
 title: Updating SPT
 description: Learn how to update your SPT installation.
 published: true
-date: 2025-10-19T04:55:43.407Z
+date: 2025-10-19T11:26:39.022Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-09T12:01:16.553Z
@@ -45,7 +45,11 @@ Example of the compatibility section for SPT 3.11.3.
 
 ## Updating to a new hotfix patch
 
-1. Download the latest SPT files from the Direct Download section at the **bottom** of the [Release page](<https://github.com/sp-tarkov/build/releases/latest>) (requires [7zip](https://www.7-zip.org/)).
+> This method can only be used to update to a new hotfix patch. An update from ex. `3.11.4 > 4.0.0` requires a new install of SPT.
+{.is-warning}
+
+
+1. Download the SPT files from the Direct Download section at the **bottom** of the [Release page](https://github.com/sp-tarkov/build/releases) (requires [7zip](https://www.7-zip.org/)).
 <div style="margin-top: 10px;"></div>
 <img src="/direct_download.png" alt="Direct Download" width=400 style="display: block; margin: 0 auto;">
 
