@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-19T11:16:37.777Z
+date: 2025-10-19T11:17:43.786Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -11,11 +11,11 @@ dateCreated: 2025-10-10T12:57:31.380Z
 > This page applies to SPT version `4.0`
 {.is-info}
 
-- See the [Mod installation](/Installing_Mods) guide on how to install mods.
+- Read the [Mod installation](/Installing_Mods) page to see how to install mods.
 
-- Always read the mod pages of the mods you're installing.
+- **Always read the mod pages of the mods you're installing.**
 
-- Only install versions of mods made for your version of SPT.
+- **Only install versions of mods made for your version of SPT.**
 
 
 ## Mods for better AI
