@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-19T08:57:42.603Z
+date: 2025-10-20T16:17:55.887Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -30,3 +30,6 @@ Update [Quest Tweaks](<https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-twea
 
 ## ``Error adding locale `ID` to en, duplicate key``
 Harmless error which you can ignore.
+
+# See also
+[Frequently Asked Questions](/FAQs_40)
