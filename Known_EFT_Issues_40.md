@@ -2,7 +2,7 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-19T05:05:04.652Z
+date: 2025-10-20T16:18:52.705Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
@@ -48,3 +48,6 @@ No known fix.
 ## Transits to Labs or Labyrinth consume two keycards
 Only have one of the necessary items in your inventory when transiting to those locations.
 Alternatively, install [Gilded Key Storage](<https://forge.sp-tarkov.com/mod/865/gilded-key-storage>).
+
+# See also
+[Frequently Asked Questions](/FAQs_40)
