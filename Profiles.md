@@ -2,7 +2,7 @@
 title: Profiles
 description: How profiles work in SPT.
 published: true
-date: 2025-10-19T05:28:27.038Z
+date: 2025-10-20T11:19:09.302Z
 tags: guide
 editor: markdown
 dateCreated: 2025-10-18T07:59:57.279Z
@@ -10,9 +10,9 @@ dateCreated: 2025-10-18T07:59:57.279Z
 
 ## What are profiles?
 
-- In SPT, your profiles are your save files. They store all the information of your in-game character: items, quests, stats, hideout progress, skills etc. It does not contain your in-game or mod settings.
+- In SPT your profiles are your save files. They store all the information of your in-game character: items, quests, stats, hideout progress, skills etc. It does not contain your in-game or mod settings.
 
-- You can have as many profiles as you want of any edition as you want. There's no restrictions on either, as they are both stored locally on your PC and are only used by SPT. Each profile contains one in-game character.
+- You can have as many profiles as you want of any edition you want. There are no restrictions on either, as they are both stored locally on your PC and are only used by SPT. Each profile contains one in-game character.
 
 - You can name your profiles however you want. The name you choose while creating them is only what will be displayed in the SPT Launcher. It will not be your in-game username, as that is set during character creation.
 
@@ -26,7 +26,7 @@ Your profiles are stored in your `[game folder]\SPT\user\profiles` folder. They 
 <img src="/profiles/profile top.png" alt="profile" width=400 style="display: block; margin: 0 auto;">
 <div style="margin-top: 10px;"></div>
 <div style='text-align: center;'>
-The first few lines of the profile file.
+The first few lines of a profile file.
 </div>
 <br>
 
