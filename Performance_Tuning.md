@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-21T08:55:20.825Z
+date: 2025-10-21T08:56:47.026Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -37,9 +37,9 @@ Only CPUs with powerful single-threaded performance will improve your in-game FP
   - Less bots mean less demand on your system, but it will make raid feel "less alive" if lowered too much.
 
 ## Boot.config
-Editing your `boot.config` file might marginally help with performance. While no extensive testing has been done on its effectiveness, some report an improvement after tweaking them.
+Editing your `boot.config` might marginally help with performance. While no extensive testing has been done on its effectiveness, some report an improvement after tweaking them.
 
-Your `boot.config` file is located in `[game folder]\EscapeFromTarkov_Data` . You can edit it using Notepad or any text editor.
+Your `boot.config` file is located in `[game folder]\EscapeFromTarkov_Data` . You can edit it using a text editor like Notepad.
 By default, it contains this:
 
 ```
