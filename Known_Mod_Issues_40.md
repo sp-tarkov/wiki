@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-21T11:37:23.320Z
+date: 2025-10-21T13:02:58.126Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -33,6 +33,11 @@ Harmless error which you can ignore.
 
 ## `An item with the same key has already been added. Key: 62a09d3bcf4a99369e262447`
 Incompatiblity between [Expanded Task Text](<https://forge.sp-tarkov.com/mod/2389/expanded-task-text>) and [Gilded Key Storage](<https://forge.sp-tarkov.com/mod/865/gilded-key-storage>). Temporarily remove Gilded Key Storage, let Expanded Task Text load with the server once, then close the server and add Gilded Key Storage back in.
+
+## [Task Automation](<https://forge.sp-tarkov.com/mod/2238/task-automation>) stops working
+Remove [Expanded Task Text](<https://forge.sp-tarkov.com/mod/2389/expanded-task-text>).
+
+
 
 
 
