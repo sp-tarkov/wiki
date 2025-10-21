@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-20T16:17:55.887Z
+date: 2025-10-21T11:35:34.368Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -30,6 +30,14 @@ Update [Quest Tweaks](<https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-twea
 
 ## ``Error adding locale `ID` to en, duplicate key``
 Harmless error which you can ignore.
+
+## `An item with the same key has already been added. Key: 62a09d3bcf4a99369e262447`
+Incompatiblity between [Expanded Task Text](<https://forge.sp-tarkov.com/mod/2389/expanded-task-text>) and [Gilded Key Storage](<https://forge.sp-tarkov.com/mod/865/gilded-key-storage>). Remove Expanded Task Text.
+
+
+
+
+
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
