@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-21T08:33:33.851Z
+date: 2025-10-21T08:53:12.544Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -104,9 +104,20 @@ To manually set your pagefile:
 
 As stated in the introduction, the main performance impact on your game is bots. EFT does not efficiently utilise your system resources, using the same CPU thread to process bots and render your game. When you play an online raid in EFT, all bot processing happens on BSG's servers, letting your CPU "concentrate" on rendering the game.
 
-[Fika](https://forge.sp-tarkov.com/mod/2326/project-fika) allows you to host a raid on a different computer as the one you're playing on. This lets you recreate the conditions of a live EFT raid while still using SPT. It's also possible to host the raid on the same computer as the one you're playing on, letting one part of your CPU render the game, while another processes the bots.
-
 To set up a headless client, [follow this guide](https://project-fika.gitbook.io/wiki/advanced-features/headless-client).
+
+[Fika](https://forge.sp-tarkov.com/mod/2326/project-fika) allows you to host a raid on a different computer as the one you're playing on. This lets you recreate the conditions of a live EFT raid while still using SPT. 
+
+It's also possible to host the raid on the same computer as the one you're playing on, letting one part of your CPU render the game, while another processes the bots. You would need a tool like Process Lasso to force the client and the host onto different CPU cores.
+
+<div style="margin-top: 10px;"></div>
+<img src="/perf_tuning/processlasso_example.png" alt="image title" width=400 style="display: block; margin: 0 auto;">
+<div style="margin-top: 10px;"></div>
+<div style='text-align: center;'>
+Example of affinities in `Process Lasso > Options > CPU > CPU Affinities...` for a 6 core CPU. The client is assigned to the first 5 physical cores, while the server is assigned to the 6th physical core.
+</div>
+
+If your game is not processing the bots, SPT's performance becomes much closer to Live EFT. You should then become GPU bottlenecked, so your graphics will become the primary source of your performance.
 
 # See also
 [System Requirements](/system-requirements)
