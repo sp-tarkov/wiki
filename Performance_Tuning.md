@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-21T08:56:47.026Z
+date: 2025-10-21T10:42:41.348Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -99,7 +99,7 @@ To manually set your pagefile:
 > This is an advanced setup requiring technical knowledge and an understanding of how SPT works.
 {.is-warning}
 
-> While Project Fika is a mod available on the Forge, we do not offer support with it installed. If you wish to receive support for Fika, you must seek support from Fika's [Discord server](https://discord.gg/project-fika).
+> While Project Fika is a mod available on the Forge, we do not offer support with it installed. If you wish to receive support while you are using Fika, you must seek support from Fika's [Discord server](https://discord.gg/project-fika). 
 {.is-warning}
 
 As stated in the introduction, the main performance impact on your game is bots. EFT does not efficiently utilise your system resources, using the same CPU thread to process bots and render your game. When you play an online raid in EFT, all bot processing happens on BSG's servers, letting your CPU "concentrate" on rendering the game. If your game is not processing the bots, SPT's performance becomes much closer to Live EFT. You should then become GPU bottlenecked, so your graphics will become the primary source of your performance.
