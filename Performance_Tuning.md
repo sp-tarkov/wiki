@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-21T14:42:23.644Z
+date: 2025-10-21T14:49:05.091Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -106,7 +106,12 @@ As stated in the introduction, the main performance impact on your game is bots.
 
 [Fika](https://forge.sp-tarkov.com/mod/2326/project-fika) allows you to host a raid on a different computer as the one you're playing on. This lets you recreate the conditions of a live EFT raid while still using SPT. To set up a headless client, [follow this guide](https://project-fika.gitbook.io/wiki/advanced-features/headless-client).
 
-It's also possible to host the raid on the same computer as the one you're playing on, letting one part of your CPU render the game, while another processes the bots. You could further use a program like Process Lasso to manually delegeate your CPU cores if you are an advanced user, but it's not necessary.
+
+It's also possible to host the raid on the same computer as the one you're playing on, letting one part of your CPU render the game, while another processes the bots. You could further use a program like Process Lasso to manually delegeate your CPU cores if you are an advanced user, but it's not necessary. Please note that **support from Project Fika is limited if you choose to run the headless client on the same PC where you are playing SPT**. This is not the officially supported configuration and may lead to:
+- Performance degradation.
+- Increased incidence of crashes.
+- Significant increase in page file usage.
+- General instability that may adversely affect the entire PC or operating system.
 
 # See also
 [System Requirements](/system-requirements)
