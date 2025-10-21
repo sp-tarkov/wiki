@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-21T08:53:28.385Z
+date: 2025-10-21T08:53:44.736Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -112,9 +112,8 @@ It's also possible to host the raid on the same computer as the one you're playi
 
 <div style="margin-top: 10px;"></div>
 <img src="/perf_tuning/processlasso_example.png" alt="image title" width=400 style="display: block; margin: 0 auto;">
-<div style="margin-top: 10px;"></div>
 <div style='text-align: center;'>
-  
+
 Example of affinities in `Process Lasso > Options > CPU > CPU Affinities...` for a 6 core CPU. The client is assigned to the first 5 physical cores, while the server is assigned to the 6th physical core.
 </div>
 
