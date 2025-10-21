@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-20T19:31:40.928Z
+date: 2025-10-21T08:33:33.851Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -19,7 +19,6 @@ Only CPUs with powerful single-threaded performance will improve your in-game FP
 
 ## Optimisations
 - Use [Waypoints](https://forge.sp-tarkov.com/mod/827/waypoints-expanded-navmesh)^3.11^ to optimise AI pathfinding.
-- Use [RAM Cleaner Fix](https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix) to prevent crashes from overfilled memory.
 - Use [VRAM Cleaner](https://forge.sp-tarkov.com/mod/2173/vram-cleaner)^3.11^ to free up VRAM usage of your GPU.
 - Use [Remove The Dead](https://forge.sp-tarkov.com/mod/1551/remove-the-dead) to clean bodies from the map.
 - If using [Dynamic Maps](https://forge.sp-tarkov.com/mod/1431/dynamic-maps) disable the minimap.
@@ -66,11 +65,12 @@ You can easily check how many threads your CPU has by pressing <kbd>Ctrl</kbd> +
 Finally, in the in-game menu, enable `Only use physical cores` in the `GAME` tab.
 
 ## Pagefile
-EFT extensively uses your pagefile, which is a cache for programs to use alongside your RAM. It's unlikely you will encounter issues with it being overfilled, which will lead to crashes, if you have at least the recommended amount of RAM per [System Requirements](/system-requirements).
+> This section only applies if don't have the [recommended amount of RAM](/system-requirements) and are experiencing crashes. It can lead to system issues.
+{.is-danger}
 
-If you're under those requirements, or have a heavily modded game and are experiencing random crashing, manually increasing your pagefile might alleviate them.
+The pagefile in Windows is used as "storage" for your RAM. If your RAM is filling up, Windows will start moving files to and from it. Even an SSD will be much slower than RAM, hence why it's used sparingly. Windows should automatically increase it as required. However, system issues can cause this process to fail, which will lead to your game crashing. Manually setting its size can help in those cases.
 
-To manually increase your pagefile:
+To manually set your pagefile:
 
 1. Press <kbd>Win</kbd> and search for "View advanced system settings" and open the link. 
 2. Under `Performance`, go into `Settings`, then the `Advanced` tab.
@@ -79,14 +79,12 @@ To manually increase your pagefile:
 
 | Your amount of RAM | Initial Size (MB) | Maximum Size (MB) |
 |---|---|---|
-| 16 GB | 24000 | 32000 |
-| 32 GB | 48000 | 64000 |
-| 64 GB | 64000 | 96000 |
+| 16 GB | 24000 | 48000 |
+
 
 5. Press `Set` then `OK`.
 
-> You should still use the [RAM Cleaner Fix](<https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix>) even with an increased pagefile.
-{.is-info}
+[RAM Cleaner Fix](<https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix>) forces the game to utilise the pagefile. If you're still crashing after manually setting your pagefile, try installing it.
 
 ## Further tweaks
 - You will see minor improvements by changing your graphic settings. Follow any graphics guide for EFT.
