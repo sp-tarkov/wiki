@@ -2,7 +2,7 @@
 title: Manual Install Instructions
 description: 
 published: true
-date: 2025-10-21T23:42:29.093Z
+date: 2025-10-22T00:51:55.951Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-21T23:42:29.093Z
@@ -22,9 +22,10 @@ You should really [use the installer](https://hub.sp-tarkov.com/files/file/672-s
     - Make sure to use the tool [7Zip](https://www.7-zip.org/) to extract this archive, the built-in Windows tool will not work correctly.
 5. Download the SPT release archive under the `Direct Download` section of the latest [release page](https://github.com/sp-tarkov/build/releases/latest).
 6. Extract the contents of the SPT release archive into your `SPTxxx` folder.
-7. Open your `SPTxxx` folder
+7. Open your `SPTxxx` folder, then the nested `SPT` folder inside of it
 8. Run `SPT.Server.exe` and wait for it to start. `Server has started` in green will appear when it has finished loading.
 9. Start `SPT.Launcher.exe`
+    - You can create shortcuts for these two programs and move the shortcuts to the parent `SPTxxx` directory to make future launching easier
 10. Enter any username into the username box (NOT the same details as your live account)
 11. Click `Login` and choose the edition you want (EoD, Standard, Easy Start, etc...)
 12. Click `Start Game`
