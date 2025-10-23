@@ -2,7 +2,7 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2025-10-18T08:03:41.601Z
+date: 2025-10-23T08:51:31.315Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -45,14 +45,7 @@ Nearly all mods can be added to an existing profile. However, **removing some mo
 
 If you removed a mod that broke your profile, SPT can try fixing it. **This is not guaranteed to work**. SPT will do the best it can to remove any item that's in your profile from the removed mod, but some mods make irreversible changes to your profile.
 
-1. Open `[game folder]\SPT\SPT_Data\Server\configs\core.json` in a text editor.
-2. Set `removeModItemsFromProfile` from `false` to `true`.
-3. Set `removeInvalidTradersFromProfile` from `false` to `true`.
-4. Save your changes.
-5. Launch SPT.
-
-> The above should be viewed as a "last resort" solution. Even a profile "fixed" by this method can exhibit issues like random crashing, bots not spawning, and some maps being unloadable.
-{.is-info}
+For instructions, see the [Mods](https://wiki.sp-tarkov.com/Profiles#mods) section on the [Profiles](/profiles) page.
 
 ## Updating mods
 
