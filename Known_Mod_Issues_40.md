@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-21T15:34:02.327Z
+date: 2025-10-23T08:46:12.327Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -26,7 +26,7 @@ If enabled, turn off `Practice Mode` in [SVM](<https://forge.sp-tarkov.com/mod/2
 If you're using the any custom preset from the Forge, try using one of the default presets instead.
 
 ## `Error handling request: /client/repeatalbeQuests/activityPeriods`, unable to launch profile
-Update [Quest Tweaks](<https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-tweaks>), and restore a backup of your profile from `[game folder]\SPT\user\profiles\backups`.
+Update [Quest Tweaks](<https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-tweaks>), and restore a backup of your profile per the [Backups](<https://wiki.sp-tarkov.com/Profiles#backups>) section.
 
 ## ``Error adding locale `ID` to en, duplicate key``
 Harmless error which you can ignore.
@@ -37,7 +37,8 @@ Update [Gilded Key Storage](<https://forge.sp-tarkov.com/mod/865/gilded-key-stor
 ## [Task Automation](<https://forge.sp-tarkov.com/mod/2238/task-automation>) stops working
 Remove [Expanded Task Text](<https://forge.sp-tarkov.com/mod/2389/expanded-task-text>).
 
-
+## `ReflectionTypeLoadException` error while [UnityToolkit](<https://forge.sp-tarkov.com/mod/1426/unitytoolkit>) is installed
+Delete `[game folder]\BepInEx\patchers\FixPluginTypeSerialization` folder.
 
 
 
