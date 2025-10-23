@@ -2,7 +2,7 @@
 title: Uninstalling Mods
 description: A guide on uninstalling SPT mods.
 published: true
-date: 2025-10-18T08:04:33.974Z
+date: 2025-10-23T08:52:06.583Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-09-25T10:46:32.773Z
@@ -24,17 +24,9 @@ dateCreated: 2025-09-25T10:46:32.773Z
 
 Nearly all mods can be added to an existing profile. However, **removing some mods might be impossible without making a new profile**. Mods that add new traders, quests, or items fall under that category. Always **read the modpage**, as the author should specify if a mod is unsafe to remove from a profile.
 
-If you removed a mod that broke your profile, SPT can try fixing it. **This is not guaranteed to work**. SPT will do the best it can to remove any item that's in your profile from the removed mod, but some mods make irreversible changes to your profile. The guaranteed fix is to reinstall the mod you removed, or start a new profile.
+If you removed a mod that broke your profile, SPT can try fixing it. **This is not guaranteed to work**. SPT will do the best it can to remove any item that's in your profile from the removed mod, but some mods make irreversible changes to your profile.
 
-1. Close your game, launcher, and server.
-2. Make a copy of your profile from `[game folder]\SPT\user\profiles` to somewhere safe.
-3. Open `[game folder]\SPT\SPT_Data\Server\configs\core.json` in a text editor like Notepad.
-4. Change `removeModItemsFromProfile` from `false` to `true` .
-5. Change `removeInvalidTradersFromProfile` from `false` to `true` .
-6. Save the file and launch your game.
-
-> The above should be viewed as a "last resort" solution. Even a profile "fixed" by this method can exhibit issues like random crashing, bots not spawning, and some maps being unloadable.
-{.is-info}
+For instructions, see the [Mods](https://wiki.sp-tarkov.com/Profiles#mods) section on the [Profiles](/profiles) page.
 
 # See also
 [50/50 Method](/5050-method)
