@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-21T14:49:05.091Z
+date: 2025-10-23T06:32:54.023Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -25,6 +25,7 @@ Only CPUs with powerful single-threaded performance will improve your in-game FP
 - Set vaulting from `Auto` to `Press` in the in-game settings.
 - Disable `Nvidia Reflex` in the graphics settings.
 - Disable `V-Sync` in the graphics settings.
+- Set your texture quality to `Low` or `Medium`.
 - Use `Low texture mode for Streets` to further minimise memory usage.
 - If you're using [Vulkan](https://en.wikipedia.org/wiki/Vulkan) on Windows, do not use the `Unheard` menu background.
   - It's not an issue on Linux.
