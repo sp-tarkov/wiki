@@ -2,7 +2,7 @@
 title: Manual Install Instructions
 description: 
 published: true
-date: 2025-10-24T13:48:00.128Z
+date: 2025-10-24T13:48:27.397Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-21T23:42:29.093Z
@@ -13,9 +13,7 @@ dateCreated: 2025-10-21T23:42:29.093Z
 
 It's always preferable to use the [SPT Installer](/Installation_Guide) instead of manually updating. If you run into issues with it join our [Discord Server](http://discord.sp-tarkov.com/) and ask for support in the [`#spt-support`](https://discord.com/channels/875684761291599922/1172730102119944222) channel.
 
-## What you need to do before you install Single Player Tarkov
-Verify that your Escape From Tarkov is fully up-to-date, through the BSG Launcher.
-SPT requires that your EFT is on the latest version. This is so the downpatcher can copy your EFT files and patch them down to the same EFT client version that SPT runs on.
+## What you need to do before you manually install Single Player Tarkov
 
 Verify that your Escape From Tarkov works, and that you can load up to at least the main menu or stash.
 This is particularly important if you have just installed Escape From Tarkov so all necessary files can be generated.
