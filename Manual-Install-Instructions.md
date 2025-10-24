@@ -2,7 +2,7 @@
 title: Manual Install Instructions
 description: 
 published: true
-date: 2025-10-24T14:06:45.126Z
+date: 2025-10-24T14:08:07.458Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-21T23:42:29.093Z
@@ -48,10 +48,7 @@ Below you can find some common issues that users encounter when installing or fi
 
 <details>
 <summary>SPT Server crashing instantly or not opening up at all?</summary>
-Install both of the below .NET programs. If it states that they are already installed, then use the repair option. Restart your system after.
-  
-[Runtime 9.0.9](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-9.0.9-windows-x64-installer)
-[ASP.NET 9.0.9](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.9-windows-x64-installer)
+See the solution [here](https://wiki.sp-tarkov.com/Known_SPT_Issues_40#server-doesnt-launch-or-closes-immediately).
 
 </details>
 
