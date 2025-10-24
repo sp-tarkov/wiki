@@ -2,7 +2,7 @@
 title: Manual Install Instructions
 description: 
 published: true
-date: 2025-10-24T14:08:07.458Z
+date: 2025-10-24T14:08:59.982Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-21T23:42:29.093Z
@@ -48,6 +48,7 @@ Below you can find some common issues that users encounter when installing or fi
 
 <details>
 <summary>SPT Server crashing instantly or not opening up at all?</summary>
+  
 See the solution [here](https://wiki.sp-tarkov.com/Known_SPT_Issues_40#server-doesnt-launch-or-closes-immediately).
 
 </details>
