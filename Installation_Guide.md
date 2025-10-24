@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-10-14T23:47:08.074Z
+date: 2025-10-24T14:11:06.361Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -56,12 +56,11 @@ Below you can find some common issues that users encounter when installing or fi
 
 <details>
 <summary>SPT Server crashing instantly or not opening up at all?</summary>
-Install both of the below .NET programs. If it states that they are already installed, then use the repair option. Restart your system after.
   
-[Runtime 9.0.9](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-9.0.9-windows-x64-installer)
-[ASP.NET 9.0.9](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.9-windows-x64-installer)
+See the solution [here](https://wiki.sp-tarkov.com/Known_SPT_Issues_40#server-doesnt-launch-or-closes-immediately).
 
 </details>
+
 
 <details>
 <summary>The application had a critical error and failed to run "Watermark" error.</summary>
