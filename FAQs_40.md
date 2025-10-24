@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-18T04:43:54.700Z
+date: 2025-10-24T14:18:08.037Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -28,11 +28,13 @@ Version `0.16.9.0.40087`, released 2 October 2025.
 ### Is (insert content here) in SPT now?
 Refer to the previous question. If you're curious about something specific, please see the official [Tarkov changelog](<https://escapefromtarkov.fandom.com/wiki/Changelog>).
 
-### Is Labyrinth in SPT?
+### Is Labyrinth in 4.0?
 Yes.
+<https://escapefromtarkov.fandom.com/wiki/The_Labyrinth>
 
-### Is the Softcore wipe in SPT?
-No. The Softcore wipe only made changes to the PVP mode. SPT is based off the PVE mode. You can easily recreate it using mods.
+### Is the Softcore/Hardcore wipe in SPT? 
+No. The hardcore wipe only made changes to the PVP mode. SPT `4.0` is using EFT version `0.16.9.0.40087` which came before the softcore wipe changes were added to PVE.
+You can easily recreate either using mods.
 
 ### Will 4.0 be updated to include the latest EFT patches?
 No. EFT patches made after the release of SPT 4.0 will only be available in SPT 4.1.
@@ -61,7 +63,7 @@ If none of that helps, then it's time to create a support ticket. Join our [Disc
 # Old versions of SPT
 We currently host two version of SPT: version `4.0`, using EFT version `0.16.9.0.40087`, released `2 October 2025` and a Long Term Distribution version of SPT: version `3.11.4` released `1 September 2025`, using EFT version `0.16.1.3.35392` released `5 March 2025`.
 
-While you can install version `4.0` using the [SPT Installer](<https://forge.sp-tarkov.com/installer>), installing `3.11.4` can only be done manually by following [this guide](<https://github.com/sp-tarkov/build/wiki/3.11-Manual-Installation-Instructions>). We do not offer support for `3.11.4`.
+While you can install version `4.0` using the [SPT Installer](<https://forge.sp-tarkov.com/installer>), installing `3.11.4` can only be done manually by following [this guide](/SPT_311/Manual-Installation-Instructions_311). We do not offer support for `3.11.4`.
 
 We do not host older versions of SPT because each SPT version is specifically designed to work with a particular version of EFT. Since EFT is a live service game that receives frequent updates, every SPT version requires a dedicated patcher to downgrade your local EFT installation to the compatible version. Maintaining multiple older SPT versions would necessitate actively maintaining multiple downgrade patchers, which includes updating these patchers after each and every EFT update. Our team simply does not have the time to dedicate to this level of ongoing maintenance.
 
