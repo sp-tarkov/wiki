@@ -2,7 +2,7 @@
 title: Manual Install Instructions
 description: 
 published: true
-date: 2025-10-24T13:48:27.397Z
+date: 2025-10-24T14:06:45.126Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-21T23:42:29.093Z
@@ -47,15 +47,6 @@ Once you have completed the above, you can now play SPT and install mods found o
 Below you can find some common issues that users encounter when installing or first starting SPT, along with the solution to fixing it. If your issue is not listed then join our [Discord Server](http://discord.sp-tarkov.com/) and ask in the [`#spt-support`](https://discord.com/channels/875684761291599922/1172730102119944222) channel.
 
 <details>
-<summary>Could not find a downgrade patcher for the version of EFT you have installed.</summary>
-
-<img src="/installernewpatch.png" style="border: 2px solid grey;" alt="Patcher Error">
-
-  There is a new EFT update and either the SPT Development Team needs to update the downpatcher or you have not updated your EFT via the BSG Launcher.
-
-</details>
-
-<details>
 <summary>SPT Server crashing instantly or not opening up at all?</summary>
 Install both of the below .NET programs. If it states that they are already installed, then use the repair option. Restart your system after.
   
@@ -70,7 +61,7 @@ Install both of the below .NET programs. If it states that they are already inst
 <img src="/failedshortcuts.png" style="border: 2px solid grey;" alt="Watermark Error">
 
 This happens because you have moved the `SPT.Server` and/or the `SPT.Launcher`, out of your `[game folder]\SPT` folder. 
-You will need to move these back into your `[game folder]\SPT` folder and create desktop shortcuts of these. You can do this by right-clicking the executables and then Send To > Desktop (Shortcut). The shortcuts to the two are made by the installer automatically, which you can find in the root folder of your SPT install.
+You will need to move these back into your `[game folder]\SPT` folder and create desktop shortcuts of these. You can do this by right-clicking the executables and then `Send To > Desktop (create shortcut)`.
 </details>
 
 ## Old mods and profiles
