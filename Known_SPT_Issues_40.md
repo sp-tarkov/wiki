@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-20T16:18:37.571Z
+date: 2025-10-24T14:46:19.445Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -53,7 +53,7 @@ Remove any trailing symbols from your Computer's name (e.g.: `My-PC-` > `My-PC`)
 Note that [Client mods](/Mod_Types) won't show up in the SPT Server nor Launcher.
 
 ## There are little to no PMCs in my Scav runs
-[Update your SPT.](/Updating_SPT)
+[Update your SPT](<https://wiki.sp-tarkov.com/Updating_SPT>), and make sure you don't have an extended raid timer, as EFT's spawning system tends to break with them.
 
 ## Server doesn't launch or closes immediately
 Install **BOTH** of the below. If it tells you that you already have them installed, then use the repair option. Restart your PC after. 
