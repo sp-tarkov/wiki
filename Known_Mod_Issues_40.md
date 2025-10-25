@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-25T20:13:51.754Z
+date: 2025-10-25T21:49:12.670Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -41,8 +41,7 @@ Remove [Expanded Task Text](<https://forge.sp-tarkov.com/mod/2389/expanded-task-
 Delete `[game folder]\BepInEx\patchers\FixPluginTypeSerialization` folder.
 
 ## No Hideout crafts when using [Skills Extended](<https://forge.sp-tarkov.com/mod/2383/skills-extended>) and [UI Fixes](<https://forge.sp-tarkov.com/mod/1342/ui-fixes>) when not using English locale
-Issue with Skills Extended. If you want to change your locales, open `[game folder]\SPT\SPT_Data\Server\configs\locale.json` in a text editor like Notepad, and change `gameLocale` & `serverLocale` to `en`. Note that this is the only file we recommend manually editing, and only those two values.
-
+Issue with Skills Extended. Update it. If it's still doing it, and you want to change your locales, open `[game folder]\SPT\SPT_Data\Server\configs\locale.json` in a text editor like Notepad, and change `gameLocale` & `serverLocale` to `en`. Note that this is the only file we recommend manually editing, and only those two values.
 
 
 
