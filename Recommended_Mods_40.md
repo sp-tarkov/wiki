@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-21T09:05:18.133Z
+date: 2025-10-25T20:38:30.727Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -35,6 +35,9 @@ You should only have **one** bot spawning mod installed to avoid issues.
 
 ## Mods for better bot progression
 
+[Andern](<https://forge.sp-tarkov.com/mod/1064/andern>)^*^
+
+^*^Ander contains more features than just bot progression. Read its mod page for all its features.
 
 You should only have **one** bot progression mod installed to avoid issues.
 
@@ -44,7 +47,7 @@ You should only have **one** bot progression mod installed to avoid issues.
 [HollywoodFX](https://forge.sp-tarkov.com/mod/2003/hollywoodfx)
 
 - HUD
-
+*N/A*
 
 ## Mods for better quality of life
 
