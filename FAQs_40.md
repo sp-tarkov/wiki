@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-25T22:15:00.993Z
+date: 2025-10-25T22:22:23.370Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -41,7 +41,7 @@ No. EFT patches made after the release of SPT 4.0 will only be available in SPT 
 
 ### Is performance better in `4.0` than in `3.11`?
 Short answer: A bit.
-Long answer: BSG optimised culling on several maps, and alongside other changes, did somewhat improve performance between EFT `0.16.1.3.35392` and `0.16.9.0.40087`. It's most noticeable if your SPT is GPU limited. The [Performance Tuning](/Performance_Tuning) guide is still relevant even on `4.0`.
+Long answer: BSG optimised culling on several maps, and alongside other changes, did somewhat improve performance between EFT `0.16.1.3.35392` and `0.16.9.0.40087`. It's most noticeable if your SPT is GPU limited and will vary. The [Performance Tuning](/Performance_Tuning) guide is still relevant even on `4.0`.
 
 ### Can I use my profile and mods from 3.11?
 ***If*** the `3.11` profile was ***un-modded***, yes. Otherwise A new profile will be required. None of your `3.11` mods are compatible.
