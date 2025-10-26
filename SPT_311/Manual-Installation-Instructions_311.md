@@ -2,7 +2,7 @@
 title: Manual Installation Instructions for SPT 3.11
 description: 
 published: true
-date: 2025-10-26T16:32:18.343Z
+date: 2025-10-26T16:32:39.373Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T18:56:40.239Z
@@ -42,7 +42,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
 10. Click `Start Game` and load into the main menu.
 
 Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/). 
-Make sure to download the 3.11 versions of mods. You can see old version of mods in the `Versions` tab on their mod pages.
+Make sure to download the `3.11` versions of mods. You can see old version of mods in the `Versions` tab on their mod pages.
 
 ## Common Installation and Start-up Issues
 Below you can find some common issues that users encounter when installing or first starting SPT, along with the solution to fixing it. If your issue is not listed then join our [Discord Server](http://discord.sp-tarkov.com/) and ask in the [`#support-3-11`](https://discord.com/channels/875684761291599922/1172730102119944222) channel.
