@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-25T20:38:30.727Z
+date: 2025-10-26T14:04:32.292Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -29,7 +29,7 @@ See [Performance Tuning](/Performance_Tuning) for further information.
 
 ## Mods for better bot spawns
 
-[Unda](https://forge.sp-tarkov.com/mod/1173/unda)
+Use the `Pre-Raid Settings` to control your bot amount. You can use [SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm) to select which setting will be used by default instead of `As in Online`.
 
 You should only have **one** bot spawning mod installed to avoid issues.
 
