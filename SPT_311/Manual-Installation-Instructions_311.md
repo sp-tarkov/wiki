@@ -2,7 +2,7 @@
 title: Manual Installation Instructions for SPT 3.11
 description: 
 published: true
-date: 2025-10-24T14:06:46.443Z
+date: 2025-10-26T16:32:18.343Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T18:56:40.239Z
@@ -23,12 +23,12 @@ This is particularly important if you have just installed Escape From Tarkov so 
 1. You will need to download a patcher to downgrade your game files. 
 	- Each version of SPT requires a specific version of EFT. `SPT 3.11.4` requires `EFT 16.1.3.35392`. The following downgrade is currently available:
 	- [](PATCHER)[16.9.5.40743 to 16.1.3.35392](https://spt-legacy.modd.in/Patcher_16.9.5.40743_to_16.1.3.35392.7z)
+  - If live is newer than the above downgrade patch, **please wait**, a new downgrade patch will be created eventually.
 2. Create a new folder for SPT. A good location would be `C:\Games\SPT 3.11`.
 3. Copy the content of your live Escape From Tarkov game folder into your `SPT` folder.
 	- **DON'T** delete the original EFT installation to save space, it must remain in the original install location for SPT to function.
 4. Extract the contents of the downgrade patcher into your `SPT 3.11` folder, and run `patcher.exe`.
 	- Make sure to use the tool [7Zip](https://www.7-zip.org/) to do this.
-	- If live is newer than the above downgrade patch, **please wait**, a new downgrade patch will be created eventually.
 5. Download the [`SPT 3.11.4` release archive](https://github.com/sp-tarkov/build/releases/download/3.11.4/SPT-3.11.4-35392-96e5b73.7z).
 6. Extract the contents of the SPT release archive into your `SPT 3.11` folder.
 7. Open your `SPT 3.11` folder.
