@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-25T22:22:23.370Z
+date: 2025-10-26T16:47:01.946Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -53,6 +53,12 @@ See [this guide](https://github.com/sp-tarkov/build/wiki/3.11-Manual-Installatio
 
 ### When is (insert mod here) going to update to 4.0?
 Nobody knows when certain mods are going to update, not even the authors themselves. Do not pester mod authors about updates to their mods.
+
+## Will a mod marked compatible for `4.0.0` work on future versions of `4.0`?
+It should. Mods known to be incompatible with be stated in the `Mod compatibility` section of SPT's [Release page](<https://github.com/sp-tarkov/build/releases/latest>). 
+Mods discovered to not work will also be noted in <#1424144572858110052>.
+For an explanation of how SPT versions, read through the [Version numbers](<https://wiki.sp-tarkov.com/Updating_SPT#version-numbers>) section on the Wiki.
+
 
 # Troubleshooting tips
 - Do not install mods until you've launched SPT at least once. Verify your SPT install works, then install mods.
