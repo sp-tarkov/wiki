@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-26T14:04:32.292Z
+date: 2025-10-28T02:09:51.399Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -29,15 +29,13 @@ See [Performance Tuning](/Performance_Tuning) for further information.
 
 ## Mods for better bot spawns
 
-Use the `Pre-Raid Settings` to control your bot amount. You can use [SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm) to select which setting will be used by default instead of `As in Online`.
+[Acid's Bot Placement System](https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system)
 
 You should only have **one** bot spawning mod installed to avoid issues.
 
 ## Mods for better bot progression
 
-[Andern](<https://forge.sp-tarkov.com/mod/1064/andern>)^*^
-
-^*^Ander contains more features than just bot progression. Read its mod page for all its features.
+[Acid's Progressive Bot System](https://forge.sp-tarkov.com/mod/1594/apbs-acids-progressive-bot-system)
 
 You should only have **one** bot progression mod installed to avoid issues.
 
