@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-26T21:43:23.480Z
+date: 2025-10-28T14:54:46.649Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -59,6 +59,12 @@ It should. Mods known to be incompatible with be stated in the `Mod compatibilit
 Mods discovered to not work will also be noted in <#1424144572858110052>.
 For an explanation of how SPT versions work and how to update your SPT, read through the [Updating SPT](/Updating_SPT) page.
 
+## 4.0 Halloween Event
+The Infected Halloween event is enabled by default in 4.0. It runs from the 28th October to the 9th November.
+You can see the maps infection level on the pre-raid screen.
+
+If you do not see any infected spawning, then your bot spawn mod may need to be configured to allow them to spawn. *If there is no option, then that mod most likely has no way to handle infected spawns.*
+If you do not see the infection level, or do not have the event tasks, then try disabling the events option in SVM.
 
 # Troubleshooting tips
 - Do not install mods until you've launched SPT at least once. Verify your SPT install works, then install mods.
