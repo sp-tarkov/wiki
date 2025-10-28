@@ -2,7 +2,7 @@
 title: Updating SPT
 description: Learn how to update your SPT installation.
 published: true
-date: 2025-10-19T11:27:43.942Z
+date: 2025-10-28T00:09:42.214Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-09T12:01:16.553Z
@@ -35,7 +35,7 @@ SPT follows the [Semantic Versioning](https://semver.org/) schema for its versio
 - Old profiles **will work**
 - **Can be used to update your SPT if it's on the same Minor version**
 
-You can always check if a hotfix patch will be compatible with your installed mods on the [Release page](<https://github.com/sp-tarkov/build/releases/latest>):
+You can always check if a hotfix patch will be compatible with your installed mods on the [Release page](<https://github.com/sp-tarkov/build/releases>):
 &nbsp;
 <img src="/patch_compat.png" alt="Direct Download" width=400 style="display: block; margin: 0 auto;">
 <div style="margin-top: 10px;"></div>
