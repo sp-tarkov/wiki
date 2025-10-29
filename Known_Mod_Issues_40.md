@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-27T22:09:13.994Z
+date: 2025-10-29T02:33:26.956Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -45,6 +45,11 @@ Issue with Skills Extended. Update it. If it's still doing it, and you want to c
 
 ## Empty flea with `404 not found` errors
 If enabled, disable `Purchased items are marked as "Found in Raid"` in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
+
+## `Disable ongoing events` doesn't work in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
+Update [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
+
+
 
 
 
