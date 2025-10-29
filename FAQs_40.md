@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-29T02:34:18.779Z
+date: 2025-10-29T15:31:00.397Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -60,13 +60,15 @@ Mods discovered to not work will also be noted in <#1424144572858110052>.
 For an explanation of how SPT versions work and how to update your SPT, read through the [Updating SPT](/Updating_SPT) page.
 
 ### Halloween Event
-The Infected Halloween event is enabled by default in SPT  `4.0`. It runs from the 28th October to the 9th November.
-You can see the maps infection level on the pre-raid screen.
+The Infected Halloween event is enabled by default in SPT  `4.0`. It runs from the 28th October to the 9th November. You can see the maps infection level on the pre-raid screen.
 
 If you do not see any infected spawning, then your bot spawn mod may need to be configured to allow them to spawn. *If there is no option, then that mod most likely has no way to handle infected spawns.*
 If you do not see the infection level, or do not have the event tasks, then try disabling the Halloween settings in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>)'s `Raid Settings > Events`.
 
 If instead you'd want to disable just zombies, enable `Raid Settings > Events > Disable zombies` in SVM. To disable Halloween completely, enable `Raid Settings > Events > Disable ongoing events`.
+
+Note that zombies break SAIN's AI.
+
 
 # Troubleshooting tips
 - Do not install mods until you've launched SPT at least once. Verify your SPT install works, then install mods.
