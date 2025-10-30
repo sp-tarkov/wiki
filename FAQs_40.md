@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-30T18:04:25.906Z
+date: 2025-10-30T18:15:50.412Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -69,7 +69,6 @@ SPT uses last year's zombie system, which has several issues:
 - Disabling bosses will also disable zombies. This will be fixed in SPT `4.0.3`.
 - [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) is incompatible with zombies. It causes zombies to be unable to melee, and scavs to be stuck in a slide-crouch loop.
   - Enabling `Vanilla Scavs` in `Home > General > Vanilla Bot Behaviour Settings` will prevent the slide-crouch loop, but will not fix zombies' melee.
-  - Make sure to not have `Disable ceasefire` enabled in SVM if you decide to disable zombies/Halloween.
 - Having [ABPS](<https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system>) installed will prevent zombies from spawning.
 
 If you want to play with zombies, it's recommended to disable the ceasefire in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>) by enabling `Raid Settings > Events > Disable ceasefire`.
