@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-30T18:15:50.412Z
+date: 2025-10-30T18:17:31.338Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -12,49 +12,49 @@ dateCreated: 2025-10-10T12:23:08.957Z
 {.is-info}
 
 # SPT 4.0
-### Why are there so many files in the new `\SPT` folder?
+## Why are there so many files in the new `\SPT` folder?
 To allow modders to use method patching, all the DLLs need to be 'loose' and not stored inside the server executable.
 
-### Why are `SPT.Launcher` and `SPT.Server` shortcuts?
+## Why are `SPT.Launcher` and `SPT.Server` shortcuts?
 As part of the restructuring explained above.
 The actual exe files are in your `[game folder]\SPT` folder, and the installer creates shortcuts in your `[game folder]` for your convenience.
 
-### Where is my `user` folder?
+## Where is my `user` folder?
 Also in `[game folder]\SPT`.
 
-### What version of Tarkov is SPT running?
+## What version of Tarkov is SPT running?
 Version `0.16.9.0.40087`, released 2 October 2025.
 
-### Is (insert content here) in SPT now?
+## Is (insert content here) in SPT now?
 Refer to the previous question. If you're curious about something specific, please see the official [Tarkov changelog](<https://escapefromtarkov.fandom.com/wiki/Changelog>).
 
-### Is Labyrinth in `4.0`?
+## Is Labyrinth in `4.0`?
 Yes.
 <https://escapefromtarkov.fandom.com/wiki/The_Labyrinth>
 
-### Is the Softcore/Hardcore wipe in SPT? 
+## Is the Softcore/Hardcore wipe in SPT? 
 No. The hardcore wipe only made changes to the PVP mode. SPT `4.0` is using EFT version `0.16.9.0.40087` which came before the softcore wipe changes were added to PVE.
 You can easily recreate either using mods.
 
-### Will `4.0` be updated to include the latest EFT patches?
+## Will `4.0` be updated to include the latest EFT patches?
 No. EFT patches made after the release of SPT `4.0` will only be available in SPT `4.1`.
 
-### Is performance better in `4.0` than in `3.11`?
+## Is performance better in `4.0` than in `3.11`?
 Short answer: A bit.
 Long answer: BSG optimised culling on several maps, and alongside other changes, did somewhat improve performance between EFT `0.16.1.3.35392` and `0.16.9.0.40087`. It's most noticeable if your SPT is GPU limited and will vary. The [Performance Tuning](/Performance_Tuning) guide is still relevant even on `4.0`.
 
-### Can I use my profile and mods from `3.11`?
+## Can I use my profile and mods from `3.11`?
 ***If*** the `3.11` profile was ***un-modded***, yes. Otherwise A new profile will be required. None of your `3.11` mods are compatible.
 See the guide on [Updating SPT](/Updating_SPT) for more details.
 
-### I miss `3.11`, can I re-download it?
+## I miss `3.11`, can I re-download it?
 Yes. `SPT 3.11` is in Long Term Distribution. However, you will need to manually install it and we offer no support for it.
 See [this guide](https://github.com/sp-tarkov/build/wiki/3.11-Manual-Installation-Instructions) for instructions.
 
-### When is (insert mod here) going to update to `4.0`?
+## When is (insert mod here) going to update to `4.0`?
 Nobody knows when certain mods are going to update, not even the authors themselves. Do not pester mod authors about updates to their mods.
 
-### Will a mod marked compatible for `4.0.0` work on future versions of `4.0`?
+## Will a mod marked compatible for `4.0.0` work on future versions of `4.0`?
 It should. Mods known to be incompatible with be stated in the `Mod compatibility` section of SPT's [Release page](<https://github.com/sp-tarkov/build/releases/latest>). 
 Mods discovered to not work will also be noted in <#1424144572858110052>.
 For an explanation of how SPT versions work and how to update your SPT, read through the [Updating SPT](/Updating_SPT) page.
