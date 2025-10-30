@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-30T04:36:58.441Z
+date: 2025-10-30T18:04:25.906Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -59,7 +59,7 @@ It should. Mods known to be incompatible with be stated in the `Mod compatibilit
 Mods discovered to not work will also be noted in <#1424144572858110052>.
 For an explanation of how SPT versions work and how to update your SPT, read through the [Updating SPT](/Updating_SPT) page.
 
-### Halloween Event
+## Halloween Event
 The Infected Halloween event is enabled by default in SPT `4.0`. It runs from the 28th of October to the 9th of November. You can see the maps infection level on the pre-raid screen.
 SPT uses last year's zombie system, which has several issues:
 - Zombies might not spawn on maps even with a high infection level.
@@ -68,6 +68,7 @@ SPT uses last year's zombie system, which has several issues:
 - Due to bots having vastly fewer targets, they will tend to stay where they spawned.
 - Disabling bosses will also disable zombies. This will be fixed in SPT `4.0.3`.
 - [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) is incompatible with zombies. It causes zombies to be unable to melee, and scavs to be stuck in a slide-crouch loop.
+  - Enabling `Vanilla Scavs` in `Home > General > Vanilla Bot Behaviour Settings` will prevent the slide-crouch loop, but will not fix zombies' melee.
   - Make sure to not have `Disable ceasefire` enabled in SVM if you decide to disable zombies/Halloween.
 - Having [ABPS](<https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system>) installed will prevent zombies from spawning.
 
