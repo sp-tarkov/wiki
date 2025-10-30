@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-29T15:31:00.397Z
+date: 2025-10-30T04:36:58.441Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -60,15 +60,19 @@ Mods discovered to not work will also be noted in <#1424144572858110052>.
 For an explanation of how SPT versions work and how to update your SPT, read through the [Updating SPT](/Updating_SPT) page.
 
 ### Halloween Event
-The Infected Halloween event is enabled by default in SPT  `4.0`. It runs from the 28th October to the 9th November. You can see the maps infection level on the pre-raid screen.
+The Infected Halloween event is enabled by default in SPT `4.0`. It runs from the 28th of October to the 9th of November. You can see the maps infection level on the pre-raid screen.
+SPT uses last year's zombie system, which has several issues:
+- Zombies might not spawn on maps even with a high infection level.
+- The ceasefire doesn't always apply to bots.
+- Some bots might not be hostile to zombies.
+- Due to bots having vastly fewer targets, they will tend to stay where they spawned.
+- Disabling bosses will also disable zombies. This will be fixed in SPT `4.0.3`.
+- [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) is incompatible with zombies. It causes zombies to be unable to melee, and scavs to be stuck in a slide-crouch loop.
+  - Make sure to not have `Disable ceasefire` enabled in SVM if you decide to disable zombies/Halloween.
+- Having [ABPS](<https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system>) installed will prevent zombies from spawning.
 
-If you do not see any infected spawning, then your bot spawn mod may need to be configured to allow them to spawn. *If there is no option, then that mod most likely has no way to handle infected spawns.*
-If you do not see the infection level, or do not have the event tasks, then try disabling the Halloween settings in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>)'s `Raid Settings > Events`.
-
-If instead you'd want to disable just zombies, enable `Raid Settings > Events > Disable zombies` in SVM. To disable Halloween completely, enable `Raid Settings > Events > Disable ongoing events`.
-
-Note that zombies break SAIN's AI.
-
+If you want to play with zombies, it's recommended to disable the ceasefire in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>) by enabling `Raid Settings > Events > Disable ceasefire`.
+If instead you want to disable just zombies, enable `Raid Settings > Events > Disable zombies` in SVM. To disable Halloween completely, enable `Raid Settings > Events > Disable ongoing events`.
 
 # Troubleshooting tips
 - Do not install mods until you've launched SPT at least once. Verify your SPT install works, then install mods.
