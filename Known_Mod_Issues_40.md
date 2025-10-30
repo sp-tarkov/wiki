@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-29T18:23:08.777Z
+date: 2025-10-30T19:07:28.774Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -44,7 +44,7 @@ Delete `[game folder]\BepInEx\patchers\FixPluginTypeSerialization` folder.
 Issue with Skills Extended. Update it. If it's still doing it, and you want to change your locales, open `[game folder]\SPT\SPT_Data\Server\configs\locale.json` in a text editor like Notepad, and change `gameLocale` & `serverLocale` to `en`. Note that this is the only file we recommend manually editing, and only those two values.
 
 ## Empty flea with `404 not found` errors
-[Update SPT](<https://wiki.sp-tarkov.com/Updating_SPT>) and [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
+[Update SPT](<https://wiki.sp-tarkov.com/Updating_SPT>).
 
 ## `Disable ongoing events` doesn't work in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
 Update [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
