@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-10-30T18:17:31.338Z
+date: 2025-10-30T19:14:29.287Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -72,7 +72,7 @@ SPT uses last year's zombie system, which has several issues:
 - Having [ABPS](<https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system>) installed will prevent zombies from spawning.
 
 If you want to play with zombies, it's recommended to disable the ceasefire in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>) by enabling `Raid Settings > Events > Disable ceasefire`.
-If instead you want to disable just zombies, enable `Raid Settings > Events > Disable zombies` in SVM. To disable Halloween completely, enable `Raid Settings > Events > Disable ongoing events`.
+If instead you want to disable just zombies, enable `Raid Settings > Events > Disable zombies` in SVM. To disable Halloween completely, enable `Raid Settings > Events > Disable ongoing events` or use [Politely Remove Events](<https://forge.sp-tarkov.com/mod/2408/politely-remove-events>).
 
 # Troubleshooting tips
 - Do not install mods until you've launched SPT at least once. Verify your SPT install works, then install mods.
