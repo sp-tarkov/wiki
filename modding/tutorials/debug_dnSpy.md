@@ -2,11 +2,14 @@
 title: Tutorial: How to debug the game client with dnSpy
 description: 
 published: true
-date: 2025-10-31T20:12:06.024Z
+date: 2025-10-31T20:21:47.772Z
 tags: modding
 editor: markdown
 dateCreated: 2025-10-31T20:02:47.426Z
 ---
+
+> This page applies to SPT version `4.0`
+{.is-info}
 
 # Prerequisites
 - [dnSpy](https://github.com/dnSpyEx/dnSpy)
@@ -29,8 +32,8 @@ dateCreated: 2025-10-31T20:02:47.426Z
 8. Start dnSpy. Make sure your Assembly Explorer is clear (optional, but highly recommended - see Notes and Tips section 5).
 9. In dnSpy, click `Debug` in the top bar, and then `Attach to Process (Unity)...`. Then, select the `EscapeFromTarkov.exe` process from the list.
 10. After the game process has been attached, open the assembly you want to debug in one of two ways:
-	1. (Recommended) Open the loaded module view `Debug -> Windows -> Modules` -OR- `Ctrl+Alt+U` and search for the assembly you need Open the assembly file you want to debug `File -> Open...` .
-	2. `Ctrl+O` (see Notes and Tips section 6).
+	1. (Recommended) Open the loaded module view `Debug -> Windows -> Modules` -OR- `Ctrl+Alt+U` and search for the assembly you need.
+	2. Open the assembly file you want to debug `File -> Open...` -OR- `Ctrl+O` (see Notes and Tips section 6).
   
 That's it! Keep reading for some notes on debugging oddities and how to work around them.
 
