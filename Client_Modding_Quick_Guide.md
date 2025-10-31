@@ -2,8 +2,8 @@
 title: Client Modding Quick Guide
 description: A basic guide on getting started with Client mods.
 published: true
-date: 2025-10-14T01:11:05.320Z
-tags: guide, mods
+date: 2025-10-31T20:14:02.857Z
+tags: modding
 editor: markdown
 dateCreated: 2025-10-14T00:46:02.669Z
 ---
@@ -105,4 +105,4 @@ mpstark
 Tyfon
 
 # See also
-[Modding Resources](/Modding_Resources)
+[Modding Resources](/modding/Modding_Resources)
