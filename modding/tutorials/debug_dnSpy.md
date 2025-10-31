@@ -2,7 +2,7 @@
 title: Tutorial: How to debug the game client with dnSpy
 description: 
 published: true
-date: 2025-10-31T20:03:20.844Z
+date: 2025-10-31T20:11:51.724Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-31T20:02:47.426Z
@@ -15,21 +15,20 @@ dateCreated: 2025-10-31T20:02:47.426Z
 
 ## Chapter 1: Preparing the client
 
-Download [this prepared archive](https://mega.nz/file/38w1lQjC#kqKSaYBdcWzOASflUpwsYPC6I6DOqXzuq3157LPoLRg) (if you do not trust the download, then see Chapter 4 for how to prepare your own).
-    
-1. Backup these game files:
+1. Download [this prepared archive](https://mega.nz/file/38w1lQjC#kqKSaYBdcWzOASflUpwsYPC6I6DOqXzuq3157LPoLRg) (if you do not trust the download, then see Chapter 4 for how to prepare your own). 
+2. Backup these game files:
 	- `\BepInEx\config\BepInEx.cfg`
 	- `\EscapeFromTarkov_Data\boot.config`
 	- `UnityPlayer.dll`
 	- `WinPixEventRuntime.dll` (if it exists) 
-2. Overwrite all game files with the ones from the previously downloaded archive
-3. Make sure the `\EscapeFromTarkov_Data\boot.config` file is set to Read-Only. Otherwise, the changes to it might get overwritten on game start.
-4. Go to the `\user\launcher\config.json` file and open it in a text editor (Notepad++ recommended).
-5. Add `"WinPixEventRuntime.dll"` to the string array setting `"ExcludeFromCleanup"`. Ex.: `"ExcludeFromCleanup": ["WinPixEventRuntime.dll"],`
-6. Start the SPT Server & Launcher. If you've done everything correctly, the game will launch without issues and the text "Development Build" will be visible in the bottom-right of the screen.
-7. Start dnSpy. Make sure your Assembly Explorer is clear (optional, but highly recommended - see Notes and Tips section 5).
-8. In dnSpy, click `Debug` in the top bar, and then `Attach to Process (Unity)...`. Then, select the `EscapeFromTarkov.exe` process from the list.
-9. After the game process has been attached, open the assembly you want to debug in one of two ways:
+3. Overwrite all game files with the ones from the previously downloaded archive
+4. Make sure the `\EscapeFromTarkov_Data\boot.config` file is set to Read-Only. Otherwise, the changes to it might get overwritten on game start.
+5. Go to the `\user\launcher\config.json` file and open it in a text editor (Notepad++ recommended).
+6. Add `"WinPixEventRuntime.dll"` to the string array setting `"ExcludeFromCleanup"`. Ex.: `"ExcludeFromCleanup": ["WinPixEventRuntime.dll"],`
+7. Start the SPT Server & Launcher. If you've done everything correctly, the game will launch without issues and the text "Development Build" will be visible in the bottom-right of the screen.
+8. Start dnSpy. Make sure your Assembly Explorer is clear (optional, but highly recommended - see Notes and Tips section 5).
+9. In dnSpy, click `Debug` in the top bar, and then `Attach to Process (Unity)...`. Then, select the `EscapeFromTarkov.exe` process from the list.
+10. After the game process has been attached, open the assembly you want to debug in one of two ways:
 	1. (Recommended) Open the loaded module view `Debug -> Windows -> Modules` -OR- `Ctrl+Alt+U` and search for the assembly you need Open the assembly file you want to debug `File -> Open...` .
 	2. `Ctrl+O` (see Notes and Tips section 6).
   
@@ -74,3 +73,12 @@ Go to the Unity Download Archive and download the Unity Editor version that matc
 	- Change `HarmonyBackend` value to `cecil`
 	- Change `DumpAssemblies` value to `true`
 	- Change `LoadDumpedAssemblies` value to `true`
+
+
+# Sources
+
+Initial guide on how to convert EFT into a debug build and debug it: [dnspy Wiki on GitHub](https://github.com/dnSpy/dnSpy/wiki/Debugging-Unity-Games#turning-a-release-build-into-a-debug-build)
+
+Additional information for loading game assemblies in dnSpy with BepInEx: [BepInEx documentation](https://docs.bepinex.dev/articles/advanced/debug/assemblies_dnSpy.html)
+
+Archive for Unity Editor versions, from which the prepared archive of 2022.3.43f1debugging DLLs was created: [Unity Download Archive](https://unity.com/releases/editor/archive)
