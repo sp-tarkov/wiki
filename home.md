@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-10-18T08:07:59.928Z
+date: 2025-10-31T20:08:30.473Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -63,8 +63,9 @@ Interested in creating your own content for SPT?
 
 - [Modding Introduction](#)^WIP^: Getting started with SPT mod development.
 - [Modding Tools](#)^WIP^: Useful software for creating mods.
-- [Modding Resources](/Modding_Resources): Basic resources to start creating SPT mods.
+- [Modding Resources](/modding/Modding_Resources): Basic resources to start creating SPT mods.
 - [Client Modding Quick Guide](/Client_Modding_Quick_Guide): A basic guide on getting started with Client mods.
+- [Tutorial: Debugging the game client with dnSpy](/modding/tutorials/debug_dnSpy)
 
 ## SPT 3.11
 
