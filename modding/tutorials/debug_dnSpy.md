@@ -2,8 +2,8 @@
 title: Tutorial: How to debug the game client with dnSpy
 description: 
 published: true
-date: 2025-10-31T20:11:51.724Z
-tags: mods
+date: 2025-10-31T20:12:06.024Z
+tags: modding
 editor: markdown
 dateCreated: 2025-10-31T20:02:47.426Z
 ---
