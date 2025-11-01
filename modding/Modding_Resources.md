@@ -2,7 +2,7 @@
 title: Modding Resources
 description: Basic resources to start creating SPT mods.
 published: true
-date: 2025-11-01T08:27:50.323Z
+date: 2025-11-01T08:29:01.572Z
 tags: modding
 editor: markdown
 dateCreated: 2025-07-23T16:46:34.874Z
@@ -22,7 +22,6 @@ Basic resources to start creating SPT mods. It is recommended to start with serv
 - [SPT Item database](<https://db.sp-tarkov.com/search>)
 - [Tarkov-Dev](<https://api.tarkov.dev/>)
 - [Tarkynator](<https://tarkynator.com/>)
-- [Item Creation Guide](<https://hub.sp-tarkov.com/doc/entry/98-wtt-item-creation-guides-vol-1-intro-to-static-objects/>)
 - [Rider SPT ID Highlighter Plugin](<https://github.com/madmanbeavisx/spt-id-highlighter>)
 
 ### C# Resources:
