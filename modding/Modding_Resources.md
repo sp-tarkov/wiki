@@ -1,8 +1,8 @@
 ---
 title: Modding Resources
-description: Basic resources to start creating SPT mods.
+description: Resources to start creating SPT mods.
 published: true
-date: 2025-11-01T08:36:05.398Z
+date: 2025-11-01T08:36:14.771Z
 tags: modding
 editor: markdown
 dateCreated: 2025-07-23T16:46:34.874Z
