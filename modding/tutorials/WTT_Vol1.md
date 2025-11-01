@@ -2,11 +2,14 @@
 title: WTT - Item Creation Guides Vol. 1: Intro to Static Objects
 description: 
 published: true
-date: 2025-11-01T08:26:02.663Z
+date: 2025-11-01T08:27:28.733Z
 tags: modding
 editor: markdown
 dateCreated: 2025-11-01T08:26:02.663Z
 ---
+
+> This page applies to any SPT version
+{.is-info}
 
 <img src="https://i.ibb.co/nsqLjRn4/AA8i-VLt-JUP9fe-Cgw9f-Tz-We9mpzhf-Zhuk-T05z-Z-1h-Ua-XXVR79o-W1x-HEz-Ch-T9j6-CZ14c-Aiq-HSMx-RCcm-MK72.png" alt="baby" width=600 style="display: block; margin: 0 auto;">
 
