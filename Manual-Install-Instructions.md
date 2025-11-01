@@ -2,7 +2,7 @@
 title: Manual Install Instructions
 description: 
 published: true
-date: 2025-10-30T17:07:53.816Z
+date: 2025-11-01T22:48:01.853Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-21T23:42:29.093Z
@@ -20,28 +20,25 @@ This is particularly important if you have just installed Escape From Tarkov so 
 
 ## Manually installing and running SPT
 
-1. Create a new folder for SPT. A good location would be `C:\Games\SPT`.
-2. Copy the content of your live Escape From Tarkov game folder into your `SPT` folder.
+1. Verify that your Escape From Tarkov is fully up-to-date through the BSG Launcher.
+2. Create a new folder for SPT. A good location would be `C:\Games\SPT`.
+3. Copy the content of your live Escape From Tarkov game folder into your `SPT` folder.
 	- **DON'T** delete the original EFT installation to save space, it must remain in the original install location for SPT to function.
-3. **If necessary**, download and run a downgrade patcher:
-	- If the SPT version you are installing matches live, **DO NOT** run the downgrade patcher. 
-	- Each version of SPT needs a specific version of EFT, this version is noted on the [Release page](https://github.com/sp-tarkov/build/releases/latest) of the SPT version.
-	- **If necessary**, download the corresponding patcher for your version of EFT from [here](https://spt-mirror.refringe.com/patchers/).
-	- Make sure to use the tool [7-Zip](https://www.7-zip.org/) to extract this archive to your `SPT` folder.
-	- Run the patcher and wait for it to finish.
-
-4. Download the SPT release archive under the `Direct Download` section of the latest [release page](https://github.com/sp-tarkov/build/releases/latest).
-5. Extract the contents of the SPT release archive into your `SPT` folder.
-6. Open your `SPT` folder, then the nested `SPT` folder inside of it.
+4. Download the corresponding patcher for your version of EFT from [here](https://spt-mirror.refringe.com/patchers/) (requires [7-Zip](https://www.7-zip.org/)).
+5. Extract this archive to your `SPT` folder.
+6. Run the patcher and wait for it to finish.
+7. Download the SPT release archive under the `Direct Download` section of the latest [release page](https://github.com/sp-tarkov/build/releases/latest).
+8. Extract the contents of the SPT release archive into your `SPT` folder.
+9. Open your `SPT` folder, then the nested `SPT` folder inside of it.
 	- To make it easier to launch SPT in the future, you can right click `SPT.Server` and `SPT.Launcher`, select `Send to > Desktop (create shortcut)`
-7. Run `SPT.Server`.
+10. Run `SPT.Server`.
  - Wait for the green text that says `Server has started, happy playing`.
-8. Run `SPT.Launcher` and follow the onscreen instructions.
+11. Run `SPT.Launcher` and follow the onscreen instructions.
  - If you want to copy over your EFT in-game settings, click `OK`. 
  - You can use any username you want. It is recommend that you **do not** use your EFT account username. Especially if you plan on recording or streaming SPT.
  - `Login Automatically` will always log into the last profile you loaded. You can disable this by clicking `Logout` in the bottom right, then unchecking the option.
  - Select your desired game version. Each version has a description box summarising what is included. Once you have picked your chosen game version click `Register`. You can pick *any* game version you want from the profile list, you do not need to own the corresponding EFT version. Once chosen, you cannot change the edition a profile is using.
-9. Click `Start Game` and load into the main menu.
+12. Click `Start Game` and load into the main menu.
 
 Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/). You can find a guide on how to correctly install SPT mods on the [Installing Mods](https://wiki.sp-tarkov.com/Installing_Mods) Wiki page.
 
