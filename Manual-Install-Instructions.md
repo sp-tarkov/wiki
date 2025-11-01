@@ -2,7 +2,7 @@
 title: Manual Install Instructions
 description: 
 published: true
-date: 2025-11-01T22:48:54.158Z
+date: 2025-11-01T22:50:18.803Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-21T23:42:29.093Z
@@ -25,6 +25,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
 3. Copy the content of your live Escape From Tarkov game folder into your `SPT` folder.
 	- **DON'T** delete the original EFT installation to save space, it must remain in the original install location for SPT to function.
 4. Download the corresponding patcher for your version of EFT from [here](https://spt-mirror.refringe.com/patchers/) (requires [7-Zip](https://www.7-zip.org/)).
+	- If EFT is newer than the above downgrade patch, **please wait**, a new downgrade patch will be created eventually.
 5. Extract this archive to your `SPT` folder.
 6. Run the `patcher.exe` and wait for it to finish.
 7. Download the SPT release archive under the `Direct Download` section of the latest [release page](https://github.com/sp-tarkov/build/releases/latest).
