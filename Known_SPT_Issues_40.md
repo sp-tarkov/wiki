@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-26T21:40:44.016Z
+date: 2025-11-01T02:17:52.394Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -43,6 +43,14 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 
 ## Kollontay still spawns on high level Ground Zero
 [Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
+
+## Zombies do not spawn on Shoreline
+Known bug, will be fixed in the next hotfix.
+
+
+
+
+
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
