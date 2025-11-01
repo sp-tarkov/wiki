@@ -2,7 +2,7 @@
 title: Modding Resources
 description: Basic resources to start creating SPT mods.
 published: true
-date: 2025-11-01T08:32:14.571Z
+date: 2025-11-01T08:36:05.398Z
 tags: modding
 editor: markdown
 dateCreated: 2025-07-23T16:46:34.874Z
@@ -11,7 +11,7 @@ dateCreated: 2025-07-23T16:46:34.874Z
 > This page applies to SPT version `4.0`
 {.is-info}
 
-Basic resources to start creating SPT mods. It is recommended to start with server mods.
+Resources to start creating SPT mods. It is recommended to start with server mods.
 
 ### [SPT Discord server](http://discord.sp-tarkov.com/) mod development channels:
 - [#mods-resources](https://discord.com/channels/875684761291599922/875806757836951575)
