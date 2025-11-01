@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-10-30T14:21:54.670Z
+date: 2025-11-01T22:22:13.191Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -71,6 +71,10 @@ Finally, in the in-game menu, enable `Only use physical cores` in the `GAME` tab
 
 The pagefile in Windows is used as "storage" for your RAM. If your RAM is filling up, Windows will start moving files to and from it. Even an SSD will be much slower than RAM, hence why it's used sparingly. Windows should automatically increase it as required. However, system issues can cause this process to fail, which will lead to your game crashing. Manually setting its size can help in those cases.
 
+
+> Note: If your pagefile wasn't set to `Automatically manage paging file size for all drives` when you experienced the crash, you should first enable it and see if that fixes your issue.
+{.is-info}
+
 To manually set your pagefile:
 
 1. Press <kbd>Win</kbd> and search for "View advanced system settings" and open the link. 
@@ -81,7 +85,6 @@ To manually set your pagefile:
 | Your amount of RAM | Initial Size (MB) | Maximum Size (MB) |
 |---|---|---|
 | 16 GB | 24000 | 48000 |
-
 
 5. Press `Set` then `OK`.
 
