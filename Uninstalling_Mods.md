@@ -2,7 +2,7 @@
 title: Uninstalling Mods
 description: A guide on uninstalling SPT mods.
 published: true
-date: 2025-10-23T08:52:06.583Z
+date: 2025-11-01T16:17:47.480Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-09-25T10:46:32.773Z
@@ -26,7 +26,7 @@ Nearly all mods can be added to an existing profile. However, **removing some mo
 
 If you removed a mod that broke your profile, SPT can try fixing it. **This is not guaranteed to work**. SPT will do the best it can to remove any item that's in your profile from the removed mod, but some mods make irreversible changes to your profile.
 
-For instructions, see the [Mods](https://wiki.sp-tarkov.com/Profiles#mods) section on the [Profiles](/profiles) page.
+For instructions, see the [Mods](https://wiki.sp-tarkov.com/Profiles#mods) section on the [Profiles](/Profiles) page.
 
 # See also
 [50/50 Method](/5050-method)
