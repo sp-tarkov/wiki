@@ -2,7 +2,7 @@
 title: Modding Resources
 description: Basic resources to start creating SPT mods.
 published: true
-date: 2025-11-01T07:29:15.687Z
+date: 2025-11-01T07:33:07.571Z
 tags: modding
 editor: markdown
 dateCreated: 2025-07-23T16:46:34.874Z
@@ -28,10 +28,13 @@ Basic resources to start creating SPT mods. It is recommended to start with serv
 ### C# Resources:
 - [Microsoft interactive C# tutorials](<https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/>)
 - [Server mod examples](<https://github.com/sp-tarkov/server-mod-examples>)
-
 - [Bepinex docs](<https://docs.bepinex.dev/>)
 - [Harmony docs](<https://harmony.pardeike.net/articles/intro.html>)
 
 ### Wiki pages:
 - [Jehree's beginner write up to get started with client modding](/modding/tutorials/Client_Modding_Quick_Guide)
 - [Tutorial: How to debug the game client with dnSpy](/modding/tutorials/debug_dnSpy)
+
+### Item Creation
+- [Tutorial: How to SDK Creating Custom Weapon](<https://docs.google.com/document/d/1miWuhu9Jgr-P_HKsAaYMxiz3i4wbq7hn1FSDGEJzo1A/>)
+- [Tutorial: WTT - Item Creation Guides Vol. 1: Intro to Static Objects](#)^WIP^
