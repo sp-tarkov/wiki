@@ -2,7 +2,7 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-20T16:18:52.705Z
+date: 2025-11-01T05:58:14.867Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
@@ -48,6 +48,11 @@ No known fix.
 ## Transits to Labs or Labyrinth consume two keycards
 Only have one of the necessary items in your inventory when transiting to those locations.
 Alternatively, install [Gilded Key Storage](<https://forge.sp-tarkov.com/mod/865/gilded-key-storage>).
+
+## Bots phase through doors
+BSG's attempt at fixing bots getting stuck on doors. [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) fixes it, however it will make bots get stuck on doors instead.
+
+
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
