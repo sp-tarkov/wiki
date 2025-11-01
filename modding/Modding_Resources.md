@@ -2,7 +2,7 @@
 title: Modding Resources
 description: Basic resources to start creating SPT mods.
 published: true
-date: 2025-11-01T07:33:07.571Z
+date: 2025-11-01T08:27:50.323Z
 tags: modding
 editor: markdown
 dateCreated: 2025-07-23T16:46:34.874Z
@@ -23,7 +23,7 @@ Basic resources to start creating SPT mods. It is recommended to start with serv
 - [Tarkov-Dev](<https://api.tarkov.dev/>)
 - [Tarkynator](<https://tarkynator.com/>)
 - [Item Creation Guide](<https://hub.sp-tarkov.com/doc/entry/98-wtt-item-creation-guides-vol-1-intro-to-static-objects/>)
-- [Rider SPT Id Highlighter Plugin](<https://github.com/madmanbeavisx/spt-id-highlighter>)
+- [Rider SPT ID Highlighter Plugin](<https://github.com/madmanbeavisx/spt-id-highlighter>)
 
 ### C# Resources:
 - [Microsoft interactive C# tutorials](<https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/>)
@@ -36,5 +36,6 @@ Basic resources to start creating SPT mods. It is recommended to start with serv
 - [Tutorial: How to debug the game client with dnSpy](/modding/tutorials/debug_dnSpy)
 
 ### Item Creation
+- [WTT Discord server](https://discord.gg/Nz6VX78xRa)
 - [Tutorial: How to SDK Creating Custom Weapon](<https://docs.google.com/document/d/1miWuhu9Jgr-P_HKsAaYMxiz3i4wbq7hn1FSDGEJzo1A/>)
-- [Tutorial: WTT - Item Creation Guides Vol. 1: Intro to Static Objects](#)^WIP^
+- [Tutorial: WTT - Item Creation Guides Vol. 1: Intro to Static Objects](/modding/tutorials/WTT_Vol1)
