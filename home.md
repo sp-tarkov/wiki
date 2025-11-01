@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-10-31T20:16:45.208Z
+date: 2025-11-01T08:23:25.564Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -61,11 +61,10 @@ Running into issues? Find solutions here:
 
 Interested in creating your own content for SPT?
 
+- [Modding Resources](/modding/Modding_Resources): Resources to start creating SPT mods.
 - [Modding Introduction](#)^WIP^: Getting started with SPT mod development.
 - [Modding Tools](#)^WIP^: Useful software for creating mods.
-- [Modding Resources](/modding/Modding_Resources): Basic resources to start creating SPT mods.
-- [Client Modding Quick Guide](/modding/tutorials/Client_Modding_Quick_Guide): A basic guide on getting started with Client mods.
-- [Tutorial: Debugging the game client with dnSpy](/modding/tutorials/debug_dnSpy)
+
 
 ## SPT 3.11
 
