@@ -2,7 +2,7 @@
 title: WTT - Item Creation Guides Vol. 1: Intro to Static Objects
 description: 
 published: true
-date: 2025-11-01T08:27:28.733Z
+date: 2025-11-01T19:47:34.344Z
 tags: modding
 editor: markdown
 dateCreated: 2025-11-01T08:26:02.663Z
@@ -16,7 +16,7 @@ dateCreated: 2025-11-01T08:26:02.663Z
 ## Prerequisites
 
 - [Blender (v3.0+ recommended)](https://www.blender.org/)
-- [Unity Hub (2019.39f)](https://unity.com/)
+- [Unity Hub](https://unity.com/unity-hub)
 - [Escape from Tarkov SDK](https://github.com/S3RAPH-1M/EscapeFromTarkov-SDK)
 - A 3D Model Sources:
 	- [Sketchfab](https://sketchfab.com/) (filter by Low Poly + Free Download)
@@ -46,9 +46,9 @@ Time Required: 30 mins - 1 hour
 
 What to Do:
 
-1. Have your 3D model ready, create one, or download a low-poly model (.fbx, .obj, or .blend) from Sketchfab/TurboSquid.
+1. Have your 3D model ready, create one, or download a low-poly model (`.fbx`, `.obj`, or `.blend`) from Sketchfab/TurboSquid.
 	- Try to avoid models over 10k triangles (use Blender’s Statistics panel to check). Exceptions can be made, but try and remain as low-poly as possible.
-2. Example Search Terms: “Keycard Low Poly,” “Military Crate Game Ready.”
+2. Example Search Terms: “Keycard Low Poly”, “Military Crate Game Ready.”
 
 For this tutorial, we will be using these [Russian GP5 Filters](https://sketchfab.com/3d-models/russian-gp5-filters-695d7745151b4796a46b4e070811a596).
 <div style="margin-top: 10px;"></div>
@@ -186,7 +186,7 @@ What to Do:
 1. Create a prefab:
 	- Drag your GameObject into the `Assets` folder.
 2. Assign labels:
-	- Select `prefab` → `Inspector` → `Asset Label` → Add "your prefab name" and the bundle extension.
+	- Select `prefab` → `Inspector` → `Asset Label` → Add your prefab name and the bundle extension.
 3. Build the bundle:
 	- Open `Window → Asset Bundle Browser`.
 	- Open the `Build` tab → Click `Build`.
