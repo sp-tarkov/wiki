@@ -2,7 +2,7 @@
 title: Skills Reference Sheet
 description: A reference for skill related things
 published: true
-date: 2025-11-02T04:12:34.716Z
+date: 2025-11-02T04:16:23.330Z
 tags: client, reference, server, skills
 editor: markdown
 dateCreated: 2025-11-02T03:49:55.394Z
@@ -12,7 +12,7 @@ dateCreated: 2025-11-02T03:49:55.394Z
 ### Skill Enum
 Skills are defined as enum constants. The client uses `ESkillId` while the server uses `SkillTypes`. The integer constants and the naming are the same between them although the type name varies. Not all skills are implemented thus some of these values are unused.
 
-> When making quests you should use the `Enum Name` column in your `target` field.
+> When making quests or using `Commando` you should use the `Enum Name` column in your `target` field.
 
 | Enum Name | Constant | Localized Name |
 | :--- | :--- | :--- | 
