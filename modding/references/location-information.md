@@ -2,7 +2,7 @@
 title: Location Reference Sheet
 description: Reference sheet for location data, including IDs, names, spawn types.
 published: true
-date: 2025-06-06T21:23:53.095Z
+date: 2025-11-02T03:40:52.941Z
 tags: locations, mods
 editor: markdown
 dateCreated: 2025-06-06T07:36:05.708Z
@@ -28,3 +28,4 @@ Location details are used in various locations in the SPT Server. There is a Mon
 | Streets Of Tarkov | 5714dc692459777137212e12 | TarkovStreets |
 | Ground Zero (Level <= 20) | 653e6760052c01c1c805532f | Sandbox |
 | Ground Zero (Level > 20) | 653e6760052c01c1c805532f | Sandbox_high |
+| Labyrinth | -needs pulled- | Labyrinth |
