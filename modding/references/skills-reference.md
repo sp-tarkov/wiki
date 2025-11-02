@@ -2,14 +2,14 @@
 title: Skills Reference Sheet
 description: A reference for skill related things
 published: true
-date: 2025-11-02T03:53:01.081Z
+date: 2025-11-02T04:09:55.386Z
 tags: client, reference, server, skills
 editor: markdown
 dateCreated: 2025-11-02T03:49:55.394Z
 ---
 
 # Skill Reference Sheet
-### Skill Enums
+### Skill Enum
 Skills are defined as enum constants. The client uses `ESkillId` while the server uses `SkillTypes`. The integer constants and the naming are the same between them although the type name varies. Not all skills are implemented thus some of these values are unused.
 
 | Enum Name | Constant | Localized Name |
@@ -81,3 +81,26 @@ Skills are defined as enum constants. The client uses `ESkillId` while the serve
 | AimDrills | 64 | Aim Drills
 | HideoutManagement | 65 | Hideout Management
 | Crafting | 66 | Crafting
+
+
+### SkillClass Enum
+Skill classes are the category of the skill. The client uses `ESkillClass` while the server uses `SkillClass`. These values are only used to display the correct icon in the client, they are not used in the server.
+
+| Enum Name | Constant |
+| :--- | :--- |
+| Physical | 0
+| Combat | 1
+| Special | 2
+| Practical | 3
+| Mental | 4
+
+### EBuffType Enum
+`EBuffType` is client side only. It is used for determining how to display buffs to players.
+
+| Enum Name | Constant |
+| :--- | :--- |
+| Simple | 0
+| Elite | 1
+| Switching | 2
+| Plebian | 3
+
