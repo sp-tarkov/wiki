@@ -1,9 +1,9 @@
 ---
-title: Skills Reference
+title: Skills Reference Sheet
 description: A reference for skill related things
 published: true
-date: 2025-11-02T03:49:55.394Z
-tags: skills, reference, server, client
+date: 2025-11-02T03:53:01.081Z
+tags: client, reference, server, skills
 editor: markdown
 dateCreated: 2025-11-02T03:49:55.394Z
 ---
