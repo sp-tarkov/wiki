@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-10-30T19:07:28.774Z
+date: 2025-11-02T00:30:43.678Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -49,7 +49,8 @@ Issue with Skills Extended. Update it. If it's still doing it, and you want to c
 ## `Disable ongoing events` doesn't work in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
 Update [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
 
-
+## `Critical exception, stopping server...` on SPT 4.0.3
+Remove [Raid Record](<https://forge.sp-tarkov.com/mod/2341/raidrecord>).
 
 
 
