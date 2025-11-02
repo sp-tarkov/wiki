@@ -2,7 +2,7 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-01T05:58:14.867Z
+date: 2025-11-02T22:15:16.062Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
@@ -51,6 +51,10 @@ Alternatively, install [Gilded Key Storage](<https://forge.sp-tarkov.com/mod/865
 
 ## Bots phase through doors
 BSG's attempt at fixing bots getting stuck on doors. [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) fixes it, however it will make bots get stuck on doors instead.
+
+## Can't click `Select Weapon` in the Build menu
+No known fix. To apply builds to a weapon, right click it and press `Edit build`.
+
 
 
 
