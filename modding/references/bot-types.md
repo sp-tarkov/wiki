@@ -2,7 +2,7 @@
 title: Bot Information Reference Sheet
 description: List of all current and previously known bots and their names
 published: true
-date: 2025-11-02T03:35:14.663Z
+date: 2025-11-02T03:36:01.008Z
 tags: bots, mods
 editor: markdown
 dateCreated: 2025-06-06T04:15:52.004Z
@@ -66,6 +66,7 @@ The below table is all currently known and previously known bot types and their 
 | Cultist (follower) | sectantWarrior | Savage | | Normal Cultist - sectantPriest guards |
 | BTR | shooterBTR | Savage | | |
 | Skier Bot (event) | skier | Savage | | |
+| ? | spiritSpring | Savage | | |
 | ? | spiritWinter | Savage | | |
 | Tagilla Guard (Labyrinth) | tagillaHelperAgro | Savage | | |
 | SPT Usec | usec | Pmc | | Not an actual bot type|
