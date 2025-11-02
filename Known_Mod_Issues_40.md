@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-02T00:31:05.019Z
+date: 2025-11-02T21:00:06.223Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -52,7 +52,8 @@ Update [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
 ## `Critical exception, stopping server... at raidrecord_v0._5.` on SPT 4.0.3
 Remove [Raid Record](<https://forge.sp-tarkov.com/mod/2341/raidrecord>).
 
-
+## Zombies are unable to melee
+Remove [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) if you want to play with zombies, or [disable them](https://wiki.sp-tarkov.com/FAQs_40#halloween-event).
 
 
 # See also
