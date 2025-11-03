@@ -2,7 +2,7 @@
 title: Mod Types
 description: Learn the difference between server mods and client mods.
 published: true
-date: 2025-10-18T08:17:18.637Z
+date: 2025-11-03T14:01:55.012Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-07-22T08:23:52.210Z
@@ -41,7 +41,7 @@ All client mods are written in C#.
 Some mods include both a server and a client component. Some changes are easier to make in one or the other. While you can configure the client-side settings in the <kbd>F12</kbd> menu, they can have separate config files inside their folder in `user\mods`. 
 
 ## Making mods
-The easiest mods to start with are server mods. With basic knowledge of Typescript, you can open any of the provided [mod examples](https://github.com/sp-tarkov/mod-examples) and make your mod from them.
+The easiest mods to start with are server mods. With basic knowledge of C# you can open any of the provided [mod examples](https://github.com/sp-tarkov/server-mod-examples) and make your mod from them. See the [Modding Resources](/modding/Modding_Resources) page for more tools and information to get started.
 
 The best place to get guidance is in our Discord's [`#mod-development`](https://discord.com/channels/875684761291599922/875803116409323562) channel. Note that it's a channel dedicated only to mod developers, not users. Make best effort to describe the issue you have in detail, provide a snippet of the code you're working on, and one of the many knowledgeable modders will be happy to help you.
 
