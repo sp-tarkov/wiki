@@ -2,7 +2,7 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-02T22:15:16.062Z
+date: 2025-11-03T09:28:26.030Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
@@ -55,7 +55,8 @@ BSG's attempt at fixing bots getting stuck on doors. [SAIN](<https://forge.sp-ta
 ## Can't click `Select Weapon` in the Build menu
 No known fix. To apply builds to a weapon, right click it and press `Edit build`.
 
-
+## PMC bots belonging to the same faction (BEAR, USEC) won't fight each other
+No known fix.
 
 
 # See also
