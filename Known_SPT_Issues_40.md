@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-01T16:11:55.251Z
+date: 2025-11-03T01:24:35.419Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -47,6 +47,8 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 ## Zombies do not spawn on Shoreline
 [Re-update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
 
+## Zombies do not spawn on Ground Zero
+No known fix.
 
 
 
