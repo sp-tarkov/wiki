@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-11-02T19:37:09.356Z
+date: 2025-11-03T01:33:48.651Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -61,7 +61,7 @@ For an explanation of how SPT versions work and how to update your SPT, read thr
 
 ## Halloween Event
 The Infected Halloween event is enabled by default in SPT `4.0`. It runs from the 28th of October to the 9th of November. You can see the maps infection level on the pre-raid screen.
-The version of EFT that SPT `4.0` uses has last year's zombie event, which has several issues:
+The zombies are from a 2024 event, which means it has some issues in the current version of the game:
 - Due to bots having vastly fewer targets, they will tend to stay where they spawned.
 - Zombies do not spawn on Shoreline.
 - [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) is incompatible with zombies. It causes zombies to be unable to melee, and scavs to be stuck in a slide-crouch loop.
