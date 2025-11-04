@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-11-03T01:33:48.651Z
+date: 2025-11-04T05:35:19.511Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -63,7 +63,7 @@ For an explanation of how SPT versions work and how to update your SPT, read thr
 The Infected Halloween event is enabled by default in SPT `4.0`. It runs from the 28th of October to the 9th of November. You can see the maps infection level on the pre-raid screen.
 The zombies are from a 2024 event, which means it has some issues in the current version of the game:
 - Due to bots having vastly fewer targets, they will tend to stay where they spawned.
-- Zombies do not spawn on Shoreline.
+- Zombies do not spawn on Ground Zero.
 - [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) is incompatible with zombies. It causes zombies to be unable to melee, and scavs to be stuck in a slide-crouch loop.
   - Enabling `Vanilla Scavs` in `Home > General > Vanilla Bot Behaviour Settings` will prevent the slide-crouch loop, but will not fix zombies' melee.
 - Having [ABPS](<https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system>) installed will prevent zombies from spawning.
