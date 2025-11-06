@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-04T05:34:45.208Z
+date: 2025-11-06T10:07:05.921Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -55,7 +55,7 @@ Remove [Raid Record](<https://forge.sp-tarkov.com/mod/2341/raidrecord>).
 ## SAIN and zombies
 [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) is incompatible with zombies. It causes zombies to be unable to melee, and scavs to be stuck in a slide-crouch loop.
 Enabling `Vanilla Scavs` in `Home > General > Vanilla Bot Behaviour Settings` will prevent the slide-crouch loop, but will not fix zombies' melee.
-
+To disable zombies or Halloween see [here](https://wiki.sp-tarkov.com/en/FAQs_40#halloween-event).
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
