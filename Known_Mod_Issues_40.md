@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-06T10:07:05.921Z
+date: 2025-11-06T14:49:09.895Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -56,6 +56,16 @@ Remove [Raid Record](<https://forge.sp-tarkov.com/mod/2341/raidrecord>).
 [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) is incompatible with zombies. It causes zombies to be unable to melee, and scavs to be stuck in a slide-crouch loop.
 Enabling `Vanilla Scavs` in `Home > General > Vanilla Bot Behaviour Settings` will prevent the slide-crouch loop, but will not fix zombies' melee.
 To disable zombies or Halloween see [here](https://wiki.sp-tarkov.com/en/FAQs_40#halloween-event).
+
+## `Error loading custom bot types...` in server console
+Delete and reinstall [UNTAR Go Home](<https://forge.sp-tarkov.com/mod/2342/untar-go-home>).
+
+## `Shared bot type file ruafRifleman not found at...` in server console
+Delete and reinstall [UNTAR Go Home](<https://forge.sp-tarkov.com/mod/2342/untar-go-home>).
+
+
+
+
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
