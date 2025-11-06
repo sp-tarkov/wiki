@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-06T14:49:09.895Z
+date: 2025-11-06T15:11:36.556Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -58,10 +58,10 @@ Enabling `Vanilla Scavs` in `Home > General > Vanilla Bot Behaviour Settings` wi
 To disable zombies or Halloween see [here](https://wiki.sp-tarkov.com/en/FAQs_40#halloween-event).
 
 ## `Error loading custom bot types...` in server console
-Delete and reinstall [UNTAR Go Home](<https://forge.sp-tarkov.com/mod/2342/untar-go-home>).
+[Uninstall](/Uninstalling_Mods), redownload and reinstall [UNTAR Go Home](<https://forge.sp-tarkov.com/mod/2342/untar-go-home>).
 
 ## `Shared bot type file ruafRifleman not found at...` in server console
-Delete and reinstall [UNTAR Go Home](<https://forge.sp-tarkov.com/mod/2342/untar-go-home>).
+Harmless warning you can ignore.
 
 
 
