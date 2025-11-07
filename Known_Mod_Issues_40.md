@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-07T05:39:56.940Z
+date: 2025-11-07T08:14:00.259Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -59,6 +59,10 @@ To disable zombies or Halloween see [here](https://wiki.sp-tarkov.com/en/FAQs_40
 
 ## After dying you're frozen, gun detaches from your hands
 Update [MoreBotsAPI](<https://forge.sp-tarkov.com/mod/2426/morebotsapi>).
+
+## Empty Ragman inventory with [Pack 'n' Strap](<https://forge.sp-tarkov.com/mod/1278/wtt-pack-n-strap>) and [Peltor TEP-300 backport](<https://forge.sp-tarkov.com/mod/2420/peltor-tep-300-earplugs-backport-and-fixes>) installed
+[Uninstall](/Uninstalling_Mods) one or the other. You might have to [clean your profile](<https://wiki.sp-tarkov.com/Profiles#mods>) afterwards.
+
 
 
 
