@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-03T01:24:35.419Z
+date: 2025-11-07T13:25:15.227Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -49,6 +49,10 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 
 ## Zombies do not spawn on Ground Zero
 No known fix.
+
+## Crisis does not unlock new crafts
+No known fix.
+
 
 
 
