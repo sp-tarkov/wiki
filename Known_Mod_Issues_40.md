@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-06T16:40:48.302Z
+date: 2025-11-07T05:39:56.940Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -58,7 +58,7 @@ Enabling `Vanilla Scavs` in `Home > General > Vanilla Bot Behaviour Settings` wi
 To disable zombies or Halloween see [here](https://wiki.sp-tarkov.com/en/FAQs_40#halloween-event).
 
 ## After dying you're frozen, gun detaches from your hands
-Issue with [MoreBotsAPI](<https://forge.sp-tarkov.com/mod/2426/morebotsapi>). [Uninstall](/Uninstalling_Mods) it and any mods that depend on it.
+Update [MoreBotsAPI](<https://forge.sp-tarkov.com/mod/2426/morebotsapi>).
 
 
 
