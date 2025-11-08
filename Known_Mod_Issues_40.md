@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-07T11:22:00.226Z
+date: 2025-11-08T15:19:58.583Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -63,7 +63,8 @@ Update [MoreBotsAPI](<https://forge.sp-tarkov.com/mod/2426/morebotsapi>).
 ## Empty Ragman inventory with [Pack 'n' Strap](<https://forge.sp-tarkov.com/mod/1278/wtt-pack-n-strap>) and [Peltor TEP-300 backport](<https://forge.sp-tarkov.com/mod/2420/peltor-tep-300-earplugs-backport-and-fixes>) installed
 Update [Pack 'n' Strap](<https://forge.sp-tarkov.com/mod/1278/wtt-pack-n-strap>) and [Peltor TEP-300 backport](<https://forge.sp-tarkov.com/mod/2420/peltor-tep-300-earplugs-backport-and-fixes>).
 
-
+## `Item "PGU-13/B HEI High Explosive Incendiary" traderPrice is null`
+Uninstall either [Fire Support](<https://forge.sp-tarkov.com/mod/1180/samswats-fire-support-arys-reloaded>) or [Item Info](<https://forge.sp-tarkov.com/mod/2430/odts-item-info-spt-40>).
 
 
 
