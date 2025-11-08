@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-08T15:19:58.583Z
+date: 2025-11-08T15:42:24.095Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -35,7 +35,7 @@ Update [Quest Tweaks](<https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-twea
 Update [Gilded Key Storage](<https://forge.sp-tarkov.com/mod/865/gilded-key-storage>).
 
 ## [Task Automation](<https://forge.sp-tarkov.com/mod/2238/task-automation>) stops working
-Remove [Expanded Task Text](<https://forge.sp-tarkov.com/mod/2389/expanded-task-text>).
+[Uninstall](/Uninstalling_Mods) [Expanded Task Text](<https://forge.sp-tarkov.com/mod/2389/expanded-task-text>).
 
 ## `ReflectionTypeLoadException` error while [UnityToolkit](<https://forge.sp-tarkov.com/mod/1426/unitytoolkit>) is installed
 Delete `[game folder]\BepInEx\patchers\FixPluginTypeSerialization` folder.
@@ -50,7 +50,7 @@ Issue with Skills Extended. Update it. If it's still doing it, and you want to c
 Update [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
 
 ## `Critical exception, stopping server... at raidrecord_v0._5.` on SPT 4.0.3
-Remove [Raid Record](<https://forge.sp-tarkov.com/mod/2341/raidrecord>).
+[Uninstall](/Uninstalling_Mods) [Raid Record](<https://forge.sp-tarkov.com/mod/2341/raidrecord>).
 
 ## SAIN and zombies
 [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) is incompatible with zombies. It causes zombies to be unable to melee, and scavs to be stuck in a slide-crouch loop.
@@ -64,9 +64,10 @@ Update [MoreBotsAPI](<https://forge.sp-tarkov.com/mod/2426/morebotsapi>).
 Update [Pack 'n' Strap](<https://forge.sp-tarkov.com/mod/1278/wtt-pack-n-strap>) and [Peltor TEP-300 backport](<https://forge.sp-tarkov.com/mod/2420/peltor-tep-300-earplugs-backport-and-fixes>).
 
 ## `Item "PGU-13/B HEI High Explosive Incendiary" traderPrice is null`
-Uninstall either [Fire Support](<https://forge.sp-tarkov.com/mod/1180/samswats-fire-support-arys-reloaded>) or [Item Info](<https://forge.sp-tarkov.com/mod/2430/odts-item-info-spt-40>).
+[Uninstall](/Uninstalling_Mods) either [Fire Support](<https://forge.sp-tarkov.com/mod/1180/samswats-fire-support-arys-reloaded>) or [Item Info](<https://forge.sp-tarkov.com/mod/2430/odts-item-info-spt-40>).
 
-
+## Freezing on raid start
+[Uninstall](/Uninstalling_Mods) [Pack n Strap](<https://forge.sp-tarkov.com/mod/1278/wtt-pack-n-strap>). Mod author removed the latest version due to game breaking bugs.
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
