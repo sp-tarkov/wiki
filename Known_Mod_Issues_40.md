@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-08T15:42:24.095Z
+date: 2025-11-08T19:34:16.584Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -64,7 +64,7 @@ Update [MoreBotsAPI](<https://forge.sp-tarkov.com/mod/2426/morebotsapi>).
 Update [Pack 'n' Strap](<https://forge.sp-tarkov.com/mod/1278/wtt-pack-n-strap>) and [Peltor TEP-300 backport](<https://forge.sp-tarkov.com/mod/2420/peltor-tep-300-earplugs-backport-and-fixes>).
 
 ## `Item "PGU-13/B HEI High Explosive Incendiary" traderPrice is null`
-[Uninstall](/Uninstalling_Mods) either [Fire Support](<https://forge.sp-tarkov.com/mod/1180/samswats-fire-support-arys-reloaded>) or [Item Info](<https://forge.sp-tarkov.com/mod/2430/odts-item-info-spt-40>).
+Update [Item Info](<https://forge.sp-tarkov.com/mod/2430/odts-item-info-spt-40>).
 
 ## Freezing on raid start
 [Uninstall](/Uninstalling_Mods) [Pack n Strap](<https://forge.sp-tarkov.com/mod/1278/wtt-pack-n-strap>). Mod author removed the latest version due to game breaking bugs.
