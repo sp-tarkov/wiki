@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-11-06T10:02:26.374Z
+date: 2025-11-08T19:34:59.047Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -67,7 +67,7 @@ You should only have **one** bot progression mod installed to avoid issues.
 [Audio Accessibility Indicators](https://forge.sp-tarkov.com/mod/1760/audio-accessibility-indicators), [Simple Crosshair](https://forge.sp-tarkov.com/mod/1387/simple-crosshair), [Janky's Visual Assist](https://forge.sp-tarkov.com/mod/2213/jankys-visual-assist), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Deminvincibility](https://forge.sp-tarkov.com/mod/1117/deminvincibility), [Pause](https://forge.sp-tarkov.com/mod/2046/pause), [Use Items Anywhere](https://forge.sp-tarkov.com/mod/2386/use-items-anywhere)
 
 - Gameplay
-[Continuous Healing](https://forge.sp-tarkov.com/mod/1884/continuous-healing), [Set Speed](https://forge.sp-tarkov.com/mod/994/set-speed-set-player-speed-with-hotkeys), [Bosses Have Lega Medals](https://forge.sp-tarkov.com/mod/1539/bosses-have-lega-medals), [Ref - SPT Friendly Quests](https://forge.sp-tarkov.com/mod/1538/ref-spt-friendly-quests), [Bush Whacker](https://forge.sp-tarkov.com/mod/2329/bushwhacker-standalone), [Reach Extender](https://forge.sp-tarkov.com/mod/1260/reach-extender), [Increase Climb Height](https://forge.sp-tarkov.com/mod/1575/increase-climb-height), [AutoRun](https://forge.sp-tarkov.com/mod/1477/autorun), [Merge Consumables](https://forge.sp-tarkov.com/mod/1657/mergeconsumables)
+[Continuous Healing](https://forge.sp-tarkov.com/mod/1884/continuous-healing), [Set Speed](https://forge.sp-tarkov.com/mod/994/set-speed-set-player-speed-with-hotkeys), [Bosses Have Lega Medals](https://forge.sp-tarkov.com/mod/1539/bosses-have-lega-medals), [Ref - SPT Friendly Quests](https://forge.sp-tarkov.com/mod/1538/ref-spt-friendly-quests), [Bush Whacker](https://forge.sp-tarkov.com/mod/2329/bushwhacker-standalone), [Reach Extender](https://forge.sp-tarkov.com/mod/1260/reach-extender), [Increase Climb Height](https://forge.sp-tarkov.com/mod/1575/increase-climb-height), [AutoRun](https://forge.sp-tarkov.com/mod/1477/autorun), [Merge Consumables](https://forge.sp-tarkov.com/mod/1657/mergeconsumables), [Item Info](https://forge.sp-tarkov.com/mod/2430/odts-item-info-spt-40)
 
 - Tweaking
 [SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm), [Server Tweaks](https://forge.sp-tarkov.com/mod/2360/server-tweaks-discount-svm), [Quest Tweaks](https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-tweaks), [QCAdjustments](https://forge.sp-tarkov.com/mod/1867/qcadjustments), [Lacy's PvE Tweaks](https://forge.sp-tarkov.com/mod/2395/lacys-pve-tweaks)
