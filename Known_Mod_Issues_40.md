@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-08T19:34:16.584Z
+date: 2025-11-08T19:58:18.257Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -68,6 +68,13 @@ Update [Item Info](<https://forge.sp-tarkov.com/mod/2430/odts-item-info-spt-40>)
 
 ## Freezing on raid start
 [Uninstall](/Uninstalling_Mods) [Pack n Strap](<https://forge.sp-tarkov.com/mod/1278/wtt-pack-n-strap>). Mod author removed the latest version due to game breaking bugs.
+
+## `Shared bot type file ruafRifleman not found...` warning in server console
+Harmless warning you can ignore.
+
+
+
+
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
