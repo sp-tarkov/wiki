@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-10T10:28:27.095Z
+date: 2025-11-11T16:29:55.059Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -20,7 +20,7 @@ Update [Fika](https://forge.sp-tarkov.com/mod/2326/project-fika).
 
 ## Raid doesn't get saved after extracting/dying
 If enabled, turn off `Practice Mode` in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>)'s `Raid Settings > Raid startup settings`.
-
+Don't use old presets in newer versions of SVM, and make sure you have the latest version of SVM.
 
 ## With [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) bots don't move nor react unless shot at or grenaded 
 If you're using the any custom preset from the Forge, try using one of the default presets instead.
