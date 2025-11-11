@@ -2,7 +2,7 @@
 title: How SPT Works
 description: The basics of how SPT works.
 published: true
-date: 2025-11-11T22:39:55.471Z
+date: 2025-11-11T22:48:29.559Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-11T22:39:55.471Z
@@ -36,6 +36,7 @@ We have no verified reports of people being banned on Live EFT just for playing 
 
 - Your SPT can be updated between hotfix versions (e.g.: `4.0.1` → `4.0.4`) by simply applying the new release files to your existing SPT install. There is no need to install a new copy of SPT.
 - You cannot update an older version of SPT (e.g.: `3.11.4` → `4.0.0`). You have to install a new copy of SPT. You don't need to delete your old install.
+- Your profiles will work on a new hotfix version.
 - All mods made for an older hotfix version will should work on a newer one. So a mod made for `4.0.0` should work on `4.0.4`.
 - Mods not made for the version of SPT you have installed will not work. A mod made for `3.11.4` will not work on `4.0.4`.
 
