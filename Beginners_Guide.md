@@ -2,7 +2,7 @@
 title: Beginner's Guide
 description: A beginner's overview of the SPT project.
 published: true
-date: 2025-10-22T09:56:43.490Z
+date: 2025-11-11T22:44:08.885Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-22T10:13:29.789Z
@@ -34,14 +34,15 @@ SPT is a modding framework for Escape From Tarkov made for people who want to pl
 - [Patreon](https://www.patreon.com/sptarkov)
 
 ## Getting started
-- [System Requirements](/system-requirements)
-- [Installing SPT](/Installation_Guide)
-- [Frequently Asked Questions](/FAQs_40)
-- [Profiles](/Profiles)
-- [Understanding Mod Types](/Mod_Types)
-- [Installing Mods](/Installing_Mods)
-- [Recommended Mods](/Recommended_Mods_40)
-- [Performance Tuning](/Performance_Tuning)
+- [System Requirements](/system-requirements): The system requirements to run SPT.
+- [How SPT Works](/How_SPT_Works): The basics of how SPT works.
+- [Installation Guide](/Installation_Guide): A step by step guide on how to install and initially setup SPT.
+- [Frequently Asked Questions (FAQs)](/FAQs_40): Answers to frequently asked questions.
+- [Profiles](/Profiles): How profiles work in SPT.
+- [Understanding Mod Types](/Mod_Types): Learn the difference between server mods and client mods.
+- [Installing Mods](/Installing_Mods): General guide on adding mods to your game.
+- [Recommended Mods](/Recommended_Mods_40): A selection of recommended mods to improve your SPT experience.
+- [Performance Tuning](/Performance_Tuning): Tips for improving FPS and stability.
 
 ## Helping out
 The best way to help is to give some of your time and energy to keep this place running!
