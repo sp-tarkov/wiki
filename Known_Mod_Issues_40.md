@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-12T12:23:10.371Z
+date: 2025-11-12T15:02:38.824Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -73,7 +73,7 @@ Harmless warning you can ignore.
 Harmless warning you can ignore.
 
 ## `No C# type for taxonomy node with id...`
-Install [WTT - CommonLib](<https://forge.sp-tarkov.com/mod/2310/wtt-commonlib>).
+Install [WTT - CommonLib](<https://forge.sp-tarkov.com/mod/2310/wtt-commonlib>) and [Use Items Anywhere](<https://forge.sp-tarkov.com/mod/2386/use-items-anywhere>).
 
 ## Error converting value `#xxxxxx` to type `JsonType.TaxonomyColor`
 Install [Color Converter API](<https://forge.sp-tarkov.com/mod/1090/color-converter-api>).
