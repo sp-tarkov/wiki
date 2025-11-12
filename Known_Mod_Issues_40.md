@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-11T16:29:55.059Z
+date: 2025-11-12T12:23:10.371Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -71,6 +71,14 @@ Harmless warning you can ignore.
 
 ## `No locale files found or loaded from... \Badger\Locales`
 Harmless warning you can ignore.
+
+## `No C# type for taxonomy node with id...`
+Install [WTT - CommonLib](<https://forge.sp-tarkov.com/mod/2310/wtt-commonlib>).
+
+## Error converting value `#xxxxxx` to type `JsonType.TaxonomyColor`
+Install [Color Converter API](<https://forge.sp-tarkov.com/mod/1090/color-converter-api>).
+
+
 
 
 
