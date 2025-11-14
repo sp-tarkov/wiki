@@ -2,7 +2,7 @@
 title: FAQs for SPT 3.11
 description: Answers to frequently asked questions about SPT 3.11.
 published: true
-date: 2025-10-14T01:33:26.111Z
+date: 2025-11-14T12:41:33.884Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -90,8 +90,9 @@ Remove the custom player spawn points from [MOAR](https://forge.sp-tarkov.com/mo
 Also [MOAR](https://forge.sp-tarkov.com/mod/789/moar-bagels-ultra-lite-spawn-mod). Tweak it or disable Partisan.
 
 ### Random crashing
-If using [Simple Declutter](https://forge.sp-tarkov.com/mod/2139/simple-declutter), disable `Decal Declutter`.
-If that didn't help it, remove that mod.
+Triple check that you have the `3.11` version of [Simple Declutter](https://forge.sp-tarkov.com/mod/2139/simple-declutter) installed. The version for `3.10` was the default download, and both are marked as `v1.0.0`.
+If that didn't help, disable `Decal Declutter`.
+If that also didn't help, remove that mod.
 
 ### Bots freeze after death
 Update [Quests Extended](https://forge.sp-tarkov.com/mod/2106/quests-extended).
