@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-11-15T19:10:43.585Z
+date: 2025-11-15T19:25:55.427Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -82,7 +82,7 @@ Uncertain. EFT `1.0` now runs on IL2CPP instead of Mono which makes porting futu
 ### Is it possible to install SPT with EFT `1.0`?
 Yes. You can now [install SPT](<https://wiki.sp-tarkov.com/en/Installation_Guide>) while having EFT `1.0` installed.
 ### Is it possible to install SPT with the Steam version of EFT?
-Currently not. The team is looking at potential solutions.
+Currently not. The team is looking at potential solutions. You can attempt a [manual install](<https://github.com/sp-tarkov/build/wiki/Manual-Install-Instructions>).
 ### Can I update EFT or will that break my existing SPT install?
 That's not how SPT works. The installer makes a **copy** of your EFT files to a **separate** location. Update EFT as much as you want.
 
