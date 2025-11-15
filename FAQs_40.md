@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-11-15T17:43:58.328Z
+date: 2025-11-15T19:10:43.585Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -79,8 +79,10 @@ If you want to disable just zombies, enable `Raid Settings > Events > Disable zo
 With EFT `1.0` out now, lots of SPT enjoyers are probably wondering what that means for SPT so here's a quick rundown:
 ### Will we have `1.0` soon in SPT?
 Uncertain. EFT `1.0` now runs on IL2CPP instead of Mono which makes porting future EFT updates over to SPT difficult. There is no ETA.
-### Is it be possible to install SPT with EFT `1.0`/Steam version?
+### Is it possible to install SPT with EFT `1.0`?
 Yes. You can now [install SPT](<https://wiki.sp-tarkov.com/en/Installation_Guide>) while having EFT `1.0` installed.
+### Is it possible to install SPT with the Steam version of EFT?
+Currently not. The team is looking at potential solutions.
 ### Can I update EFT or will that break my existing SPT install?
 That's not how SPT works. The installer makes a **copy** of your EFT files to a **separate** location. Update EFT as much as you want.
 
