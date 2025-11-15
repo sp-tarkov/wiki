@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-13T20:27:19.001Z
+date: 2025-11-15T21:00:57.398Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -56,7 +56,8 @@ No known fix.
 ## Crisis does not unlock new crafts
 No known fix.
 
-
+## Infinite loading with no mods after copying live settings
+Delete your `[game folder]\SPT\user\sptSettings` folder. Don't copy your Live settings if they are from EFT `1.0`.
 
 
 
