@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-11-04T12:16:52.310Z
+date: 2025-11-15T15:14:25.013Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -74,6 +74,25 @@ The zombies are from a 2024 event, which means it has some issues in the current
 SPT `4.0.3` brings many fixes for the event. You should [update your SPT](<https://wiki.sp-tarkov.com/Updating_SPT>).
 
 If you want to disable just zombies, enable `Raid Settings > Events > Disable zombies` in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>). To disable Halloween completely, enable `Raid Settings > Events > Disable ongoing events` or use [Politely Remove Events](<https://forge.sp-tarkov.com/mod/2408/politely-remove-events>).
+
+# EFT 1.0
+With EFT `1.0` out now, lots of SPT enjoyers are probably wondering what that means for SPT so here's a quick rundown:
+### Will we have 1.0 soon in SPT?
+Uncertain. EFT `1.0` now runs on IL2CPP instead of Mono which makes porting future EFT updates over to SPT difficult. There is no ETA.
+### Will it be possible to downgrade from EFT `1.0`/Steam version?
+Because of the switch from Mono to IL2CPP, making a downgrader patch is also difficult. No ETA.
+### Can I update EFT or will that break my existing SPT install?
+That's not how SPT works. The installer makes a **copy** of your EFT files to a **separate** location. Update EFT as much as you want.
+### How can I backup my EFT files?
+**If** your EFT files are on version `16.9.5.40743`, they can be used to [manually install SPT](<https://wiki.sp-tarkov.com/en/Manual-Install-Instructions>).
+To manually backup your EFT files:
+1. Navigate to your EFT install folder.
+2. Copy the entire EFT folder.
+3. Paste it in another location.
+  - Rename that folder to `EFT 16.9.5.40743 Backup` to ensure you know what the files are.
+### I haven't updated my EFT since `0.16.9.0.40087`, can I still install SPT?
+Yes, this is the EFT version SPT `4.0` uses. Follow the [manual install instructions](<https://wiki.sp-tarkov.com/en/Manual-Install-Instructions>), but ignore the step about using a patcher.
+You can also backup those EFT files for future use.
 
 # Troubleshooting tips
 - Do not install mods until you've launched SPT at least once. Verify your SPT install works, then install mods.
