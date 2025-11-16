@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-15T21:11:58.229Z
+date: 2025-11-16T21:08:40.693Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -37,7 +37,7 @@ Note that [Client mods](/Mod_Types) won't show up in the SPT Server nor Launcher
 [Update your SPT](<https://wiki.sp-tarkov.com/Updating_SPT>), and make sure you don't have an extended raid timer, as EFT's spawning system tends to break with them.
 
 ## Empty flea with `404 not found` errors
-[Update SPT](<https://wiki.sp-tarkov.com/Updating_SPT>).
+[Update your SPT](<https://wiki.sp-tarkov.com/Updating_SPT>).
 
 ## Server doesn't launch or closes immediately
 Install **BOTH** of the below. If it tells you that you already have them installed, then use the repair option. Restart your PC after. 
@@ -51,14 +51,14 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 [Re-update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
 
 ## Zombies do not spawn on Ground Zero
-No known fix.
+[Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
 
 ## Crisis does not unlock new crafts
-No known fix.
+[Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
 
 ## Infinite loading with no mods after copying live settings
 Click `Clear Game Settings` in your SPT Launcher's settings. Don't copy your Live settings if they are from EFT `1.0`.
-
+If that doesn't fix it, join our [Discord Server](http://discord.sp-tarkov.com/) and seek support from the [`#spt-support-4-0`](https://discord.com/channels/875684761291599922/1424142649027199148) channel.
 
 
 
