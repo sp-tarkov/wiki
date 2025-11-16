@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-10-24T14:11:06.361Z
+date: 2025-11-16T21:03:13.096Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -33,6 +33,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
   - If you decide against the shortcuts, you can run the `SPT.Server` and `SPT.Launcher` from inside your SPT folder. They are shortcuts which you can copy to any location on your computer.
 6. Run `SPT.Server`.
  - Wait for the green text that says `Server has started, happy playing`.
+ - Your server needs to be running while you play. It can just be closed when you are done playing.
 7. Run `SPT.Launcher` and follow the onscreen instructions.
  - If you want to copy over your EFT in-game settings, click `OK`. 
  - You can use any username you want. It is recommend that you **do not** use your EFT account username. Especially if you plan on recording or streaming SPT.
