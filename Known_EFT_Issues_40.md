@@ -2,7 +2,7 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-03T09:28:26.030Z
+date: 2025-11-16T21:04:46.825Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
@@ -57,6 +57,11 @@ No known fix. To apply builds to a weapon, right click it and press `Edit build`
 
 ## PMC bots belonging to the same faction (BEAR, USEC) won't fight each other
 No known fix.
+
+## SPT Installer not recognising your Steam EFT install
+1. Open your BSG Launcher by launching EFT through Steam. 
+2. Click on `Game Settings` then click on `Set the path to existing game installation`.
+3. In the window that pops up, select the `...\common\Escape From Tarkov\build` folder.
 
 
 # See also
