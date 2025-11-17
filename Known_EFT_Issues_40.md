@@ -2,7 +2,7 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-16T21:04:46.825Z
+date: 2025-11-17T06:01:59.326Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
@@ -56,7 +56,7 @@ BSG's attempt at fixing bots getting stuck on doors. [SAIN](<https://forge.sp-ta
 No known fix. To apply builds to a weapon, right click it and press `Edit build`.
 
 ## PMC bots belonging to the same faction (BEAR, USEC) won't fight each other
-No known fix.
+Install [ABPS](<https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system>).
 
 ## SPT Installer not recognising your Steam EFT install
 1. Open your BSG Launcher by launching EFT through Steam. 
