@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-11-17T05:58:24.952Z
+date: 2025-11-17T06:01:24.147Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -23,7 +23,7 @@ dateCreated: 2025-10-10T12:57:31.380Z
 
 ## Mods for better performance
 
-[Remove The Dead](https://forge.sp-tarkov.com/mod/1551/remove-the-dead)
+[Remove The Dead](https://forge.sp-tarkov.com/mod/1551/remove-the-dead), [DERP](https://forge.sp-tarkov.com/mod/2200/dynamic-external-resolution-patch-derp), [AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit)
 
 See [Performance Tuning](/Performance_Tuning) for further information.
 
