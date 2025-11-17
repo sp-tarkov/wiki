@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-11-11T22:41:51.154Z
+date: 2025-11-17T05:44:11.383Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -43,6 +43,7 @@ Running into issues? Find solutions here:
 - [Performance Tuning](/Performance_Tuning): Tips for improving FPS and stability.
 - [Frequently Asked Questions (FAQs)](/FAQs_40): Answers to frequently asked questions:
 	- [SPT 4.0](https://wiki.sp-tarkov.com/en/FAQs_40#spt-40)
+	- [EFT 1.0](https://wiki.sp-tarkov.com/en/FAQs_40#eft-10)
 	- [Troubleshooting tips](https://wiki.sp-tarkov.com/en/FAQs_40#troubleshooting-tips)
 	- [Old versions of SPT](https://wiki.sp-tarkov.com/en/FAQs_40#old-versions-of-spt)
 	- [Known EFT Issues](/Known_EFT_Issues_40)
