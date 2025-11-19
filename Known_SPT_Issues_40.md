@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-16T21:08:40.693Z
+date: 2025-11-19T23:48:45.963Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -59,6 +59,18 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 ## Infinite loading with no mods after copying live settings
 Click `Clear Game Settings` in your SPT Launcher's settings. Don't copy your Live settings if they are from EFT `1.0`.
 If that doesn't fix it, join our [Discord Server](http://discord.sp-tarkov.com/) and seek support from the [`#spt-support-4-0`](https://discord.com/channels/875684761291599922/1424142649027199148) channel.
+
+## SPT Launcher doesn't do anything when you click Play
+
+Check your SPT Launcher log file under `SPT/user/logs/launcher.log`, if it contains the following error, you are hitting a bug in SPT 4.0.6:
+
+`Could not find a part of the path '<Steam Path>\libraryfolders.vdf'`
+
+You will need to manually create an empty file at the path given in the error.
+
+If the folder path doesn't exist, you'll need to create it. You can create an empty file by right-clicking in that folder, and selecting New -> Text Document, then renaming it to 
+`libraryfolders.vdf`
+
 
 
 
