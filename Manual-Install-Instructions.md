@@ -2,7 +2,7 @@
 title: Manual Install Instructions
 description: 
 published: true
-date: 2025-11-01T22:50:18.803Z
+date: 2025-11-20T02:48:54.171Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-21T23:42:29.093Z
@@ -30,8 +30,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
 6. Run the `patcher.exe` and wait for it to finish.
 7. Download the SPT release archive under the `Direct Download` section of the latest [release page](https://github.com/sp-tarkov/build/releases/latest).
 8. Extract the contents of the SPT release archive into your `SPT` folder.
-9. Open your `SPT` folder, then the nested `SPT` folder inside of it.
-	- To make it easier to launch SPT in the future, you can right click `SPT.Server` and `SPT.Launcher`, select `Send to > Desktop (create shortcut)`
+9. Open your `[game folder]\SPT` folder.
 10. Run `SPT.Server`.
  - Wait for the green text that says `Server has started, happy playing`.
 11. Run `SPT.Launcher` and follow the onscreen instructions.
@@ -39,7 +38,8 @@ This is particularly important if you have just installed Escape From Tarkov so 
  - You can use any username you want. It is recommend that you **do not** use your EFT account username. Especially if you plan on recording or streaming SPT.
  - `Login Automatically` will always log into the last profile you loaded. You can disable this by clicking `Logout` in the bottom right, then unchecking the option.
  - Select your desired game version. Each version has a description box summarising what is included. Once you have picked your chosen game version click `Register`. You can pick *any* game version you want from the profile list, you do not need to own the corresponding EFT version. Once chosen, you cannot change the edition a profile is using.
-12. Click `Start Game` and load into the main menu.
+12. To make it easier to launch SPT in the future, you can right click `SPT.Server` and `SPT.Launcher`, select `Send to > Desktop (create shortcut)`
+13. Click `Start Game` and load into the main menu.
 
 Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/). You can find a guide on how to correctly install SPT mods on the [Installing Mods](https://wiki.sp-tarkov.com/Installing_Mods) Wiki page.
 
