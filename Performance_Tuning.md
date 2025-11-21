@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-11-21T17:31:35.340Z
+date: 2025-11-21T17:36:50.121Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -69,8 +69,7 @@ Finally, in the in-game menu, enable `Only use physical cores` in the `GAME` tab
 
 The pagefile in Windows is used as "storage" for your RAM. If your RAM is filling up, Windows will start moving files to and from it. Even an SSD will be much slower than RAM, hence why it's used sparingly. Windows automatically increases it as required.
 
-Your pagefile should be set to `Automatically manage paging file size for all drives`.
-To check if it is:
+Your pagefile should be set to `Automatically manage paging file size for all drives`. To check if it is:
 
 1. Press <kbd>Win</kbd> and search for "View advanced system settings" and open the link. 
 2. Under `Performance`, go into `Settings`, then the `Advanced` tab.
@@ -78,6 +77,9 @@ To check if it is:
 4. Ensure you have `Automatically manage paging file size for all drives` enabled.
 
 If you experience crashes related to memory, make sure your drives have more than 30GB of free space available.
+
+[RAM Cleaner Fix](<https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix>) forces the game to utilise the pagefile. It at best won't help you with any issues you might have, and at worst will cause your pagefile to be overused, which will instead cause issues.
+
 
 ## Further tweaks
 - You will see minor improvements by changing your graphic settings. Follow any graphics guide for EFT.
