@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-11-21T03:03:20.011Z
+date: 2025-11-21T14:43:50.391Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -64,7 +64,7 @@ You should only have **one** bot progression mod installed to avoid issues.
 ## Mods for better player experience
 
 - Ease of play
-[Audio Accessibility Indicators](https://forge.sp-tarkov.com/mod/1760/audio-accessibility-indicators), [Simple Crosshair](https://forge.sp-tarkov.com/mod/1387/simple-crosshair), [Janky's Visual Assist](https://forge.sp-tarkov.com/mod/2213/jankys-visual-assist), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Deminvincibility](https://forge.sp-tarkov.com/mod/1117/deminvincibility), [Pause](https://forge.sp-tarkov.com/mod/2046/pause), [Use Items Anywhere](https://forge.sp-tarkov.com/mod/2386/use-items-anywhere), [Enemy Markers](<https://forge.sp-tarkov.com/mod/1858/enemy-markers>), [Keep Starting Gear](<https://forge.sp-tarkov.com/mod/2450/keep-starting-gear>), [Instant Insurance](https://forge.sp-tarkov.com/mod/2394/instant-insurance)
+[Audio Accessibility Indicators](https://forge.sp-tarkov.com/mod/1760/audio-accessibility-indicators), [Simple Crosshair](https://forge.sp-tarkov.com/mod/1387/simple-crosshair), [Janky's Visual Assist](https://forge.sp-tarkov.com/mod/2213/jankys-visual-assist), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Deminvincibility](https://forge.sp-tarkov.com/mod/1117/deminvincibility), [Pause](https://forge.sp-tarkov.com/mod/2046/pause), [Use Items Anywhere](https://forge.sp-tarkov.com/mod/2386/use-items-anywhere), [Enemy Markers](<https://forge.sp-tarkov.com/mod/1858/enemy-markers>), [Instant Insurance](https://forge.sp-tarkov.com/mod/2394/instant-insurance)
 
 - Gameplay
 [Continuous Healing](https://forge.sp-tarkov.com/mod/1884/continuous-healing), [Set Speed](https://forge.sp-tarkov.com/mod/994/set-speed-set-player-speed-with-hotkeys), [Bosses Have Lega Medals](https://forge.sp-tarkov.com/mod/1539/bosses-have-lega-medals), [Ref - SPT Friendly Quests](https://forge.sp-tarkov.com/mod/1538/ref-spt-friendly-quests), [Bush Whacker](https://forge.sp-tarkov.com/mod/2329/bushwhacker-standalone), [Increase Climb Height](https://forge.sp-tarkov.com/mod/1575/increase-climb-height), [AutoRun](https://forge.sp-tarkov.com/mod/1477/autorun)
