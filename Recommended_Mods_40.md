@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-11-21T03:02:45.691Z
+date: 2025-11-21T03:03:20.011Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -19,7 +19,7 @@ dateCreated: 2025-10-10T12:57:31.380Z
 
 
 ## Mods for better AI
-[Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades)
+[Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades), [Ombarella](https://forge.sp-tarkov.com/mod/2315/ombarella)
 
 ## Mods for better performance
 
