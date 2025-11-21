@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-11-01T22:22:13.191Z
+date: 2025-11-21T17:31:35.340Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -66,29 +66,18 @@ You can easily check how many threads your CPU has by pressing <kbd>Ctrl</kbd> +
 Finally, in the in-game menu, enable `Only use physical cores` in the `GAME` tab.
 
 ## Pagefile
-> This section only applies if don't have the [recommended amount of RAM](/system-requirements) and are experiencing crashes. It can lead to system issues.
-{.is-danger}
 
-The pagefile in Windows is used as "storage" for your RAM. If your RAM is filling up, Windows will start moving files to and from it. Even an SSD will be much slower than RAM, hence why it's used sparingly. Windows should automatically increase it as required. However, system issues can cause this process to fail, which will lead to your game crashing. Manually setting its size can help in those cases.
+The pagefile in Windows is used as "storage" for your RAM. If your RAM is filling up, Windows will start moving files to and from it. Even an SSD will be much slower than RAM, hence why it's used sparingly. Windows automatically increases it as required.
 
-
-> Note: If your pagefile wasn't set to `Automatically manage paging file size for all drives` when you experienced the crash, you should first enable it and see if that fixes your issue.
-{.is-info}
-
-To manually set your pagefile:
+Your pagefile should be set to `Automatically manage paging file size for all drives`.
+To check if it is:
 
 1. Press <kbd>Win</kbd> and search for "View advanced system settings" and open the link. 
 2. Under `Performance`, go into `Settings`, then the `Advanced` tab.
 3. Under `Virtual memory` press `Change`.
-4. Select your fastest drive, and set the `Custom size` values to the following:
+4. Ensure you have `Automatically manage paging file size for all drives` enabled.
 
-| Your amount of RAM | Initial Size (MB) | Maximum Size (MB) |
-|---|---|---|
-| 16 GB | 24000 | 48000 |
-
-5. Press `Set` then `OK`.
-
-[RAM Cleaner Fix](<https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix>) forces the game to utilise the pagefile. If you're still crashing after manually setting your pagefile, try installing it.
+If you experience crashes related to memory, make sure your drives have more than 30GB of free space available.
 
 ## Further tweaks
 - You will see minor improvements by changing your graphic settings. Follow any graphics guide for EFT.
