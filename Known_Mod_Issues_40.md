@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-12T22:56:38.225Z
+date: 2025-11-22T17:30:35.610Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -77,7 +77,13 @@ Install [WTT - CommonLib](<https://forge.sp-tarkov.com/mod/2310/wtt-commonlib>) 
 ## Error converting value `#xxxxxx` to type `JsonType.TaxonomyColor`
 Install [Color Converter API](<https://forge.sp-tarkov.com/mod/1090/color-converter-api>).
 
-
+## My flea prices are extreme when using [Live Flea Prices](<https://forge.sp-tarkov.com/mod/1131/live-flea-prices>)
+Those are the prices of items on the Live flea right now. You can check the Live flea on websites like <https://tarkov.dev/>.
+By default, SPT uses the base handbook price of items +/- some variance when simulating the flea.
+To get "normal" flea prices:
+- Wait for the Live flea prices to stabilise.
+- Set `"pvePrices"` to `true` inside Live Flea Prices' config file to use the PvE Live flea prices instead.
+- [Uninstall](<https://wiki.sp-tarkov.com/Uninstalling_Mods>) Live Flea Prices.
 
 
 
