@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-22T17:36:19.216Z
+date: 2025-11-22T17:37:33.382Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -85,7 +85,7 @@ To get "normal" flea prices:
 - Set `"pvePrices"` to `true` inside Live Flea Prices' config file to use the PvE Live flea prices instead.
 - [Uninstall](<https://wiki.sp-tarkov.com/Uninstalling_Mods>) Live Flea Prices.
 
-## Gun previews are broken with `So descriptive`
+## Handbook gun descriptions are broken with `So descriptive`
 [Uninstall](<https://wiki.sp-tarkov.com/en/Uninstalling_Mods>) [Preview Sizer](<https://forge.sp-tarkov.com/mod/2339/preview-sizer>).
 
 # See also
