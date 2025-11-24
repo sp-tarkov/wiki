@@ -2,7 +2,7 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2025-11-01T16:17:21.369Z
+date: 2025-11-24T11:28:54.859Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -32,9 +32,7 @@ dateCreated: 2025-06-12T18:59:03.228Z
 
 1. Open the mod archive using 7zip.
 2. If the mod archive has a `SPT`, `BepInEx` or *both* folders, drag and drop the contents of the archive to the empty space in your game  folder as seen in the gif below.
-3. If the mod archive **isn't** structured like that, read the mod page for install instructions:
-	- For mods that go into `[game folder]\SPT\user`, drag and drop the mod folder into your `[game folder]\user\mods`.
-	- For mods that go into `BepInEx\plugins`, drag and drop the mod folders and files into your `\BepInEx\plugins` folder.
+3. If the mod archive **isn't** structured like that, let us know in our [Discord Server](http://discord.sp-tarkov.com/)'s [`#mod-questions-4-0`](https://discord.com/channels/875684761291599922/1315885344532467822) channel. Mods are *required* to be structured correctly as of SPT `4.0`.
 
 &nbsp;
 <img src="https://i.imgur.com/3N6gTe2.gif" alt="mod install" width=600 style="display: block; margin: 0 auto;">
