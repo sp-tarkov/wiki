@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-22T17:37:33.382Z
+date: 2025-11-26T15:36:32.685Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -87,6 +87,10 @@ To get "normal" flea prices:
 
 ## Handbook gun descriptions are broken with `So descriptive`
 [Uninstall](<https://wiki.sp-tarkov.com/en/Uninstalling_Mods>) [Preview Sizer](<https://forge.sp-tarkov.com/mod/2339/preview-sizer>).
+
+## You are "invisible" to bots
+If installed, tweak [Ombarella](<https://forge.sp-tarkov.com/mod/2315/ombarella>). If you can't tweak it to your liking, [uninstall it](<https://wiki.sp-tarkov.com/Uninstalling_Mods>).
+
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
