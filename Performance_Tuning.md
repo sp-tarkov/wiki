@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-11-24T15:41:40.309Z
+date: 2025-11-28T12:30:35.534Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -80,6 +80,20 @@ If you experience crashes related to memory, make sure your drives have more tha
 
 [RAM Cleaner Fix](<https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix>) forces the game to utilise the pagefile. It at best won't help you with any issues you might have, and at worst will cause your pagefile to be overused, which will instead cause issues.
 
+However, if you still have crashed due to running out of memory even when the pagefile is automatically managed, then there's an underlying issue with your Windows install. You should try to fix it by verifying your Windows files. However, you can manually set your pagefile as a temporary fix:
+
+> Manually setting your pagefile can lead to system crashes if it gets overfilled.
+{.is-warning}
+
+1. Follow the above steps to get to the pagefile settings.
+2. Disable `Automatically manage paging file size for all drives`.
+3. Select your fastest drive and select `Custom size`.
+4. Set the `Initial size` and `Maximum size` according to the amount of RAM you have:
+
+|-|-|
+| Amount of RAM | Initial size | Maximum size |
+| 16 GB | 16000 | 40000 |
+| 32 GB | 32000 | 80000 |
 
 ## Further tweaks
 - You will see minor improvements by changing your graphic settings. Follow any graphics guide for EFT.
