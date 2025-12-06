@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-06T03:24:56.721Z
+date: 2025-12-06T03:26:53.348Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -26,10 +26,10 @@ dateCreated: 2025-10-10T12:33:53.585Z
 - Replacing a daily/weekly quest with another from the same trader will cause a client soft lock, restarting the client fixes the issue.
 
 ## The server has unexpectedly stopped... : Decoded string is not a valid IDN name.
-Remove any trailing symbols from your Computer's name (e.g.: `My-PC-` > `My-PC`). 
+Remove any trailing symbols from your PC's name (e.g.: `My-PC-` > `My-PC`).
+The 15th character of your PC name can't be a symbol either. 
 Your PC name should also not use any special characters. Only `a-z`, `A-Z`, `0-9` and `-` are valid (e.g.: `My-PÇ` > `My-PC`). 
 You can rename your PC by searching for `View your PC name` in the Start menu, and clicking on `Rename this PC`.
-The 15th character of your PC name can't be a symbol either.
 
 ## Server mods don't appear in the SPT Launcher
 [Update your SPT.](/Updating_SPT)
