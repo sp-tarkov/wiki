@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-06T03:30:16.910Z
+date: 2025-12-06T03:31:52.468Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -92,7 +92,6 @@ To get "normal" flea prices:
 If installed, tweak [Ombarella](<https://forge.sp-tarkov.com/mod/2315/ombarella>). If you can't tweak it to your liking, [uninstall it](<https://wiki.sp-tarkov.com/Uninstalling_Mods>).
 
 ## `The given key '67c5412bb032bbdb530201ba Name' was not present in the dictionary`
-
 [Marlin MXLR](<https://forge.sp-tarkov.com/mod/2484/marlin-mxlr-308-me-lever-action-rifle>) is incompatible with many mods, including [Item Info](<https://forge.sp-tarkov.com/mod/2430/odts-item-info-spt-40>). You will need to either [uninstall it](<https://wiki.sp-tarkov.com/en/Uninstalling_Mods>) or any mod that conflicts with it.
 
 # See also
