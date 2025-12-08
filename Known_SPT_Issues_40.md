@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-06T03:26:53.348Z
+date: 2025-12-08T04:42:00.032Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -57,10 +57,6 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 
 ## Crisis does not unlock new crafts
 [Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
-
-## Infinite loading with no mods after copying live settings
-Click `Clear Game Settings` in your SPT Launcher's settings. Don't copy your Live settings if they are from EFT `1.0`.
-If that doesn't fix it, join our [Discord Server](http://discord.sp-tarkov.com/) and seek support from the [`#spt-support-4-0`](https://discord.com/channels/875684761291599922/1424142649027199148) channel.
 
 ## SPT Launcher doesn't do anything when you click Play
 
