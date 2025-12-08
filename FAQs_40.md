@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-11-17T05:43:35.945Z
+date: 2025-12-08T04:52:38.835Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -62,19 +62,6 @@ For an explanation of how SPT versions work and how to update your SPT, read thr
 ## Why do bots spawn right on top of me?
 Base SPT uses EFT's PVE spawning system, which does not check the distance to you or other bots. Use a [bot spawning mod](<https://wiki.sp-tarkov.com/Recommended_Mods_40#mods-for-better-bot-spawns>) to address it.
 
-## Halloween Event
-The Infected Halloween event is enabled by default in SPT `4.0`. It runs from the 28th of October to the 9th of November. You can see the maps infection level on the pre-raid screen.
-The zombies are from a 2024 event, which means it has some issues in the current version of the game:
-- Due to bots having vastly fewer targets, they will tend to stay where they spawned.
-- Zombies do not spawn on Ground Zero.
-- [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) is incompatible with zombies. It causes zombies to be unable to melee, and scavs to be stuck in a slide-crouch loop.
-  - Enabling `Vanilla Scavs` in `Home > General > Vanilla Bot Behaviour Settings` will prevent the slide-crouch loop, but will not fix zombies' melee.
-- Having [ABPS](<https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system>) installed will prevent zombies from spawning.
-
-SPT `4.0.3` brings many fixes for the event. You should [update your SPT](<https://wiki.sp-tarkov.com/Updating_SPT>).
-
-If you want to disable just zombies, enable `Raid Settings > Events > Disable zombies` in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>). To disable Halloween completely, enable `Raid Settings > Events > Disable ongoing events` or use [Politely Remove Events](<https://forge.sp-tarkov.com/mod/2408/politely-remove-events>).
-
 ## Need space on your drive? Don't play live?
 After you install SPT, you cannot completely uninstall live EFT, but you can delete the `EscapeFromTarkov_Data` folder from your live EFT folder if you really need the space.
 
@@ -86,7 +73,7 @@ With EFT `1.0` out now, lots of SPT enjoyers are probably wondering what that me
 ### Will we have `1.0` soon in SPT?
 Uncertain. EFT `1.0` now runs on IL2CPP instead of Mono which makes porting future EFT updates over to SPT difficult. There is no ETA.
 ### Is it possible to install SPT with EFT `1.0`?
-Yes. You can now [install SPT](<https://wiki.sp-tarkov.com/en/Installation_Guide>) while having EFT `1.0` installed.
+Yes. You can [install SPT](<https://wiki.sp-tarkov.com/en/Installation_Guide>) while having EFT `1.0` installed.
 ### Is it possible to install SPT with the Steam copy of EFT?
 Yes. See the [install guide](<https://wiki.sp-tarkov.com/en/Installation_Guide>).
 ### Can I update EFT or will that break my existing SPT install?
