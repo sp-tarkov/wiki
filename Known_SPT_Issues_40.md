@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-08T04:42:00.032Z
+date: 2025-12-08T04:43:39.665Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -59,17 +59,7 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 [Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
 
 ## SPT Launcher doesn't do anything when you click Play
-
-Check your SPT Launcher log file under `SPT/user/logs/launcher.log`, if it contains the following error, you are hitting a bug in SPT 4.0.6:
-
-`Could not find a part of the path '<Steam Path>\libraryfolders.vdf'`
-
-You will need to manually create an empty file at the path given in the error.
-
-If the folder path doesn't exist, you'll need to create it. You can create an empty file by right-clicking in that folder, and selecting New -> Text Document, then renaming it to 
-`libraryfolders.vdf`
-
-
+[Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
 
 
 # See also
