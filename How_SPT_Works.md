@@ -2,11 +2,14 @@
 title: How SPT Works
 description: The basics of how SPT works.
 published: true
-date: 2025-11-11T22:48:29.559Z
+date: 2025-12-08T12:34:31.961Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-11T22:39:55.471Z
 ---
+
+> This page applies to any SPT version
+{.is-info}
 
 ## Installation
 <div style="margin-top: 20px;"></div>
