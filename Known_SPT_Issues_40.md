@@ -2,13 +2,13 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-08T04:43:39.665Z
+date: 2025-12-08T04:46:42.654Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
 ---
 
-> This page applies to SPT version `4.0.0`
+> This page applies to SPT version `4.0`
 {.is-info}
 
 ## [Github tracked issues](<https://github.com/sp-tarkov/build/wiki/Known-SPT-issues>)
@@ -35,7 +35,7 @@ You can rename your PC by searching for `View your PC name` in the Start menu, a
 [Update your SPT.](/Updating_SPT)
 Note that [Client mods](/Mod_Types) won't show up in the SPT Server nor Launcher.
 
-## There are little to no PMCs in my Scav runs
+## There are little to no PMCs in your Scav runs
 [Update your SPT](<https://wiki.sp-tarkov.com/Updating_SPT>), and make sure you don't have an extended raid timer, as EFT's spawning system tends to break with them.
 
 ## Empty flea with `404 not found` errors
@@ -47,12 +47,6 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 [ASP.NET 9.0.11](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.11-windows-x64-installer>)
 
 ## Kollontay still spawns on high level Ground Zero
-[Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
-
-## Zombies do not spawn on Shoreline
-[Re-update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
-
-## Zombies do not spawn on Ground Zero
 [Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
 
 ## Crisis does not unlock new crafts
