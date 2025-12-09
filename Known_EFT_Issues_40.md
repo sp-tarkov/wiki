@@ -2,7 +2,7 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-11-17T06:02:24.413Z
+date: 2025-12-09T12:20:43.934Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
@@ -62,6 +62,9 @@ Install [ABPS](<https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-sy
 1. Open your BSG Launcher by launching EFT through Steam. 
 2. Click on `Game Settings` then click on `Set the path to existing game installation`.
 3. In the window that pops up, select the `...\common\Escape From Tarkov\build` folder.
+
+## Posting on flea randomly causes a stuck game with flashing items
+No known permanent fix. Restart the game if it happens.
 
 
 # See also
