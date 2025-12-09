@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-08T04:46:42.654Z
+date: 2025-12-09T12:44:13.565Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -55,6 +55,8 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 ## SPT Launcher doesn't do anything when you click Play
 [Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
 
+## `Not a valid Win32 FileTime` when using the Hijri calendar
+SPT currently does not work if your computer is set to use the Hijri calendar. Until it gets fixed, you will need to use the Gregorian calendar.
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
