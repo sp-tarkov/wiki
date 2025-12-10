@@ -2,7 +2,7 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-09T12:20:43.934Z
+date: 2025-12-10T08:12:33.404Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
@@ -64,7 +64,7 @@ Install [ABPS](<https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-sy
 3. In the window that pops up, select the `...\common\Escape From Tarkov\build` folder.
 
 ## Posting on flea randomly causes a stuck game with flashing items
-No known permanent fix. Restart the game if it happens.
+Install [UI Fixes](<https://forge.sp-tarkov.com/mod/1342/ui-fixes>). Otherwise, restart the game when it occurs.
 
 
 # See also
