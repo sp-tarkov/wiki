@@ -2,7 +2,7 @@
 title: Manual Installation Instructions for SPT 3.11
 description: 
 published: true
-date: 2025-12-11T17:17:14.998Z
+date: 2025-12-11T17:18:03.112Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T18:56:40.239Z
