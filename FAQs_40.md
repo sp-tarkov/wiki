@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-12-08T04:52:38.835Z
+date: 2025-12-12T09:33:20.121Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -67,6 +67,13 @@ After you install SPT, you cannot completely uninstall live EFT, but you can del
 
 You **will** have to validate files through the BSG launcher if you need to reinstall SPT again by going into the BSG Launcher's `Game Settings` and clicking on `Integrity check`.
 
+## RAM Usage
+It's [recommended](<https://wiki.sp-tarkov.com/en/system-requirements>) to have at least 32gb of RAM to play SPT without issues.
+EFT has over the years become more demanding on system resources. In the past, 16gb was just enough to play without issue. Nowadays it's not.
+
+Some people are still able to play SPT with 16gb of RAM. That's due to the pagefile, which is a cache located on your storage device. If your RAM is filling up, Windows will start moving files to and from it. It will lead to stuttering and overall lower performance, as even the fastest NVMe SSD is much slower than RAM.
+
+For an even smaller subset of people there’s an underlying issue with their Windows install, where the pagefile does not work as intended. While this should be fixed, it can be [set manually as a temporary fix](<https://wiki.sp-tarkov.com/Performance_Tuning#pagefile>).
 
 # EFT 1.0
 With EFT `1.0` out now, lots of SPT enjoyers are probably wondering what that means for SPT so here's a quick rundown:
