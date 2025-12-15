@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-12-12T09:33:20.121Z
+date: 2025-12-15T16:48:56.571Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -74,6 +74,13 @@ EFT has over the years become more demanding on system resources. In the past, 1
 Some people are still able to play SPT with 16gb of RAM. That's due to the pagefile, which is a cache located on your storage device. If your RAM is filling up, Windows will start moving files to and from it. It will lead to stuttering and overall lower performance, as even the fastest NVMe SSD is much slower than RAM.
 
 For an even smaller subset of people there’s an underlying issue with their Windows install, where the pagefile does not work as intended. While this should be fixed, it can be [set manually as a temporary fix](<https://wiki.sp-tarkov.com/Performance_Tuning#pagefile>).
+
+## Why are bots not moving from their spawn location?
+Bots in EFT are not programmed to move from their spawn location outside of combat. Only PMC bots are given tasks to loot areas, if they spawned near them. By design, bots will stand where they spawned until they spot the player. This is a design decision made by BSG and not SPT.
+
+There are currently no mods for SPT `4.0` that make bots move around the map. 
+
+[SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) **doesn't** make bots move around the map, as it *only* affects combat behaviour.
 
 # EFT 1.0
 With EFT `1.0` out now, lots of SPT enjoyers are probably wondering what that means for SPT so here's a quick rundown:
