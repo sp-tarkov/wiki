@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-12-08T12:35:24.570Z
+date: 2025-12-15T12:03:12.740Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -11,11 +11,11 @@ dateCreated: 2025-07-22T03:38:27.428Z
 > This page applies to any SPT version
 {.is-info}
 
-Compared to live PVP, the performance in SPT will always be worse. When you're playing PVP, or an online PVE raid, bots (scavs, PMCs, bosses) run on BSG's servers. In SPT, local PVE, and practice raids, bots run on your computer. They are very unoptimised, running on a single CPU thread.
+SPT's performance will generally be worse than a live PVP or online PVE raid, where bot AI logic (scavs, PMCs, bosses) is running on BSG servers. SPT runs all of the bot AI logic locally on your PC, which has a significant impact on your performance.
 
-You might have noticed that when playing SPT your CPU and GPU usage is never at 100%. Your GPU cannot run at full power because it's busy waiting on instructions from your CPU, and your CPU cannot run at full power because it has to slowly process all the bots. To see this in action, disable bots in either Pre-Raid Settings, or the bot spawning mod you installed.
+This is due to poor optimisation and a lack of multithreading. 
 
-Only CPUs with powerful single-threaded performance will improve your in-game FPS. AMD's X3D CPUs are the most optimal as they let a single thread process more data at once.
+CPUs with powerful single-threaded performance will improve your in-game FPS the most. AMD's X3D CPUs are optimal for this reason.
 
 ## Optimisations
 - Use [Waypoints](https://forge.sp-tarkov.com/mod/827/waypoints-expanded-navmesh) to optimise AI pathfinding.
