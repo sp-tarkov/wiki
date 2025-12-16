@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-12-16T16:57:26.789Z
+date: 2025-12-16T16:59:03.533Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -67,7 +67,7 @@ Your pagefile should be set to `Automatically manage paging file size for all dr
 
 If you experience crashes related to memory, make sure your drives have more than 30GB of free space available.
 
-[RAM Cleaner Fix](<https://forge.sp-tarkov.com/mod/1311/ram-cleaner-fix>) forces the game to utilise the pagefile. It at best won't help you with any issues you might have, and at worst will cause your pagefile to be overused, which will instead cause issues.
+`RAM Cleaner Fix` at best won't help you with any issues you might have, and at worst will cause your pagefile to be overused, which will instead cause issues. You shouldn't use it.
 
 However, if you still have crashes due to running out of memory even when the pagefile is automatically managed, then there's an underlying issue with your Windows install. You should try to fix it by verifying your Windows files. However, you can manually set your pagefile as a temporary fix:
 
