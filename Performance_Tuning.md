@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-12-15T12:03:12.740Z
+date: 2025-12-16T16:57:26.789Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -38,9 +38,8 @@ CPUs with powerful single-threaded performance will improve your in-game FPS the
   - Less bots mean less demand on your system, but it will make raid feel "less alive" if lowered too much.
 
 ## Boot.config
-Editing your `boot.config` might marginally help with performance. While no extensive testing has been done on its effectiveness, some report an improvement after tweaking them.
-
-Your `boot.config` file is located in `[game folder]\EscapeFromTarkov_Data` . You can edit it using a text editor like Notepad.
+Your `boot.config` file is located in `[game folder]\EscapeFromTarkov_Data`. 
+Editing it brings **no performance improvements**.
 By default, it contains this:
 
 ```
@@ -53,17 +52,7 @@ single-instance=
 build-guid=[some ID]
 ```
 
-First, change `gc-max-time-slice=3` to `gc-max-time-slice=10`. 
-Then, add these below:
-
-```
-gfx-disable-mt-rendering=1
-vr-enabled=0
-job-worker-count=[your CPU's number of threads - 1]
-```
-You can easily check how many threads your CPU has by pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Esc</kbd> to open your Task Manager, and seeing how many `Logical processors` there are in `Performance` > `CPU`.
-
-Finally, in the in-game menu, enable `Only use physical cores` in the `GAME` tab.
+That's what it should look like to avoid any issues.
 
 ## Pagefile
 
@@ -94,6 +83,10 @@ However, if you still have crashes due to running out of memory even when the pa
 | Amount of RAM | Initial size | Maximum size |
 | 16 GB | 16000 | 40000 |
 | 32 GB | 32000 | 80000 |
+
+> If you encounter system crashes or BSODs after setting your pagefile manually, you should revert those changes by enabling automatic management as described in the beginning of this section.
+{.is-info}
+
 
 ## Further tweaks
 - You will see minor improvements by changing your graphic settings. Follow any graphics guide for EFT.
