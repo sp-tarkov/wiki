@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-12-17T08:26:00.574Z
+date: 2025-12-17T17:42:52.562Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -27,7 +27,7 @@ CPUs with powerful single-threaded performance will improve your in-game FPS the
 - Disable `V-Sync` in the graphics settings.
 - Set your texture quality to `Low` or `Medium`.
 - Use `Low texture mode for Streets` to further minimise memory usage.
-- If you're using [Vulkan](https://en.wikipedia.org/wiki/Vulkan) on Windows, do not use the `Unheard` menu background.
+- If you're using Vulkan on Linux or DXVK on Windows, do not use the `Unheard` menu background.
 - Remove mods that add new functions to AI.
   - As bots are the main cause of performance issues, mods that add new functions to them will impact performance.
 - Use [AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit).
