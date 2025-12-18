@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-08T04:48:13.608Z
+date: 2025-12-18T03:01:59.452Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -35,7 +35,7 @@ Update [Quest Tweaks](<https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-twea
 Update [Gilded Key Storage](<https://forge.sp-tarkov.com/mod/865/gilded-key-storage>).
 
 ## [Task Automation](<https://forge.sp-tarkov.com/mod/2238/task-automation>) stops working
-[Uninstall](/Uninstalling_Mods) [Expanded Task Text](<https://forge.sp-tarkov.com/mod/2389/expanded-task-text>).
+Update it and [Expanded Task Text](<https://forge.sp-tarkov.com/mod/2389/expanded-task-text>).
 
 ## `ReflectionTypeLoadException` error while [UnityToolkit](<https://forge.sp-tarkov.com/mod/1426/unitytoolkit>) is installed
 Delete `[game folder]\BepInEx\patchers\FixPluginTypeSerialization` folder.
@@ -46,8 +46,8 @@ Update [Skills Extended](<https://forge.sp-tarkov.com/mod/2383/skills-extended>)
 ## `Disable ongoing events` doesn't work in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
 Update [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
 
-## `Critical exception, stopping server... at raidrecord_v0._5.` on SPT 4.0.3
-[Uninstall](/Uninstalling_Mods) [Raid Record](<https://forge.sp-tarkov.com/mod/2341/raidrecord>).
+## `Critical exception, stopping server... at raidrecord_v0._5.`
+Update [Raid Record](<https://forge.sp-tarkov.com/mod/2341/raidrecord>).
 
 ## After dying you're frozen, gun detaches from your hands
 Update [MoreBotsAPI](<https://forge.sp-tarkov.com/mod/2426/morebotsapi>).
