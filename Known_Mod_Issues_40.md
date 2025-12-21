@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-18T03:01:59.452Z
+date: 2025-12-21T02:09:50.165Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -11,6 +11,16 @@ dateCreated: 2025-10-10T12:36:39.787Z
 > This page applies to SPT version `4.0`
 {.is-info}
 
+## Infinite loading after installing mods
+This happens most often due to installing mods not made for your version of SPT.
+- Outdated [**server**](<https://wiki.sp-tarkov.com/en/Mod_Types#server-mods>) mods will either flag red errors in your SPT server terminal and prevent any mods from being loaded, or not load at all.
+- Outdated [**client**](<https://wiki.sp-tarkov.com/en/Mod_Types#client-mods>) mods will **not** throw errors in the SPT server terminal window and **will** allow the game to launch, but then might encounter infinite loading or other issues.
+
+When selecting the mods you want to install, make sure that you **only install mods that have been marked compatible with [your SPT version](<https://wiki.sp-tarkov.com/en/Updating_SPT#version-numbers>)**. Mods for incompatible SPT versions will not work, and will break things. If you are unsure what version of SPT you are on, you can see the SPT version in the top left of the server window or in the bottom left while in-game.
+
+Read the [Uninstalling Mods](<https://wiki.sp-tarkov.com/Uninstalling_Mods>) Wiki page to see how to remove your outdated mods.
+
+If you verified all your mods to be compatible with your version of SPT and you still have infinite loading, then join our [Discord server](http://discord.sp-tarkov.com/) and follow the [`#support-guidelines`](https://discord.com/channels/875684761291599922/1172733248317694022) on opening a new support thread.
 
 ## Screen going blank after selecting map
 Redownload and reinstall [SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm).
