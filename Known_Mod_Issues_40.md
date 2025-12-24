@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-24T18:09:41.912Z
+date: 2025-12-24T18:13:45.916Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -100,7 +100,8 @@ If installed, tweak [Ombarella](<https://forge.sp-tarkov.com/mod/2315/ombarella>
 [Marlin MXLR](<https://forge.sp-tarkov.com/mod/2484/marlin-mxlr-308-me-lever-action-rifle>) is incompatible with many mods, including [Item Info](<https://forge.sp-tarkov.com/mod/2430/odts-item-info-spt-40>). You will need to either [uninstall it](<https://wiki.sp-tarkov.com/en/Uninstalling_Mods>) or any mod that conflicts with it.
 
 ## `Method not found:... ArmorDurability ...`
-Wait for [APBS](<https://forge.sp-tarkov.com/mod/1594/apbs-acids-progressive-bot-system>) to receive an update, and/or [uninstall it](<https://wiki.sp-tarkov.com/Uninstalling_Mods>) in the meanwhile.
+Install version `2.0.9` of [APBS](<https://forge.sp-tarkov.com/mod/1594/apbs-acids-progressive-bot-system>) until it receives an update to fix the issue or [uninstall it](<https://wiki.sp-tarkov.com/Uninstalling_Mods>) in the meanwhile.
+
 
 
 # See also
