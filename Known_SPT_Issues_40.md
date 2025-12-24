@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-15T02:04:34.206Z
+date: 2025-12-24T18:06:36.077Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -57,6 +57,9 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 
 ## `Not a valid Win32 FileTime` when using the Hijri calendar
 [Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
+
+## Festive Airdrops have no loot
+No known fix.
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
