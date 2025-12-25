@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-24T18:06:36.077Z
+date: 2025-12-25T15:27:39.457Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -60,6 +60,9 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 
 ## Festive Airdrops have no loot
 No known fix.
+
+## `Enable Bosses` being disabled stops spawning PMC bots
+Use a bot spawning mod and disable boss spawning in it instead.
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
