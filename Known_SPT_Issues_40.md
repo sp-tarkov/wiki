@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-25T15:27:39.457Z
+date: 2025-12-26T15:19:36.933Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -62,7 +62,7 @@ Install **BOTH** of the below. If it tells you that you already have them instal
 No known fix.
 
 ## `Enable Bosses` being disabled stops spawning PMC bots
-Use a bot spawning mod and disable boss spawning in it instead.
+[Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
