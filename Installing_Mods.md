@@ -2,7 +2,7 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2025-11-24T11:28:54.859Z
+date: 2025-12-26T14:10:27.183Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -27,6 +27,8 @@ dateCreated: 2025-06-12T18:59:03.228Z
 - **Only install mods that are marked compatible with your version of SPT.** Mods for older SPT versions will not work, and will break things. If you are unsure what version of SPT you are on, you can see the SPT version in the top left of the server window or in the bottom left while in-game.
 
 - **Close everything SPT related** when installing or removing mods. Your server needs to be closed when configuring [server mods](https://wiki.sp-tarkov.com/en/Mod_Types#server-mods).
+
+- Install mods in **small batches** and verify they work before installing more. If you encounter an issue, you will know it's one of the few mods you just installed.
 
 ## Installing mods
 
