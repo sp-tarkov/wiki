@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-25T15:28:53.574Z
+date: 2025-12-29T05:25:26.059Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -101,6 +101,9 @@ If installed, tweak [Ombarella](<https://forge.sp-tarkov.com/mod/2315/ombarella>
 
 ## `Method not found:... ArmorDurability ...` error in server console
 Update [APBS](<https://forge.sp-tarkov.com/mod/1594/apbs-acids-progressive-bot-system>).
+
+## Bots aren't hostile while using [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) after uninstalling a custom bot mod
+Delete your `[game folder]\BepInEx\plugins\SAIN\Default Bot Config Values` folder. SAIN will regenerate it on game launch.
 
 
 
