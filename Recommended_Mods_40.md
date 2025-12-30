@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-11-21T16:10:11.536Z
+date: 2025-12-30T00:04:41.477Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -45,7 +45,7 @@ You should only have **one** bot progression mod installed to avoid issues.
 [HollywoodFX](https://forge.sp-tarkov.com/mod/2003/hollywoodfx)
 
 - HUD
-[Game Panel HUD](https://forge.sp-tarkov.com/mod/456/game-panel-hud)
+[Game Panel HUD](https://forge.sp-tarkov.com/mod/456/game-panel-hud), [Amands' Sense](https://forge.sp-tarkov.com/mod/2521/amands-sense-updated)
 
 ## Mods for better quality of life
 
