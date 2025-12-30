@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-12-30T00:05:10.725Z
+date: 2025-12-30T00:33:02.049Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -11,25 +11,28 @@ dateCreated: 2025-10-10T12:57:31.380Z
 > This page applies to SPT version `4.0`
 {.is-info}
 
+This page contains a curated selection of mods. They all vaguely fall under the category of "vanilla+", hence why it does not contain any content mods or overhauls.
+**These mods aren't meant to be installed all at once.** They aren't vetted for cross-compatibility, nor are their dependencies or incompatibilities included, as they are present on their mod pages. This isn't a "modlist", but rather a list of recommendations to consider adding to your SPT.
+
+
 - Read the [Mod installation](/Installing_Mods) page to see how to install mods.
 
 - **Always read the mod pages of the mods you're installing.**
 
 - **Only install versions of mods made for your version of SPT.**
 
-
 ## Mods for better AI
 [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades)
 
 ## Mods for better performance
 
-[Remove The Dead](https://forge.sp-tarkov.com/mod/1551/remove-the-dead), [DERP](https://forge.sp-tarkov.com/mod/2200/dynamic-external-resolution-patch-derp), [AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit)
+[Remove The Dead](https://forge.sp-tarkov.com/mod/1551/remove-the-dead), [DERP](https://forge.sp-tarkov.com/mod/2200/dynamic-external-resolution-patch-derp), [AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit), [Corpse Cleaner](https://forge.sp-tarkov.com/mod/2058/sptcorpsecleaner)
 
 See [Performance Tuning](/Performance_Tuning) for further information.
 
 ## Mods for better bot spawns
 
-[Acid's Bot Placement System](https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system)
+[Acid's Bot Placement System](https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system), [Unda](https://forge.sp-tarkov.com/mod/1173/unda)
 
 You should only have **one** bot spawning mod installed to avoid issues.
 
@@ -42,7 +45,7 @@ You should only have **one** bot progression mod installed to avoid issues.
 ## Mods for better visuals and HUD
 
 - Visuals
-[HollywoodFX](https://forge.sp-tarkov.com/mod/2003/hollywoodfx)
+[HollywoodFX](https://forge.sp-tarkov.com/mod/2003/hollywoodfx), [Borkel's Realistic NVGs](https://forge.sp-tarkov.com/mod/954/borkels-realistic-night-vision-goggles-nvgs-and-t-7)
 
 - HUD
 [Game Panel HUD](https://forge.sp-tarkov.com/mod/456/game-panel-hud), [Amands' Sense](https://forge.sp-tarkov.com/mod/2521/amands-sense-updated)
@@ -50,27 +53,27 @@ You should only have **one** bot progression mod installed to avoid issues.
 ## Mods for better quality of life
 
 - Fixes
-[Search Open Containers](https://forge.sp-tarkov.com/mod/934/search-open-containers), [Hands Are Not Busy](https://forge.sp-tarkov.com/mod/1298/handsarenotbusy), [Task List Fixes](https://forge.sp-tarkov.com/mod/824/task-list-fixes), [Un-flashbang Hideout](https://forge.sp-tarkov.com/mod/1425/un-flashbang-hideout), [Stop Hotkey Auto-Vault](https://forge.sp-tarkov.com/mod/1652/stop-hotkey-auto-vault), [Item Attribute Fix](https://forge.sp-tarkov.com/mod/910/item-attribute-fix), [Shadow Flicker Fix](https://forge.sp-tarkov.com/mod/1621/shadow-flicker-fix), [Let Me Out](https://forge.sp-tarkov.com/mod/2240/let-me-out)
+[Search Open Containers](https://forge.sp-tarkov.com/mod/934/search-open-containers), [Hands Are Not Busy](https://forge.sp-tarkov.com/mod/1298/handsarenotbusy), [Task List Fixes](https://forge.sp-tarkov.com/mod/824/task-list-fixes), [Un-flashbang Hideout](https://forge.sp-tarkov.com/mod/1425/un-flashbang-hideout), [Stop Hotkey Auto-Vault](https://forge.sp-tarkov.com/mod/1652/stop-hotkey-auto-vault), [Item Attribute Fix](https://forge.sp-tarkov.com/mod/910/item-attribute-fix), [Shadow Flicker Fix](https://forge.sp-tarkov.com/mod/1621/shadow-flicker-fix), [Let Me Out](https://forge.sp-tarkov.com/mod/2240/let-me-out), [EOTech Fix](https://forge.sp-tarkov.com/mod/2502/eotech-fix), [FOV Fix](https://forge.sp-tarkov.com/mod/701/fontaines-fov-fix)
 
 - UI
-[UI Fixes](https://forge.sp-tarkov.com/mod/1342/ui-fixes), [Quest Tracker](https://forge.sp-tarkov.com/mod/1140/quest-tracker), [Dynamic Maps](https://forge.sp-tarkov.com/mod/1431/dynamic-maps), [Trader Scrolling](https://forge.sp-tarkov.com/mod/1089/kaeno-traderscrolling), [AutoDeposit](https://forge.sp-tarkov.com/mod/1469/autodeposit), [Item Context Menu Extended](https://forge.sp-tarkov.com/mod/940/item-context-menu-extended), [Expanded Task Text](https://forge.sp-tarkov.com/mod/2389/expanded-task-text), [Item Info](https://forge.sp-tarkov.com/mod/2430/odts-item-info-spt-40)
+[UI Fixes](https://forge.sp-tarkov.com/mod/1342/ui-fixes), [Quest Tracker](https://forge.sp-tarkov.com/mod/1140/quest-tracker), [Dynamic Maps](https://forge.sp-tarkov.com/mod/1431/dynamic-maps), [Trader Scrolling](https://forge.sp-tarkov.com/mod/1089/kaeno-traderscrolling), [AutoDeposit](https://forge.sp-tarkov.com/mod/1469/autodeposit), [Item Context Menu Extended](https://forge.sp-tarkov.com/mod/940/item-context-menu-extended), [Expanded Task Text](https://forge.sp-tarkov.com/mod/2389/expanded-task-text)
 
 - Inventory and Stash
-[Quick Move to Containers](https://forge.sp-tarkov.com/mod/1341/quick-move-to-containers), [Equip From Weapon Rack](https://forge.sp-tarkov.com/mod/1136/equip-from-weapon-rack), [Gilded Key Storage](https://forge.sp-tarkov.com/mod/865/gilded-key-storage), [Trader Modding And Improved Weapon Building](https://forge.sp-tarkov.com/mod/1283/trader-modding-and-improved-weapon-building), [Merge Consumables](https://forge.sp-tarkov.com/mod/1657/mergeconsumables), [Show Me The Money](https://forge.sp-tarkov.com/mod/2299/show-me-the-money-item-pricing), [Quick Sell](https://forge.sp-tarkov.com/addon/1/quick-sell), [Foldables](https://forge.sp-tarkov.com/mod/2422/foldables)
+[Quick Move to Containers](https://forge.sp-tarkov.com/mod/1341/quick-move-to-containers), [Equip From Weapon Rack](https://forge.sp-tarkov.com/mod/1136/equip-from-weapon-rack),[Trader Modding And Improved Weapon Building](https://forge.sp-tarkov.com/mod/1283/trader-modding-and-improved-weapon-building), [Show Me The Money](https://forge.sp-tarkov.com/mod/2299/show-me-the-money-item-pricing), [Quick Sell](https://forge.sp-tarkov.com/addon/1/quick-sell), [Foldables](https://forge.sp-tarkov.com/mod/2422/foldables)
 
-- Looting
-[Use Loose Loot](https://forge.sp-tarkov.com/mod/933/use-loose-loot), [Reach Extender](https://forge.sp-tarkov.com/mod/1260/reach-extender)
+- Looting and Items
+[Use Loose Loot](https://forge.sp-tarkov.com/mod/933/use-loose-loot), [Reach Extender](https://forge.sp-tarkov.com/mod/1260/reach-extender), [Let Me Right Click](https://forge.sp-tarkov.com/mod/2405/letmerightclick), [MoreCheckmarks](https://forge.sp-tarkov.com/mod/861/morecheckmarks), [All Quest Checkmarks](https://forge.sp-tarkov.com/mod/2025/all-quests-checkmarks), [Better Keys](https://forge.sp-tarkov.com/mod/1888/better-keys-ng), [Merge Consumables](https://forge.sp-tarkov.com/mod/1657/mergeconsumables), [Gilded Key Storage](https://forge.sp-tarkov.com/mod/865/gilded-key-storage), [Item Info](https://forge.sp-tarkov.com/mod/2430/odts-item-info-spt-40)
 
 ## Mods for better player experience
 
 - Ease of play
-[Audio Accessibility Indicators](https://forge.sp-tarkov.com/mod/1760/audio-accessibility-indicators), [Simple Crosshair](https://forge.sp-tarkov.com/mod/1387/simple-crosshair), [Janky's Visual Assist](https://forge.sp-tarkov.com/mod/2213/jankys-visual-assist), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Deminvincibility](https://forge.sp-tarkov.com/mod/1117/deminvincibility), [Pause](https://forge.sp-tarkov.com/mod/2046/pause), [Use Items Anywhere](https://forge.sp-tarkov.com/mod/2386/use-items-anywhere), [Enemy Markers](<https://forge.sp-tarkov.com/mod/1858/enemy-markers>), [Instant Insurance](https://forge.sp-tarkov.com/mod/2394/instant-insurance)
+[Audio Accessibility Indicators](https://forge.sp-tarkov.com/mod/1760/audio-accessibility-indicators), [Simple Crosshair](https://forge.sp-tarkov.com/mod/1387/simple-crosshair), [Janky's Visual Assist](https://forge.sp-tarkov.com/mod/2213/jankys-visual-assist), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Deminvincibility](https://forge.sp-tarkov.com/mod/1117/deminvincibility), [Pause](https://forge.sp-tarkov.com/mod/2046/pause), [Use Items Anywhere](https://forge.sp-tarkov.com/mod/2386/use-items-anywhere), [Enemy Markers](<https://forge.sp-tarkov.com/mod/1858/enemy-markers>), [Instant Insurance](https://forge.sp-tarkov.com/mod/2394/instant-insurance), [Keep Starting Gear](https://forge.sp-tarkov.com/mod/2470/keep-starting-gear), [Configurable End Raid Status](https://forge.sp-tarkov.com/mod/1978/configurable-end-raid-status), [Plant Time Modifier](https://forge.sp-tarkov.com/mod/1965/plant-time-modifier-updated-by-crocodilejonesy), [Bright Lasers](https://forge.sp-tarkov.com/mod/1358/brightlasers)
 
 - Gameplay
-[Continuous Healing](https://forge.sp-tarkov.com/mod/1884/continuous-healing), [Set Speed](https://forge.sp-tarkov.com/mod/994/set-speed-set-player-speed-with-hotkeys), [Bosses Have Lega Medals](https://forge.sp-tarkov.com/mod/1539/bosses-have-lega-medals), [Ref - SPT Friendly Quests](https://forge.sp-tarkov.com/mod/1538/ref-spt-friendly-quests), [Bush Whacker](https://forge.sp-tarkov.com/mod/2329/bushwhacker-standalone), [Increase Climb Height](https://forge.sp-tarkov.com/mod/1575/increase-climb-height), [AutoRun](https://forge.sp-tarkov.com/mod/1477/autorun)
+[Continuous Healing](https://forge.sp-tarkov.com/mod/1884/continuous-healing), [Healing Autocancel](https://forge.sp-tarkov.com/mod/1274/healing-autocancel), [Set Speed](https://forge.sp-tarkov.com/mod/994/set-speed-set-player-speed-with-hotkeys), [Bosses Have Lega Medals](https://forge.sp-tarkov.com/mod/1539/bosses-have-lega-medals), [Ref - SPT Friendly Quests](https://forge.sp-tarkov.com/mod/1538/ref-spt-friendly-quests), [Bush Whacker](https://forge.sp-tarkov.com/mod/2329/bushwhacker-standalone), [Increase Climb Height](https://forge.sp-tarkov.com/mod/1575/increase-climb-height), [AutoRun](https://forge.sp-tarkov.com/mod/1477/autorun), [Keycard Door Simplify Breach](https://forge.sp-tarkov.com/mod/2494/keycard-door-simplify-breach), [Better Rear Sights](https://forge.sp-tarkov.com/mod/1591/better-rear-sights)
 
 - Tweaking
-[SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm), [Server Tweaks](https://forge.sp-tarkov.com/mod/2360/server-tweaks-discount-svm), [Quest Tweaks](https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-tweaks), [QCAdjustments](https://forge.sp-tarkov.com/mod/1867/qcadjustments), [Lacy's PvE Tweaks](https://forge.sp-tarkov.com/mod/2395/lacys-pve-tweaks)
+[SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm), [Server Tweaks](https://forge.sp-tarkov.com/mod/2360/server-tweaks-discount-svm), [Quest Tweaks](https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-tweaks), [QCAdjustments](https://forge.sp-tarkov.com/mod/1867/qcadjustments), [Lacy's PvE Tweaks](https://forge.sp-tarkov.com/mod/2395/lacys-pve-tweaks), [CWX's MegaMod](https://forge.sp-tarkov.com/mod/1454/cwx-megamod)
 
 # See also
 [Performance Tuning](/Performance_Tuning)
