@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-12-30T00:04:41.477Z
+date: 2025-12-30T00:05:10.725Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -19,7 +19,7 @@ dateCreated: 2025-10-10T12:57:31.380Z
 
 
 ## Mods for better AI
-[SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades), [Ombarella](https://forge.sp-tarkov.com/mod/2315/ombarella)
+[SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades)
 
 ## Mods for better performance
 
