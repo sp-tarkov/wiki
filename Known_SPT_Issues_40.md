@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-26T15:19:36.933Z
+date: 2026-01-01T22:32:20.317Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -63,6 +63,12 @@ No known fix.
 
 ## `Enable Bosses` being disabled stops spawning PMC bots
 [Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
+
+## Loading in as a PMC when you selected scav
+[Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
+
+
+
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
