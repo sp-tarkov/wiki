@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-01-08T11:27:54.296Z
+date: 2026-01-08T18:17:43.980Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -106,7 +106,7 @@ Update [APBS](<https://forge.sp-tarkov.com/mod/1594/apbs-acids-progressive-bot-s
 Delete your `[game folder]\BepInEx\plugins\SAIN\Default Bot Config Values` folder. SAIN will regenerate it on game launch.
 
 ## Trying to reach Prestige 6 from [Content Backport - Prestiges](<https://forge.sp-tarkov.com/mod/2540/content-backport-prestiges>) shows a blank screen
-Temporarily remove [Reach Extender](<https://forge.sp-tarkov.com/mod/1260/reach-extender>), unlock Prestige 6, then reinstall it.
+Update [Content Backport - Prestiges](<https://forge.sp-tarkov.com/mod/2540/content-backport-prestiges>).
 
 ## `ObjectId must be a 24-character hex string. (Parameter '..._BOOBS...')` when using the Cultist Circle
 Issue with [AES](<https://forge.sp-tarkov.com/mod/874/aes>). As it is a trader mod with quests you cannot remove it without starting a new profile.
