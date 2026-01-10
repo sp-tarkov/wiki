@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-01-10T17:14:03.074Z
+date: 2026-01-10T22:16:52.600Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -119,7 +119,7 @@ Update [Boss Notifier](<https://forge.sp-tarkov.com/mod/2543/bossnotifier>).
 You did not fully uninstall said mod. See the [Uninstalling Mods](<https://wiki.sp-tarkov.com/Uninstalling_Mods>) Wiki page how and where you should uninstall your mods.
 
 ## No snow even with the Christmas event enabled
-Issue with [Project Fika](<https://forge.sp-tarkov.com/mod/2326/project-fika>). Try using a [season mod](<https://forge.sp-tarkov.com/mods?query=season>) or [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>) to manually set the season to either Winter or Spring. If that doesn't solve the issue, wait for Fika to receive an update.
+Update [Project Fika](<https://forge.sp-tarkov.com/mod/2326/project-fika>).
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
