@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-01-10T08:40:03.276Z
+date: 2026-01-10T12:16:38.838Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -112,8 +112,11 @@ Update [Content Backport - Prestiges](<https://forge.sp-tarkov.com/mod/2540/cont
 Issue with [AES](<https://forge.sp-tarkov.com/mod/874/aes>). As it is a trader mod with quests you cannot remove it without starting a new profile.
 Do not use the Cultist Circle until AES has been updated
 
-## `Field not found:... EFT.Profile.Hideout` Error message
+## `Field not found:... EFT.Profile.Hideout` error message
 Uninstall Boss Notifier.
+
+## `The given key '[UNTAR/RUAF/blackdiv]' was not present in the dictionary` error after uninstalling a custom bot mod
+You did not fully uninstall said mod. See the [Uninstalling Mods](<https://wiki.sp-tarkov.com/Uninstalling_Mods>) Wiki page how and where you should uninstall your mods.
 
 
 
