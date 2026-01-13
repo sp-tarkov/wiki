@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-01-10T22:16:52.600Z
+date: 2026-01-13T20:47:59.063Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -109,8 +109,7 @@ Delete your `[game folder]\BepInEx\plugins\SAIN\Default Bot Config Values` folde
 Update [Content Backport - Prestiges](<https://forge.sp-tarkov.com/mod/2540/content-backport-prestiges>).
 
 ## `ObjectId must be a 24-character hex string. (Parameter '..._BOOBS...')` when using the Cultist Circle
-Issue with [AES](<https://forge.sp-tarkov.com/mod/874/aes>). As it is a trader mod with quests you cannot remove it without starting a new profile.
-Do not use the Cultist Circle until AES has been updated
+Update [AES](<https://forge.sp-tarkov.com/mod/874/aes>).
 
 ## `Field not found:... EFT.Profile.Hideout` error message
 Update [Boss Notifier](<https://forge.sp-tarkov.com/mod/2543/bossnotifier>).
