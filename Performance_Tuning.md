@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2025-12-17T17:42:52.562Z
+date: 2026-01-15T20:08:45.623Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -11,9 +11,9 @@ dateCreated: 2025-07-22T03:38:27.428Z
 > This page applies to any SPT version
 {.is-info}
 
-SPT's performance will generally be worse than a live PVP or online PVE raid, where bot AI logic (scavs, PMCs, bosses) is running on BSG servers. SPT runs all of the bot AI logic locally on your PC, which has a significant impact on your performance.
+SPT's performance will generally be worse than a live PVP or online PVE raid, where bot AI logic (scavs, PMCs, bosses) is running on BSG servers. SPT and local PVE runs all of the bot AI logic locally on your PC, which has a significant impact on your performance due to severe CPU bottlenecking.
 
-This is due to poor optimisation and a lack of multithreading. 
+This manifests as low usage of both your GPU and CPU. Your GPU cannot run at full power because it's busy waiting on instructions from your CPU, and your CPU cannot run at full power because it has to slowly process all the bots. To see this in action, disable bots in either Pre-Raid Settings, or the bot spawning mod you installed.
 
 CPUs with powerful single-threaded performance will improve your in-game FPS the most. AMD's X3D CPUs are optimal for this reason.
 
