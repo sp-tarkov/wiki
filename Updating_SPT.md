@@ -2,7 +2,7 @@
 title: Updating SPT
 description: Learn how to update your SPT installation.
 published: true
-date: 2025-10-28T00:09:42.214Z
+date: 2026-01-15T18:58:18.778Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-09T12:01:16.553Z
@@ -56,7 +56,8 @@ Example of the compatibility section for SPT 3.11.3.
 2. Close your game, launcher, and server.
 3. Copy contents of the 7z file into your **existing** folder, **overwrite all files**.
 4. **Update all of your mods to their latest release versions**.
-
+ - Mods made for previous hotfix versions should work on the latest version. Those that don't might have received an update to address that.
+  - You can use a tool like [Check Mods](<https://forge.sp-tarkov.com/mod/2471/check-mods>) to see which of your mods require updating.
 > This will only overwrite base SPT files. It will __not__ overwrite or remove your profile(s), mods or mod configs.
 {.is-info}
 
