@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2025-12-15T16:48:56.571Z
+date: 2026-01-15T19:04:25.705Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -11,7 +11,6 @@ dateCreated: 2025-10-10T12:23:08.957Z
 > This page applies to SPT version `4.0`
 {.is-info}
 
-# SPT 4.0
 ## Why are there so many files in the new `\SPT` folder?
 To allow modders to use method patching, all the DLLs need to be 'loose' and not stored inside the server executable.
 
@@ -55,9 +54,9 @@ See [this guide](https://github.com/sp-tarkov/build/wiki/3.11-Manual-Installatio
 Nobody knows when certain mods are going to update, not even the authors themselves. Do not pester mod authors about updates to their mods.
 
 ## Will a mod marked compatible for `4.0.0` work on future versions of `4.0`?
-It should. Mods known to be incompatible with be stated in the `Mod compatibility` section of SPT's [Release page](<https://github.com/sp-tarkov/build/releases/latest>). 
-Mods discovered to not work will also be noted in <#1424144572858110052>.
-For an explanation of how SPT versions work and how to update your SPT, read through the [Updating SPT](/Updating_SPT) page.
+Mods made for previous hotfix versions should work on the latest version. Those that don't might have received an update to address that.
+Mods known to be incompatible with be stated in the `Mod compatibility` section of SPT's [Release page](<https://github.com/sp-tarkov/build/releases/latest>) and in [Known Mod Issues](/Known_Mod_Issues_40).
+For an explanation of how SPT versions work and how to update your SPT, read through the [Updating SPT](<https://wiki.sp-tarkov.com/Updating_SPT>) Wiki page.
 
 ## Why do bots spawn right on top of me?
 Base SPT uses EFT's PVE spawning system, which does not check the distance to you or other bots. Use a [bot spawning mod](<https://wiki.sp-tarkov.com/Recommended_Mods_40#mods-for-better-bot-spawns>) to address it.
@@ -83,15 +82,15 @@ There are currently no mods for SPT `4.0` that make bots move around the map.
 [SAIN](<https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement>) **doesn't** make bots move around the map, as it *only* affects combat behaviour.
 
 # EFT 1.0
-With EFT `1.0` out now, lots of SPT enjoyers are probably wondering what that means for SPT so here's a quick rundown:
 ### Will we have `1.0` soon in SPT?
-Uncertain. EFT `1.0` now runs on IL2CPP instead of Mono which makes porting future EFT updates over to SPT difficult. There is no ETA.
+There is no active development effort targeting EFT's `1.0` update.
 ### Is it possible to install SPT with EFT `1.0`?
 Yes. You can [install SPT](<https://wiki.sp-tarkov.com/en/Installation_Guide>) while having EFT `1.0` installed.
 ### Is it possible to install SPT with the Steam copy of EFT?
 Yes. See the [install guide](<https://wiki.sp-tarkov.com/en/Installation_Guide>).
 ### Can I update EFT or will that break my existing SPT install?
 That's not how SPT works. The installer makes a **copy** of your EFT files to a **separate** location. Update EFT as much as you want.
+
 
 # Troubleshooting tips
 - Do not install mods until you've launched SPT at least once. Verify your SPT install works, then install mods.
