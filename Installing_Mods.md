@@ -2,7 +2,7 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2025-12-26T14:10:27.183Z
+date: 2026-01-15T19:07:52.151Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -47,16 +47,21 @@ If you removed a mod that broke your profile, SPT can try fixing it. **This is n
 
 For instructions, see the [Mods](https://wiki.sp-tarkov.com/Profiles#mods) section on the [Profiles](/Profiles) page.
 
-## Updating mods
 
+## Updating mods
 Most mods can be updated by simply reinstalling their files, overriding any files when prompted.
 
 However, some mods move, delete or rename files between versions. While the mod authors should make a note of it, sometimes it's missed.
 
 If you are experiencing issues after updating a mod, or a mod has a large number of individual files, you should delete and reinstall it.
 
+You can use a tool like [Check Mods](<https://forge.sp-tarkov.com/mod/2471/check-mods>) to see which of your mods require updating.
+
+
 # See also
 
 [Uninstalling Mods](/Uninstalling_Mods)
 [Mod Types](/Mod_Types)
 [Profiles](/Profiles)
+
+
