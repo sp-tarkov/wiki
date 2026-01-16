@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2026-01-15T20:08:45.623Z
+date: 2026-01-16T00:31:58.896Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -20,7 +20,7 @@ CPUs with powerful single-threaded performance will improve your in-game FPS the
 ## Optimisations
 - Use [Waypoints](https://forge.sp-tarkov.com/mod/827/waypoints-expanded-navmesh) to optimise AI pathfinding.
 - Use [VRAM Cleaner](https://forge.sp-tarkov.com/mod/2173/vram-cleaner) to free up VRAM usage of your GPU.
-- Use [Remove The Dead](https://forge.sp-tarkov.com/mod/1551/remove-the-dead) to clean bodies from the map.
+- Use [Remove The Dead](https://forge.sp-tarkov.com/mod/1551/remove-the-dead) or [Body Disposal Service Maid](https://forge.sp-tarkov.com/mod/1159/bdsm-body-disposal-service-maid) to clean bodies from the map.
 - If using [Dynamic Maps](https://forge.sp-tarkov.com/mod/1431/dynamic-maps) disable the minimap.
 - Set vaulting from `Auto` to `Press` in the in-game settings.
 - Disable `Nvidia Reflex` in the graphics settings.
