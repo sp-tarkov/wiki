@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2026-01-17T21:48:17.193Z
+date: 2026-01-17T21:49:42.091Z
 tags: guide, performance
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -78,8 +78,8 @@ However, if you still have crashes due to running out of memory even when the pa
 3. Select your fastest drive and select `Custom size`.
 4. Set the `Initial size` and `Maximum size` according to the amount of RAM you have:
 
-| - | - | - |
 | Amount of RAM | Initial size | Maximum size |
+| - | - | - |
 | 16 GB | 16000 | 40000 |
 | 32 GB | 32000 | 80000 |
 
