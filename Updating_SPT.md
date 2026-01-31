@@ -2,7 +2,7 @@
 title: Updating SPT
 description: Learn how to update your SPT installation.
 published: true
-date: 2026-01-15T18:58:18.778Z
+date: 2026-01-31T06:09:09.635Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-09T12:01:16.553Z
@@ -63,4 +63,4 @@ Example of the compatibility section for SPT 3.11.3.
 
 # See also
 [New to SPT? Start here!](/Beginners_Guide)
-[Installing SPT](/Uninstalling_Mods)
+[Installing SPT](/Installation_Guide)
