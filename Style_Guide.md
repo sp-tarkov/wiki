@@ -2,7 +2,7 @@
 title: Style Guide
 description: Keep a consistent style across the Wiki.
 published: true
-date: 2025-10-19T04:57:56.838Z
+date: 2026-02-03T02:42:28.732Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-28T19:25:07.078Z
@@ -101,7 +101,13 @@ Full stops should be used if a bulletpoint is a longer sentence, however this de
 Images are best handled by using HTML:
 
 ```
-<img src="/image_filename.png" alt="image title" width=400 style="display: block; margin: 0 auto;">
+<img src="/image.png" alt="image title" width=400 style="display: block; margin: 0 auto;">
+```
+
+Embedded images can be hosted on external websites:
+
+```
+<img src="https://ImageHostingWebsite.com/image.png" alt="image title" width=400 style="display: block; margin: 0 auto;">
 ```
 
 This will imbed the image in the middle of the screen, with a width of 400 px. Use 600 for images with smaller text.
