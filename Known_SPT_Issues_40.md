@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-01-19T11:02:16.071Z
+date: 2026-02-03T02:39:27.610Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -42,9 +42,14 @@ Note that [Client mods](/Mod_Types) won't show up in the SPT Server nor Launcher
 [Update your SPT](<https://wiki.sp-tarkov.com/Updating_SPT>).
 
 ## Server doesn't launch or closes immediately
-Install **BOTH** of the below. If it tells you that you already have them installed, then use the repair option. Restart your PC after. 
+Install **BOTH** of the below. If it tells you that you already have them installed, then use the repair option. Restart your PC after.
+[ASP.NET 9.0.12](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.12-windows-x64-installer>) 
 [.NET Runtime 9.0.12](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-9.0.12-windows-x64-installer>) 
-[ASP.NET 9.0.12](<https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.12-windows-x64-installer>)
+
+If an updated version of the runtimes have released since the above links were updated you can manually download them from [here](https://dotnet.microsoft.com/en-us/download/dotnet/9.0).
+
+<div style="margin-top: 10px;"></div>
+<img src="https://i.imgur.com/dDDnmoX.png" alt=".NET runtimes" width=400 style="display: block; margin: 0 auto;">
 
 ## Kollontay still spawns on high level Ground Zero
 [Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
