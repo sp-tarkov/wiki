@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-02-10T12:28:51.579Z
+date: 2026-02-10T12:30:44.051Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -119,9 +119,6 @@ You did not fully uninstall said mod. See the [Uninstalling Mods](<https://wiki.
 
 ## No snow even with the Christmas event enabled
 Update [Project Fika](<https://forge.sp-tarkov.com/mod/2326/project-fika>).
-
-## Crash on raid start
-Remove [Amands' Graphics](<https://forge.sp-tarkov.com/mod/2580/amands-graphics-updated>).
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
