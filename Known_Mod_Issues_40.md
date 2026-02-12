@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-02-12T13:58:36.951Z
+date: 2026-02-12T16:50:53.520Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -121,7 +121,7 @@ You did not fully uninstall said mod. See the [Uninstalling Mods](<https://wiki.
 Update [Project Fika](<https://forge.sp-tarkov.com/mod/2326/project-fika>).
 
 ## Stuck on loading hideout with [SALCO's Arsenal](<https://forge.sp-tarkov.com/mod/2585/salcos-arsenal-reboot#versions>) installed
-Go to `…\SPT\user\mods\SalcosArsenal\db\CustomHideoutRecipes` and delete the recipes for “BONE”.
+Update [SALCO's Arsenal](<https://forge.sp-tarkov.com/mod/2585/salcos-arsenal-reboot#versions>).
 
 
 
