@@ -2,7 +2,7 @@
 title: Known EFT Issues
 description:  Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2025-12-10T08:12:33.404Z
+date: 2026-02-16T02:04:32.115Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:31:17.069Z
@@ -65,6 +65,9 @@ Install [ABPS](<https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-sy
 
 ## Posting on flea randomly causes a stuck game with flashing items
 Install [UI Fixes](<https://forge.sp-tarkov.com/mod/1342/ui-fixes>). Otherwise, restart the game when it occurs.
+
+## NVGs don't work in the hideout
+They will work in-raid.
 
 
 # See also
