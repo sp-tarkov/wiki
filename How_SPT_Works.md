@@ -2,7 +2,7 @@
 title: How SPT Works
 description: The basics of how SPT works.
 published: true
-date: 2026-02-21T08:41:29.473Z
+date: 2026-02-21T08:41:43.759Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-11T22:39:55.471Z
@@ -21,7 +21,7 @@ dateCreated: 2025-11-11T22:39:55.471Z
 - Each SPT version is made for a specific version of EFT. You can see what version of EFT is used on that SPT version's [Release page](<https://github.com/sp-tarkov/build/releases>).
 - This means that, once installed, SPT is completely seperate from your EFT files. You can update EFT as much as you want, and it will not affect your SPT install.
 	- After you install SPT, you cannot completely uninstall EFT, but you can delete the `EscapeFromTarkov_Data` folder from your live EFT folder if you really need the space.
-	- If you own EFT through Steam you will need to disable auto-updates to prevent it from re-downloading said folder.
+	- If you own EFT through Steam you will need to disable auto-updates for EFT to prevent Steam from re-downloading said folder.
 - Once installed, you can freely copy, move or delete your SPT install.
 	- If you make a copy of your SPT, you will need to tweak the shortcuts inside it, as they will be pointing towards the original SPT folder.
 - The SPT developers need to make a new SPT version to include new content released for EFT. No deadline is given, but it usually takes several month. A new SPT version is usually announced a week before release.
