@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2026-01-15T19:04:25.705Z
+date: 2026-02-25T15:09:58.138Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -58,8 +58,9 @@ Mods made for previous hotfix versions should work on the latest version. Those 
 Mods known to be incompatible with be stated in the `Mod compatibility` section of SPT's [Release page](<https://github.com/sp-tarkov/build/releases/latest>) and in [Known Mod Issues](/Known_Mod_Issues_40).
 For an explanation of how SPT versions work and how to update your SPT, read through the [Updating SPT](<https://wiki.sp-tarkov.com/Updating_SPT>) Wiki page.
 
-## Why do bots spawn right on top of me?
-Base SPT uses EFT's PVE spawning system, which does not check the distance to you or other bots. Use a [bot spawning mod](<https://wiki.sp-tarkov.com/Recommended_Mods_40#mods-for-better-bot-spawns>) to address it.
+## Bot spawns
+SPT uses EFT's PvE bot spawning system. Bots will continuously spawn up to a map-specific limit. When enough are killed, more will spawn to replace them. Bot spawns aren't checked for the distance to you or other bots which can let bots can spawn next to you. 
+Use a [bot spawning mod](<https://wiki.sp-tarkov.com/Recommended_Mods_40#mods-for-better-bot-spawns>) to change this system.
 
 ## Need space on your drive? Don't play live?
 After you install SPT, you cannot completely uninstall live EFT, but you can delete the `EscapeFromTarkov_Data` folder from your live EFT folder if you really need the space.
