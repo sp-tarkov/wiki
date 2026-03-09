@@ -2,7 +2,7 @@
 title: Manual Installation Instructions for SPT 3.11
 description: 
 published: true
-date: 2026-03-06T19:59:24.059Z
+date: 2026-03-09T23:27:05.294Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T18:56:40.239Z
@@ -35,7 +35,8 @@ This is particularly important if you have just installed Escape From Tarkov so 
 8. Run `SPT.Server`.
  - Wait for the green text that says `Server has started, happy playing`.
 9. Run `SPT.Launcher` and follow the onscreen instructions.
- - If you want to copy over your EFT in-game settings, click `OK`. 
+ - DO NOT COPY YOUR LIVE EFT SETTINGS. Copying your settings will result in the game hanging on load.
+ 	- If you copied your live game settings, go to the SPT Launcher Settings and click Clear Game Settings.
  - You can use any username you want. It is recommend that you **do not** use your EFT account username. Especially if you plan on recording or streaming SPT.
  - `Login Automatically` will always log into the last profile you loaded. You can disable this by clicking `Logout` in the bottom right, then unchecking the option.
  - Select your desired game version. Each version has a description box summarising what is included. Once you have picked your chosen game version click `Register`. You can pick *any* game version you want from the profile list, you do not need to own the corresponding EFT version. Once chosen, you cannot change the edition a profile is using.
