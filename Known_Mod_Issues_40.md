@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-02-12T16:50:53.520Z
+date: 2026-03-10T07:56:12.354Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -122,6 +122,9 @@ Update [Project Fika](<https://forge.sp-tarkov.com/mod/2326/project-fika>).
 
 ## Stuck on loading hideout with [SALCO's Arsenal](<https://forge.sp-tarkov.com/mod/2585/salcos-arsenal-reboot#versions>) installed
 Update [SALCO's Arsenal](<https://forge.sp-tarkov.com/mod/2585/salcos-arsenal-reboot#versions>).
+
+## Ragman has no clothes for sale
+Update [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
 
 
 
