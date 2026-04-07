@@ -2,7 +2,7 @@
 title: Quest Value Reference Sheet
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2025-06-06T21:33:33.140Z
+date: 2026-04-07T00:28:42.650Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -624,7 +624,7 @@ The _target_ is the condition ID that you are requiring to be completed before t
 | globalQuestCounterId | `""` | string | Currently unused |
 | id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
 | index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
-| inEncoded | `false` | boolean | Required if requiring DSP Transmitter handover |
+| isEncoded | `false` | boolean | Required if requiring DSP Transmitter handover |
 | maxDurability | `100` | int | Required for medical items, weapons, armour, etc |
 | minDurability | `0` | int | Required for medical items, weapons, armour, etc |
 | onlyFoundInRaid | `false` | boolean | If item is required to be FIR or not |
@@ -670,7 +670,7 @@ Example:
 | globalQuestCounterId | `""` | string | Currently unused |
 | id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
 | index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
-| inEncoded | `false` | boolean | Required if requiring DSP Transmitter handover |
+| isEncoded | `false` | boolean | Required if requiring DSP Transmitter handover |
 | maxDurability | `100` | int | Required for medical items, weapons, armour, etc |
 | minDurability | `0` | int | Required for medical items, weapons, armour, etc |
 | onlyFoundInRaid | `false` | boolean | If item is required to be FIR or not |
@@ -753,7 +753,7 @@ Example:
 | globalQuestCounterId | `""` | string | Currently unused |
 | id | `"5a3fbdb086f7745a554f0c31"` | MongoID string | Unique ID for the condition |
 | index | `0` | int | Currently unused (suspected added via BSG Tooling to build quests) |
-| inEncoded | `false` | boolean | Required if requiring DSP Transmitter handover |
+| isEncoded | `false` | boolean | Required if requiring DSP Transmitter handover |
 | maxDurability | `100` | int | Required for medical items, weapons, armour, etc |
 | minDurability | `0` | int | Required for medical items, weapons, armour, etc |
 | onlyFoundInRaid | `false` | boolean | If item to be placed is required to be FIR or not |
@@ -1512,7 +1512,7 @@ Example:
 
 | Property Name | Example Value | Type | Notes |
 | :--- | :--- | :--- | :--- |
-| availableAfter | `0` | int | Minutes that must have passed since completing the quest target for this quest to become available. |
+| availableAfter | `0` | int | Seconds that must have passed since completing the quest target for this quest to become available. |
 | conditionType | `"Quest"` | string | Quest condition |
 | dispersion | `0` | int | Currently unused |
 | dynamicLocale | `false` | boolean | Currently unused |
