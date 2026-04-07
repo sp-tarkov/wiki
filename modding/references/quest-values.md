@@ -2,7 +2,7 @@
 title: Quest Value Reference Sheet
 description: A reference page for mod authors who are interested in quest creation or modification.
 published: true
-date: 2026-04-07T00:28:42.650Z
+date: 2026-04-07T00:36:42.297Z
 tags: mods, quests
 editor: markdown
 dateCreated: 2025-06-05T22:26:29.852Z
@@ -1011,7 +1011,7 @@ Example:
 
 | Property Name | Example Value | Type | Notes |
 | :--- | :--- | :--- | :--- |
-| bodyPart | `["Head"]` | string array | If populated, requires specific kill shots to count. See [Body Part Values]() |
+| bodyPart | `["Head"]` | string array | If populated, requires specific kill shots to count. See [Body Part Values](/modding/references/body-part-reference) |
 | compareMethod | `">="` | string | Compare method, there's really no reason to use anything other than `">="`
 | conditionType | `"Kills"` | string | Kills condition |
 | daytime | see example below | object | In game hour requirement, not required - if either value is not 0 then it is enforced for the kill to count (typically used for night raids). Leave `from` & `to` both at `0` to not have a time requirement |
