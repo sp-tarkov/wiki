@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-03-10T07:56:12.354Z
+date: 2026-04-07T01:35:00.525Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -126,8 +126,15 @@ Update [SALCO's Arsenal](<https://forge.sp-tarkov.com/mod/2585/salcos-arsenal-re
 ## Ragman has no clothes for sale
 Update [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
 
+## Screen flickers black when using [DERP](<https://forge.sp-tarkov.com/mod/2200/dynamic-external-resolution-patch-derp>)
+The black flicker only occurs when using DLSS or FSR. You can avoid it by using TAA and the Sampling Downgrade slider instead.
+Note that setting the same Scaling Mode in DERP's F12 settings as in your Graphics settings will effectively disable its functionality.
 
+## Infinite loading after installing [Tarkov DLSS 4.5](<https://forge.sp-tarkov.com/mod/2621/tarkov-dlss-45>)
+Uninstall the mod, set DLSS to any preset after **Preset J**, and reinstall the mod.
 
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
+
+
