@@ -2,7 +2,7 @@
 title: SPT & Commando Bots
 description: How to use SPT & Commando bots in SPT.
 published: true
-date: 2025-10-15T08:38:33.124Z
+date: 2026-04-09T21:35:45.284Z
 tags: guide
 editor: markdown
 dateCreated: 2025-10-05T07:40:42.709Z
@@ -116,7 +116,7 @@ To use these commands send them as a chat message to **Commando**.
 | `spt trader [trader name] spend [quantity]` 	| Sets a trader's money spent to a given number. | `spt trader therapist spend 1000000` |
 | |||
 | `spt give` |||
-| `spt give [item ID] [quantity]` 					| Sends items by item ID. They can be found [here](https://tarkynator.com/). | `spt give 5449016a4bdc2d6f028b456f 2` |
+| `spt give [item ID] [quantity]` 					| Sends items by item ID. They can be found [here](https://db.sp-tarkov.com/search). | `spt give 5449016a4bdc2d6f028b456f 2` |
 | `spt give "[item name]" [quantity]` 					| Sends items by their name. If a name entered isn't an exact match, will give a number of search results, selectable by sending `spt give [search result number]` | `spt give "pack of sugar" 10` |
 | `spt give [locale] "[item name]" [quantity]`	| Sends items by their name in a chosen language. |`spt give fr "figurine de chat" 3` |
 
