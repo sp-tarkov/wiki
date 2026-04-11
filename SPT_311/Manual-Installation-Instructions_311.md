@@ -2,7 +2,7 @@
 title: Manual Installation Instructions for SPT 3.11
 description: 
 published: true
-date: 2026-04-08T15:55:41.233Z
+date: 2026-04-11T18:00:58.031Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T18:56:40.239Z
@@ -17,6 +17,10 @@ SPT requires that your EFT is on the latest version. This is so the downpatcher 
 
 Verify that your Escape From Tarkov works, and that you can load up to at least the main menu or stash.
 This is particularly important if you have just installed Escape From Tarkov so all necessary files can be generated.
+
+> You CANNOT install SPT 3.11 using the Steam version of Escape From Tarkov. You will need to install [SPT 4.0](https://wiki.sp-tarkov.com/Installation_Guide)
+{.is-danger}
+
 
 ## Manually installing and running SPT 3.11
 
