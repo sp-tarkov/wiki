@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-04-07T01:35:00.525Z
+date: 2026-04-11T20:02:10.560Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -21,9 +21,6 @@ When selecting the mods you want to install, make sure that you **only install m
 Read the [Uninstalling Mods](<https://wiki.sp-tarkov.com/Uninstalling_Mods>) Wiki page to see how to remove your outdated mods.
 
 If you verified all your mods to be compatible with your version of SPT and you still have infinite loading, then join our [Discord server](http://discord.sp-tarkov.com/) and follow the [`#support-guidelines`](https://discord.com/channels/875684761291599922/1172733248317694022) on opening a new support thread.
-
-## Screen going blank after selecting map
-Redownload and reinstall [SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm).
 
 ## BTR Driver chat instantly closes
 Update [Fika](https://forge.sp-tarkov.com/mod/2326/project-fika).
@@ -52,9 +49,6 @@ Delete `[game folder]\BepInEx\patchers\FixPluginTypeSerialization` folder.
 
 ## No Hideout crafts when using [Skills Extended](<https://forge.sp-tarkov.com/mod/2383/skills-extended>) and [UI Fixes](<https://forge.sp-tarkov.com/mod/1342/ui-fixes>) when not using English locale
 Update [Skills Extended](<https://forge.sp-tarkov.com/mod/2383/skills-extended>).
-
-## `Disable ongoing events` doesn't work in [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
-Update [SVM](<https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm>).
 
 ## `Critical exception, stopping server... at raidrecord_v0._5.`
 Update [Raid Record](<https://forge.sp-tarkov.com/mod/2341/raidrecord>).
