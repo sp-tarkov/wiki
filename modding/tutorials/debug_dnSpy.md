@@ -2,7 +2,7 @@
 title: Tutorial: How to debug the game client with dnSpy
 description: 
 published: true
-date: 2025-10-31T20:21:47.772Z
+date: 2026-04-11T04:32:19.163Z
 tags: modding
 editor: markdown
 dateCreated: 2025-10-31T20:02:47.426Z
@@ -42,6 +42,7 @@ That's it! Keep reading for some notes on debugging oddities and how to work aro
 - If you're getting an error about a missing "WinPixEventRuntime.dll" when starting the game, please make sure you properly set the SPT Launcher's config to not delete the necessary DLL file on game start.
 
 - If the game is not appearing in the Unity process list in dnSpy, please double-check and make sure that your "boot.config" file has the Read-Only flag set. If it doesn't, then the game will have overwritten it's contents and you'll need to replace the file from the downloaded archive again.
+  - This can also happen if you have multiple network interfaces, disable all of them except your primary one.
 
 - If the game fails to load properly, such as by getting stuck in the loading screen - please check the BepInEx logs and see if any of the SPT plugins failed to load. The Unity development build has some extra checks in place that might produce errors which are not present when running the regular version of EFT. If such a scenario occurs, then please contact me and let me know about the issue!
 
