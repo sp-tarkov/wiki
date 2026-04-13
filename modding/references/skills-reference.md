@@ -2,7 +2,7 @@
 title: Skills Reference Sheet
 description: A reference for skill related things
 published: true
-date: 2025-11-02T04:16:51.735Z
+date: 2026-04-13T17:48:13.769Z
 tags: client, reference, server, skills
 editor: markdown
 dateCreated: 2025-11-02T03:49:55.394Z
@@ -21,7 +21,7 @@ Skills are defined as enum constants. The client uses `ESkillId` while the serve
 | Vitality | 2 | Vitality
 | Health | 3 | Health
 | StressResistance | 4 | Stress Resistance
-| Metabloism | 5 | Metabolism
+| Metabolism | 5 | Metabolism
 | Immunity | 6 | Immunity
 | Perception | 7 | Perception
 | Intellect | 8 | Intellect
