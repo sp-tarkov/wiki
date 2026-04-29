@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2026-01-01T19:51:55.997Z
+date: 2026-04-29T03:08:11.631Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -32,7 +32,7 @@ See [Performance Tuning](/Performance_Tuning) for further information.
 
 ## Mods for better bot spawns
 
-[Acid's Bot Placement System](https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system), [Unda](https://forge.sp-tarkov.com/mod/1173/unda)
+[Acid's Bot Placement System](https://forge.sp-tarkov.com/mod/2097/abps-acids-bot-placement-system)
 
 You should only have **one** bot spawning mod installed to avoid issues.
 
