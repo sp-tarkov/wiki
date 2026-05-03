@@ -2,7 +2,7 @@
 title: SPT & Commando Bots
 description: How to use SPT & Commando bots in SPT.
 published: true
-date: 2026-04-09T21:35:45.284Z
+date: 2026-05-03T21:14:03.083Z
 tags: guide
 editor: markdown
 dateCreated: 2025-10-05T07:40:42.709Z
@@ -108,7 +108,7 @@ To use these commands send them as a chat message to **Commando**.
 | |||
 | `spt profile` |||
 | `spt profile level [desired level]` 					| Sets your profile level. | `spt profile level 20` |
-| `spt profile skill [skill name] [quantity]` 	| Sets a skill level to the given number. | `spt profile skill metabolism 51` |
+| `spt profile skill [skill name] [quantity]` 	| Sets a skill level to the given number. You can find skill names [here](https://wiki.sp-tarkov.com/en/modding/references/skills-reference). You will need to use the `Enum Name` value. | `spt profile skill metabolism 51` |
 | `spt profile examine` 												| Examines every item. | `spt profile examine` |
 | |||
 | `spt trader` |||
