@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-04-11T20:02:10.560Z
+date: 2026-05-07T14:15:50.110Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -127,6 +127,9 @@ Note that setting the same Scaling Mode in DERP's F12 settings as in your Graphi
 ## Infinite loading after installing [Tarkov DLSS 4.5](<https://forge.sp-tarkov.com/mod/2621/tarkov-dlss-45>)
 Uninstall the mod, set DLSS to any preset after **Preset J**, and reinstall the mod.
 
+## Guns gain extreme firerate with [Artem](<https://forge.sp-tarkov.com/mod/1023/wtt-artem>) and [Borkel's Realistic NVGs](<https://forge.sp-tarkov.com/mod/954/borkels-realistic-night-vision-goggles-nvgs-and-t-7>)
+Known issue when using the Black GPNVGs from Artem. Borkel's includes an option black texture for it inside `[game folder]\SPT\user\mods\BRNVG_N-15Adapter\optional black GPNVG-18`.
+This issue also affects bots. You will need to use a mod like [APBS](<https://forge.sp-tarkov.com/mod/1594/apbs-acids-progressive-bot-system>) to blacklist that item from bot loadouts. The ID for the Black GPNVGs is `66326bfd46817c660d015146`.
 
 # See also
 [Frequently Asked Questions](/FAQs_40)
