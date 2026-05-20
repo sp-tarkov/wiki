@@ -2,7 +2,7 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2026-05-20T12:37:40.852Z
+date: 2026-05-20T12:38:18.796Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -61,7 +61,7 @@ You can use a tool like [Check Mods](<https://forge.sp-tarkov.com/mod/2471/check
 
 When you drag and drop a folder into a directory, which has the same named folders/files, it will merge them and overwrite only duplicate files. **It will not delete any non-duplicates.**
 
-<div style="margin-top: 10px;"></div>
+&nbsp;
 <video width="450" height="297" controls style="display: block; margin: 0 auto;">
 	<source src="https://i.imgur.com/Wy5bijG.mp4" type="video/mp4">
 </video>
