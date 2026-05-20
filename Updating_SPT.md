@@ -2,7 +2,7 @@
 title: Updating SPT
 description: Learn how to update your SPT installation.
 published: true
-date: 2026-01-31T06:09:09.635Z
+date: 2026-05-20T12:36:28.786Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-09T12:01:16.553Z
@@ -60,6 +60,14 @@ Example of the compatibility section for SPT 3.11.3.
   - You can use a tool like [Check Mods](<https://forge.sp-tarkov.com/mod/2471/check-mods>) to see which of your mods require updating.
 > This will only overwrite base SPT files. It will __not__ overwrite or remove your profile(s), mods or mod configs.
 {.is-info}
+
+## Replacing files
+
+When you drag and drop a folder into a directory, which has the same named folders/files, it will merge them and overwrite only duplicate files. **It will not delete any non-duplicates.**
+
+<video width="450" height="297" controls style="display: block; margin: 0 auto;">
+	<source src="https://i.imgur.com/Wy5bijG.mp4" type="video/mp4">
+</video>
 
 # See also
 [New to SPT? Start here!](/Beginners_Guide)
