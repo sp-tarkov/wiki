@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-05-17T03:28:52.641Z
+date: 2026-05-20T17:38:45.099Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -49,7 +49,7 @@ From [here](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) download the
 If it tells you that you already have them installed, then use the repair option. Restart your PC after.
 
 <div style="margin-top: 20px;"></div>
-<img src="https://i.imgur.com/dDDnmoX.png" alt=".NET runtimes" width=400 style="display: block; margin: 0 auto;">
+<img src="/runtimes.png" alt=".NET runtimes" width=400 style="display: block; margin: 0 auto;">
 
 ## Kollontay still spawns on high level Ground Zero
 [Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
