@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-05-20T17:38:45.099Z
+date: 2026-06-05T10:17:49.591Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -43,7 +43,7 @@ Note that [Client mods](/Mod_Types) won't show up in the SPT Server nor Launcher
 
 ## Server doesn't launch or closes immediately
 From [here](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) download the latest version of **both**:
-- `ASP.NET`
+- `ASP.NET Core Runtime`
 - `.NET Desktop Runtime`
 
 If it tells you that you already have them installed, then use the repair option. Restart your PC after.
