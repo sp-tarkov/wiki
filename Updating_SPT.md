@@ -2,7 +2,7 @@
 title: Updating SPT
 description: Learn how to update your SPT installation.
 published: true
-date: 2026-06-08T17:54:00.552Z
+date: 2026-06-12T17:12:28.269Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-09T12:01:16.553Z
@@ -15,8 +15,8 @@ dateCreated: 2025-08-09T12:01:16.553Z
 {.is-warning}
 
 
-1. Download the SPT files from the Direct Download section at the **bottom** of the [Release page](https://github.com/sp-tarkov/build/releases).
-<div style="margin-top: 10px;"></div>
+1. Download the SPT files from the Direct Download section at the **bottom** of the [Release page](https://github.com/sp-tarkov/build/releases/latest).
+<div style="margin-top: 20px;"></div>
 <img src="/direct_download.png" alt="Direct Download" width=400 style="display: block; margin: 0 auto;">
 
 2. Close your game, launcher, and server.
