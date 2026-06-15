@@ -2,7 +2,7 @@
 title: Installing Mods
 description: General guide on adding mods to your game.
 published: true
-date: 2026-05-20T12:38:18.796Z
+date: 2026-06-15T23:40:33.304Z
 tags: guide, mods
 editor: markdown
 dateCreated: 2025-06-12T18:59:03.228Z
@@ -22,7 +22,7 @@ dateCreated: 2025-06-12T18:59:03.228Z
 
 - [Notepad++](https://notepad-plus-plus.org/) is another useful tool to have installed. It simplifies editing config files, and will let you know if there's any formatting issues with the edits you made.
 
-- Make sure that **you have already loaded SPT up to the main menu** before installing mods.
+- Make sure that **you have loaded your SPT install up to the main menu at least once** before installing mods.
 
 - **Only install mods that are marked compatible with your version of SPT.** Mods for older SPT versions will not work, and will break things. If you are unsure what version of SPT you are on, you can see the SPT version in the top left of the server window or in the bottom left while in-game.
 
