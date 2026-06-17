@@ -2,7 +2,7 @@
 title: FAQs
 description: Answers to frequently asked questions.
 published: true
-date: 2026-02-25T15:09:58.138Z
+date: 2026-06-17T19:44:40.240Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:23:08.957Z
@@ -109,6 +109,15 @@ We currently host two version of SPT: version `4.0`, using EFT version `0.16.9.0
 While you can install version `4.0` using the [SPT Installer](<https://forge.sp-tarkov.com/installer>), installing `3.11.4` can only be done manually by following [this guide](/SPT_311/Manual-Installation-Instructions_311). We do not offer support for `3.11.4`.
 
 We do not host older versions of SPT because each SPT version is specifically designed to work with a particular version of EFT. Since EFT is a live service game that receives frequent updates, every SPT version requires a dedicated patcher to downgrade your local EFT installation to the compatible version. Maintaining multiple older SPT versions would necessitate actively maintaining multiple downgrade patchers, which includes updating these patchers after each and every EFT update. Our team simply does not have the time to dedicate to this level of ongoing maintenance.
+
+# How much free space is necessary to install SPT?
+This is the current space requirements (compounding) to install SPT:
+- Patcher: 8GB (Always `C:\` drive)
+- Client: 70GB
+- Extract/Copy Patcher: 14GB
+- Post-patcher: ~35GB
+
+So while the final install size is ~60GB, the maximum allocated for SPT and associated install files _during the install process_ is ~100GB combined.
 
 # Known Issues
 - [Known EFT Issues](/Known_EFT_Issues_40)
