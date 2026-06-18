@@ -1,8 +1,8 @@
 ---
-title: Manual Install Instructions
+title: Bleeding Edge Install Instructions
 description: 
 published: false
-date: 2026-06-18T15:17:35.260Z
+date: 2026-06-18T15:18:03.568Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-18T15:17:35.260Z
