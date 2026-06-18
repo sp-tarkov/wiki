@@ -2,7 +2,7 @@
 title: Bleeding Edge Install Instructions
 description: 
 published: false
-date: 2026-06-18T18:10:49.483Z
+date: 2026-06-18T18:11:43.308Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-18T15:17:35.260Z
