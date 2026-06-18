@@ -2,7 +2,7 @@
 title: Bleeding Edge Install Instructions
 description: 
 published: false
-date: 2026-06-18T15:45:43.012Z
+date: 2026-06-18T18:10:00.719Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-18T15:17:35.260Z
@@ -41,9 +41,55 @@ These instructions are specific and tedious. **Do no more or no less than what i
 
 1. Ensure your Escape from Tarkov is updated to the latest version.
 1. Create a new directory for the BE SPT install. A good location would be anywhere that does not require administrative privileges. For example: `C:\Games\SPT-4.1-BE`, or `C:\Users\USERNAME\Games\SPT-4.1-BE`
-1. Download the [patcher for SPT 4.0](https://mirror.spt.dev/patchers/). This file you need is based on the current version of Escape from Tarkov, but will look like this `Patcher_1.0.5.0.XXXXX_to_16.9.0.40087.7z`; the newest file that ends in `40087.7z`.
-1. Extract the contents of this 7z archive to your `SPT-4.1-BE` directory. Note that the `patcher.exe` and the `SPT_Patches` directory must be in the root of the `SPT-4.1-BE` directory: `SPT-4.1-BE\patcher.exe`.
-    ![Install Patcher](https://i.imgur.com/JnZT5ty.gif =700x)
+1. Download the [patcher for SPT 4.0](https://mirror.spt.dev/patchers/). This file you need is based on the current version of Escape from Tarkov, but will look like this `Patcher_1.0.X.X.XXXXX_to_16.9.0.40087.7z`; the newest file that ends in `40087.7z`.
+1. Extract the contents of this 7z archive into the root of your `SPT-4.1-BE` directory. Note that the `patcher.exe` and the `SPT_Patches` directory must be in the root of the `SPT-4.1-BE` directory: `SPT-4.1-BE\patcher.exe`.
+    ![Install Patcher](https://i.imgur.com/JnZT5ty.gif =600x)
 1. Run the `patcher.exe`, and let it finish patching your Escape from Tarkov to version 40087.
+1. Download the [patcher for SPT 4.1](https://mirror.spt.dev/patchers/Patcher_16.9.0.40087_to_16.9.5.40743.7z).
+1. Extract the contents of this 7z archive into the root of your `SPT-4.1-BE` directory, overwriting any files when prompted.
+1. Run the `patcher.exe`, and let it finish patching your Escape from Tarkov to version 40743.
+1. Download the Bleeding Edge SPT version from the [#BE-Testing](https://discord.com/channels/875684761291599922/980558564693274694) channel on Discord.
+1. Extract the contents of this 7z archive into the root of your `SPT-4.1-BE` directory.
 
-...
+At this point, you should have a fully installed Bleeding Edge version of Single Player Tarkov 4.1 installed on your system.
+
+## Common Questions
+
+Remember, this document is your only avenue of support for Bleeding Edge builds.
+<details>
+<summary>I was playing the game normally, no mods, fresh profile, and I encountered an error</summary>
+We are extremely interested in these types of clean issues. Please submit these types of bugs to the <a href="https://github.com/sp-tarkov/server-csharp/issues/new/choose">GitHub issues board</a> or to the <a href="https://discord.com/channels/875684761291599922/980558564693274694">#BE-Testing</a> channel on Discord. Thank you for helping us build SPT.
+</details>
+
+<details>
+<summary>Why is there a watermark on my screen? Can I get rid of it?</summary>
+If I could reach through my monitor and slap you, I would. No, you can't get rid of it. It's a watermark. We put it there. We want it there. This build is for testing. This is not stable. What are you doing here?
+</details>
+
+<details>
+<summary>The server doesn't start</summary>
+Delete everything and start over. Read slower.
+</details>
+
+<details>
+<summary>The launcher doesn't start</summary>
+Delete everything and start over. Read slower.
+</details>
+
+<details>
+<summary>The game does not load to the main menu</summary>
+Delete everything and start over. Read slower.
+</details>
+
+<details>
+<summary>My SPT 4.0 profile does not work</summary>
+It's not supposed to.
+</details>
+
+<details>
+<summary>I tried to install a mod and it won't work</summary>
+Good.
+</details>
+
+Thank you for your help testing and making Single Player Tarkov better for everyone.
+&mdash; Developers & Staff
