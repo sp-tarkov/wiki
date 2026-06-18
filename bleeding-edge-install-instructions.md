@@ -2,7 +2,7 @@
 title: Bleeding Edge Install Instructions
 description: SPT Bleeding Edge installation instructions for project testing.
 published: true
-date: 2026-06-18T19:17:26.452Z
+date: 2026-06-18T21:21:08.791Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-18T15:17:35.260Z
@@ -43,7 +43,7 @@ These instructions are specific and tedious. **Do no more or no less than what i
 1. Create a new directory for the BE SPT install. A good location would be anywhere that does not require administrative privileges. For example: `C:\Games\SPT-4.1-BE`.
 1. Copy the contents of your Escape From Tarkov installation directory into this new `SPT-4.1-BE` directory. Note that the `EscapeFromTarkov.exe` file must be within the root of your `SPT-4.1-BE` directory. Example: `SPT-4.1-BE\EscapeFromTarkov.exe`.
 1. Download the [patcher for SPT 4.0](https://mirror.spt.dev/patchers/). This file you need is based on the current version of Escape from Tarkov, but will look like this `Patcher_1.0.X.X.XXXXX_to_16.9.0.40087.7z`; the newest file that ends in `40087.7z`.
-1. Extract the contents of this 7z archive into the root of your `SPT-4.1-BE` directory. Note that the `patcher.exe` and the `SPT_Patches` directory must be in the root of the `SPT-4.1-BE` directory: `SPT-4.1-BE\patcher.exe`.
+1. Extract the contents of the folder within this 7z archive into the root of your `SPT-4.1-BE` directory. Note that the `patcher.exe` and the `SPT_Patches` directory must be in the root of the `SPT-4.1-BE` directory: `SPT-4.1-BE\patcher.exe`.
     ![Install Patcher](https://spt.dev/bleeding-edge-install-instructions.gif =600x)
 1. Run the `patcher.exe`, and let it finish patching your Escape from Tarkov to version 40087.
 1. Download the [patcher for SPT 4.1](https://mirror.spt.dev/patchers/Patcher_16.9.0.40087_to_16.9.5.40743.7z).
