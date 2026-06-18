@@ -2,7 +2,7 @@
 title: Bleeding Edge Install Instructions
 description: SPT Bleeding Edge installation instructions for project testing.
 published: true
-date: 2026-06-18T18:15:53.336Z
+date: 2026-06-18T18:17:01.944Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-18T15:17:35.260Z
@@ -88,7 +88,7 @@ It's not supposed to.
 
 <details>
 <summary>I tried to install a mod and it won't work</summary>
-Good.
+It's not supposed to.
 </details>
 
 Thank you for your help testing and making Single Player Tarkov better for everyone.
