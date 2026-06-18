@@ -2,7 +2,7 @@
 title: Bleeding Edge Install Instructions
 description: SPT Bleeding Edge installation instructions for project testing.
 published: true
-date: 2026-06-18T18:14:29.506Z
+date: 2026-06-18T18:15:53.336Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-18T15:17:35.260Z
@@ -63,7 +63,7 @@ We are extremely interested in these types of clean issues. Please submit these 
 
 <details>
 <summary>Why is there a watermark on my screen? Can I get rid of it?</summary>
-If I could reach through my monitor and slap you, I would. No, you can't get rid of it. It's a watermark. We put it there. We want it there. This build is for testing. This is not stable. What are you doing here?
+If I could reach through my monitor and slap you, I would. No, you can't get rid of it. We put it there. We want it there. This build is for testing. Go eat some glue or something.
 </details>
 
 <details>
