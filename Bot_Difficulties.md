@@ -2,7 +2,7 @@
 title: Bot Difficulties
 description: Learn how SPT and mods handle bots' difficulty.
 published: true
-date: 2026-06-22T08:34:51.885Z
+date: 2026-06-22T13:59:28.259Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-28T18:04:16.547Z
@@ -34,7 +34,7 @@ Note that this is **not** the same as changing the **difficulty** in the **Pre-R
 &nbsp;
 <img src="/bot_difficulties/sain_presets_v2.1.png" alt="SAIN Presets" width=600 style="display: block; margin: 0 auto;">
 
-## Spawn mods like ABPS and MOAR:
+## Spawn mods like ABPS
 These mods have configuration options to change the likelihood for each *difficulty class* to spawn when **As in online** is chosen in **Pre-Raid Settings**.
 
 Choosing a specific **difficulty** in **Pre-Raid Settings** will instead make all bots the same *difficulty class*.
