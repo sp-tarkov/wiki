@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-06-05T10:17:49.591Z
+date: 2026-07-12T00:11:20.612Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -72,7 +72,8 @@ No known fix.
 ## Loading in as a PMC when you selected scav
 [Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
 
-
+## `Access to the path '\\?\C:\Users\[username]\OneDrive\Desktop\SPT\SPT\user\profiles\backups\[date] is denied.`
+You have moved SPT onto your OneDrive enabled desktop. Move it back to a folder like `C:\Games\SPT`, and delete the profile backup mentioned in the error message.
 
 
 # See also
