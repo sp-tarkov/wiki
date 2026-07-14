@@ -2,7 +2,7 @@
 title: SPT & Commando Bots
 description: How to use SPT & Commando bots in SPT.
 published: true
-date: 2026-07-14T19:56:51.365Z
+date: 2026-07-14T19:58:51.082Z
 tags: guide
 editor: markdown
 dateCreated: 2025-10-05T07:40:42.709Z
@@ -114,7 +114,7 @@ To use these commands send them as a chat message to **Commando**.
 | `spt trader` |||
 | `spt trader [trader name] rep [quantity]` 		| Sets a trader's reputation to the given number. | `spt trader prapor rep 2` |
 | `spt trader [trader name] spend [quantity]` 	| Sets a trader's money spent to a given number. | `spt trader therapist spend 1000000` |
-| |  Note that some traders have different internal names: | <br>Ref: `Arena`<br>Lightkeeper: `caretaker`<br>BTR Driver: `APC` |
+| |  Note that some traders have different internal names: <details><summary>Internal Names</summary>Ref: `Arena`<br>Lightkeeper: `caretaker`<br>BTR Driver: `APC` </details> | |
 | | | |
 | `spt give` |||
 | `spt give [item ID] [quantity]` 					| Sends items by item ID. They can be found [here](https://db.sp-tarkov.com/search). | `spt give 5449016a4bdc2d6f028b456f 2` |
