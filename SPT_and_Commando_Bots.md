@@ -2,7 +2,7 @@
 title: SPT & Commando Bots
 description: How to use SPT & Commando bots in SPT.
 published: true
-date: 2026-05-03T21:14:03.083Z
+date: 2026-07-14T19:56:51.365Z
 tags: guide
 editor: markdown
 dateCreated: 2025-10-05T07:40:42.709Z
@@ -105,16 +105,17 @@ To use these commands send them as a chat message to **Commando**.
 | Command | Outcome | Example |
 | - | - | - |
 | `help` | Lists out all available commands in the Messenger and how to use them. | `help` |
-| |||
+| | | |
 | `spt profile` |||
 | `spt profile level [desired level]` 					| Sets your profile level. | `spt profile level 20` |
 | `spt profile skill [skill name] [quantity]` 	| Sets a skill level to the given number. You can find skill names [here](https://wiki.sp-tarkov.com/en/modding/references/skills-reference). You will need to use the `Enum Name` value. | `spt profile skill metabolism 51` |
 | `spt profile examine` 												| Examines every item. | `spt profile examine` |
-| |||
+| | | |
 | `spt trader` |||
 | `spt trader [trader name] rep [quantity]` 		| Sets a trader's reputation to the given number. | `spt trader prapor rep 2` |
 | `spt trader [trader name] spend [quantity]` 	| Sets a trader's money spent to a given number. | `spt trader therapist spend 1000000` |
-| |||
+| |  Note that some traders have different internal names: | <br>Ref: `Arena`<br>Lightkeeper: `caretaker`<br>BTR Driver: `APC` |
+| | | |
 | `spt give` |||
 | `spt give [item ID] [quantity]` 					| Sends items by item ID. They can be found [here](https://db.sp-tarkov.com/search). | `spt give 5449016a4bdc2d6f028b456f 2` |
 | `spt give "[item name]" [quantity]` 					| Sends items by their name. If a name entered isn't an exact match, will give a number of search results, selectable by sending `spt give [search result number]` | `spt give "pack of sugar" 10` |
