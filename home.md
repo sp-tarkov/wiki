@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2025-11-17T05:44:11.383Z
+date: 2026-07-14T18:38:01.943Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
@@ -56,8 +56,7 @@ Running into issues? Find solutions here:
 
 - [Bot Difficulties](/Bot_Difficulties): Learn how SPT and mods handle bots' difficulty.
 - [SPT & Commando Bots](/SPT_and_Commando_Bots): How to use SPT & Commando bots in SPT.
-- [Configuration Files Explained](#)^WIP^: Learn how to tweak SPT settings.
-- [Guide Index](#)^WIP^: A list of all available guides and tutorials.
+- [Console Commands](/guides-and-advanced-topics/console-commands): A list of the few console commands SPT adds that can be used in-game.
 
 ## For Mod Developers
 
