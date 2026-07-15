@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-07-15T03:58:09.368Z
+date: 2026-07-15T14:53:39.719Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -51,7 +51,7 @@ If it tells you that you already have them installed, then use the repair option
 <div style="margin-top: 20px;"></div>
 <img src="/runtimes.png" alt=".NET runtimes" width=400 style="display: block; margin: 0 auto;">
 
-If that didn't help, verify that your SPT install isn't located in a folder with special characters (`;,[]{}` etc.).
+If that didn't help, verify that your SPT install path doesn't have any special characters (`;,[]{}` etc.).
 
 ## Kollontay still spawns on high level Ground Zero
 [Update your SPT.](<https://wiki.sp-tarkov.com/Updating_SPT>)
