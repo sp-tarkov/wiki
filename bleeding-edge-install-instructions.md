@@ -2,7 +2,7 @@
 title: Bleeding Edge Install Instructions
 description: SPT Bleeding Edge installation instructions for project testing.
 published: true
-date: 2026-07-04T04:14:00.696Z
+date: 2026-07-16T19:39:39.259Z
 tags: 
 editor: markdown
 dateCreated: 2026-06-18T15:17:35.260Z
@@ -27,9 +27,6 @@ This document is the **only support** that you will find for installing the Blee
 - You must be willing to submit bugs to the [GitHub issues board](https://github.com/sp-tarkov/server-csharp/issues/new/choose) or to the [#BE-Testing](https://discord.com/channels/875684761291599922/980558564693274694) channel on Discord.
 
 ## Software Requirements
-- [.Net 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net472-developer-pack-offline-installer)
-- [.NET Runtime 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-9.0.17-windows-x64-installer)
-- [ASP.NET 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.17-windows-x64-installer)
 - [.NET Runtime 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-10.0.9-windows-x64-installer)
 - [ASP.NET 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-10.0.9-windows-x64-installer)
 - [7-Zip](https://www.7-zip.org/)
