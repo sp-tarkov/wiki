@@ -563,13 +563,13 @@ public sealed class MyModMetadata : IModMetadata, IModBlazorMetadata
 
 `HomePage` and `HomePageDescription` register a card for your mod in the SIC mod links section. Mods implementing this interface also no longer have their `.js` and `.ts` files treated as loadable server content.
 
-There's a lot more to this in 4.1, including a config editor that lets users edit your mod's settings in the browser. See [Mod Web Pages](/SPT_41/modding/server/Mod_Web_Pages).
+There's a lot more to this in 4.1, including a config editor that lets users edit your mod's settings in the browser. See [Mod Web Pages](/en/SPT_41/modding/server/Mod_Web_Pages).
 
 ## Prepatching
 
 New in 4.1. Prepatchers extend Core's enums before it loads, which runtime patching can't do.
 
-Most mods don't need this. If yours does, see [Prepatching](/SPT_41/modding/server/Prepatching).
+Most mods don't need this. If yours does, see [Prepatching](/en/SPT_41/modding/server/Prepatching).
 
 ## Smaller changes
 

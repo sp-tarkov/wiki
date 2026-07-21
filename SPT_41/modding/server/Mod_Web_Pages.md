@@ -111,7 +111,7 @@ public class MyModController : Controller
 
 These are strictly for your own endpoints, things your web page calls, or tooling you're exposing outside the game.
 
-Anything the game client talks to still goes through the router system. If you're handling a Tarkov route, overriding one of ours, or responding to something the client sends, write a router. See [Routers](/SPT_41/Server_4.0_to_4.1#routers).
+Anything the game client talks to still goes through the router system. If you're handling a Tarkov route, overriding one of ours, or responding to something the client sends, write a router. See [Routers](/en/SPT_41/Server_40_to_41#routers).
 
 ## Registering your config for editing
 
@@ -140,7 +140,7 @@ public class MyModConfig
 
 Give every setting a getter and a setter. Applying an edit copies the changed values onto the instance you registered, but only properties that are both readable and writable get copied. An `init` or get-only property is skipped without complaint.
 
-Don't put `[Injectable]` on the config class if it's loaded from a file. That has the container build a fresh instance from your defaults and your JSON is never read. Load it yourself and register the instance through `IOnDIConstruct`, covered in [Registering your config into DI](/SPT_41/Server_4.0_to_4.1#registering-your-config-into-di).
+Don't put `[Injectable]` on the config class if it's loaded from a file. That has the container build a fresh instance from your defaults and your JSON is never read. Load it yourself and register the instance through `IOnDIConstruct`, covered in [Registering your config into DI](/en/SPT_41/Server_40_to_41#registering-your-config-into-di).
 
 **The provider**
 
@@ -174,4 +174,4 @@ Applying and saving are separate. Applying copies the edited values onto your li
 
 ## Related
 
-- [Server Mod Migration - 4.0 to 4.1](/SPT_41/Server_4.0_to_4.1#web-pages), where `IModWebMetadata` was renamed to `IModBlazorMetadata`
+- [Server Mod Migration - 4.0 to 4.1](/en/SPT_41/Server_40_to_41#web-pages), where `IModWebMetadata` was renamed to `IModBlazorMetadata`
