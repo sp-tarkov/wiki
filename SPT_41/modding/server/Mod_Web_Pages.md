@@ -39,15 +39,17 @@ The interface is just a marker. Implementing it tells the server to link your `w
 | `HomePage` | Path to your page. Setting this puts a card for your mod in the SIC mod links section. Leave `null` for no card. |
 | `HomePageDescription` | The description shown on that card. |
 
-Your project also needs `Microsoft.NET.Sdk.Web` rather than the plain SDK, a reference to `SPTarkov.Server.Web`, and `<OutputType>Library</OutputType>`.
+Your project needs `Microsoft.NET.Sdk.Web` rather than the plain SDK, and `<OutputType>Library</OutputType>`.
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
     <OutputType>Library</OutputType>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Libraries\SPTarkov.Server.Web\SPTarkov.Server.Web.csproj" />
+    <PackageReference Include="SPTarkov.Server.Core" Version="4.1.0" />
+    <PackageReference Include="SPTarkov.Server.Web" Version="4.1.0" />
   </ItemGroup>
 </Project>
 ```

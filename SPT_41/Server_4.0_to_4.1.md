@@ -240,14 +240,14 @@ public class MyService(GlobalTable globalTable, TemplateTable templateTable, Ins
 {
     public void DoThing()
     {
-        // globalTable and templateTable are the objects themselves
+        var items = templateTable.Items;
     }
 }
 ```
 
 Configs are injected by their concrete type. `configServer.GetConfig<InsuranceConfig>()` becomes an `InsuranceConfig` constructor parameter. If the type isn't mapped to a config file, the server fails at startup instead of when your code first runs.
 
-Tables were also renamed to say what they are. Items live on `TemplateTable`, which is what `GetItems()` returned:
+Tables were also renamed to say what they are. Each of these getters becomes an injected table:
 
 | 4.0 | 4.1 |
 | --- | --- |
@@ -257,20 +257,37 @@ Tables were also renamed to say what they are. Items live on `TemplateTable`, wh
 | `databaseService.GetLocales()` | `LocaleTable` |
 | `databaseService.GetLocations()` | `LocationTable` |
 | `databaseService.GetMatch()` | `MatchTable` |
-| `databaseService.GetItems()` | `TemplateTable` |
+| `databaseService.GetTemplates()` | `TemplateTable` |
 | `databaseService.GetTraders()` | `TradersTable` |
 | `databaseService.GetServer()` | `ServerTable` |
 | `databaseService.GetSettings()` | `SettingsTable` |
 
 All of them are in `SPTarkov.Server.Core.Models.Spt.Tables`.
 
+The rest of the getters were shortcuts to a property on the templates table, so inject `TemplateTable` and go through the property:
+
+| 4.0 | 4.1 |
+| --- | --- |
+| `databaseService.GetItems()` | `templateTable.Items` |
+| `databaseService.GetQuests()` | `templateTable.Quests` |
+| `databaseService.GetHandbook()` | `templateTable.Handbook` |
+| `databaseService.GetPrices()` | `templateTable.Prices` |
+| `databaseService.GetCustomization()` | `templateTable.Customization` |
+| `databaseService.GetAchievements()` | `templateTable.Achievements` |
+| `databaseService.GetCustomAchievements()` | `templateTable.CustomAchievements` |
+| `databaseService.GetProfileTemplates()` | `templateTable.Profiles` |
+| `databaseService.GetLocationServices()` | `templateTable.LocationServices` |
+
+The two by-id lookups moved onto their tables and kept their names:
+
+| 4.0 | 4.1 |
+| --- | --- |
+| `databaseService.GetLocation(id)` | `locationTable.GetLocation(id)` |
+| `databaseService.GetTrader(id)` | `tradersTable.GetTrader(id)` |
+
 There is no replacement for `GetTables()`. If you genuinely need several, list them all as parameters.
 
-Because these are singletons, edits you make during `OnLoadAsync` apply server-wide, same as before. Do your database edits at `OnLoadOrder.PostLoad` so the data is loaded by the time you touch it.
-
 ## Namespace moves
-
-`Helpers`, `Services` and `Generators` were flat folders with 60+ files each. They're grouped by domain now. This is the change most likely to bury you in `CS0246`, and it's a find-and-replace fix.
 
 The common ones:
 

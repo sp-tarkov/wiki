@@ -23,7 +23,13 @@ Prepatching runs before the server has a logger, a database, or DI. There's no s
 
 ## How it works
 
-Prepatchers live in `[game folder]\SPT\user\patchers\`, not `user\mods\`.
+Prepatchers live in `[game folder]\SPT\user\patchers\`, not `user\mods\`, and each one goes in a folder named for the mod's GUID:
+
+```
+user\patchers\com.example.my-mod\MyModPatcher.dll
+```
+
+The folder name has to match your `ModGuid` exactly. The server looks for `user\patchers\<ModGuid>\` and fails on startup if it isn't there, naming the directory it expected. The DLL itself can be called anything, the first one found at the top level of that folder is used, so don't put anything else in there.
 
 On startup, before any mod loads, the server collects prepatchers, applies them to an in-memory copy of `SPTarkov.Server.Core`, then reboots itself into a load context using the patched assembly. Every mod that loads afterwards sees the patched Core.
 
@@ -96,8 +102,6 @@ public class MyMod(ISptLogger<MyMod> logger) : IOnLoad
     }
 }
 ```
-
-This is worth doing. A prepatcher that silently didn't apply looks exactly like a mod with a subtle bug.
 
 ## Things to know
 
