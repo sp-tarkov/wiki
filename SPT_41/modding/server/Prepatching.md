@@ -17,7 +17,7 @@ A prepatcher edits `SPTarkov.Server.Core` at the IL level before it is loaded. I
 
 Only if you need to extend an enum. Enum constants are baked in at compile time, so there's no way to add one to an assembly that's already loaded. The patch has to happen first.
 
-Everything else belongs in a [Harmony patch](/modding/SPT_411/Server_4.0_to_4.1). If you want to change what a method does, runtime patching is simpler and much easier to debug.
+Everything else belongs in a [Harmony patch](/SPT_41/Server_4.0_to_4.1#patching). If you want to change what a method does, runtime patching is simpler and much easier to debug.
 
 Prepatching runs before the server has a logger, a database, or DI. There's no support beyond the console, and a broken prepatcher takes the whole server down before it can tell you why.
 
@@ -107,4 +107,4 @@ This is worth doing. A prepatcher that silently didn't apply looks exactly like 
 
 ## Related
 
-- [Server Mod Migration - 4.0 to 4.1](/modding/SPT_411/Server_4.0_to_4.1), where prepatching was added
+- [Server Mod Migration - 4.0 to 4.1](/SPT_41/Server_4.0_to_4.1#prepatching), where prepatching was added
