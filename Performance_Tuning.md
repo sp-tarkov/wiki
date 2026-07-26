@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2026-07-26T18:34:13.151Z
+date: 2026-07-26T18:35:19.897Z
 tags: performance, guide
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -30,7 +30,8 @@ CPUs with powerful single-threaded performance will improve your in-game FPS the
   - As bots are the main cause of performance issues, mods that add new functions to them will impact performance.
 - Use [AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit).
   - AI Limit works by disabling distant AIs. This will have an impact on gameplay, but will improve performance.
-  - [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots) already includes an AI limiter.
+  - Some mods are incompatible with AI Limit.
+  - [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots) already includes an AI limiter. Use it instead if you have it installed.
 - Tweak your bot spawning mod to spawn less bots.
   - Less bots mean less demand on your system, but it will make raid feel "less alive" if lowered too much.
 
