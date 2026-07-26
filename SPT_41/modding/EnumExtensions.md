@@ -2,7 +2,7 @@
 title: Enum Extensions
 description: Extending Enums in the server and the client.
 published: true
-date: 2026-07-26T06:49:39.390Z
+date: 2026-07-26T06:49:50.856Z
 tags: modding, server, client, enum
 editor: markdown
 dateCreated: 2026-07-21T14:20:18.887Z
@@ -301,8 +301,6 @@ The server and client enum types do not need to have the same fully qualified na
 **Other mods may patch the same enum.** Do not rely on another mod's definition being applied before yours. Coordinate enum value ranges when mods extend shared types.
 
 **Keep server and client definitions synchronized.** A mismatched numeric value can serialize correctly on one side but be interpreted as a different value on the other.
-
-**Prepatching is for enum constants only.** Arbitrary IL changes and the old `AbstractPrepatch` helpers are no longer supported. Use Harmony for behavioral changes.
 
 ## Related
 
