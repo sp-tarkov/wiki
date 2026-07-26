@@ -1,9 +1,9 @@
 ---
 title: Enum Extensions
-description: Modifying SPTarkov.Server.Core before it loads, using Mono.Cecil.
+description: Extending Enums in the server and the client.
 published: true
-date: 2026-07-26T06:42:01.253Z
-tags: modding, patching
+date: 2026-07-26T06:47:42.863Z
+tags: modding, server, client, enum
 editor: markdown
 dateCreated: 2026-07-21T14:20:18.887Z
 ---
