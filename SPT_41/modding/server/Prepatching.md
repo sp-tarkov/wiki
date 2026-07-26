@@ -1,41 +1,52 @@
 ---
-title: Prepatching
+title: Enum Extensions
 description: Modifying SPTarkov.Server.Core before it loads, using Mono.Cecil.
 published: true
-date: 2026-07-21T00:00:00.000Z
+date: 2026-07-26T06:42:01.253Z
 tags: modding, patching
 editor: markdown
-dateCreated: 2026-07-21T00:00:00.000Z
+dateCreated: 2026-07-21T14:20:18.887Z
 ---
 
 > This page applies to SPT version `4.1`
 {.is-info}
 
-A prepatcher edits `SPTarkov.Server.Core` at the IL level before it is loaded. In practice this means one thing: adding your own constants to Core's enums.
+A prepatch adds constants, fields, or other image data to an assembly before the assembly containing that code is loaded.
+
+SPT supports enum prepatching on both sides:
+
+- Server enum constants are declared in a JSON file and added to `SPTarkov.Server.Core`.
+- Client enum constants are registered by a server mod, sent to the client as JSON, and added to `Assembly-CSharp`.
+
+Prepatchers are declarative. You no longer create a prepatcher DLL, inherit `AbstractPrepatch`, or edit assemblies directly with Mono.Cecil.
 
 ## Do you actually need one?
 
-Only if you need to extend an enum. Enum constants are baked in at compile time, so there's no way to add one to an assembly that's already loaded. The patch has to happen first.
+Enum fields are compile time constants that are baked in when code is compiled, so a new named constant must be added before the relevant assembly loads.
 
-Everything else belongs in a [Harmony patch](/en/SPT_41/Server_40_to_41#patching). If you want to change what a method does, runtime patching is simpler and much easier to debug.
+You may need one, when for example you do any of the following:
+- When you want to add a new bot type.
+- When you want to add a new skill.
+- Anything else that requires a new Enum entry.
 
-Prepatching runs before the server has a logger, a database, or DI. There's no support beyond the console, and a broken prepatcher takes the whole server down before it can tell you why.
+> The server and client definitions are separate. A JSON file in `user\patchers` is not automatically sent to the client.
+{.is-warning}
 
-## How it works
+## Server-side prepatching
 
-Prepatchers live in `[game folder]\SPT\user\patchers\`, not `user\mods\`, and each one goes in a folder named for the mod's GUID:
+### Folder layout
 
+Server prepatch definitions live in `[game folder]\SPT\user\patchers\`, not `user\mods`.
+
+Each mod gets a directory named after its GUID:
+
+```text
+user\patchers\com.example.my-mod\MyModPrepatch.json
 ```
-user\patchers\com.example.my-mod\MyModPatcher.dll
-```
 
-The folder name has to match your `ModGuid` exactly. The server looks for `user\patchers\<ModGuid>\` and fails on startup if it isn't there, naming the directory it expected. The DLL itself can be called anything, the first one found at the top level of that folder is used, so don't put anything else in there.
+The directory name must match the mod's `ModGuid`. The directory must contain exactly one JSON file at its top level. The filename itself can be anything.
 
-On startup, before any mod loads, the server collects prepatchers, applies them to an in-memory copy of `SPTarkov.Server.Core`, then reboots itself into a load context using the patched assembly. Every mod that loads afterwards sees the patched Core.
-
-The patched assembly is written out as `SPTarkov.Server.Core.Patched.dll` alongside a `.pdb`, which is what makes debugging a prepatched server possible. Both are deleted and rebuilt on every start, so removing the prepatcher gets you an unmodified server next run.
-
-If your mod ships a prepatcher, set `HasPrepatcher = true` in its metadata.
+If the mod ships a server enum extension declaration, set `HasEnumExtensions = true` in your mod's metadata:
 
 ```csharp
 public sealed class MyModMetadata : IModMetadata
@@ -45,43 +56,77 @@ public sealed class MyModMetadata : IModMetadata
 }
 ```
 
-## Writing one
+### Writing the definition
 
-Inherit `AbstractPrepatch`. The module you're modifying is handed to you.
+The file must contain a non-empty JSON array:
 
-```csharp
-public class MyPrepatch(ModuleDefinition serverCoreModule) : AbstractPrepatch(serverCoreModule)
+```json
+[
+  {
+    "enumType": "SPTarkov.Server.Core.Models.Enums.SkillTypes",
+    "constantName": "MySkill",
+    "constantValue": 99
+  }
+]
+```
+
+Each entry supports the following properties:
+
+| Property | Required | Description |
+| --- | --- | --- |
+| `enumType` | Yes | Fully qualified name of the enum to extend |
+| `constantName` | Yes | Name of the new enum constant |
+| `constantValue` | Yes | Numeric value of the new constant |
+| `jsonEnumName` | No | Client-only serialization name; ignored by the server patcher |
+
+For nested enum types, separate the containing and nested types with `+`:
+
+```json
 {
-    public override string ModGuid => "com.example.my-mod";
-    public override bool IsActive => true;
-
-    public override void Patch()
-    {
-        AddNewEnumConstant<SkillTypes>("MySkill", 99);
-    }
+  "enumType": "Some.Namespace.ContainingType+NestedEnum",
+  "constantName": "MyValue",
+  "constantValue": 100
 }
 ```
 
-`ModGuid` must match the mod the prepatcher belongs to. `IsActive` lets you switch it off without removing the file. `Patch` does the work.
+`constantValue` is read as a signed 64-bit integer and converted to the enum's actual underlying type. Startup reports an error if the value does not fit that type.
 
-`AddNewEnumConstant<T>(name, value)` is the method you want. Both the name and the number must be unique within that enum. Nothing checks this for you, and a collision gives you an enum that behaves strangely rather than one that fails loudly.
+### How it works
 
-### Other helpers
+Before loading server mods, the server:
 
-`AbstractPrepatch` also exposes lookups against the module, for the rare case you need to reach something directly. All of them throw `PatchException` naming what they couldn't find, rather than returning null.
+1. Reads the prepatch directories.
+2. Loads `SPTarkov.Server.Core` into memory.
+3. Applies definitions in deterministic order by mod GUID and definition path.
+4. Writes `SPTarkov.Server.Core.Patched.dll` and its `.pdb`.
+5. Starts the server using the patched Core assembly.
 
-| Method | Returns |
-| --- | --- |
-| `GetTypeDefinition<T>()` | The `TypeDefinition` for a type |
-| `GetMethod<T>(name)` | A `MethodDefinition` on that type |
-| `GetField<T>(name)` | A `FieldDefinition` |
-| `GetProperty<T>(name)` | A `PropertyDefinition` |
+The patched assembly and symbols are deleted and rebuilt on every start. Removing the prepatch directory therefore restores an unmodified server on the next run.
 
-What you do with those is plain [Mono.Cecil](https://github.com/jbevain/cecil).
+Definitions are processed before mod assemblies load, so a server prepatch cannot run mod code, resolve dependencies, access the database, or perform arbitrary Mono.Cecil edits.
 
-## Verifying it worked
+### Packaging the definition
 
-Your mod loads after the patched Core, so it can check its own prepatch applied:
+For example, a project can copy its definition after building:
+
+```xml
+<ItemGroup>
+  <PrepatchDefinition Include="$(ProjectDir)MyModPrepatch.json" />
+</ItemGroup>
+
+<Target Name="CopyPrepatchDefinition" AfterTargets="Build">
+  <Copy
+    SourceFiles="@(PrepatchDefinition)"
+    DestinationFolder="$(GamePath)\SPT\user\patchers\com.example.my-mod"
+  />
+</Target>
+```
+
+Adjust `$(GamePath)` to match your project setup.
+
+### Verifying the server Enum extension
+
+Your mod loads against the patched Core, so it can verify that the new constant exists:
 
 ```csharp
 [Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
@@ -91,11 +136,11 @@ public class MyMod(ISptLogger<MyMod> logger) : IOnLoad
     {
         if (Enum.TryParse<SkillTypes>("MySkill", out var injected))
         {
-            logger.Info($"Prepatch applied: MySkill = {(int)injected}");
+            logger.Info($"Server prepatch applied: MySkill = {(int)injected}");
         }
         else
         {
-            logger.Warning("Prepatch NOT applied: MySkill missing from SkillTypes");
+            logger.Warning("Server prepatch NOT applied: MySkill is missing");
         }
 
         return Task.CompletedTask;
@@ -103,12 +148,162 @@ public class MyMod(ISptLogger<MyMod> logger) : IOnLoad
 }
 ```
 
+## Client-side Enum extensions
+
+Client enum definitions are registered by a server mod through the `ClientEnumDefinitions` service.
+
+When the game starts, SPT's built-in client prepatcher requests the registered definitions from the server and applies them to `Assembly-CSharp` before that assembly loads.
+
+> Do not place a custom prepatcher DLL in BepInEx for this purpose.
+{.is-info}
+
+### Registering client definitions
+
+Inject `ClientEnumDefinitions` into a server mod class and register the entries during server startup:
+
+```csharp
+using SPTarkov.DI.Annotations;
+using SPTarkov.Server.Core.DI;
+using SPTarkov.Server.Core.Models.Spt.Mod;
+
+[Injectable(TypePriority = OnLoadOrder.PostLoad + 1)]
+public class MyMod(ClientEnumDefinitions clientEnumDefinitions) : IOnLoad
+{
+    public Task OnLoadAsync(CancellationToken cancellationToken)
+    {
+        clientEnumDefinitions.Add(
+            "com.example.my-mod",
+            new EnumEntryDefinition
+            {
+                EnumType = "EFT.EBuffId",
+                ConstantName = "MyBuff",
+                ConstantValue = 10000,
+                JsonEnumName = "my_buff",
+            }
+        );
+
+        return Task.CompletedTask;
+    }
+}
+```
+
+The key passed to `Add` should be the mod's GUID.
+
+Use `AddRange` to register several definitions:
+
+```csharp
+clientEnumDefinitions.AddRange(
+    "com.example.my-mod",
+    [
+        new EnumEntryDefinition
+        {
+            EnumType = "EFT.EBuffId",
+            ConstantName = "MyFirstBuff",
+            ConstantValue = 10000,
+            JsonEnumName = "my_first_buff",
+        },
+        new EnumEntryDefinition
+        {
+            EnumType = "EFT.EBuffId",
+            ConstantName = "MySecondBuff",
+            ConstantValue = 10001,
+            JsonEnumName = "my_second_buff",
+        },
+    ]
+);
+```
+
+A mod that only registers client definitions does not need `HasPrepatcher = true` or a directory under `user\patchers`.
+
+### Client definition fields
+
+Client definitions use the same `EnumEntryDefinition` model:
+
+| Property | Description |
+| --- | --- |
+| `EnumType` | Fully qualified enum type from `Assembly-CSharp`, such as `EFT.EBuffId` |
+| `ConstantName` | Name of the new enum field |
+| `ConstantValue` | Numeric value assigned to the field |
+| `JsonEnumName` | Optional value for EFT's `JsonEnumNameAttribute` |
+
+When `JsonEnumName` is set, the client prepatcher attaches `EFT.JsonEnumNameAttribute` to the new field. Use it when the enum has a separate string representation in JSON. It may be different from `ConstantName`.
+
+### How client definitions reach the game
+
+The client prepatcher:
+
+1. Reads the backend URL passed by the SPT Launcher.
+2. Requests `/singleplayer/customEnumEntries` from the server.
+3. Deserializes the returned JSON definitions.
+4. Adds them to their target enums in `Assembly-CSharp`.
+5. Allows the game to continue loading with the patched assembly.
+
+The server must be running and the definitions must be registered before the game starts.
+
+### Verifying the client patch
+
+A normal client plugin loads after `Assembly-CSharp` has been patched, so it can verify the constant with `Enum.TryParse`:
+
+```csharp
+if (Enum.TryParse<EFT.EBuffId>("MyBuff", out var injected))
+{
+    Logger.LogInfo($"Client prepatch applied: MyBuff = {(int)injected}");
+}
+else
+{
+    Logger.LogError("Client prepatch NOT applied: MyBuff is missing");
+}
+```
+
+## Using matching server and client values
+
+When the same logical value exists on both sides, register it separately for each assembly and keep the name and number synchronized.
+
+For example, the server definition could contain:
+
+```json
+[
+  {
+    "enumType": "SPTarkov.Server.Core.Models.Enums.SomeServerEnum",
+    "constantName": "MyValue",
+    "constantValue": 100
+  }
+]
+```
+
+The server mod would register the corresponding client definition:
+
+```csharp
+clientEnumDefinitions.Add(
+    "com.example.my-mod",
+    new EnumEntryDefinition
+    {
+        EnumType = "EFT.SomeClientEnum",
+        ConstantName = "MyValue",
+        ConstantValue = 100,
+        JsonEnumName = "MyValue",
+    }
+);
+```
+
+The server and client enum types do not need to have the same fully qualified name, but their numeric values must agree if the value crosses the client/server boundary.
+
 ## Things to know
 
-**Your changes affect every mod.** You're modifying Core for the entire server, not just for yourself. Change as little as possible.
+**Names and values must be unique.** Both patchers reject an entry when the target enum already contains its name or numeric value.
 
-**Other prepatchers are running too.** They apply to the same module in the same pass. If two prepatchers touch the same type, the result depends on ordering you don't control.
+**Values must fit the enum's underlying type.** For example, a value outside the range of a byte-backed enum is rejected.
+
+**Type and constant names are case-sensitive.** Use the exact names from the target assembly.
+
+**Your changes are global.** A patched enum affects every mod using that server or client assembly.
+
+**Other mods may patch the same enum.** Do not rely on another mod's definition being applied before yours. Coordinate enum value ranges when mods extend shared types.
+
+**Keep server and client definitions synchronized.** A mismatched numeric value can serialize correctly on one side but be interpreted as a different value on the other.
+
+**Prepatching is for enum constants only.** Arbitrary IL changes and the old `AbstractPrepatch` helpers are no longer supported. Use Harmony for behavioral changes.
 
 ## Related
 
-- [Server Mod Migration - 4.0 to 4.1](/en/SPT_41/Server_40_to_41#prepatching), where prepatching was added
+- [Server Mod Migration - 4.0 to 4.1](/SPT_41/Server_4.0_to_4.1#prepatching), where prepatching was added
