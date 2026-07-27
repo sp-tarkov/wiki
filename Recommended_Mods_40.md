@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2026-04-29T03:08:11.631Z
+date: 2026-07-27T13:13:09.645Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -22,11 +22,11 @@ This page contains a curated selection of mods. They all vaguely fall under the 
 - **Only install versions of mods made for your version of SPT.**
 
 ## Mods for better AI
-[Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades), [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement)
+[SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots), [Looting Bots](https://forge.sp-tarkov.com/mod/812/looting-bots), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades)
 
 ## Mods for better performance
 
-[AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit), [Corpse Cleaner](https://forge.sp-tarkov.com/mod/2058/sptcorpsecleaner), [DERP](https://forge.sp-tarkov.com/mod/2200/dynamic-external-resolution-patch-derp), [Remove The Dead](https://forge.sp-tarkov.com/mod/1551/remove-the-dead)
+[AI Limit](https://forge.sp-tarkov.com/mod/1945/ai-limit), [DERP](https://forge.sp-tarkov.com/mod/2200/dynamic-external-resolution-patch-derp), [Picture in Picture Disabler](https://forge.sp-tarkov.com/mod/2667/picture-in-picture-disabler)
 
 See [Performance Tuning](/Performance_Tuning) for further information.
 
@@ -59,7 +59,7 @@ You should only have **one** bot progression mod installed to avoid issues.
 [AutoDeposit](https://forge.sp-tarkov.com/mod/1469/autodeposit), [Dynamic Maps](https://forge.sp-tarkov.com/mod/1431/dynamic-maps), [Expanded Task Text](https://forge.sp-tarkov.com/mod/2389/expanded-task-text), [Item Context Menu Extended](https://forge.sp-tarkov.com/mod/940/item-context-menu-extended), [Quest Tracker](https://forge.sp-tarkov.com/mod/1140/quest-tracker), [Trader Scrolling](https://forge.sp-tarkov.com/mod/1089/kaeno-traderscrolling), [UI Fixes](https://forge.sp-tarkov.com/mod/1342/ui-fixes)
 
 - Inventory and Stash
-[Equip From Weapon Rack](https://forge.sp-tarkov.com/mod/1136/equip-from-weapon-rack), [Foldables](https://forge.sp-tarkov.com/mod/2422/foldables), [Quick Move to Containers](https://forge.sp-tarkov.com/mod/1341/quick-move-to-containers), [Quick Sell](https://forge.sp-tarkov.com/addon/1/quick-sell), [Show Me The Money](https://forge.sp-tarkov.com/mod/2299/show-me-the-money-item-pricing), [Trader Modding And Improved Weapon Building](https://forge.sp-tarkov.com/mod/1283/trader-modding-and-improved-weapon-building)
+[Foldables](https://forge.sp-tarkov.com/mod/2422/foldables), [Quick Move to Containers](https://forge.sp-tarkov.com/mod/1341/quick-move-to-containers), [Quick Sell](https://forge.sp-tarkov.com/addon/1/quick-sell), [Show Me The Money](https://forge.sp-tarkov.com/mod/2299/show-me-the-money-item-pricing), [Trader Modding And Improved Weapon Building](https://forge.sp-tarkov.com/mod/1283/trader-modding-and-improved-weapon-building)
 
 - Looting and Items
 [All Quest Checkmarks](https://forge.sp-tarkov.com/mod/2025/all-quests-checkmarks), [Better Keys](https://forge.sp-tarkov.com/mod/1888/better-keys-ng), [Gilded Key Storage](https://forge.sp-tarkov.com/mod/865/gilded-key-storage), [Item Info](https://forge.sp-tarkov.com/mod/2430/odts-item-info-spt-40), [Let Me Right Click](https://forge.sp-tarkov.com/mod/2405/letmerightclick), [Merge Consumables](https://forge.sp-tarkov.com/mod/1657/mergeconsumables), [MoreCheckmarks](https://forge.sp-tarkov.com/mod/861/morecheckmarks), [Reach Extender](https://forge.sp-tarkov.com/mod/1260/reach-extender), [Use Loose Loot](https://forge.sp-tarkov.com/mod/933/use-loose-loot)
@@ -74,6 +74,11 @@ You should only have **one** bot progression mod installed to avoid issues.
 
 - Tweaking
 [CWX's MegaMod](https://forge.sp-tarkov.com/mod/1454/cwx-megamod), [Lacy's PvE Tweaks](https://forge.sp-tarkov.com/mod/2395/lacys-pve-tweaks), [QCAdjustments](https://forge.sp-tarkov.com/mod/1867/qcadjustments), [Quest Tweaks](https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-tweaks), [Server Tweaks](https://forge.sp-tarkov.com/mod/2360/server-tweaks-discount-svm), [SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm)
+
+
+---
+
+To discuss these recommendations or suggest new ones, head over to our [Discord server](http://discord.sp-tarkov.com/)'s [`#website-wiki`](https://discord.com/channels/875684761291599922/1426941224324960266) channel.
 
 # See also
 [Performance Tuning](/Performance_Tuning)
