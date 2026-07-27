@@ -2,7 +2,7 @@
 title: Recommended Mods
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2026-07-27T13:13:09.645Z
+date: 2026-07-27T13:14:03.069Z
 tags: mods
 editor: markdown
 dateCreated: 2025-10-10T12:57:31.380Z
@@ -20,6 +20,8 @@ This page contains a curated selection of mods. They all vaguely fall under the 
 - **Always read the mod pages of the mods you're installing.**
 
 - **Only install versions of mods made for your version of SPT.**
+
+To discuss these recommendations or suggest new ones, head over to our [Discord server](http://discord.sp-tarkov.com/)'s [`#website-wiki`](https://discord.com/channels/875684761291599922/1426941224324960266) channel.
 
 ## Mods for better AI
 [SAIN](https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement), [Questing Bots](https://forge.sp-tarkov.com/mod/1109/questing-bots), [Looting Bots](https://forge.sp-tarkov.com/mod/812/looting-bots), [Nerf Bot Grenades](https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades)
@@ -75,10 +77,6 @@ You should only have **one** bot progression mod installed to avoid issues.
 - Tweaking
 [CWX's MegaMod](https://forge.sp-tarkov.com/mod/1454/cwx-megamod), [Lacy's PvE Tweaks](https://forge.sp-tarkov.com/mod/2395/lacys-pve-tweaks), [QCAdjustments](https://forge.sp-tarkov.com/mod/1867/qcadjustments), [Quest Tweaks](https://forge.sp-tarkov.com/mod/1537/sgtlaggys-quest-tweaks), [Server Tweaks](https://forge.sp-tarkov.com/mod/2360/server-tweaks-discount-svm), [SVM](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm)
 
-
----
-
-To discuss these recommendations or suggest new ones, head over to our [Discord server](http://discord.sp-tarkov.com/)'s [`#website-wiki`](https://discord.com/channels/875684761291599922/1426941224324960266) channel.
 
 # See also
 [Performance Tuning](/Performance_Tuning)
