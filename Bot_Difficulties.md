@@ -2,7 +2,7 @@
 title: Bot Difficulties
 description: Learn how SPT and mods handle bots' difficulty.
 published: true
-date: 2026-07-30T01:49:04.000Z
+date: 2026-07-30T01:57:41.928Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-28T18:04:16.547Z
@@ -51,5 +51,3 @@ Consider changing settings in multiple places if you are unhappy with how diffic
 *Bots are too easy?*
 - Choose a harder **SAIN Preset** (ex. Death Wish).
 - Set the difficulty to **Hard** or **Impossible** to ensure that there are no *Easy* or *Medium* bots in your raid.
-
-<div><span style="margin-right: -100px;"></span>test</div>
