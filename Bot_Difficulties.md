@@ -2,11 +2,12 @@
 title: Bot Difficulties
 description: Learn how SPT and mods handle bots' difficulty.
 published: true
-date: 2026-06-22T13:59:28.259Z
+date: 2026-07-30T01:46:05.871Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-28T18:04:16.547Z
 ---
+
 
 ## EFT Pre-Raid Difficulty Settings
 Specific bots in EFT can have different difficulty settings unique to other bots in the same raid. This page will refer to a bot's specific difficulty as their *difficulty class*.
@@ -50,3 +51,5 @@ Consider changing settings in multiple places if you are unhappy with how diffic
 *Bots are too easy?*
 - Choose a harder **SAIN Preset** (ex. Death Wish).
 - Set the difficulty to **Hard** or **Impossible** to ensure that there are no *Easy* or *Medium* bots in your raid.
+
+<div display:none>.</div>
