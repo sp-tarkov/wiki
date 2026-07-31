@@ -2,7 +2,7 @@
 title: Maunal Installation Instructions for SPT 4.0
 description: 
 published: true
-date: 2026-07-31T22:35:05.885Z
+date: 2026-07-31T22:47:50.378Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-31T22:35:05.885Z
@@ -23,7 +23,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
 	- If EFT is newer than the above downgrade patch, **please wait**, a new downgrade patch will be created eventually.
 5. Extract this archive to your `SPT 4.0` folder.
 6. Run the `patcher.exe` and wait for it to finish.
-7. Download the SPT release archive from [here](https://spt-releases.modd.in/SPT-4.0.13-40087-2891fd4.7z).
+7. Download the SPT release archive from [here](https://spt-patches.modd.in/SPT-4.0.13-40087-2891fd4.7z).
 8. Extract the contents of the SPT release archive into your `SPT 4.0` folder.
 9. Open your `[game folder]\SPT` folder.
 10. Run `SPT.Server`.
