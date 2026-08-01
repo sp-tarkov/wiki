@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-08-01T22:29:37.314Z
+date: 2026-08-01T22:31:51.707Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -42,8 +42,8 @@ Note that [Client mods](/Mod_Types) won't show up in the SPT Server nor Launcher
 [Update your SPT](<https://wiki.sp-tarkov.com/Updating_SPT>).
 
 ## Server doesn't launch or closes immediately
-For SPT 4.0.13: From [here](https://dotnet.microsoft.com/en-us/download/dotnet/9.0):
-For SPT 4.1.0: From [here](https://dotnet.microsoft.com/en-us/download/dotnet/10.0):
+For SPT 4.0.13: From [here](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+For SPT 4.1.0: From [here](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 
 Download the latest version of **both**
 - `ASP.NET Core Runtime`
