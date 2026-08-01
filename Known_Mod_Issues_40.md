@@ -2,7 +2,7 @@
 title: Known Mod Issues
 description: Known EFT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-08-01T10:43:58.588Z
+date: 2026-08-01T10:44:36.590Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:36:39.787Z
@@ -137,7 +137,7 @@ Update [MassivesoftWeapons](<https://forge.sp-tarkov.com/mod/2588/massivesoftwea
 ## `Object reference not set to an instance of an object` when loading into raid/hideout with [Amands's Graphics](<https://forge.sp-tarkov.com/mod/592/amandss-graphics>) and [Borkel's Realistic NVGs](<https://forge.sp-tarkov.com/mod/954/borkels-realistic-night-vision-goggles-nvgs-and-t-7>) installed
 The two mods are incompatible. Uninstall one of them.
 
-## Equiped mod clothing resets to default after game restart
+## Equipped mod clothing resets to default after game restart
 Change `removeModItemsFromProfile` and `removeInvalidTradersFromProfile` back to `false` in `[game folder]\SPT\SPT_Data\configs\core.json`.
 
 # See also
