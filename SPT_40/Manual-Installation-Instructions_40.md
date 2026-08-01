@@ -2,7 +2,7 @@
 title: Maunal Installation Instructions for SPT 4.0
 description: 
 published: true
-date: 2026-08-01T22:57:33.470Z
+date: 2026-08-01T23:01:55.423Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-31T22:35:05.885Z
@@ -24,7 +24,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
 5. Extract this archive to your `C:\Games\SPT 4.0` folder.
 6. Run the `patcher.exe` and wait for it to finish.
 7. Download the SPT release archive from [here](https://spt-patches.modd.in/SPT-4.0.13-40087-2891fd4.7z).
-8. Extract the contents of the SPT release archive into your `SPT 4.0` folder.
+8. Extract the contents of the SPT release archive into your `C:\Games\SPT 4.0` folder.
 9. Open your `C:\Games\SPT 4.0\SPT` folder.
 10. Run `SPT.Server`.
  - Wait for the green text that says `Server has started, happy playing`.
