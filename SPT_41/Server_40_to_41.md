@@ -69,7 +69,7 @@ Load order matters a lot less than it used to. The database and config files are
 
 If your mod ran on `PostDBModLoader`, run it on `PostLoad`.
 
-If you're adding your own data to the database, do it at `Preload` as the database is already fully loaded (This is to prevent issues from appearing where profiles might not load due to items, or traders not existing)
+If you're adding your own data to the database, do it at `Preload` as the database is already fully loaded (This is to prevent issues from appearing where profiles might not load due to items or traders not existing)
 
 Full list, low to high: `Watermark`, `Preload`, `GameCallbacks`, `TraderRegistration`, `Routers`, `HandbookCallbacks`, `SaveCallbacks`, `TraderCallbacks`, `PresetCallbacks`, `RagfairCallbacks`, `PostLoad`.
 
