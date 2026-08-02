@@ -2,7 +2,7 @@
 title: Manual Install Instructions
 description: 
 published: true
-date: 2026-08-02T03:15:07.797Z
+date: 2026-08-02T03:15:35.309Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-21T23:42:29.093Z
@@ -38,7 +38,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
  - You can use any username you want. It is recommend that you **do not** use your EFT account username. Especially if you plan on recording or streaming SPT.
  - `Login Automatically` will always log into the last profile you loaded. You can disable this by clicking `Logout` in the bottom right, then unchecking the option.
  - Select your desired game version. Each version has a description box summarising what is included. Once you have picked your chosen game version click `Register`. You can pick *any* game version you want from the profile list, you do not need to own the corresponding EFT version. Once chosen, you cannot change the edition a profile is using.
-12. To make it easier to launch SPT in the future, you can right click `SPT.Server` and `SPT.Launcher`, select `Send to > Desktop (create shortcut)`. These are located in the `[game folder]\SPT` folder and should not be moved out.
+12. To make it easier to launch SPT in the future, you can right click `SPT.Server` and `SPT.Launcher`, select `Send to > Desktop (create shortcut)`. These are located in the `SPT_Runtime` folder and should not be moved out.
 13. Click `Start Game` and load into the main menu.
 
 Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/). You can find a guide on how to correctly install SPT mods on the [Installing Mods](https://wiki.sp-tarkov.com/Installing_Mods) Wiki page.
