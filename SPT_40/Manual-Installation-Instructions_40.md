@@ -2,7 +2,7 @@
 title: Maunal Installation Instructions for SPT 4.0
 description: 
 published: true
-date: 2026-08-03T18:42:17.063Z
+date: 2026-08-03T23:25:51.425Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-31T22:35:05.885Z
@@ -19,7 +19,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
 2. Create a new folder for SPT. A good location would be `C:\Games\SPT 4.0`.
 3. Copy the contents of your live Escape From Tarkov game folder into your `C:\Games\SPT 4.0` folder.
 	- **DO NOT** delete the original EFT installation to save space, it must remain in the original install location for SPT to function.
-4. Download the patcher from here: [](PATCHER)[1.1.0.0.46608 to 16.9.0.40087](https://spt-patches.modd.in/Patcher_1.1.0.0.46608_to_16.9.0.40087.7z)
+4. Download the patcher from here: [](PATCHER)[1.1.0.0.46624 to 16.9.0.40087](https://spt-patches.modd.in/Patcher_1.1.0.0.46624_to_16.9.0.40087.7z)
 	- If EFT is newer than the above downgrade patch, **please wait**, a new downgrade patch will be created eventually.
 5. Extract this archive to your `C:\Games\SPT 4.0` folder.
 6. Run the `patcher.exe` and wait for it to finish.
