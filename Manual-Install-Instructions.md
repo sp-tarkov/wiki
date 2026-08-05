@@ -1,8 +1,8 @@
 ---
 title: Manual Install Instructions
 description: 
-published: true
-date: 2026-08-02T03:15:35.309Z
+published: false
+date: 2026-08-05T09:53:58.841Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-21T23:42:29.093Z
