@@ -2,7 +2,7 @@
 title: FAQs for SPT 3.11
 description: Answers to frequently asked questions about SPT 3.11.
 published: true
-date: 2026-08-05T13:31:39.747Z
+date: 2026-08-05T13:41:54.005Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -15,11 +15,11 @@ dateCreated: 2025-08-09T12:45:37.740Z
 ### Is performance better on 3.11 than 3.10?
 Users in both the live and SPT communities have reported an improvement in performance over version 0.15.5 and a decrease in stutters.
 
-### What version of Tarkov is SPT running?
+### What version of the retail game is SPT running?
 Version `0.16.1.3.35392`, released 5 March 2025.
 
 ### Is (insert content here) in SPT now?
-Refer to the previous question. If you're curious about something specific, please see the official [Tarkov changelog](<https://escapefromtarkov.fandom.com/wiki/Changelog>).
+Refer to the previous question. If you're curious about something specific, please see the official [changelog](<https://escapefromtarkov.fandom.com/wiki/Changelog>).
 
 ### Is Labyrinth in SPT?
 No. Labyrinth came out after 5 March 2025.
@@ -41,7 +41,7 @@ Follow the [Installation Guide](/Installation_Guide).
 Nobody knows when certain mods are going to update, not even the authors themselves. Do not pester mod authors about updates to their mods.
 
 ### Bots keep spawning endlessly? How do bot spawns work?
-BSG made changes in the way the bot spawn system works which means that bots will continue to spawn in an attempt to keep the raid full for the duration of the raid. 
+The retail game devs made changes in the way the bot spawn system works which means that bots will continue to spawn in an attempt to keep the raid full for the duration of the raid. 
 At raid start, bots will spawn until the max defined value for each map is reached (Approximately 20 bots, though it varies per map). When enough bots have been killed (4), more bots will be spawned in to get the bot count back up to the defined maximum value.
 
 # Troubleshooting tips
@@ -155,13 +155,13 @@ Install the [fix](<https://forge.sp-tarkov.com/mod/2309/zzzmassivesoft-mechanic-
 Bug named *busy hands*. Close SPT or extract from raid as it cannot be fixed mid raid. Use the [HandsAreNotBusy](<https://forge.sp-tarkov.com/mod/1298/handsarenotbusy>) mod to help avoid the bug in the future. Do note that it does not guarantee a fix for all scenarios of the bug. Closing SPT during raid will revert your profile to pre-raid state.
 
 ### AI flying or despawning after you kill them?
-An issue with BSGs ragdoll physics. [HollywoodFX](<https://forge.sp-tarkov.com/mod/2003/hollywoodfx>) helps alleviate this.
+An issue with the retail game's ragdoll physics. [HollywoodFX](<https://forge.sp-tarkov.com/mod/2003/hollywoodfx>) helps alleviate this.
 
 ### Missing secure container when you enter raid?
 You pushed the `eye` icon in the pre-raid screen too many times. This is a *visual* bug. Restart your SPT. Closing SPT during raid will revert your profile to pre-raid state.
 
 ### In-game headset volume is low?
-This is as intended by BSG on the current patch that SPT is on. SPT **does not** touch audio.
+This is as intended by the retail game devs on the current patch that SPT is on. SPT **does not** touch audio.
 
 ### Stuck in place on raid start? Unable to move or use weapons?
 Restart SPT and unbind the `Compass` from your hotbar. Closing SPT using <kbd>Alt</kbd>+<kbd>F4</kbd> during raid will revert your profile to pre-raid state.
