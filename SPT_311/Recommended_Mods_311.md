@@ -2,7 +2,7 @@
 title: Recommended Mods for SPT 3.11
 description: A selection of recommended mods to improve your SPT experience.
 published: true
-date: 2025-10-14T01:36:02.455Z
+date: 2026-08-05T13:37:31.716Z
 tags: mods
 editor: markdown
 dateCreated: 2025-07-23T12:05:23.561Z
@@ -69,7 +69,7 @@ You should only have **one** bot progression mod installed to avoid issues.
 [Custom Raid Times](https://forge.sp-tarkov.com/mod/551/custom-raid-times), [Enemy Markers](https://forge.sp-tarkov.com/mod/1858/enemy-markers), [Dad Gamer Mode](https://forge.sp-tarkov.com/mod/1875/props-dad-gamer-mod-for-39), [Loot Highlighter](https://forge.sp-tarkov.com/mod/2136/loot-highlighter), [No Save on Death](https://forge.sp-tarkov.com/mod/2150/no-save-on-death-respawned), [Keep Starting Gear](https://forge.sp-tarkov.com/mod/2250/blackhorse311-keep-starting-gear-spt-311x)
 
 - Gameplay
-[Bright Lasers](https://forge.sp-tarkov.com/mod/1358/brightlasers), [Use Items Anywhere](https://forge.sp-tarkov.com/mod/2177/use-items-anywhere), [Old Tarkov Movement](https://forge.sp-tarkov.com/mod/1860/old-tarkov-movement-no-inertia), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Headbob Reducer](https://forge.sp-tarkov.com/mod/707/fontaines-headbob-reducer)
+[Bright Lasers](https://forge.sp-tarkov.com/mod/1358/brightlasers), [Use Items Anywhere](https://forge.sp-tarkov.com/mod/2177/use-items-anywhere), [Old ... Movement](https://forge.sp-tarkov.com/mod/1860/old-tarkov-movement-no-inertia), [Simple Workout QTE](https://forge.sp-tarkov.com/mod/1437/simple-workout-qte), [Headbob Reducer](https://forge.sp-tarkov.com/mod/707/fontaines-headbob-reducer)
 
 - Tweaking
 [Skill Multiplier](https://forge.sp-tarkov.com/mod/2162/skill-multiplier), [Medical Attention](https://forge.sp-tarkov.com/mod/147/medical-attention), [Server Value Modifier](https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm)
