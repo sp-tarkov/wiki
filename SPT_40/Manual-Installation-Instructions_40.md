@@ -2,7 +2,7 @@
 title: Maunal Installation Instructions for SPT 4.0
 description: 
 published: true
-date: 2026-08-05T14:50:06.568Z
+date: 2026-08-05T16:22:37.821Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-31T22:35:05.885Z
@@ -15,7 +15,7 @@ This is particularly important if you have just installed the game so all necess
 
 ## Manually installing and running SPT
 
-1. Download the patcher from here: [](PATCHER)[1.1.0.0.46624 to 16.9.0.40087](https://spt-patches.modd.in/Patcher_1.1.0.0.46624_to_16.9.0.40087.7z)
+1. Download the patcher from here: [](PATCHER)[1.1.0.0.46657 to 16.9.0.40087](https://spt-patches.modd.in/Patcher_1.1.0.0.46657_to_16.9.0.40087.7z)
 	- If your retail game copy is newer than the above downgrade patch, **please wait**, a new downgrade patch will be created eventually.
 	- If your retail game copy is older than the above downgrade patch, update your game through the official Launcher or Steam.
 2. Create a new folder for SPT. A good location would be `C:\Games\SPT 4.0`.
