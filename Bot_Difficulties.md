@@ -2,14 +2,14 @@
 title: Bot Difficulties
 description: Learn how SPT and mods handle bots' difficulty.
 published: true
-date: 2026-07-30T02:11:22.067Z
+date: 2026-08-05T13:48:39.927Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-28T18:04:16.547Z
 ---
 
-## EFT Pre-Raid Difficulty Settings
-Specific bots in EFT can have different difficulty settings unique to other bots in the same raid. This page will refer to a bot's specific difficulty as their *difficulty class*.
+## Pre-Raid Difficulty Settings
+Specific bots can have different difficulty settings unique to other bots in the same raid. This page will refer to a bot's specific difficulty as their *difficulty class*.
 
 There are 4 different *difficulty classes* a specific bot can have:
 - *Easy*
