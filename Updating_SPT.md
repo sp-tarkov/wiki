@@ -2,7 +2,7 @@
 title: Updating SPT
 description: Learn how to update your SPT installation.
 published: true
-date: 2026-06-12T17:12:28.269Z
+date: 2026-08-05T14:18:44.869Z
 tags: guide
 editor: markdown
 dateCreated: 2025-08-09T12:01:16.553Z
@@ -43,13 +43,13 @@ SPT follows the [Semantic Versioning](https://semver.org/) schema for its versio
 `SPT Version X.Y.Z`
 
 `X` = Major update
-- A large refactor of SPT or EFT
+- A large refactor of SPT or the retail game
 - Requires reinstalling SPT anew
 - Old mods **won't work**
 - Unmodded old profiles *might* work
 
 `Y` = Minor update
-- A new version of EFT is being used
+- A new version of the retail game is being used
 - Requires reinstalling SPT anew
 - Old mods **won't work**
 - Unmodded old profiles *might* work
