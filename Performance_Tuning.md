@@ -2,7 +2,7 @@
 title: Performance Tuning
 description: Tips for improving FPS and stability.
 published: true
-date: 2026-07-26T18:35:19.897Z
+date: 2026-08-05T14:11:00.920Z
 tags: performance, guide
 editor: markdown
 dateCreated: 2025-07-22T03:38:27.428Z
@@ -11,7 +11,7 @@ dateCreated: 2025-07-22T03:38:27.428Z
 > This page applies to any SPT version
 {.is-info}
 
-SPT's performance will generally be worse than a live PVP or online PVE raid, where bot AI logic (scavs, PMCs, bosses) is running on BSG servers. SPT and local PVE runs all of the bot AI logic locally on your PC, which has a significant impact on your performance due to severe CPU bottlenecking.
+SPT's performance will generally be worse than a live PVP or online PVE raid, where bot AI logic (scavs, PMCs, bosses) is running on official game servers. SPT and local PVE runs all of the bot AI logic locally on your PC, which has a significant impact on your performance due to severe CPU bottlenecking.
 
 This manifests as low usage of both your GPU and CPU. Your GPU cannot run at full power because it's busy waiting on instructions from your CPU, and your CPU cannot run at full power because it has to slowly process all the bots. To see this in action, disable bots in either Pre-Raid Settings, or the bot spawning mod you installed.
 
@@ -87,9 +87,9 @@ However, if you still have crashes due to running out of memory even when the pa
 
 
 ## Further tweaks
-- You will see minor improvements by changing your graphic settings. Follow any graphics guide for EFT.
+- You will see minor improvements by changing your graphic settings. Follow any graphics guide for the game.
 - In the case you're severely GPU limited, [CWX's MegaMod](https://forge.sp-tarkov.com/mod/1454/cwx-megamod)'s `GrassCutter` and `EnvironmentEnjoyer` features might help your performance.
-- Enabling Nvidia's `Smooth motion` (for 40 and 50 series GPUs), or AMD's `Fluid Motion Frames` for EFT will let your GPU interpolate extra frames, using the unused part of your GPU.
+- Enabling Nvidia's `Smooth motion` (for 40 and 50 series GPUs), or AMD's `Fluid Motion Frames` for the game will let your GPU interpolate extra frames, using the unused part of your GPU.
   - If neither are available to you, use [Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling)'s Frame Generation.
   - Any form of frame generation will result in some increase in latency.
 - For further tweaks and discussion, visit the [Optimization Megathread](https://discord.com/channels/875684761291599922/1163777314862149683) in our [Discord server](http://discord.sp-tarkov.com/).
@@ -102,9 +102,9 @@ However, if you still have crashes due to running out of memory even when the pa
 > While Project Fika is a mod available on the Forge, we do not offer support with it installed. If you wish to receive support while you are using Fika, you must seek support from Fika's [Discord server](https://discord.gg/project-fika). 
 {.is-warning}
 
-As stated in the introduction, the main performance impact on your game is bots. EFT does not efficiently utilise your system resources, using the same CPU thread to process bots and render your game. When you play an online raid in EFT, all bot processing happens on BSG's servers, letting your CPU "concentrate" on rendering the game. If your game is not processing the bots, SPT's performance becomes much closer to Live EFT. You should then become GPU bottlenecked, so your graphics will become the primary source of your performance.
+As stated in the introduction, the main performance impact on your game is bots. The game does not efficiently utilise your system resources, using the same CPU thread to process bots and render your game. When you play an online raid in the official game, all bot processing happens on official game servers, letting your CPU "concentrate" on rendering the game. If your game is not processing the bots, SPT's performance becomes much closer to the retail game. You should then become GPU bottlenecked, so your graphics will become the primary source of your performance.
 
-[Fika](https://forge.sp-tarkov.com/mod/2326/project-fika) allows you to host a raid on a different computer as the one you're playing on. This lets you recreate the conditions of a live EFT raid while still using SPT. To set up a headless client, [follow this guide](https://project-fika.gitbook.io/wiki/advanced-features/headless-client).
+[Fika](https://forge.sp-tarkov.com/mod/2326/project-fika) allows you to host a raid on a different computer as the one you're playing on. This lets you recreate the conditions of a live raid while still using SPT. To set up a headless client, [follow this guide](https://project-fika.gitbook.io/wiki/advanced-features/headless-client).
 
 
 It's also possible to use it to the raid on the same computer as the one you're playing on, letting one part of your CPU render the game, while another processes the bots. You could further use a program like Process Lasso to manually delegate your CPU cores if you are an advanced user, but it's not necessary. Please note that **support from Project Fika is limited if you choose to run the headless client on the same PC where you are playing SPT**. This is not the officially supported configuration and may lead to:
