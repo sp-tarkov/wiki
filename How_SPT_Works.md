@@ -2,7 +2,7 @@
 title: How SPT Works
 description: The basics of how SPT works.
 published: true
-date: 2026-02-21T08:41:43.759Z
+date: 2026-08-05T14:01:04.141Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-11T22:39:55.471Z
@@ -16,25 +16,25 @@ dateCreated: 2025-11-11T22:39:55.471Z
 <img src="/how_spt_works/spt_installer.png" alt="SPT installer" width=800 style="display: block; margin: 0 auto;">
 <div style="margin-top: 10px;"></div>
 
-- The [SPT installer](https://forge.sp-tarkov.com/installer) makes a copy of your EFT files, and if necessary, automatically downgrades them to an older version.
+- The [SPT installer](https://forge.sp-tarkov.com/installer) makes a copy of your game client files, and if necessary, automatically downgrades them to an older version.
 - The installer always installs the latest version of SPT.
-- Each SPT version is made for a specific version of EFT. You can see what version of EFT is used on that SPT version's [Release page](<https://github.com/sp-tarkov/build/releases>).
-- This means that, once installed, SPT is completely seperate from your EFT files. You can update EFT as much as you want, and it will not affect your SPT install.
-	- After you install SPT, you cannot completely uninstall EFT, but you can delete the `EscapeFromTarkov_Data` folder from your live EFT folder if you really need the space.
-	- If you own EFT through Steam you will need to disable auto-updates for EFT to prevent Steam from re-downloading said folder.
+- Each SPT version is made for a specific version of the game. You can see what version is used on that SPT version's [Release page](<https://github.com/sp-tarkov/build/releases>).
+- This means that, once installed, SPT is completely seperate from your retail game copy files. You can update the retail game as much as you want, and it will not affect your SPT install.
+	- After you install SPT, you cannot completely uninstall the retail game, but you can delete the `EscapeFromTarkov_Data` folder from your live game folder if you really need the space.
+	- If you own the game through Steam you will need to disable auto-updates to prevent Steam from re-downloading said folder.
 - Once installed, you can freely copy, move or delete your SPT install.
 	- If you make a copy of your SPT, you will need to tweak the shortcuts inside it, as they will be pointing towards the original SPT folder.
-- The SPT developers need to make a new SPT version to include new content released for EFT. No deadline is given, but it usually takes several month. A new SPT version is usually announced a week before release.
+- The SPT developers need to make a new SPT version to include new content released for the retail game. No deadline is given, but it usually takes several month. A new SPT version is usually announced a week before release.
 
 For a guide on installing SPT, see the [Installation Guide](/Installation_Guide) page.
 
 ## Can I get banned?
-- You cannot get banned for using SPT so long as you don't run SPT and EFT at the same time, that includes the launcher.
-	- Don't install SPT to the same folder as Live EFT.
-	- Don't brag to Nikita himself or flaunt it in their Discord while screaming your Live EFT username.
-- You can play EFT whenever you want so long as you're not also running SPT.
+- You cannot get banned for using SPT so long as you don't run SPT and the live game at the same time, that includes the launcher.
+	- Don't install SPT to the same folder as your retail game copy.
+	- Don't brag to the retail game devs or flaunt it in their Discord while screaming your Live username.
+- You can play the official retail game whenever you want so long as you're not also running SPT.
 
-We have no verified reports of people being banned on Live EFT just for playing SPT. Many developers for SPT would be banned on Live by now if this were true.
+We have no verified reports of people being banned from the retail game just for playing SPT. Many developers for SPT would be banned on Live by now if this were true.
 
 ## Updates
 
@@ -48,13 +48,13 @@ For a guide on updating SPT, see the [Updating SPT](/Updating_SPT) page.
 
 ## In-game
 
-- When creating a profile, you can choose any edition you want. It's not limited to the EFT edition you own.
-- SPT has all the functionality of EFT's PvE mode:
-	- All quests, items and traders are available (for the version of EFT that SPT is using).
+- When creating a profile, you can choose any edition you want. It's not limited to the edition you own.
+- SPT has all the functionality of the retail game's PvE mode:
+	- All quests, items and traders are available (for the game version that SPT is using).
 	- Flea market is emulated with randomly generated offers.
 	- All progress you make is saved on a raid's end.
 - AI PMCs will gain better gear as you level up.
-- SPT uses EFT's practice raid system to work. This means that you're always running a "practice raid", however your loot and quest progress will get saved.
+- SPT the practice raid system to work. This means that you're always running a "practice raid", however your loot and quest progress will get saved.
 - Practice mode's settings will apply to your raids.
 - If you <kbd>Alt</kbd> + <kbd>F4</kbd> or crash in the middle of your raid, no progress will be saved. It will be as if the raid never happened.
 - You do not need to have your SPT server running for insurance, flea, or Hideout crafts to continue. Once you reopen SPT, those will "catch-up" to where they should be.
