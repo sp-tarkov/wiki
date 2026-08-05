@@ -2,7 +2,7 @@
 title: Maunal Installation Instructions for SPT 4.0
 description: 
 published: true
-date: 2026-08-03T23:25:51.425Z
+date: 2026-08-05T13:40:01.049Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-31T22:35:05.885Z
@@ -10,17 +10,17 @@ dateCreated: 2026-07-31T22:35:05.885Z
 
 ## What you need to do before you manually install SPT
 
-Verify that your Escape From Tarkov works, and that you can load up to at least the main menu or stash.
-This is particularly important if you have just installed Escape From Tarkov so all necessary files can be generated.
+Verify that your retail game copy works, and that you can load up to at least the main menu or stash.
+This is particularly important if you have just installed the game so all necessary files can be generated.
 
 ## Manually installing and running SPT
 
-1. Verify that your Escape From Tarkov is fully up-to-date through the BSG Launcher.
+1. Verify that your retail game copy is fully up-to-date through the official Launcher.
 2. Create a new folder for SPT. A good location would be `C:\Games\SPT 4.0`.
-3. Copy the contents of your live Escape From Tarkov game folder into your `C:\Games\SPT 4.0` folder.
-	- **DO NOT** delete the original EFT installation to save space, it must remain in the original install location for SPT to function.
+3. Copy the contents of your live game folder into your `C:\Games\SPT 4.0` folder.
+	- **DO NOT** delete the original retail game installation to save space, it must remain in the original install location for SPT to function.
 4. Download the patcher from here: [](PATCHER)[1.1.0.0.46624 to 16.9.0.40087](https://spt-patches.modd.in/Patcher_1.1.0.0.46624_to_16.9.0.40087.7z)
-	- If EFT is newer than the above downgrade patch, **please wait**, a new downgrade patch will be created eventually.
+	- If the retail game copy is newer than the above downgrade patch, **please wait**, a new downgrade patch will be created eventually.
 5. Extract this archive to your `C:\Games\SPT 4.0` folder.
 6. Run the `patcher.exe` and wait for it to finish.
 7. Download the SPT release archive from [here](https://spt-patches.modd.in/SPT-4.0.13-40087-2891fd4.7z).
@@ -29,9 +29,9 @@ This is particularly important if you have just installed Escape From Tarkov so 
 10. Run `SPT.Server`.
  - Wait for the green text that says `Server has started, happy playing`.
 11. Run `SPT.Launcher` and follow the onscreen instructions.
- - You can use any username you want. It is recommend that you **do not** use your EFT account username. Especially if you plan on recording or streaming SPT.
+ - You can use any username you want. It is recommend that you **do not** use your retail copy account username. Especially if you plan on recording or streaming SPT.
  - `Login Automatically` will always log into the last profile you loaded. You can disable this by clicking `Logout` in the bottom right, then unchecking the option.
- - Select your desired game version. Each version has a description box summarising what is included. Once you have picked your chosen game version click `Register`. You can pick *any* game version you want from the profile list, you do not need to own the corresponding EFT version. Once chosen, you cannot change the edition a profile is using.
+ - Select your desired game version. Each version has a description box summarising what is included. Once you have picked your chosen game version click `Register`. You can pick *any* game version you want from the profile list, you do not need to own the corresponding retail game version. Once chosen, you cannot change the edition a profile is using.
 12. To make it easier to launch SPT in the future, you can right click `SPT.Server` and `SPT.Launcher`, select `Send to > Desktop (create shortcut)`. These are located in the `[game folder]\SPT` folder and should not be moved out.
 13. Click `Start Game` and load into the main menu.
 
