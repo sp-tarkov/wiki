@@ -2,7 +2,7 @@
 title: FAQs for SPT 3.11
 description: Answers to frequently asked questions about SPT 3.11.
 published: true
-date: 2025-11-14T12:41:33.884Z
+date: 2026-08-05T13:31:39.747Z
 tags: 
 editor: markdown
 dateCreated: 2025-08-09T12:45:37.740Z
@@ -24,8 +24,8 @@ Refer to the previous question. If you're curious about something specific, plea
 ### Is Labyrinth in SPT?
 No. Labyrinth came out after 5 March 2025.
 
-### Will 3.11 be updated to include the latest EFT patches?
-No. EFT patches made after the release of SPT v3.11 will only be available in SPT 4.0, which is still in active development.
+### Will 3.11 be updated to include the latest retail game updates?
+No. patches made after the release of SPT v3.11 will only be available in SPT 4.0, which is still in active development.
 
 ### Can I use my profile and mods from 3.10?
 ***If*** the `3.10` profile was ***un-modded***, yes. Otherwise A new profile will be required. None of your `3.10` mods are compatible.
@@ -53,7 +53,7 @@ At raid start, bots will spawn until the max defined value for each map is reach
 Start removing mods one at a time until you find the mod causing the issue. When you've identified the mod responsible, check the mod page to see if it's actually an issue or an intended feature. Check the comments section to see if anyone else reported the same problem you're experiencing.
 
 # Old versions of SPT
-We do not host old versions of SPT because each SPT version is specifically designed to work with a particular version of EFT. Since EFT is a live service game that receives frequent updates, every SPT version requires a dedicated patcher to downgrade your local EFT installation to the compatible version. Maintaining multiple older SPT versions would necessitate actively maintaining multiple downgrade patchers, which includes updating these patchers after each and every EFT update. Our team simply does not have the time to dedicate to this level of ongoing maintenance.
+We do not host old versions of SPT because each SPT version is specifically designed to work with a particular version of the retail game. Since it is a live service game that receives frequent updates, every SPT version requires a dedicated patcher to downgrade your local retail game installation to the compatible version. Maintaining multiple older SPT versions would necessitate actively maintaining multiple downgrade patchers, which includes updating these patchers after each and every update. Our team simply does not have the time to dedicate to this level of ongoing maintenance.
 
 This decision is firm and will not be changed by further requests or complaints. Repeatedly asking or arguing about this will unfortunately result in administrative action.
 
@@ -148,7 +148,7 @@ An incompatibility between Separate Hostility and SAIN. Remove one or the other.
 ### Mechanic has no items for sale when using MassiveSoft's mod
 Install the [fix](<https://forge.sp-tarkov.com/mod/2309/zzzmassivesoft-mechanic-fix>).
 
-# Known EFT issues
+# Known issues with Retail Game
 > Always read the mod pages of the mods you're installing.
 {.is-info}
 ### Stuck animations? Can't Interact with anything
