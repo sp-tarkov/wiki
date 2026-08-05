@@ -2,19 +2,19 @@
 title: Home
 description: 
 published: true
-date: 2026-07-14T18:38:01.943Z
+date: 2026-08-05T13:57:23.166Z
 tags: 
 editor: markdown
 dateCreated: 2025-04-30T03:54:07.869Z
 ---
 
-# Single Player Tarkov Wiki
+# SPT Wiki
 
 Your community-driven resource for everything related to SPT. Whether you're new to SPT or a seasoned modder, this wiki aims to be your central hub for information.
 
-## What is Single Player Tarkov?
+## What is SPT?
 
-SPT allows you to experience Escape From Tarkov offline, in a single-player environment complete with progression, quests, AI Scavs, and AI PMCs. It uses server emulation and client modifications to create a highly customizable, personal Tarkov experience, completely separate from the live online game. **A legitimate, purchased copy of Escape From Tarkov is required.**
+SPT allows you to experience the game in a single-player environment complete with progression, quests, AI Scavs, and AI PMCs. It uses server emulation and client modifications to create a highly customizable, personal experience, completely separate from the live online game. **A legitimate, purchased copy of the retail game is required.**
 
 ## Getting Started
 
@@ -43,10 +43,10 @@ Running into issues? Find solutions here:
 - [Performance Tuning](/Performance_Tuning): Tips for improving FPS and stability.
 - [Frequently Asked Questions (FAQs)](/FAQs_40): Answers to frequently asked questions:
 	- [SPT 4.0](https://wiki.sp-tarkov.com/en/FAQs_40#spt-40)
-	- [EFT 1.0](https://wiki.sp-tarkov.com/en/FAQs_40#eft-10)
+	- [1.0](https://wiki.sp-tarkov.com/en/FAQs_40#eft-10)
 	- [Troubleshooting tips](https://wiki.sp-tarkov.com/en/FAQs_40#troubleshooting-tips)
 	- [Old versions of SPT](https://wiki.sp-tarkov.com/en/FAQs_40#old-versions-of-spt)
-	- [Known EFT Issues](/Known_EFT_Issues_40)
+	- [Known retail game Issues](/Known_EFT_Issues_40)
 	- [Known SPT Issues](/Known_SPT_Issues_40)
 	- [Known Mod Issues](/Known_Mod_Issues_40)
 - [50/50 Method](/5050-method): How to use the 50/50 Method to find the mod causing your issues.
