@@ -2,7 +2,7 @@
 title: Known SPT Issues
 description: Known SPT issues and possible fixes for SPT 4.0.
 published: true
-date: 2026-08-01T22:31:51.707Z
+date: 2026-08-05T14:08:14.184Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-10T12:33:53.585Z
@@ -36,7 +36,7 @@ You can rename your PC by searching for `View your PC name` in the Start menu, a
 Note that [Client mods](/Mod_Types) won't show up in the SPT Server nor Launcher.
 
 ## There are little to no PMCs in your Scav runs
-[Update your SPT](<https://wiki.sp-tarkov.com/Updating_SPT>), and make sure you don't have an extended raid timer, as EFT's spawning system tends to break with them.
+[Update your SPT](<https://wiki.sp-tarkov.com/Updating_SPT>), and make sure you don't have an extended raid timer, as the game's spawning system tends to break with them.
 
 ## Empty flea with `404 not found` errors
 [Update your SPT](<https://wiki.sp-tarkov.com/Updating_SPT>).
