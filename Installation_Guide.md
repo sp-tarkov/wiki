@@ -2,7 +2,7 @@
 title: Installation Guide
 description: A step by step guide on how to install and initially setup Single Player Tarkov.
 published: true
-date: 2025-12-20T03:41:04.264Z
+date: 2026-08-05T14:04:04.364Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-05T14:00:12.568Z
@@ -12,14 +12,14 @@ dateCreated: 2025-06-05T14:00:12.568Z
 {.is-info}
 
 
-## What you need to do before you install Single Player Tarkov
-Verify that your Escape From Tarkov is fully up-to-date, through the BSG Launcher or Steam.
-SPT requires that your EFT is on the latest version. This is so the downpatcher can copy your EFT files and patch them down to the same EFT client version that SPT runs on.
+## What you need to do before you install SPT
+Verify that your retail game copy is fully up-to-date, through the official Launcher or Steam.
+SPT requires that your retail game is on the latest version. This is so the downpatcher can copy your client files and patch them down to the same game client version that SPT runs on.
 
-Verify that your Escape From Tarkov works, and that you can load up to at least the main menu or stash.
-This is particularly important if you have just installed Escape From Tarkov so all necessary files can be generated.
+Verify that your retail game copy works, and that you can load up to at least the main menu or stash.
+This is particularly important if you have just installed the game so all necessary files can be generated.
 
-## Installing and running Single Player Tarkov
+## Installing and running SPT
 
 1. Download the [SPT Installer](https://forge.sp-tarkov.com/installer).
  - The installer will always download & install the latest SPT version, it **does not** update a current SPT install.
@@ -27,7 +27,7 @@ This is particularly important if you have just installed Escape From Tarkov so 
 3. Read the Installer Info page, then click next.
  - This page contains information as to what the installer does and does not do. It also answers many common questions that users have which is why it is there.
 4. Select an install path. 
- - **DO NOT** install to a protected location such as Documents or Desktop as you might encounter Windows permission issues. **DO NOT** install into your Live EFT folder. A good location would be `C:\Games\SPT`.
+ - **DO NOT** install to a protected location such as Documents or Desktop as you might encounter Windows permission issues. **DO NOT** install into your Live game folder. A good location would be `C:\Games\SPT`.
 5. Click 'Start Install' and wait for it to complete.
  - Once complete you will be asked if you want to open the Install Folder or Add a Desktop Shortcuts. Tick or untick to your preference.
   - If you decide against the shortcuts, you can run the `SPT.Server` and `SPT.Launcher` from inside your SPT folder. They are shortcuts which you can copy to any location on your computer.
@@ -35,10 +35,10 @@ This is particularly important if you have just installed Escape From Tarkov so 
  - Wait for the green text that says `Server has started, happy playing`.
  - Your server needs to be running while you play. It can just be closed when you are done playing.
 7. Run `SPT.Launcher` and follow the onscreen instructions.
- - If you want to copy over your EFT in-game settings, click `OK`. 
- - You can use any username you want. It is recommend that you **do not** use your EFT account username. Especially if you plan on recording or streaming SPT.
+ - If you want to copy over your in-game settings, click `OK`. 
+ - You can use any username you want. It is recommend that you **do not** use your retail game account username. Especially if you plan on recording or streaming SPT.
  - `Login Automatically` will always log into the last profile you loaded. You can disable this by clicking `Logout` in the bottom right, then unchecking the option.
- - Select your desired game version. Each version has a description box summarising what is included. Once you have picked your chosen game version click `Register`. You can pick *any* game version you want from the profile list, you do not need to own the corresponding EFT version. Once chosen, you cannot change the edition a profile is using.
+ - Select your desired game version. Each version has a description box summarising what is included. Once you have picked your chosen game version click `Register`. You can pick *any* game version you want from the profile list, you do not need to own the corresponding retail game version. Once chosen, you cannot change the edition a profile is using.
 8. Click `Start Game` and load into the main menu.
 
 Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/). You can find a guide on how to correctly install SPT mods on the [Installing Mods](https://wiki.sp-tarkov.com/Installing_Mods) Wiki page.
@@ -47,11 +47,11 @@ Once you have completed the above, you can now play SPT and install mods found o
 Below you can find some common issues that users encounter when installing or first starting SPT, along with the solution to fixing it. If your issue is not listed then join our [Discord Server](http://discord.sp-tarkov.com/) and ask in the [`#spt-support`](https://discord.com/channels/875684761291599922/1172730102119944222) channel.
 
 <details>
-<summary>Could not find a downgrade patcher for the version of EFT you have installed.</summary>
+<summary>Could not find a downgrade patcher for the version of the game you have installed.</summary>
 
 <img src="/installernewpatch.png" style="border: 2px solid grey;" alt="Patcher Error">
 
-  There is a new EFT update and either the SPT Development Team needs to update the downpatcher or you have not updated your EFT via the BSG Launcher.
+  There is a new live game update and either the SPT Development Team needs to update the downpatcher or you have not updated your retail game copy via the official Launcher.
 
 </details>
 
