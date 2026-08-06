@@ -1,8 +1,8 @@
 ---
-title: Manual Install Instructions
+title: Manual Install Instructions for SPT 4.1
 description: 
-published: false
-date: 2026-08-05T09:53:58.841Z
+published: true
+date: 2026-08-06T19:08:34.358Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-21T23:42:29.093Z
@@ -13,33 +13,32 @@ dateCreated: 2025-10-21T23:42:29.093Z
 
 It's always preferable to use the [SPT Installer](/Installation_Guide) instead of manually updating. If you run into issues with it join our [Discord Server](http://discord.sp-tarkov.com/) and ask for support in the [`#spt-support`](https://discord.com/channels/875684761291599922/1172730102119944222) channel.
 
-## What you need to do before you manually install Single Player Tarkov
+## What you need to do before you manually install SPT
 
-Verify that your Escape From Tarkov works, and that you can load up to at least the main menu or stash.
-This is particularly important if you have just installed Escape From Tarkov so all necessary files can be generated.
+Verify that your retail game copy works, and that you can load up to at least the main menu or stash.
+This is particularly important if you have just installed the game so all necessary files can be generated.
 
 ## Manually installing and running SPT
 
-1. Verify that your Escape From Tarkov is fully up-to-date through the BSG Launcher.
-2. Create a new folder for SPT. A good location would be `C:\Games\SPT`.
-3. Copy the contents of your live Escape From Tarkov game folder into your `SPT` folder.
-	- **DO NOT** delete the original EFT installation to save space, it must remain in the original install location for SPT to function.
-4. Download the corresponding patcher for your version of EFT from [here](https://mirror.spt.dev/patchers/) (requires [7-Zip](https://www.7-zip.org/)).
-	- If EFT is newer than the above downgrade patch, **please wait**, a new downgrade patch will be created eventually.
-5. Extract this archive to your `SPT` folder.
-6. Run the `patcher.exe` and wait for it to finish.
-7. Download the SPT release archive under the `Direct Download` section of the latest [release page](https://github.com/sp-tarkov/build/releases/latest).
-8. Extract the contents of the SPT release archive into your `SPT` folder.
-9. Open your `SPT_Runtime` folder.
-10. Run `SPT.Server`.
+1. Download the patcher from the `Direct client downgrade patch` section [here](https://github.com/sp-tarkov/build/releases/latest).
+	- If your retail game copy is newer than the above downgrade patch, **please wait**, a new downgrade patch will be created eventually.
+	- If your retail game copy is older than the above downgrade patch, update your game through the official Launcher or Steam.
+2. Create a new folder for SPT. A good location would be `C:\Games\SPT 4.1`.
+3. Copy the contents of your live game folder (For Steam, the files inside the `build` folder) into your `C:\Games\SPT 4.1` folder.
+	- **DO NOT** delete the original retail game installation to save space, it must remain in the original install location for SPT to function.
+4. Extract the patcher you downloaded in step 1 to your `C:\Games\SPT 4.1` folder (requires [7zip](https://www.7-zip.org/)).
+5. Run the `patcher.exe` and wait for it to finish.
+6. Download the SPT release archive from the `Direct Download` section [here](https://github.com/sp-tarkov/build/releases/latest).
+7. Extract the contents of the SPT release archive into your `C:\Games\SPT 4.1` folder.
+8. Open your `C:\Games\SPT 4.1\SPT_Runtime` folder.
+9. Run `SPT.Server`.
  - Wait for the green text that says `Server has started, happy playing`.
-11. Run `SPT.Launcher` and follow the onscreen instructions.
- - If you want to copy over your EFT in-game settings, click `OK`. **This has been temporarily removed due to it causing infinite loading.** 
- - You can use any username you want. It is recommend that you **do not** use your EFT account username. Especially if you plan on recording or streaming SPT.
+10. Run `SPT.Launcher` and follow the onscreen instructions.
+ - You can use any username you want. It is recommend that you **do not** use your retail copy account username. Especially if you plan on recording or streaming SPT.
  - `Login Automatically` will always log into the last profile you loaded. You can disable this by clicking `Logout` in the bottom right, then unchecking the option.
- - Select your desired game version. Each version has a description box summarising what is included. Once you have picked your chosen game version click `Register`. You can pick *any* game version you want from the profile list, you do not need to own the corresponding EFT version. Once chosen, you cannot change the edition a profile is using.
-12. To make it easier to launch SPT in the future, you can right click `SPT.Server` and `SPT.Launcher`, select `Send to > Desktop (create shortcut)`. These are located in the `SPT_Runtime` folder and should not be moved out.
-13. Click `Start Game` and load into the main menu.
+ - Select your desired game version. Each version has a description box summarising what is included. Once you have picked your chosen game version click `Register`. You can pick *any* game version you want from the profile list, you do not need to own the corresponding retail game version. Once chosen, you cannot change the edition a profile is using.
+11. To make it easier to launch SPT in the future, you can right click `SPT.Server` and `SPT.Launcher`, select `Send to > Desktop (create shortcut)`. These are located in the `\SPT_Runtime` folder and should not be moved out.
+12. Click `Start Game` and load into the main menu.
 
 Once you have completed the above, you can now play SPT and install mods found on [The Forge](https://forge.sp-tarkov.com/). You can find a guide on how to correctly install SPT mods on the [Installing Mods](https://wiki.sp-tarkov.com/Installing_Mods) Wiki page.
 
@@ -48,8 +47,14 @@ Below you can find some common issues that users encounter when installing or fi
 
 <details>
 <summary>SPT Server crashing instantly or not opening up at all?</summary>
-  
-See the solution [here](https://wiki.sp-tarkov.com/Known_SPT_Issues_40#server-doesnt-launch-or-closes-immediately).
+
+From [here](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) download the latest version of **both**:
+- `ASP.NET Core Runtime`
+- `.NET Desktop Runtime`
+
+If it tells you that you already have them installed, then use the repair option. Restart your PC after.
+
+If that didn't help, verify that your SPT install path doesn't have any special characters (`;,[]{}` etc.).
 
 </details>
 
