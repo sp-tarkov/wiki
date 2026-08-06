@@ -2,7 +2,7 @@
 title: Maunal Installation Instructions for SPT 4.0
 description: 
 published: true
-date: 2026-08-06T02:27:56.189Z
+date: 2026-08-06T19:10:05.697Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-31T22:35:05.885Z
@@ -43,7 +43,14 @@ Below you can find some common issues that users encounter when installing or fi
 <details>
 <summary>SPT Server crashing instantly or not opening up at all?</summary>
   
-See the solution [here](https://wiki.sp-tarkov.com/Known_SPT_Issues_40#server-doesnt-launch-or-closes-immediately).
+
+From [here](https://dotnet.microsoft.com/en-us/download/dotnet/9.0) download the latest version of **both**:
+- `ASP.NET Core Runtime`
+- `.NET Desktop Runtime`
+
+If it tells you that you already have them installed, then use the repair option. Restart your PC after.
+
+If that didn't help, verify that your SPT install path doesn't have any special characters (`;,[]{}` etc.).
 
 </details>
 
