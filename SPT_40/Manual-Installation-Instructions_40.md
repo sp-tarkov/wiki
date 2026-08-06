@@ -2,7 +2,7 @@
 title: Maunal Installation Instructions for SPT 4.0
 description: 
 published: true
-date: 2026-08-05T16:22:37.821Z
+date: 2026-08-06T02:27:56.189Z
 tags: 
 editor: markdown
 dateCreated: 2026-07-31T22:35:05.885Z
@@ -19,7 +19,7 @@ This is particularly important if you have just installed the game so all necess
 	- If your retail game copy is newer than the above downgrade patch, **please wait**, a new downgrade patch will be created eventually.
 	- If your retail game copy is older than the above downgrade patch, update your game through the official Launcher or Steam.
 2. Create a new folder for SPT. A good location would be `C:\Games\SPT 4.0`.
-3. Copy the contents of your live game folder into your `C:\Games\SPT 4.0` folder.
+3. Copy the contents of your live game folder (For Steam, the files inside the `build` folder) into your `C:\Games\SPT 4.0` folder.
 	- **DO NOT** delete the original retail game installation to save space, it must remain in the original install location for SPT to function.
 4. Extract the patcher you downloaded in step 1 to your `C:\Games\SPT 4.0` folder (requires [7zip](https://www.7-zip.org/)).
 5. Run the `patcher.exe` and wait for it to finish.
